@@ -26,7 +26,7 @@ class Wcb_WooCommerce_Breadcrumbs_plugin{
 		$this->breadcrumb_defaults = array(
 			'wcb_enable_breadcrumbs' => '1',
 			'wcb_breadcrumb_delimiter' => ' &#47; ',
-			'wcb_wrap_before' => '<div class = product-navigation><nav class="woocommerce-breadcrumb">',
+			'wcb_wrap_before' => '<nav class="woocommerce-breadcrumb">',
 			'wcb_wrap_after' => '</nav>',
 			'wcb_before' => '',
 			'wcb_after' => '',

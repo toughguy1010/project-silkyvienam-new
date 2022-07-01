@@ -695,3 +695,97 @@ Stack trace:
 [01-Jul-2022 09:15:27 UTC] PHP   2. require() E:\wamp64\www\test02\index.php:17
 [01-Jul-2022 09:15:27 UTC] PHP   3. require_once() E:\wamp64\www\test02\wp-blog-header.php:19
 [01-Jul-2022 09:15:27 UTC] PHP   4. include() E:\wamp64\www\test02\wp-includes\template-loader.php:106
+[01-Jul-2022 09:38:37 UTC] PHP Notice:  Undefined variable: loops in E:\wamp64\www\test02\wp-content\themes\silky-new\woocommerce\archive-product.php on line 94
+[01-Jul-2022 09:38:37 UTC] PHP Stack trace:
+[01-Jul-2022 09:38:37 UTC] PHP   1. {main}() E:\wamp64\www\test02\index.php:0
+[01-Jul-2022 09:38:37 UTC] PHP   2. require() E:\wamp64\www\test02\index.php:17
+[01-Jul-2022 09:38:37 UTC] PHP   3. require_once() E:\wamp64\www\test02\wp-blog-header.php:19
+[01-Jul-2022 09:38:37 UTC] PHP   4. include() E:\wamp64\www\test02\wp-includes\template-loader.php:106
+[01-Jul-2022 09:38:37 UTC] PHP Notice:  Trying to get property 'max_num_pages' of non-object in E:\wamp64\www\test02\wp-content\themes\silky-new\woocommerce\archive-product.php on line 94
+[01-Jul-2022 09:38:37 UTC] PHP Stack trace:
+[01-Jul-2022 09:38:37 UTC] PHP   1. {main}() E:\wamp64\www\test02\index.php:0
+[01-Jul-2022 09:38:37 UTC] PHP   2. require() E:\wamp64\www\test02\index.php:17
+[01-Jul-2022 09:38:37 UTC] PHP   3. require_once() E:\wamp64\www\test02\wp-blog-header.php:19
+[01-Jul-2022 09:38:37 UTC] PHP   4. include() E:\wamp64\www\test02\wp-includes\template-loader.php:106
+[01-Jul-2022 09:40:06 UTC] PHP Notice:  Undefined variable: cate in E:\wamp64\www\test02\wp-content\themes\silky-new\woocommerce\archive-product.php on line 110
+[01-Jul-2022 09:40:06 UTC] PHP Stack trace:
+[01-Jul-2022 09:40:06 UTC] PHP   1. {main}() E:\wamp64\www\test02\index.php:0
+[01-Jul-2022 09:40:06 UTC] PHP   2. require() E:\wamp64\www\test02\index.php:17
+[01-Jul-2022 09:40:06 UTC] PHP   3. require_once() E:\wamp64\www\test02\wp-blog-header.php:19
+[01-Jul-2022 09:40:06 UTC] PHP   4. include() E:\wamp64\www\test02\wp-includes\template-loader.php:106
+[01-Jul-2022 09:40:06 UTC] PHP Notice:  Trying to get property 'taxonomy' of non-object in E:\wamp64\www\test02\wp-content\themes\silky-new\woocommerce\archive-product.php on line 110
+[01-Jul-2022 09:40:06 UTC] PHP Stack trace:
+[01-Jul-2022 09:40:06 UTC] PHP   1. {main}() E:\wamp64\www\test02\index.php:0
+[01-Jul-2022 09:40:06 UTC] PHP   2. require() E:\wamp64\www\test02\index.php:17
+[01-Jul-2022 09:40:06 UTC] PHP   3. require_once() E:\wamp64\www\test02\wp-blog-header.php:19
+[01-Jul-2022 09:40:06 UTC] PHP   4. include() E:\wamp64\www\test02\wp-includes\template-loader.php:106
+[01-Jul-2022 09:40:06 UTC] PHP Notice:  Undefined variable: cate in E:\wamp64\www\test02\wp-content\themes\silky-new\woocommerce\archive-product.php on line 112
+[01-Jul-2022 09:40:06 UTC] PHP Stack trace:
+[01-Jul-2022 09:40:06 UTC] PHP   1. {main}() E:\wamp64\www\test02\index.php:0
+[01-Jul-2022 09:40:06 UTC] PHP   2. require() E:\wamp64\www\test02\index.php:17
+[01-Jul-2022 09:40:06 UTC] PHP   3. require_once() E:\wamp64\www\test02\wp-blog-header.php:19
+[01-Jul-2022 09:40:06 UTC] PHP   4. include() E:\wamp64\www\test02\wp-includes\template-loader.php:106
+[01-Jul-2022 09:40:06 UTC] PHP Notice:  Trying to get property 'term_id' of non-object in E:\wamp64\www\test02\wp-content\themes\silky-new\woocommerce\archive-product.php on line 112
+[01-Jul-2022 09:40:06 UTC] PHP Stack trace:
+[01-Jul-2022 09:40:06 UTC] PHP   1. {main}() E:\wamp64\www\test02\index.php:0
+[01-Jul-2022 09:40:06 UTC] PHP   2. require() E:\wamp64\www\test02\index.php:17
+[01-Jul-2022 09:40:06 UTC] PHP   3. require_once() E:\wamp64\www\test02\wp-blog-header.php:19
+[01-Jul-2022 09:40:06 UTC] PHP   4. include() E:\wamp64\www\test02\wp-includes\template-loader.php:106
+[01-Jul-2022 09:40:51 UTC] PHP Notice:  Undefined variable: cate in E:\wamp64\www\test02\wp-content\themes\silky-new\woocommerce\archive-product.php on line 110
+[01-Jul-2022 09:40:51 UTC] PHP Stack trace:
+[01-Jul-2022 09:40:51 UTC] PHP   1. {main}() E:\wamp64\www\test02\index.php:0
+[01-Jul-2022 09:40:51 UTC] PHP   2. require() E:\wamp64\www\test02\index.php:17
+[01-Jul-2022 09:40:51 UTC] PHP   3. require_once() E:\wamp64\www\test02\wp-blog-header.php:19
+[01-Jul-2022 09:40:51 UTC] PHP   4. include() E:\wamp64\www\test02\wp-includes\template-loader.php:106
+[01-Jul-2022 09:40:51 UTC] PHP Notice:  Trying to get property 'taxonomy' of non-object in E:\wamp64\www\test02\wp-content\themes\silky-new\woocommerce\archive-product.php on line 110
+[01-Jul-2022 09:40:51 UTC] PHP Stack trace:
+[01-Jul-2022 09:40:51 UTC] PHP   1. {main}() E:\wamp64\www\test02\index.php:0
+[01-Jul-2022 09:40:51 UTC] PHP   2. require() E:\wamp64\www\test02\index.php:17
+[01-Jul-2022 09:40:51 UTC] PHP   3. require_once() E:\wamp64\www\test02\wp-blog-header.php:19
+[01-Jul-2022 09:40:51 UTC] PHP   4. include() E:\wamp64\www\test02\wp-includes\template-loader.php:106
+[01-Jul-2022 09:40:51 UTC] PHP Notice:  Undefined variable: cate in E:\wamp64\www\test02\wp-content\themes\silky-new\woocommerce\archive-product.php on line 112
+[01-Jul-2022 09:40:51 UTC] PHP Stack trace:
+[01-Jul-2022 09:40:51 UTC] PHP   1. {main}() E:\wamp64\www\test02\index.php:0
+[01-Jul-2022 09:40:51 UTC] PHP   2. require() E:\wamp64\www\test02\index.php:17
+[01-Jul-2022 09:40:51 UTC] PHP   3. require_once() E:\wamp64\www\test02\wp-blog-header.php:19
+[01-Jul-2022 09:40:51 UTC] PHP   4. include() E:\wamp64\www\test02\wp-includes\template-loader.php:106
+[01-Jul-2022 09:40:51 UTC] PHP Notice:  Trying to get property 'term_id' of non-object in E:\wamp64\www\test02\wp-content\themes\silky-new\woocommerce\archive-product.php on line 112
+[01-Jul-2022 09:40:51 UTC] PHP Stack trace:
+[01-Jul-2022 09:40:51 UTC] PHP   1. {main}() E:\wamp64\www\test02\index.php:0
+[01-Jul-2022 09:40:51 UTC] PHP   2. require() E:\wamp64\www\test02\index.php:17
+[01-Jul-2022 09:40:51 UTC] PHP   3. require_once() E:\wamp64\www\test02\wp-blog-header.php:19
+[01-Jul-2022 09:40:51 UTC] PHP   4. include() E:\wamp64\www\test02\wp-includes\template-loader.php:106
+[01-Jul-2022 09:49:28 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[01-Jul-2022 09:49:28 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[01-Jul-2022 09:49:34 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[01-Jul-2022 09:49:34 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[01-Jul-2022 10:00:13 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[01-Jul-2022 10:00:13 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[01-Jul-2022 10:03:37 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[01-Jul-2022 10:03:37 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[01-Jul-2022 10:04:24 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[01-Jul-2022 10:04:24 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[01-Jul-2022 10:04:44 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[01-Jul-2022 10:04:44 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[01-Jul-2022 10:08:10 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[01-Jul-2022 10:08:10 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[01-Jul-2022 10:08:58 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[01-Jul-2022 10:08:58 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[01-Jul-2022 10:11:56 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[01-Jul-2022 10:11:56 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[01-Jul-2022 10:19:26 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[01-Jul-2022 10:19:26 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[01-Jul-2022 10:19:31 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[01-Jul-2022 10:19:31 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[01-Jul-2022 10:21:17 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[01-Jul-2022 10:21:17 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[01-Jul-2022 10:30:12 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[01-Jul-2022 10:30:12 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[01-Jul-2022 10:34:52 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[01-Jul-2022 10:34:52 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[01-Jul-2022 10:35:10 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[01-Jul-2022 10:35:10 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[01-Jul-2022 10:36:30 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[01-Jul-2022 10:36:30 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[01-Jul-2022 10:37:17 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[01-Jul-2022 10:37:17 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
