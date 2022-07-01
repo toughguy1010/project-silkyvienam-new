@@ -1,0 +1,123 @@
+<?php
+global $product;
+
+$homeID = get_option('page_on_front');
+$homeFields = get_field_objects( $homeID );
+
+$customizeID = $homeFields['zwc_setting_customize_product']['value'];
+$customizeFields = get_field_objects( $customizeID );
+
+$content      = $customizeFields['zwc_customize_content']['value'];
+$measurements = $customizeFields['zwc_customize_measurements']['value'];
+
+?>
+
+<div id="customize-product">
+  <div class="customize-product-wrap">
+
+    <div class="entry-customize">
+      <div class="left">
+        <?php echo apply_filters('acf_the_content',$content['image']); ?>
+      </div>
+      <form class="right" id="form-customize">
+        <input type="hidden" name="productid" value="">
+        <div class="title">
+          <span><img src="<?php echo get_template_directory_uri().'/assets/custom.svg'; ?>" /></span> <?php echo $content['title']; ?>
+        </div>
+        <div class="measurements step-1 show">
+          <?php
+          foreach ($measurements as $key => $measurement) {
+            if ($key == 0) {
+              ?>
+              <div class="half">
+              <?php
+            }
+            ?>
+            <div class="item">
+              <input class="size" data-size="<?php echo $key; ?>" type="number" min="1" max="999" name="measure[]" value="">
+              <input type="hidden" name="typename[]" value="<?php echo $measurement['title']; ?>">
+              <div class="wrap-title">
+                <span class="title"><?php echo ($key+1).'. '.$measurement['title']; ?></span>
+                <a class="hint customize" data-id="<?php echo ($measurement['hint']); ?>"><img src="<?php echo get_template_directory_uri().'/assets/hint2.svg'; ?>" /></a>
+              </div>
+              <span class="description"><?php echo nl2br($measurement['description']); ?></span>
+            </div>
+            <?php
+            if( $key == 6 ){
+              ?>
+              </div>
+              <div class="half">
+              <?php
+            }
+          }
+          ?>
+          <div class="item next-step">
+            <a href="javascript:;">Next Step</a>
+          </div>
+          </div>
+        </div>
+        <div class="measurements step-2">
+          <?php
+          foreach ($measurements as $key => $measurement) {
+            if ($key == 0) {
+              ?>
+              <div class="half">
+              <?php
+            }
+            ?>
+            <div class="item">
+              <label class="rsize-<?php echo $key; ?>"></label>
+              <div class="wrap-title">
+                <span class="title"><?php echo ($key+1).'. '.$measurement['title']; ?></span>
+                <a class="hint customize" data-id="<?php echo ($measurement['hint']); ?>"><img src="<?php echo get_template_directory_uri().'/assets/hint2.svg'; ?>" /></a>
+              </div>
+            </div>
+            <?php
+            if( $key == 6 ){
+              ?>
+              </div>
+              <div class="half">
+              <?php
+            }
+          }
+          ?>
+          <div class="item next-step">
+            <a href="javascript:;">Next Step 1/2</a>
+          </div>
+          </div>
+          <div class="infomation">
+            <div class="title">
+              Input your information
+            </div>
+            <div class="wrap">
+              <div class="form-row">
+                <label>First name *</label>
+                <input type="text" name="billing_first_name" value="" required>
+              </div>
+              <div class="form-row">
+                <label>Phone *</label>
+                <input type="tel" name="billing_phone" value="" required>
+              </div>
+              <div class="form-row">
+                <label>Email *</label>
+                <input type="email" name="billing_email" value="" required>
+              </div>
+            </div>
+            <div class="mesur-action">
+              <a class="edit" href="javascript:;">
+                <span><img src="<?php echo get_template_directory_uri().'/assets/edit.svg' ?>" /> edit your measure</span>
+              </a>
+              <button type="submit" class="submit" href="javascript:;">
+                <span><img src="<?php echo get_template_directory_uri().'/assets/custom.svg' ?>" /> submit your measure 2/2</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+  <span class="close"><img src="<?php echo get_template_directory_uri().'/assets/close-b.svg' ?>" /></span>
+</div>
+<div id="customize-preview">
+
+</div>

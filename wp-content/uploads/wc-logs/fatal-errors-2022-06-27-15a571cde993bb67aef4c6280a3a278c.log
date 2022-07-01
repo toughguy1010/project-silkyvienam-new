@@ -1,0 +1,27 @@
+2022-06-27T14:39:49+00:00 CRITICAL Out of memory (allocated 39845888) (tried to allocate 81920 bytes) in C:\xampp\htdocs\test02\wp-includes\plugin.php on line 118
+
+2022-06-27T16:12:02+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function apply_filters(), 1 passed in C:\xampp\htdocs\test02\wp-content\themes\understrap-silkyvn\woocommerce\checkout\form-checkout.php on line 62 and exactly 2 expected in C:\xampp\htdocs\test02\wp-includes\plugin.php:165
+Stack trace:
+#0 C:\xampp\htdocs\test02\wp-content\themes\understrap-silkyvn\woocommerce\checkout\form-checkout.php(62): apply_filters('woocommerce_ena...')
+#1 C:\xampp\htdocs\test02\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\test02\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-checkout.php(293): wc_get_template('checkout/form-c...', Array)
+#3 C:\xampp\htdocs\test02\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-checkout.php(67): WC_Shortcode_Checkout::checkout()
+#4 C:\xampp\htdocs\test02\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(72): WC_Shortcode_Checkout::output('')
+#5 C:\xampp\htdocs\test02\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(95): WC_Shortcodes::shortcode_wrapper(Array, '')
+#6 C:\xampp\htdocs\test02\wp-includes\shortcodes.php(356): WC_Shortcodes::checkout('', '', 'woocommerce_che...')
+#7 [internal function]: do_shortcode_tag(Array)
+#8 C:\xampp\htdocs\test02\wp-includes\shortcodes.php(228): preg_replace_callback('/\\[(\\[?)(woocom...', 'do_shortcode_ta...', '[woocommerce_ch...')
+#9 C:\xampp\htdocs\test02\wp-includes\class-wp-hook.php(307): do_shortcode('[woocommerce_ch...')
+#10 C:\xampp\htdocs\test02\wp-includes\plugin.php(191): WP_Hook->apply_filters('[woocommerce_ch...', Array)
+#11 C:\xampp\htdocs\test02\wp-includes\post-template.php(253): apply_filters('the_content', '<!-- wp:shortco...')
+#12 C:\xampp\htdocs\test02\wp-content\themes\understrap-silkyvn\loop-templates\content-page.php(25): the_content()
+#13 C:\xampp\htdocs\test02\wp-includes\template.php(772): require('C:\\xampp\\htdocs...')
+#14 C:\xampp\htdocs\test02\wp-includes\template.php(716): load_template('C:\\xampp\\htdocs...', false, Array)
+#15 C:\xampp\htdocs\test02\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#16 C:\xampp\htdocs\test02\wp-content\themes\understrap-silkyvn\page.php(36): get_template_part('loop-templates/...', 'page')
+#17 C:\xampp\htdocs\test02\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#18 C:\xampp\htdocs\test02\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#19 C:\xampp\htdocs\test02\index.php(17): require('C:\\xampp\\htdocs...')
+#20 {main}
+  thrown in C:\xampp\htdocs\test02\wp-includes\plugin.php on line 165
+

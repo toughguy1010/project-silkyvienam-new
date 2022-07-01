@@ -1,0 +1,99 @@
+2022-06-22T03:23:32+00:00 CRITICAL Uncaught Error: Call to undefined function get_field_objects() in C:\xampp\htdocs\test02\wp-content\themes\cdam\inc\woo-function.php:183
+Stack trace:
+#0 C:\xampp\htdocs\test02\wp-includes\class-wp-hook.php(307): {closure}('')
+#1 C:\xampp\htdocs\test02\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\test02\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\test02\wp-includes\template-loader.php(13): do_action('template_redire...')
+#4 C:\xampp\htdocs\test02\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\test02\index.php(17): require('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\test02\wp-content\themes\cdam\inc\woo-function.php on line 183
+
+2022-06-22T03:24:42+00:00 CRITICAL Uncaught Error: Call to undefined function get_field_objects() in C:\xampp\htdocs\test02\wp-content\themes\cdam\inc\woo-function.php:183
+Stack trace:
+#0 C:\xampp\htdocs\test02\wp-includes\class-wp-hook.php(307): {closure}('')
+#1 C:\xampp\htdocs\test02\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\test02\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\test02\wp-includes\template-loader.php(13): do_action('template_redire...')
+#4 C:\xampp\htdocs\test02\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\test02\index.php(17): require('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\test02\wp-content\themes\cdam\inc\woo-function.php on line 183
+
+2022-06-22T03:30:00+00:00 CRITICAL Uncaught Error: Call to undefined function get_field_objects() in C:\xampp\htdocs\test02\wp-content\themes\cdam\inc\woo-function.php:183
+Stack trace:
+#0 C:\xampp\htdocs\test02\wp-includes\class-wp-hook.php(307): {closure}('')
+#1 C:\xampp\htdocs\test02\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\test02\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\test02\wp-includes\template-loader.php(13): do_action('template_redire...')
+#4 C:\xampp\htdocs\test02\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\test02\index.php(17): require('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\test02\wp-content\themes\cdam\inc\woo-function.php on line 183
+
+2022-06-22T03:30:04+00:00 CRITICAL Uncaught Error: Call to undefined function get_field_objects() in C:\xampp\htdocs\test02\wp-content\themes\cdam\inc\woo-function.php:183
+Stack trace:
+#0 C:\xampp\htdocs\test02\wp-includes\class-wp-hook.php(307): {closure}('')
+#1 C:\xampp\htdocs\test02\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\test02\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\test02\wp-includes\template-loader.php(13): do_action('template_redire...')
+#4 C:\xampp\htdocs\test02\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\test02\index.php(17): require('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\test02\wp-content\themes\cdam\inc\woo-function.php on line 183
+
+2022-06-22T03:30:06+00:00 CRITICAL Uncaught Error: Call to undefined function get_field_objects() in C:\xampp\htdocs\test02\wp-content\themes\cdam\inc\woo-function.php:183
+Stack trace:
+#0 C:\xampp\htdocs\test02\wp-includes\class-wp-hook.php(307): {closure}('')
+#1 C:\xampp\htdocs\test02\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\test02\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\test02\wp-includes\template-loader.php(13): do_action('template_redire...')
+#4 C:\xampp\htdocs\test02\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\test02\index.php(17): require('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\test02\wp-content\themes\cdam\inc\woo-function.php on line 183
+
+2022-06-22T03:30:26+00:00 CRITICAL Uncaught Error: Call to undefined function get_field_objects() in C:\xampp\htdocs\test02\wp-content\themes\cdam\inc\woo-function.php:183
+Stack trace:
+#0 C:\xampp\htdocs\test02\wp-includes\class-wp-hook.php(307): {closure}('')
+#1 C:\xampp\htdocs\test02\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\test02\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\test02\wp-includes\template-loader.php(13): do_action('template_redire...')
+#4 C:\xampp\htdocs\test02\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\test02\index.php(17): require('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\test02\wp-content\themes\cdam\inc\woo-function.php on line 183
+
+2022-06-22T03:35:04+00:00 CRITICAL Uncaught Error: Call to undefined function get_field_objects() in C:\xampp\htdocs\test02\wp-content\themes\cdam\inc\woo-function.php:183
+Stack trace:
+#0 C:\xampp\htdocs\test02\wp-includes\class-wp-hook.php(307): {closure}('')
+#1 C:\xampp\htdocs\test02\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\test02\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\test02\wp-includes\template-loader.php(13): do_action('template_redire...')
+#4 C:\xampp\htdocs\test02\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\test02\index.php(17): require('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\test02\wp-content\themes\cdam\inc\woo-function.php on line 183
+
+2022-06-22T03:35:14+00:00 CRITICAL Uncaught Error: Call to undefined function get_field_objects() in C:\xampp\htdocs\test02\wp-content\themes\cdam\inc\woo-function.php:183
+Stack trace:
+#0 C:\xampp\htdocs\test02\wp-includes\class-wp-hook.php(307): {closure}('')
+#1 C:\xampp\htdocs\test02\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\test02\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\test02\wp-includes\template-loader.php(13): do_action('template_redire...')
+#4 C:\xampp\htdocs\test02\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\test02\index.php(17): require('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\test02\wp-content\themes\cdam\inc\woo-function.php on line 183
+
+2022-06-22T03:36:04+00:00 CRITICAL Uncaught Error: Call to undefined function get_field_objects() in C:\xampp\htdocs\test02\wp-content\themes\cdam\inc\woo-function.php:184
+Stack trace:
+#0 C:\xampp\htdocs\test02\wp-includes\class-wp-hook.php(307): {closure}('')
+#1 C:\xampp\htdocs\test02\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\test02\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\test02\wp-includes\template-loader.php(13): do_action('template_redire...')
+#4 C:\xampp\htdocs\test02\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\test02\index.php(17): require('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\test02\wp-content\themes\cdam\inc\woo-function.php on line 184
+

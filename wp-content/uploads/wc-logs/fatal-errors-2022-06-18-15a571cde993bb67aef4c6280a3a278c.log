@@ -1,0 +1,38 @@
+2022-06-18T02:44:03+00:00 CRITICAL Uncaught Error: Call to undefined function get_field_objects() in C:\xampp\htdocs\test02\wp-content\themes\understrap-silkyvn\woocommerce\content-recommend.php:3
+Stack trace:
+#0 C:\xampp\htdocs\test02\wp-includes\template.php(772): require()
+#1 C:\xampp\htdocs\test02\wp-includes\template.php(716): load_template('C:\\xampp\\htdocs...', false, Array)
+#2 C:\xampp\htdocs\test02\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#3 C:\xampp\htdocs\test02\wp-content\themes\understrap-silkyvn\functions.php(154): get_template_part('woocommerce/con...', 'recommend')
+#4 C:\xampp\htdocs\test02\wp-includes\class-wp-hook.php(307): {closure}('')
+#5 C:\xampp\htdocs\test02\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#6 C:\xampp\htdocs\test02\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#7 C:\xampp\htdocs\test02\wp-content\themes\understrap-silkyvn\woocommerce\content-single-product.php(72): do_action('woocommerce_aft...')
+#8 C:\xampp\htdocs\test02\wp-includes\template.php(772): require('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\test02\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('C:\\xampp\\htdocs...', false)
+#10 C:\xampp\htdocs\test02\wp-content\plugins\woocommerce\templates\single-product.php(38): wc_get_template_part('content', 'single-product')
+#11 C:\xampp\htdocs\test02\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#12 C:\xampp\htdocs\test02\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#13 C:\xampp\htdocs\test02\index.php(17): require('C:\\xampp\\htdocs...')
+#14 {main}
+  thrown in C:\xampp\htdocs\test02\wp-content\themes\understrap-silkyvn\woocommerce\content-recommend.php on line 3
+
+2022-06-18T02:48:53+00:00 CRITICAL Uncaught Error: Call to undefined function get_field_objects() in C:\xampp\htdocs\test02\wp-content\themes\understrap-silkyvn\woocommerce\content-recommend.php:3
+Stack trace:
+#0 C:\xampp\htdocs\test02\wp-includes\template.php(772): require()
+#1 C:\xampp\htdocs\test02\wp-includes\template.php(716): load_template('C:\\xampp\\htdocs...', false, Array)
+#2 C:\xampp\htdocs\test02\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#3 C:\xampp\htdocs\test02\wp-content\themes\understrap-silkyvn\functions.php(154): get_template_part('woocommerce/con...', 'recommend')
+#4 C:\xampp\htdocs\test02\wp-includes\class-wp-hook.php(307): {closure}('')
+#5 C:\xampp\htdocs\test02\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#6 C:\xampp\htdocs\test02\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#7 C:\xampp\htdocs\test02\wp-content\themes\understrap-silkyvn\woocommerce\content-single-product.php(72): do_action('woocommerce_aft...')
+#8 C:\xampp\htdocs\test02\wp-includes\template.php(772): require('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\test02\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('C:\\xampp\\htdocs...', false)
+#10 C:\xampp\htdocs\test02\wp-content\plugins\woocommerce\templates\single-product.php(38): wc_get_template_part('content', 'single-product')
+#11 C:\xampp\htdocs\test02\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#12 C:\xampp\htdocs\test02\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#13 C:\xampp\htdocs\test02\index.php(17): require('C:\\xampp\\htdocs...')
+#14 {main}
+  thrown in C:\xampp\htdocs\test02\wp-content\themes\understrap-silkyvn\woocommerce\content-recommend.php on line 3
+

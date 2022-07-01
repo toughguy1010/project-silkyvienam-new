@@ -1,0 +1,207 @@
+.page-template-singin,
+.page-template-singup {
+  .site-footer {
+    &.other {
+      position: relative;
+      bottom: 0;
+      left: 0;
+    }
+  }
+}
+
+.singinup {
+  font-family: hkgL, sans-serif;
+
+  &.site-main {
+    min-height: 70vh;
+    margin-top: 15vh;
+    margin-bottom: 5vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .wrap-singinup {
+    display: flex;
+    flex-wrap: wrap;
+    width: 40%;
+    font-size: 0.875rem;
+
+    .singinup-content {}
+
+    & > .left {
+      width: calc(100% / 2 - (50px * 1 / 2));
+      margin-right: 50px;
+    }
+
+    & > .right {
+      width: calc(100% / 2 - (50px * 1 / 2));
+
+      a {
+        background: transparent !important;
+        display: block;
+        width: 100%;
+        padding: 15px;
+        text-align: center;
+        border: 1px solid #000;
+        text-transform: uppercase;
+        font-family: hkgM, sans-serif;
+        font-size: 0.8rem;
+        background: #fff;
+        border-radius: 0;
+        -ms-border-radius: 0;
+        -webkit-border-radius: 0;
+        cursor: pointer;
+
+        span {
+          display: inline-block;
+          width: 12px;
+          height: 12px;
+          background: url("../assets/login.svg") center/cover no-repeat;
+          margin-right: 10px;
+        }
+
+        &.signin {
+          span {
+            background: url("../assets/edit.svg") center/cover no-repeat;
+          }
+        }
+
+        &:hover {
+          outline: 1px solid #000;
+        }
+      }
+    }
+
+    input,
+    label {
+      width: 100%;
+    }
+
+    input {
+      border: 0;
+      border-bottom: 1px solid #000;
+      padding: 7px 0;
+      border-radius: 0;
+      -ms-border-radius: 0;
+      -webkit-border-radius: 0;
+      background: transparent !important;
+
+      &:focus {
+        outline: 0;
+      }
+    }
+
+    button[type="submit"] {
+      display: block;
+      width: 100%;
+      padding: 15px;
+      text-align: center;
+      border: 1px solid #000;
+      text-transform: uppercase;
+      font-family: hkgM, sans-serif;
+      font-size: 0.8rem;
+      background: #fff;
+      border-radius: 0;
+      -ms-border-radius: 0;
+      -webkit-border-radius: 0;
+      background: transparent !important;
+      cursor: pointer;
+      min-height: 50px;
+      max-height: 50px;
+
+      span {
+        display: inline-block;
+        width: 12px;
+        height: 12px;
+        background: url("../assets/login.svg") center/cover no-repeat;
+        margin-right: 10px;
+      }
+
+      &.signin {
+        span {
+          background: url("../assets/edit.svg") center/cover no-repeat;
+        }
+      }
+
+      &:hover {
+        outline: 1px solid #000;
+      }
+    }
+
+    .sign-row {
+      margin-bottom: 30px;
+
+      &:nth-child(2n+2) {
+        margin-right: 0;
+      }
+
+      &.policy {
+        display: flex;
+        align-items: flex-start;
+
+        a {
+          margin-left: 3px;
+        }
+
+        input {
+          display: inline-block;
+          padding: 0;
+          width: auto;
+          margin-top: 3px;
+          margin-right: 5px;
+        }
+
+        .woocommerce-privacy-policy-text {
+          p {
+            margin: 0;
+          }
+        }
+      }
+    }
+
+    .ltitle {
+      font-family: hkgL, sans-serif;
+      font-size: 1.125rem;
+      text-transform: uppercase;
+      margin-bottom: 50px;
+    }
+  }
+
+  #wrap-brithday {
+    display: flex;
+    flex-wrap: wrap;
+
+    & > select {
+      width: calc(100% / 3 - (20px * 2 / 3));
+      margin-right: 20px;
+      border: 0;
+      border-bottom: 1px solid #000;
+      padding: 7px 0;
+      border-radius: 0;
+      -ms-border-radius: 0;
+      -webkit-border-radius: 0;
+      text-align: center;
+
+      &:nth-child(3n+3) {
+        margin-right: 0;
+      }
+    }
+  }
+}
+
+#signup {
+  display: flex;
+  flex-wrap: wrap;
+
+  .sign-row {
+    margin-bottom: 30px;
+    width: calc(100% / 2 - (75px * 1 / 2));
+    margin-right: 75px;
+
+    &:nth-child(2n+2) {
+      margin-right: 0;
+    }
+  }
+}

@@ -1,0 +1,616 @@
+[29-Jun-2022 04:44:58 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No connection could be made because the target machine actively refused it in C:\xampp\htdocs\test02\wp-includes\wp-db.php on line 1753
+[29-Jun-2022 04:45:25 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No connection could be made because the target machine actively refused it in C:\xampp\htdocs\test02\wp-includes\wp-db.php on line 1753
+[29-Jun-2022 04:45:26 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No connection could be made because the target machine actively refused it in C:\xampp\htdocs\test02\wp-includes\wp-db.php on line 1753
+[29-Jun-2022 06:21:19 UTC] PHP Warning:  Undefined array key "tax_block_height" in C:\xampp\htdocs\test02\wp-content\plugins\woocommerce-products-filter\views\woof.php on line 161
+[29-Jun-2022 06:21:19 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\test02\wp-content\plugins\woocommerce-products-filter\views\woof.php on line 161
+[29-Jun-2022 06:24:08 UTC] PHP Warning:  Undefined array key "tax_block_height" in C:\xampp\htdocs\test02\wp-content\plugins\woocommerce-products-filter\views\woof.php on line 161
+[29-Jun-2022 06:24:08 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\test02\wp-content\plugins\woocommerce-products-filter\views\woof.php on line 161
+[29-Jun-2022 06:30:10 UTC] PHP Warning:  Undefined array key "tax_block_height" in C:\xampp\htdocs\test02\wp-content\plugins\woocommerce-products-filter\views\woof.php on line 161
+[29-Jun-2022 06:30:10 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\test02\wp-content\plugins\woocommerce-products-filter\views\woof.php on line 161
+[29-Jun-2022 06:30:26 UTC] PHP Warning:  Undefined array key "tax_block_height" in C:\xampp\htdocs\test02\wp-content\plugins\woocommerce-products-filter\views\woof.php on line 161
+[29-Jun-2022 06:30:27 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\test02\wp-content\plugins\woocommerce-products-filter\views\woof.php on line 161
+[29-Jun-2022 06:31:39 UTC] PHP Warning:  Undefined array key "tax_block_height" in C:\xampp\htdocs\test02\wp-content\plugins\woocommerce-products-filter\views\woof.php on line 161
+[29-Jun-2022 06:31:39 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\test02\wp-content\plugins\woocommerce-products-filter\views\woof.php on line 161
+[29-Jun-2022 07:58:50 UTC] WordPress database error Unknown character set: 'utf8bin' for query CREATE TABLE IF NOT EXISTS `wp_woof_query_cache` (
+                                                    `mkey` varchar(64) NOT NULL,
+                                                    `mvalue` text NOT NULL,
+                                                    KEY `mkey` (`mkey`)
+                                                  ) DEFAULT CHARACTER SET utf8bin made by do_action('woocommerce_page_wc-settings'), WP_Hook->do_action, WP_Hook->apply_filters, WC_Admin_Menus->settings_page, WC_Admin_Settings::output, include('/plugins/woocommerce/includes/admin/views/html-admin-settings.php'), do_action('woocommerce_settings_tabs_woof'), WP_Hook->do_action, WP_Hook->apply_filters, WOOF->print_plugin_options, WOOF->render_html, include('/plugins/woocommerce-products-filter/views/plugin_options.php')
+[29-Jun-2022 07:58:59 UTC] WordPress database error Unknown character set: 'utf8bin' for query CREATE TABLE IF NOT EXISTS `wp_woof_query_cache` (
+                                                    `mkey` varchar(64) NOT NULL,
+                                                    `mvalue` text NOT NULL,
+                                                    KEY `mkey` (`mkey`)
+                                                  ) DEFAULT CHARACTER SET utf8bin made by do_action('woocommerce_page_wc-settings'), WP_Hook->do_action, WP_Hook->apply_filters, WC_Admin_Menus->settings_page, WC_Admin_Settings::output, include('/plugins/woocommerce/includes/admin/views/html-admin-settings.php'), do_action('woocommerce_settings_tabs_woof'), WP_Hook->do_action, WP_Hook->apply_filters, WOOF->print_plugin_options, WOOF->render_html, include('/plugins/woocommerce-products-filter/views/plugin_options.php')
+[29-Jun-2022 08:15:18 UTC] WordPress database error Unknown character set: 'utf8bin' for query CREATE TABLE IF NOT EXISTS `wp_woof_query_cache` (
+                                                    `mkey` varchar(64) NOT NULL,
+                                                    `mvalue` text NOT NULL,
+                                                    KEY `mkey` (`mkey`)
+                                                  ) DEFAULT CHARACTER SET utf8bin made by do_action('woocommerce_page_wc-settings'), WP_Hook->do_action, WP_Hook->apply_filters, WC_Admin_Menus->settings_page, WC_Admin_Settings::output, include('/plugins/woocommerce/includes/admin/views/html-admin-settings.php'), do_action('woocommerce_settings_tabs_woof'), WP_Hook->do_action, WP_Hook->apply_filters, WOOF->print_plugin_options, WOOF->render_html, include('/plugins/woocommerce-products-filter/views/plugin_options.php')
+[29-Jun-2022 08:15:19 UTC] WordPress database error Unknown character set: 'utf8bin' for query CREATE TABLE IF NOT EXISTS `wp_woof_query_cache` (
+                                                    `mkey` varchar(64) NOT NULL,
+                                                    `mvalue` text NOT NULL,
+                                                    KEY `mkey` (`mkey`)
+                                                  ) DEFAULT CHARACTER SET utf8bin made by do_action('woocommerce_page_wc-settings'), WP_Hook->do_action, WP_Hook->apply_filters, WC_Admin_Menus->settings_page, WC_Admin_Settings::output, include('/plugins/woocommerce/includes/admin/views/html-admin-settings.php'), do_action('woocommerce_settings_tabs_woof'), WP_Hook->do_action, WP_Hook->apply_filters, WOOF->print_plugin_options, WOOF->render_html, include('/plugins/woocommerce-products-filter/views/plugin_options.php')
+[29-Jun-2022 08:15:32 UTC] WordPress database error Unknown character set: 'utf8bin' for query CREATE TABLE IF NOT EXISTS `wp_woof_query_cache` (
+                                                    `mkey` varchar(64) NOT NULL,
+                                                    `mvalue` text NOT NULL,
+                                                    KEY `mkey` (`mkey`)
+                                                  ) DEFAULT CHARACTER SET utf8bin made by do_action('woocommerce_page_wc-settings'), WP_Hook->do_action, WP_Hook->apply_filters, WC_Admin_Menus->settings_page, WC_Admin_Settings::output, include('/plugins/woocommerce/includes/admin/views/html-admin-settings.php'), do_action('woocommerce_settings_tabs_woof'), WP_Hook->do_action, WP_Hook->apply_filters, WOOF->print_plugin_options, WOOF->render_html, include('/plugins/woocommerce-products-filter/views/plugin_options.php')
+[29-Jun-2022 08:27:35 UTC] WordPress database error Unknown character set: 'utf8bin' for query CREATE TABLE IF NOT EXISTS `wp_woof_query_cache` (
+                                                    `mkey` varchar(64) NOT NULL,
+                                                    `mvalue` text NOT NULL,
+                                                    KEY `mkey` (`mkey`)
+                                                  ) DEFAULT CHARACTER SET utf8bin made by do_action('woocommerce_page_wc-settings'), WP_Hook->do_action, WP_Hook->apply_filters, WC_Admin_Menus->settings_page, WC_Admin_Settings::output, include('/plugins/woocommerce/includes/admin/views/html-admin-settings.php'), do_action('woocommerce_settings_tabs_woof'), WP_Hook->do_action, WP_Hook->apply_filters, WOOF->print_plugin_options, WOOF->render_html, include('/plugins/woocommerce-products-filter/views/plugin_options.php')
+[29-Jun-2022 08:28:03 UTC] WordPress database error Unknown character set: 'utf8bin' for query CREATE TABLE IF NOT EXISTS `wp_woof_query_cache` (
+                                                    `mkey` varchar(64) NOT NULL,
+                                                    `mvalue` text NOT NULL,
+                                                    KEY `mkey` (`mkey`)
+                                                  ) DEFAULT CHARACTER SET utf8bin made by do_action('woocommerce_page_wc-settings'), WP_Hook->do_action, WP_Hook->apply_filters, WC_Admin_Menus->settings_page, WC_Admin_Settings::output, include('/plugins/woocommerce/includes/admin/views/html-admin-settings.php'), do_action('woocommerce_settings_tabs_woof'), WP_Hook->do_action, WP_Hook->apply_filters, WOOF->print_plugin_options, WOOF->render_html, include('/plugins/woocommerce-products-filter/views/plugin_options.php')
+[29-Jun-2022 08:33:14 UTC] WordPress database error Unknown character set: 'utf8bin' for query CREATE TABLE IF NOT EXISTS `wp_woof_query_cache` (
+                                                    `mkey` varchar(64) NOT NULL,
+                                                    `mvalue` text NOT NULL,
+                                                    KEY `mkey` (`mkey`)
+                                                  ) DEFAULT CHARACTER SET utf8bin made by do_action('woocommerce_page_wc-settings'), WP_Hook->do_action, WP_Hook->apply_filters, WC_Admin_Menus->settings_page, WC_Admin_Settings::output, include('/plugins/woocommerce/includes/admin/views/html-admin-settings.php'), do_action('woocommerce_settings_tabs_woof'), WP_Hook->do_action, WP_Hook->apply_filters, WOOF->print_plugin_options, WOOF->render_html, include('/plugins/woocommerce-products-filter/views/plugin_options.php')
+[29-Jun-2022 08:35:27 UTC] WordPress database error Unknown character set: 'utf8bin' for query CREATE TABLE IF NOT EXISTS `wp_woof_query_cache` (
+                                                    `mkey` varchar(64) NOT NULL,
+                                                    `mvalue` text NOT NULL,
+                                                    KEY `mkey` (`mkey`)
+                                                  ) DEFAULT CHARACTER SET utf8bin made by do_action('woocommerce_page_wc-settings'), WP_Hook->do_action, WP_Hook->apply_filters, WC_Admin_Menus->settings_page, WC_Admin_Settings::output, include('/plugins/woocommerce/includes/admin/views/html-admin-settings.php'), do_action('woocommerce_settings_tabs_woof'), WP_Hook->do_action, WP_Hook->apply_filters, WOOF->print_plugin_options, WOOF->render_html, include('/plugins/woocommerce-products-filter/views/plugin_options.php')
+[29-Jun-2022 08:36:21 UTC] PHP Parse error:  syntax error, unexpected 'function' (T_FUNCTION) in E:\wamp64\www\test02\wp-content\plugins\woocommerce-products-filter\views\woof.php on line 326
+[29-Jun-2022 08:40:09 UTC] WordPress database error Unknown character set: 'utf8bin' for query CREATE TABLE IF NOT EXISTS `wp_woof_query_cache` (
+                                                    `mkey` varchar(64) NOT NULL,
+                                                    `mvalue` text NOT NULL,
+                                                    KEY `mkey` (`mkey`)
+                                                  ) DEFAULT CHARACTER SET utf8bin made by do_action('woocommerce_page_wc-settings'), WP_Hook->do_action, WP_Hook->apply_filters, WC_Admin_Menus->settings_page, WC_Admin_Settings::output, include('/plugins/woocommerce/includes/admin/views/html-admin-settings.php'), do_action('woocommerce_settings_tabs_woof'), WP_Hook->do_action, WP_Hook->apply_filters, WOOF->print_plugin_options, WOOF->render_html, include('/plugins/woocommerce-products-filter/views/plugin_options.php')
+[29-Jun-2022 08:46:14 UTC] WordPress database error Unknown character set: 'utf8bin' for query CREATE TABLE IF NOT EXISTS `wp_woof_query_cache` (
+                                                    `mkey` varchar(64) NOT NULL,
+                                                    `mvalue` text NOT NULL,
+                                                    KEY `mkey` (`mkey`)
+                                                  ) DEFAULT CHARACTER SET utf8bin made by do_action('woocommerce_page_wc-settings'), WP_Hook->do_action, WP_Hook->apply_filters, WC_Admin_Menus->settings_page, WC_Admin_Settings::output, include('/plugins/woocommerce/includes/admin/views/html-admin-settings.php'), do_action('woocommerce_settings_tabs_woof'), WP_Hook->do_action, WP_Hook->apply_filters, WOOF->print_plugin_options, WOOF->render_html, include('/plugins/woocommerce-products-filter/views/plugin_options.php')
+[29-Jun-2022 08:47:47 UTC] WordPress database error Unknown character set: 'utf8bin' for query CREATE TABLE IF NOT EXISTS `wp_woof_query_cache` (
+                                                    `mkey` varchar(64) NOT NULL,
+                                                    `mvalue` text NOT NULL,
+                                                    KEY `mkey` (`mkey`)
+                                                  ) DEFAULT CHARACTER SET utf8bin made by do_action('woocommerce_page_wc-settings'), WP_Hook->do_action, WP_Hook->apply_filters, WC_Admin_Menus->settings_page, WC_Admin_Settings::output, include('/plugins/woocommerce/includes/admin/views/html-admin-settings.php'), do_action('woocommerce_settings_tabs_woof'), WP_Hook->do_action, WP_Hook->apply_filters, WOOF->print_plugin_options, WOOF->render_html, include('/plugins/woocommerce-products-filter/views/plugin_options.php')
+[29-Jun-2022 08:48:14 UTC] WordPress database error Unknown character set: 'utf8bin' for query CREATE TABLE IF NOT EXISTS `wp_woof_query_cache` (
+                                                    `mkey` varchar(64) NOT NULL,
+                                                    `mvalue` text NOT NULL,
+                                                    KEY `mkey` (`mkey`)
+                                                  ) DEFAULT CHARACTER SET utf8bin made by do_action('woocommerce_page_wc-settings'), WP_Hook->do_action, WP_Hook->apply_filters, WC_Admin_Menus->settings_page, WC_Admin_Settings::output, include('/plugins/woocommerce/includes/admin/views/html-admin-settings.php'), do_action('woocommerce_settings_tabs_woof'), WP_Hook->do_action, WP_Hook->apply_filters, WOOF->print_plugin_options, WOOF->render_html, include('/plugins/woocommerce-products-filter/views/plugin_options.php')
+[29-Jun-2022 08:51:20 UTC] WordPress database error Unknown character set: 'utf8bin' for query CREATE TABLE IF NOT EXISTS `wp_woof_query_cache` (
+                                                    `mkey` varchar(64) NOT NULL,
+                                                    `mvalue` text NOT NULL,
+                                                    KEY `mkey` (`mkey`)
+                                                  ) DEFAULT CHARACTER SET utf8bin made by do_action('woocommerce_page_wc-settings'), WP_Hook->do_action, WP_Hook->apply_filters, WC_Admin_Menus->settings_page, WC_Admin_Settings::output, include('/plugins/woocommerce/includes/admin/views/html-admin-settings.php'), do_action('woocommerce_settings_tabs_woof'), WP_Hook->do_action, WP_Hook->apply_filters, WOOF->print_plugin_options, WOOF->render_html, include('/plugins/woocommerce-products-filter/views/plugin_options.php')
+[29-Jun-2022 08:56:38 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[29-Jun-2022 08:56:38 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[29-Jun-2022 09:19:47 UTC] PHP Warning:  Use of undefined constant THEME_URI - assumed 'THEME_URI' (this will throw an Error in a future version of PHP) in E:\wamp64\www\test02\wp-content\themes\silky-new\functions.php on line 72
+[29-Jun-2022 09:19:47 UTC] PHP Stack trace:
+[29-Jun-2022 09:19:47 UTC] PHP   1. {main}() E:\wamp64\www\test02\index.php:0
+[29-Jun-2022 09:19:47 UTC] PHP   2. require() E:\wamp64\www\test02\index.php:17
+[29-Jun-2022 09:19:47 UTC] PHP   3. require_once() E:\wamp64\www\test02\wp-blog-header.php:19
+[29-Jun-2022 09:19:47 UTC] PHP   4. include() E:\wamp64\www\test02\wp-includes\template-loader.php:106
+[29-Jun-2022 09:19:47 UTC] PHP   5. get_header($name = 'shop', $args = *uninitialized*) E:\wamp64\www\test02\wp-content\themes\silky-new\woocommerce\archive-product.php:20
+[29-Jun-2022 09:19:47 UTC] PHP   6. locate_template($template_names = [0 => 'header-shop.php', 1 => 'header.php'], $load = TRUE, $require_once = TRUE, $args = []) E:\wamp64\www\test02\wp-includes\general-template.php:48
+[29-Jun-2022 09:19:47 UTC] PHP   7. load_template($_template_file = 'E:\\wamp64\\www\\test02/wp-content/themes/silky-new/header.php', $require_once = TRUE, $args = []) E:\wamp64\www\test02\wp-includes\template.php:716
+[29-Jun-2022 09:19:47 UTC] PHP   8. require_once() E:\wamp64\www\test02\wp-includes\template.php:770
+[29-Jun-2022 09:19:47 UTC] PHP   9. wp_head() E:\wamp64\www\test02\wp-content\themes\silky-new\header.php:28
+[29-Jun-2022 09:19:47 UTC] PHP  10. do_action($hook_name = 'wp_head') E:\wamp64\www\test02\wp-includes\general-template.php:3042
+[29-Jun-2022 09:19:47 UTC] PHP  11. WP_Hook->do_action($args = [0 => '']) E:\wamp64\www\test02\wp-includes\plugin.php:476
+[29-Jun-2022 09:19:47 UTC] PHP  12. WP_Hook->apply_filters($value = '', $args = [0 => '']) E:\wamp64\www\test02\wp-includes\class-wp-hook.php:331
+[29-Jun-2022 09:19:47 UTC] PHP  13. get_header_script('') E:\wamp64\www\test02\wp-includes\class-wp-hook.php:307
+[29-Jun-2022 09:19:47 UTC] PHP Warning:  Use of undefined constant THEME_URI - assumed 'THEME_URI' (this will throw an Error in a future version of PHP) in E:\wamp64\www\test02\wp-content\themes\silky-new\functions.php on line 72
+[29-Jun-2022 09:19:47 UTC] PHP Warning:  Use of undefined constant THEME_URI - assumed 'THEME_URI' (this will throw an Error in a future version of PHP) in E:\wamp64\www\test02\wp-content\themes\silky-new\functions.php on line 72
+[29-Jun-2022 09:19:47 UTC] PHP Stack trace:
+[29-Jun-2022 09:19:47 UTC] PHP Stack trace:
+[29-Jun-2022 09:19:47 UTC] PHP   1. {main}() E:\wamp64\www\test02\index.php:0
+[29-Jun-2022 09:19:47 UTC] PHP   1. {main}() E:\wamp64\www\test02\index.php:0
+[29-Jun-2022 09:19:47 UTC] PHP   2. require() E:\wamp64\www\test02\index.php:17
+[29-Jun-2022 09:19:47 UTC] PHP   2. require() E:\wamp64\www\test02\index.php:17
+[29-Jun-2022 09:19:47 UTC] PHP   3. require_once() E:\wamp64\www\test02\wp-blog-header.php:19
+[29-Jun-2022 09:19:47 UTC] PHP   3. require_once() E:\wamp64\www\test02\wp-blog-header.php:19
+[29-Jun-2022 09:19:47 UTC] PHP   4. include() E:\wamp64\www\test02\wp-includes\template-loader.php:106
+[29-Jun-2022 09:19:47 UTC] PHP   4. include() E:\wamp64\www\test02\wp-includes\template-loader.php:106
+[29-Jun-2022 09:19:47 UTC] PHP   5. get_header($name = *uninitialized*, $args = *uninitialized*) E:\wamp64\www\test02\wp-content\themes\silky-new\404.php:11
+[29-Jun-2022 09:19:47 UTC] PHP Warning:  Use of undefined constant THEME_URI - assumed 'THEME_URI' (this will throw an Error in a future version of PHP) in E:\wamp64\www\test02\wp-content\themes\silky-new\functions.php on line 72
+[29-Jun-2022 09:19:47 UTC] PHP   5. get_header($name = *uninitialized*, $args = *uninitialized*) E:\wamp64\www\test02\wp-content\themes\silky-new\404.php:11
+[29-Jun-2022 09:19:47 UTC] PHP   6. locate_template($template_names = [0 => 'header.php'], $load = TRUE, $require_once = TRUE, $args = []) E:\wamp64\www\test02\wp-includes\general-template.php:48
+[29-Jun-2022 09:19:47 UTC] PHP Stack trace:
+[29-Jun-2022 09:19:47 UTC] PHP   6. locate_template($template_names = [0 => 'header.php'], $load = TRUE, $require_once = TRUE, $args = []) E:\wamp64\www\test02\wp-includes\general-template.php:48
+[29-Jun-2022 09:19:47 UTC] PHP   7. load_template($_template_file = 'E:\\wamp64\\www\\test02/wp-content/themes/silky-new/header.php', $require_once = TRUE, $args = []) E:\wamp64\www\test02\wp-includes\template.php:716
+[29-Jun-2022 09:19:47 UTC] PHP   1. {main}() E:\wamp64\www\test02\index.php:0
+[29-Jun-2022 09:19:47 UTC] PHP   7. load_template($_template_file = 'E:\\wamp64\\www\\test02/wp-content/themes/silky-new/header.php', $require_once = TRUE, $args = []) E:\wamp64\www\test02\wp-includes\template.php:716
+[29-Jun-2022 09:19:47 UTC] PHP   8. require_once() E:\wamp64\www\test02\wp-includes\template.php:770
+[29-Jun-2022 09:19:47 UTC] PHP   2. require() E:\wamp64\www\test02\index.php:17
+[29-Jun-2022 09:19:47 UTC] PHP   8. require_once() E:\wamp64\www\test02\wp-includes\template.php:770
+[29-Jun-2022 09:19:47 UTC] PHP   9. wp_head() E:\wamp64\www\test02\wp-content\themes\silky-new\header.php:28
+[29-Jun-2022 09:19:47 UTC] PHP   3. require_once() E:\wamp64\www\test02\wp-blog-header.php:19
+[29-Jun-2022 09:19:47 UTC] PHP   9. wp_head() E:\wamp64\www\test02\wp-content\themes\silky-new\header.php:28
+[29-Jun-2022 09:19:47 UTC] PHP  10. do_action($hook_name = 'wp_head') E:\wamp64\www\test02\wp-includes\general-template.php:3042
+[29-Jun-2022 09:19:47 UTC] PHP   4. include() E:\wamp64\www\test02\wp-includes\template-loader.php:106
+[29-Jun-2022 09:19:47 UTC] PHP  10. do_action($hook_name = 'wp_head') E:\wamp64\www\test02\wp-includes\general-template.php:3042
+[29-Jun-2022 09:19:47 UTC] PHP  11. WP_Hook->do_action($args = [0 => '']) E:\wamp64\www\test02\wp-includes\plugin.php:476
+[29-Jun-2022 09:19:47 UTC] PHP   5. get_header($name = *uninitialized*, $args = *uninitialized*) E:\wamp64\www\test02\wp-content\themes\silky-new\404.php:11
+[29-Jun-2022 09:19:47 UTC] PHP  11. WP_Hook->do_action($args = [0 => '']) E:\wamp64\www\test02\wp-includes\plugin.php:476
+[29-Jun-2022 09:19:47 UTC] PHP  12. WP_Hook->apply_filters($value = '', $args = [0 => '']) E:\wamp64\www\test02\wp-includes\class-wp-hook.php:331
+[29-Jun-2022 09:19:47 UTC] PHP   6. locate_template($template_names = [0 => 'header.php'], $load = TRUE, $require_once = TRUE, $args = []) E:\wamp64\www\test02\wp-includes\general-template.php:48
+[29-Jun-2022 09:19:47 UTC] PHP  12. WP_Hook->apply_filters($value = '', $args = [0 => '']) E:\wamp64\www\test02\wp-includes\class-wp-hook.php:331
+[29-Jun-2022 09:19:47 UTC] PHP  13. get_header_script('') E:\wamp64\www\test02\wp-includes\class-wp-hook.php:307
+[29-Jun-2022 09:19:47 UTC] PHP   7. load_template($_template_file = 'E:\\wamp64\\www\\test02/wp-content/themes/silky-new/header.php', $require_once = TRUE, $args = []) E:\wamp64\www\test02\wp-includes\template.php:716
+[29-Jun-2022 09:19:47 UTC] PHP  13. get_header_script('') E:\wamp64\www\test02\wp-includes\class-wp-hook.php:307
+[29-Jun-2022 09:19:47 UTC] PHP   8. require_once() E:\wamp64\www\test02\wp-includes\template.php:770
+[29-Jun-2022 09:19:47 UTC] PHP   9. wp_head() E:\wamp64\www\test02\wp-content\themes\silky-new\header.php:28
+[29-Jun-2022 09:19:47 UTC] PHP  10. do_action($hook_name = 'wp_head') E:\wamp64\www\test02\wp-includes\general-template.php:3042
+[29-Jun-2022 09:19:47 UTC] PHP  11. WP_Hook->do_action($args = [0 => '']) E:\wamp64\www\test02\wp-includes\plugin.php:476
+[29-Jun-2022 09:19:47 UTC] PHP  12. WP_Hook->apply_filters($value = '', $args = [0 => '']) E:\wamp64\www\test02\wp-includes\class-wp-hook.php:331
+[29-Jun-2022 09:19:47 UTC] PHP  13. get_header_script('') E:\wamp64\www\test02\wp-includes\class-wp-hook.php:307
+[29-Jun-2022 09:19:47 UTC] PHP Warning:  Use of undefined constant THEME_URI - assumed 'THEME_URI' (this will throw an Error in a future version of PHP) in E:\wamp64\www\test02\wp-content\themes\silky-new\functions.php on line 72
+[29-Jun-2022 09:19:47 UTC] PHP Warning:  Use of undefined constant THEME_URI - assumed 'THEME_URI' (this will throw an Error in a future version of PHP) in E:\wamp64\www\test02\wp-content\themes\silky-new\functions.php on line 72
+[29-Jun-2022 09:19:47 UTC] PHP Stack trace:
+[29-Jun-2022 09:19:47 UTC] PHP Stack trace:
+[29-Jun-2022 09:19:47 UTC] PHP   1. {main}() E:\wamp64\www\test02\index.php:0
+[29-Jun-2022 09:19:47 UTC] PHP   1. {main}() E:\wamp64\www\test02\index.php:0
+[29-Jun-2022 09:19:47 UTC] PHP   2. require() E:\wamp64\www\test02\index.php:17
+[29-Jun-2022 09:19:47 UTC] PHP   2. require() E:\wamp64\www\test02\index.php:17
+[29-Jun-2022 09:19:47 UTC] PHP   3. require_once() E:\wamp64\www\test02\wp-blog-header.php:19
+[29-Jun-2022 09:19:47 UTC] PHP   3. require_once() E:\wamp64\www\test02\wp-blog-header.php:19
+[29-Jun-2022 09:19:47 UTC] PHP   4. include() E:\wamp64\www\test02\wp-includes\template-loader.php:106
+[29-Jun-2022 09:19:47 UTC] PHP   4. include() E:\wamp64\www\test02\wp-includes\template-loader.php:106
+[29-Jun-2022 09:19:47 UTC] PHP   5. get_header($name = *uninitialized*, $args = *uninitialized*) E:\wamp64\www\test02\wp-content\themes\silky-new\404.php:11
+[29-Jun-2022 09:19:47 UTC] PHP   5. get_header($name = *uninitialized*, $args = *uninitialized*) E:\wamp64\www\test02\wp-content\themes\silky-new\404.php:11
+[29-Jun-2022 09:19:47 UTC] PHP   6. locate_template($template_names = [0 => 'header.php'], $load = TRUE, $require_once = TRUE, $args = []) E:\wamp64\www\test02\wp-includes\general-template.php:48
+[29-Jun-2022 09:19:47 UTC] PHP   6. locate_template($template_names = [0 => 'header.php'], $load = TRUE, $require_once = TRUE, $args = []) E:\wamp64\www\test02\wp-includes\general-template.php:48
+[29-Jun-2022 09:19:47 UTC] PHP   7. load_template($_template_file = 'E:\\wamp64\\www\\test02/wp-content/themes/silky-new/header.php', $require_once = TRUE, $args = []) E:\wamp64\www\test02\wp-includes\template.php:716
+[29-Jun-2022 09:19:47 UTC] PHP   7. load_template($_template_file = 'E:\\wamp64\\www\\test02/wp-content/themes/silky-new/header.php', $require_once = TRUE, $args = []) E:\wamp64\www\test02\wp-includes\template.php:716
+[29-Jun-2022 09:19:47 UTC] PHP   8. require_once() E:\wamp64\www\test02\wp-includes\template.php:770
+[29-Jun-2022 09:19:47 UTC] PHP   8. require_once() E:\wamp64\www\test02\wp-includes\template.php:770
+[29-Jun-2022 09:19:47 UTC] PHP   9. wp_head() E:\wamp64\www\test02\wp-content\themes\silky-new\header.php:28
+[29-Jun-2022 09:19:47 UTC] PHP   9. wp_head() E:\wamp64\www\test02\wp-content\themes\silky-new\header.php:28
+[29-Jun-2022 09:19:47 UTC] PHP  10. do_action($hook_name = 'wp_head') E:\wamp64\www\test02\wp-includes\general-template.php:3042
+[29-Jun-2022 09:19:47 UTC] PHP  10. do_action($hook_name = 'wp_head') E:\wamp64\www\test02\wp-includes\general-template.php:3042
+[29-Jun-2022 09:19:47 UTC] PHP  11. WP_Hook->do_action($args = [0 => '']) E:\wamp64\www\test02\wp-includes\plugin.php:476
+[29-Jun-2022 09:19:47 UTC] PHP  11. WP_Hook->do_action($args = [0 => '']) E:\wamp64\www\test02\wp-includes\plugin.php:476
+[29-Jun-2022 09:19:47 UTC] PHP  12. WP_Hook->apply_filters($value = '', $args = [0 => '']) E:\wamp64\www\test02\wp-includes\class-wp-hook.php:331
+[29-Jun-2022 09:19:47 UTC] PHP  12. WP_Hook->apply_filters($value = '', $args = [0 => '']) E:\wamp64\www\test02\wp-includes\class-wp-hook.php:331
+[29-Jun-2022 09:19:47 UTC] PHP  13. get_header_script('') E:\wamp64\www\test02\wp-includes\class-wp-hook.php:307
+[29-Jun-2022 09:19:47 UTC] PHP  13. get_header_script('') E:\wamp64\www\test02\wp-includes\class-wp-hook.php:307
+[29-Jun-2022 09:19:54 UTC] PHP Warning:  Use of undefined constant THEME_URI - assumed 'THEME_URI' (this will throw an Error in a future version of PHP) in E:\wamp64\www\test02\wp-content\themes\silky-new\functions.php on line 72
+[29-Jun-2022 09:19:54 UTC] PHP Stack trace:
+[29-Jun-2022 09:19:54 UTC] PHP   1. {main}() E:\wamp64\www\test02\index.php:0
+[29-Jun-2022 09:19:54 UTC] PHP   2. require() E:\wamp64\www\test02\index.php:17
+[29-Jun-2022 09:19:54 UTC] PHP   3. require_once() E:\wamp64\www\test02\wp-blog-header.php:19
+[29-Jun-2022 09:19:54 UTC] PHP   4. include() E:\wamp64\www\test02\wp-includes\template-loader.php:106
+[29-Jun-2022 09:19:54 UTC] PHP   5. get_header($name = 'shop', $args = *uninitialized*) E:\wamp64\www\test02\wp-content\themes\silky-new\woocommerce\archive-product.php:20
+[29-Jun-2022 09:19:54 UTC] PHP   6. locate_template($template_names = [0 => 'header-shop.php', 1 => 'header.php'], $load = TRUE, $require_once = TRUE, $args = []) E:\wamp64\www\test02\wp-includes\general-template.php:48
+[29-Jun-2022 09:19:54 UTC] PHP   7. load_template($_template_file = 'E:\\wamp64\\www\\test02/wp-content/themes/silky-new/header.php', $require_once = TRUE, $args = []) E:\wamp64\www\test02\wp-includes\template.php:716
+[29-Jun-2022 09:19:54 UTC] PHP   8. require_once() E:\wamp64\www\test02\wp-includes\template.php:770
+[29-Jun-2022 09:19:54 UTC] PHP   9. wp_head() E:\wamp64\www\test02\wp-content\themes\silky-new\header.php:28
+[29-Jun-2022 09:19:54 UTC] PHP  10. do_action($hook_name = 'wp_head') E:\wamp64\www\test02\wp-includes\general-template.php:3042
+[29-Jun-2022 09:19:54 UTC] PHP  11. WP_Hook->do_action($args = [0 => '']) E:\wamp64\www\test02\wp-includes\plugin.php:476
+[29-Jun-2022 09:19:54 UTC] PHP  12. WP_Hook->apply_filters($value = '', $args = [0 => '']) E:\wamp64\www\test02\wp-includes\class-wp-hook.php:331
+[29-Jun-2022 09:19:54 UTC] PHP  13. get_header_script('') E:\wamp64\www\test02\wp-includes\class-wp-hook.php:307
+[29-Jun-2022 09:19:54 UTC] PHP Warning:  Use of undefined constant THEME_URI - assumed 'THEME_URI' (this will throw an Error in a future version of PHP) in E:\wamp64\www\test02\wp-content\themes\silky-new\functions.php on line 72
+[29-Jun-2022 09:19:54 UTC] PHP Stack trace:
+[29-Jun-2022 09:19:54 UTC] PHP   1. {main}() E:\wamp64\www\test02\index.php:0
+[29-Jun-2022 09:19:54 UTC] PHP   2. require() E:\wamp64\www\test02\index.php:17
+[29-Jun-2022 09:19:54 UTC] PHP   3. require_once() E:\wamp64\www\test02\wp-blog-header.php:19
+[29-Jun-2022 09:19:54 UTC] PHP   4. include() E:\wamp64\www\test02\wp-includes\template-loader.php:106
+[29-Jun-2022 09:19:54 UTC] PHP   5. get_header($name = *uninitialized*, $args = *uninitialized*) E:\wamp64\www\test02\wp-content\themes\silky-new\404.php:11
+[29-Jun-2022 09:19:54 UTC] PHP   6. locate_template($template_names = [0 => 'header.php'], $load = TRUE, $require_once = TRUE, $args = []) E:\wamp64\www\test02\wp-includes\general-template.php:48
+[29-Jun-2022 09:19:54 UTC] PHP   7. load_template($_template_file = 'E:\\wamp64\\www\\test02/wp-content/themes/silky-new/header.php', $require_once = TRUE, $args = []) E:\wamp64\www\test02\wp-includes\template.php:716
+[29-Jun-2022 09:19:54 UTC] PHP   8. require_once() E:\wamp64\www\test02\wp-includes\template.php:770
+[29-Jun-2022 09:19:54 UTC] PHP   9. wp_head() E:\wamp64\www\test02\wp-content\themes\silky-new\header.php:28
+[29-Jun-2022 09:19:54 UTC] PHP  10. do_action($hook_name = 'wp_head') E:\wamp64\www\test02\wp-includes\general-template.php:3042
+[29-Jun-2022 09:19:54 UTC] PHP  11. WP_Hook->do_action($args = [0 => '']) E:\wamp64\www\test02\wp-includes\plugin.php:476
+[29-Jun-2022 09:19:54 UTC] PHP  12. WP_Hook->apply_filters($value = '', $args = [0 => '']) E:\wamp64\www\test02\wp-includes\class-wp-hook.php:331
+[29-Jun-2022 09:19:54 UTC] PHP  13. get_header_script('') E:\wamp64\www\test02\wp-includes\class-wp-hook.php:307
+[29-Jun-2022 09:19:54 UTC] PHP Warning:  Use of undefined constant THEME_URI - assumed 'THEME_URI' (this will throw an Error in a future version of PHP) in E:\wamp64\www\test02\wp-content\themes\silky-new\functions.php on line 72
+[29-Jun-2022 09:19:54 UTC] PHP Stack trace:
+[29-Jun-2022 09:19:54 UTC] PHP Warning:  Use of undefined constant THEME_URI - assumed 'THEME_URI' (this will throw an Error in a future version of PHP) in E:\wamp64\www\test02\wp-content\themes\silky-new\functions.php on line 72
+[29-Jun-2022 09:19:54 UTC] PHP   1. {main}() E:\wamp64\www\test02\index.php:0
+[29-Jun-2022 09:19:54 UTC] PHP Stack trace:
+[29-Jun-2022 09:19:54 UTC] PHP   2. require() E:\wamp64\www\test02\index.php:17
+[29-Jun-2022 09:19:54 UTC] PHP   1. {main}() E:\wamp64\www\test02\index.php:0
+[29-Jun-2022 09:19:54 UTC] PHP   3. require_once() E:\wamp64\www\test02\wp-blog-header.php:19
+[29-Jun-2022 09:19:54 UTC] PHP Warning:  Use of undefined constant THEME_URI - assumed 'THEME_URI' (this will throw an Error in a future version of PHP) in E:\wamp64\www\test02\wp-content\themes\silky-new\functions.php on line 72
+[29-Jun-2022 09:19:54 UTC] PHP   2. require() E:\wamp64\www\test02\index.php:17
+[29-Jun-2022 09:19:54 UTC] PHP   4. include() E:\wamp64\www\test02\wp-includes\template-loader.php:106
+[29-Jun-2022 09:19:54 UTC] PHP Stack trace:
+[29-Jun-2022 09:19:54 UTC] PHP   3. require_once() E:\wamp64\www\test02\wp-blog-header.php:19
+[29-Jun-2022 09:19:54 UTC] PHP   5. get_header($name = *uninitialized*, $args = *uninitialized*) E:\wamp64\www\test02\wp-content\themes\silky-new\404.php:11
+[29-Jun-2022 09:19:54 UTC] PHP   1. {main}() E:\wamp64\www\test02\index.php:0
+[29-Jun-2022 09:19:54 UTC] PHP   4. include() E:\wamp64\www\test02\wp-includes\template-loader.php:106
+[29-Jun-2022 09:19:54 UTC] PHP   6. locate_template($template_names = [0 => 'header.php'], $load = TRUE, $require_once = TRUE, $args = []) E:\wamp64\www\test02\wp-includes\general-template.php:48
+[29-Jun-2022 09:19:54 UTC] PHP   2. require() E:\wamp64\www\test02\index.php:17
+[29-Jun-2022 09:19:54 UTC] PHP   5. get_header($name = *uninitialized*, $args = *uninitialized*) E:\wamp64\www\test02\wp-content\themes\silky-new\404.php:11
+[29-Jun-2022 09:19:54 UTC] PHP   7. load_template($_template_file = 'E:\\wamp64\\www\\test02/wp-content/themes/silky-new/header.php', $require_once = TRUE, $args = []) E:\wamp64\www\test02\wp-includes\template.php:716
+[29-Jun-2022 09:19:54 UTC] PHP   3. require_once() E:\wamp64\www\test02\wp-blog-header.php:19
+[29-Jun-2022 09:19:54 UTC] PHP   6. locate_template($template_names = [0 => 'header.php'], $load = TRUE, $require_once = TRUE, $args = []) E:\wamp64\www\test02\wp-includes\general-template.php:48
+[29-Jun-2022 09:19:54 UTC] PHP   8. require_once() E:\wamp64\www\test02\wp-includes\template.php:770
+[29-Jun-2022 09:19:54 UTC] PHP   4. include() E:\wamp64\www\test02\wp-includes\template-loader.php:106
+[29-Jun-2022 09:19:54 UTC] PHP   7. load_template($_template_file = 'E:\\wamp64\\www\\test02/wp-content/themes/silky-new/header.php', $require_once = TRUE, $args = []) E:\wamp64\www\test02\wp-includes\template.php:716
+[29-Jun-2022 09:19:54 UTC] PHP   9. wp_head() E:\wamp64\www\test02\wp-content\themes\silky-new\header.php:28
+[29-Jun-2022 09:19:54 UTC] PHP   5. get_header($name = *uninitialized*, $args = *uninitialized*) E:\wamp64\www\test02\wp-content\themes\silky-new\404.php:11
+[29-Jun-2022 09:19:54 UTC] PHP   8. require_once() E:\wamp64\www\test02\wp-includes\template.php:770
+[29-Jun-2022 09:19:54 UTC] PHP  10. do_action($hook_name = 'wp_head') E:\wamp64\www\test02\wp-includes\general-template.php:3042
+[29-Jun-2022 09:19:54 UTC] PHP Warning:  Use of undefined constant THEME_URI - assumed 'THEME_URI' (this will throw an Error in a future version of PHP) in E:\wamp64\www\test02\wp-content\themes\silky-new\functions.php on line 72
+[29-Jun-2022 09:19:54 UTC] PHP   6. locate_template($template_names = [0 => 'header.php'], $load = TRUE, $require_once = TRUE, $args = []) E:\wamp64\www\test02\wp-includes\general-template.php:48
+[29-Jun-2022 09:19:54 UTC] PHP   9. wp_head() E:\wamp64\www\test02\wp-content\themes\silky-new\header.php:28
+[29-Jun-2022 09:19:54 UTC] PHP  11. WP_Hook->do_action($args = [0 => '']) E:\wamp64\www\test02\wp-includes\plugin.php:476
+[29-Jun-2022 09:19:54 UTC] PHP Stack trace:
+[29-Jun-2022 09:19:54 UTC] PHP   7. load_template($_template_file = 'E:\\wamp64\\www\\test02/wp-content/themes/silky-new/header.php', $require_once = TRUE, $args = []) E:\wamp64\www\test02\wp-includes\template.php:716
+[29-Jun-2022 09:19:54 UTC] PHP  10. do_action($hook_name = 'wp_head') E:\wamp64\www\test02\wp-includes\general-template.php:3042
+[29-Jun-2022 09:19:54 UTC] PHP  12. WP_Hook->apply_filters($value = '', $args = [0 => '']) E:\wamp64\www\test02\wp-includes\class-wp-hook.php:331
+[29-Jun-2022 09:19:54 UTC] PHP   1. {main}() E:\wamp64\www\test02\index.php:0
+[29-Jun-2022 09:19:54 UTC] PHP   8. require_once() E:\wamp64\www\test02\wp-includes\template.php:770
+[29-Jun-2022 09:19:54 UTC] PHP  13. get_header_script('') E:\wamp64\www\test02\wp-includes\class-wp-hook.php:307
+[29-Jun-2022 09:19:54 UTC] PHP  11. WP_Hook->do_action($args = [0 => '']) E:\wamp64\www\test02\wp-includes\plugin.php:476
+[29-Jun-2022 09:19:54 UTC] PHP   2. require() E:\wamp64\www\test02\index.php:17
+[29-Jun-2022 09:19:54 UTC] PHP   9. wp_head() E:\wamp64\www\test02\wp-content\themes\silky-new\header.php:28
+[29-Jun-2022 09:19:54 UTC] PHP  12. WP_Hook->apply_filters($value = '', $args = [0 => '']) E:\wamp64\www\test02\wp-includes\class-wp-hook.php:331
+[29-Jun-2022 09:19:54 UTC] PHP   3. require_once() E:\wamp64\www\test02\wp-blog-header.php:19
+[29-Jun-2022 09:19:54 UTC] PHP  10. do_action($hook_name = 'wp_head') E:\wamp64\www\test02\wp-includes\general-template.php:3042
+[29-Jun-2022 09:19:54 UTC] PHP  13. get_header_script('') E:\wamp64\www\test02\wp-includes\class-wp-hook.php:307
+[29-Jun-2022 09:19:54 UTC] PHP   4. include() E:\wamp64\www\test02\wp-includes\template-loader.php:106
+[29-Jun-2022 09:19:54 UTC] PHP  11. WP_Hook->do_action($args = [0 => '']) E:\wamp64\www\test02\wp-includes\plugin.php:476
+[29-Jun-2022 09:19:54 UTC] PHP   5. get_header($name = *uninitialized*, $args = *uninitialized*) E:\wamp64\www\test02\wp-content\themes\silky-new\404.php:11
+[29-Jun-2022 09:19:54 UTC] PHP  12. WP_Hook->apply_filters($value = '', $args = [0 => '']) E:\wamp64\www\test02\wp-includes\class-wp-hook.php:331
+[29-Jun-2022 09:19:54 UTC] PHP   6. locate_template($template_names = [0 => 'header.php'], $load = TRUE, $require_once = TRUE, $args = []) E:\wamp64\www\test02\wp-includes\general-template.php:48
+[29-Jun-2022 09:19:54 UTC] PHP  13. get_header_script('') E:\wamp64\www\test02\wp-includes\class-wp-hook.php:307
+[29-Jun-2022 09:19:54 UTC] PHP   7. load_template($_template_file = 'E:\\wamp64\\www\\test02/wp-content/themes/silky-new/header.php', $require_once = TRUE, $args = []) E:\wamp64\www\test02\wp-includes\template.php:716
+[29-Jun-2022 09:19:54 UTC] PHP   8. require_once() E:\wamp64\www\test02\wp-includes\template.php:770
+[29-Jun-2022 09:19:54 UTC] PHP   9. wp_head() E:\wamp64\www\test02\wp-content\themes\silky-new\header.php:28
+[29-Jun-2022 09:19:54 UTC] PHP  10. do_action($hook_name = 'wp_head') E:\wamp64\www\test02\wp-includes\general-template.php:3042
+[29-Jun-2022 09:19:54 UTC] PHP  11. WP_Hook->do_action($args = [0 => '']) E:\wamp64\www\test02\wp-includes\plugin.php:476
+[29-Jun-2022 09:19:54 UTC] PHP  12. WP_Hook->apply_filters($value = '', $args = [0 => '']) E:\wamp64\www\test02\wp-includes\class-wp-hook.php:331
+[29-Jun-2022 09:19:54 UTC] PHP  13. get_header_script('') E:\wamp64\www\test02\wp-includes\class-wp-hook.php:307
+[29-Jun-2022 09:20:48 UTC] PHP Warning:  Use of undefined constant THEME_URI - assumed 'THEME_URI' (this will throw an Error in a future version of PHP) in E:\wamp64\www\test02\wp-content\themes\silky-new\functions.php on line 72
+[29-Jun-2022 09:20:48 UTC] PHP Stack trace:
+[29-Jun-2022 09:20:48 UTC] PHP   1. {main}() E:\wamp64\www\test02\index.php:0
+[29-Jun-2022 09:20:48 UTC] PHP   2. require() E:\wamp64\www\test02\index.php:17
+[29-Jun-2022 09:20:48 UTC] PHP   3. require_once() E:\wamp64\www\test02\wp-blog-header.php:19
+[29-Jun-2022 09:20:48 UTC] PHP   4. include() E:\wamp64\www\test02\wp-includes\template-loader.php:106
+[29-Jun-2022 09:20:48 UTC] PHP   5. get_header($name = *uninitialized*, $args = *uninitialized*) E:\wamp64\www\test02\wp-content\themes\silky-new\index.php:17
+[29-Jun-2022 09:20:48 UTC] PHP   6. locate_template($template_names = [0 => 'header.php'], $load = TRUE, $require_once = TRUE, $args = []) E:\wamp64\www\test02\wp-includes\general-template.php:48
+[29-Jun-2022 09:20:48 UTC] PHP   7. load_template($_template_file = 'E:\\wamp64\\www\\test02/wp-content/themes/silky-new/header.php', $require_once = TRUE, $args = []) E:\wamp64\www\test02\wp-includes\template.php:716
+[29-Jun-2022 09:20:48 UTC] PHP   8. require_once() E:\wamp64\www\test02\wp-includes\template.php:770
+[29-Jun-2022 09:20:48 UTC] PHP   9. wp_head() E:\wamp64\www\test02\wp-content\themes\silky-new\header.php:28
+[29-Jun-2022 09:20:48 UTC] PHP  10. do_action($hook_name = 'wp_head') E:\wamp64\www\test02\wp-includes\general-template.php:3042
+[29-Jun-2022 09:20:48 UTC] PHP  11. WP_Hook->do_action($args = [0 => '']) E:\wamp64\www\test02\wp-includes\plugin.php:476
+[29-Jun-2022 09:20:48 UTC] PHP  12. WP_Hook->apply_filters($value = '', $args = [0 => '']) E:\wamp64\www\test02\wp-includes\class-wp-hook.php:331
+[29-Jun-2022 09:20:48 UTC] PHP  13. get_header_script('') E:\wamp64\www\test02\wp-includes\class-wp-hook.php:307
+[29-Jun-2022 09:20:48 UTC] PHP Warning:  Use of undefined constant THEME_URI - assumed 'THEME_URI' (this will throw an Error in a future version of PHP) in E:\wamp64\www\test02\wp-content\themes\silky-new\functions.php on line 53
+[29-Jun-2022 09:20:48 UTC] PHP Stack trace:
+[29-Jun-2022 09:20:48 UTC] PHP   1. {main}() E:\wamp64\www\test02\index.php:0
+[29-Jun-2022 09:20:48 UTC] PHP   2. require() E:\wamp64\www\test02\index.php:17
+[29-Jun-2022 09:20:48 UTC] PHP   3. require_once() E:\wamp64\www\test02\wp-blog-header.php:19
+[29-Jun-2022 09:20:48 UTC] PHP   4. include() E:\wamp64\www\test02\wp-includes\template-loader.php:106
+[29-Jun-2022 09:20:48 UTC] PHP   5. do_action($hook_name = 'homepage_style') E:\wamp64\www\test02\wp-content\themes\silky-new\index.php:18
+[29-Jun-2022 09:20:48 UTC] PHP   6. WP_Hook->do_action($args = [0 => '']) E:\wamp64\www\test02\wp-includes\plugin.php:476
+[29-Jun-2022 09:20:48 UTC] PHP   7. WP_Hook->apply_filters($value = '', $args = [0 => '']) E:\wamp64\www\test02\wp-includes\class-wp-hook.php:331
+[29-Jun-2022 09:20:48 UTC] PHP   8. get_homepage_sytle('') E:\wamp64\www\test02\wp-includes\class-wp-hook.php:307
+[29-Jun-2022 09:20:49 UTC] PHP Warning:  Use of undefined constant THEME_URI - assumed 'THEME_URI' (this will throw an Error in a future version of PHP) in E:\wamp64\www\test02\wp-content\themes\silky-new\functions.php on line 72
+[29-Jun-2022 09:20:49 UTC] PHP Stack trace:
+[29-Jun-2022 09:20:49 UTC] PHP   1. {main}() E:\wamp64\www\test02\index.php:0
+[29-Jun-2022 09:20:49 UTC] PHP   2. require() E:\wamp64\www\test02\index.php:17
+[29-Jun-2022 09:20:49 UTC] PHP   3. require_once() E:\wamp64\www\test02\wp-blog-header.php:19
+[29-Jun-2022 09:20:49 UTC] PHP   4. include() E:\wamp64\www\test02\wp-includes\template-loader.php:106
+[29-Jun-2022 09:20:49 UTC] PHP   5. get_header($name = *uninitialized*, $args = *uninitialized*) E:\wamp64\www\test02\wp-content\themes\silky-new\404.php:11
+[29-Jun-2022 09:20:49 UTC] PHP   6. locate_template($template_names = [0 => 'header.php'], $load = TRUE, $require_once = TRUE, $args = []) E:\wamp64\www\test02\wp-includes\general-template.php:48
+[29-Jun-2022 09:20:49 UTC] PHP   7. load_template($_template_file = 'E:\\wamp64\\www\\test02/wp-content/themes/silky-new/header.php', $require_once = TRUE, $args = []) E:\wamp64\www\test02\wp-includes\template.php:716
+[29-Jun-2022 09:20:49 UTC] PHP   8. require_once() E:\wamp64\www\test02\wp-includes\template.php:770
+[29-Jun-2022 09:20:49 UTC] PHP   9. wp_head() E:\wamp64\www\test02\wp-content\themes\silky-new\header.php:28
+[29-Jun-2022 09:20:49 UTC] PHP  10. do_action($hook_name = 'wp_head') E:\wamp64\www\test02\wp-includes\general-template.php:3042
+[29-Jun-2022 09:20:49 UTC] PHP  11. WP_Hook->do_action($args = [0 => '']) E:\wamp64\www\test02\wp-includes\plugin.php:476
+[29-Jun-2022 09:20:49 UTC] PHP  12. WP_Hook->apply_filters($value = '', $args = [0 => '']) E:\wamp64\www\test02\wp-includes\class-wp-hook.php:331
+[29-Jun-2022 09:20:49 UTC] PHP  13. get_header_script('') E:\wamp64\www\test02\wp-includes\class-wp-hook.php:307
+[29-Jun-2022 09:20:49 UTC] PHP Warning:  Use of undefined constant THEME_URI - assumed 'THEME_URI' (this will throw an Error in a future version of PHP) in E:\wamp64\www\test02\wp-content\themes\silky-new\functions.php on line 72
+[29-Jun-2022 09:20:49 UTC] PHP Stack trace:
+[29-Jun-2022 09:20:49 UTC] PHP   1. {main}() E:\wamp64\www\test02\index.php:0
+[29-Jun-2022 09:20:49 UTC] PHP   2. require() E:\wamp64\www\test02\index.php:17
+[29-Jun-2022 09:20:49 UTC] PHP   3. require_once() E:\wamp64\www\test02\wp-blog-header.php:19
+[29-Jun-2022 09:20:49 UTC] PHP   4. include() E:\wamp64\www\test02\wp-includes\template-loader.php:106
+[29-Jun-2022 09:20:49 UTC] PHP   5. get_header($name = *uninitialized*, $args = *uninitialized*) E:\wamp64\www\test02\wp-content\themes\silky-new\404.php:11
+[29-Jun-2022 09:20:49 UTC] PHP   6. locate_template($template_names = [0 => 'header.php'], $load = TRUE, $require_once = TRUE, $args = []) E:\wamp64\www\test02\wp-includes\general-template.php:48
+[29-Jun-2022 09:20:49 UTC] PHP   7. load_template($_template_file = 'E:\\wamp64\\www\\test02/wp-content/themes/silky-new/header.php', $require_once = TRUE, $args = []) E:\wamp64\www\test02\wp-includes\template.php:716
+[29-Jun-2022 09:20:49 UTC] PHP   8. require_once() E:\wamp64\www\test02\wp-includes\template.php:770
+[29-Jun-2022 09:20:49 UTC] PHP   9. wp_head() E:\wamp64\www\test02\wp-content\themes\silky-new\header.php:28
+[29-Jun-2022 09:20:49 UTC] PHP  10. do_action($hook_name = 'wp_head') E:\wamp64\www\test02\wp-includes\general-template.php:3042
+[29-Jun-2022 09:20:49 UTC] PHP  11. WP_Hook->do_action($args = [0 => '']) E:\wamp64\www\test02\wp-includes\plugin.php:476
+[29-Jun-2022 09:20:49 UTC] PHP  12. WP_Hook->apply_filters($value = '', $args = [0 => '']) E:\wamp64\www\test02\wp-includes\class-wp-hook.php:331
+[29-Jun-2022 09:20:49 UTC] PHP  13. get_header_script('') E:\wamp64\www\test02\wp-includes\class-wp-hook.php:307
+[29-Jun-2022 09:20:49 UTC] PHP Warning:  Use of undefined constant THEME_URI - assumed 'THEME_URI' (this will throw an Error in a future version of PHP) in E:\wamp64\www\test02\wp-content\themes\silky-new\functions.php on line 72
+[29-Jun-2022 09:20:49 UTC] PHP Stack trace:
+[29-Jun-2022 09:20:49 UTC] PHP   1. {main}() E:\wamp64\www\test02\index.php:0
+[29-Jun-2022 09:20:49 UTC] PHP   2. require() E:\wamp64\www\test02\index.php:17
+[29-Jun-2022 09:20:49 UTC] PHP   3. require_once() E:\wamp64\www\test02\wp-blog-header.php:19
+[29-Jun-2022 09:20:49 UTC] PHP   4. include() E:\wamp64\www\test02\wp-includes\template-loader.php:106
+[29-Jun-2022 09:20:49 UTC] PHP   5. get_header($name = *uninitialized*, $args = *uninitialized*) E:\wamp64\www\test02\wp-content\themes\silky-new\404.php:11
+[29-Jun-2022 09:20:49 UTC] PHP   6. locate_template($template_names = [0 => 'header.php'], $load = TRUE, $require_once = TRUE, $args = []) E:\wamp64\www\test02\wp-includes\general-template.php:48
+[29-Jun-2022 09:20:49 UTC] PHP   7. load_template($_template_file = 'E:\\wamp64\\www\\test02/wp-content/themes/silky-new/header.php', $require_once = TRUE, $args = []) E:\wamp64\www\test02\wp-includes\template.php:716
+[29-Jun-2022 09:20:49 UTC] PHP   8. require_once() E:\wamp64\www\test02\wp-includes\template.php:770
+[29-Jun-2022 09:20:49 UTC] PHP   9. wp_head() E:\wamp64\www\test02\wp-content\themes\silky-new\header.php:28
+[29-Jun-2022 09:20:49 UTC] PHP  10. do_action($hook_name = 'wp_head') E:\wamp64\www\test02\wp-includes\general-template.php:3042
+[29-Jun-2022 09:20:49 UTC] PHP  11. WP_Hook->do_action($args = [0 => '']) E:\wamp64\www\test02\wp-includes\plugin.php:476
+[29-Jun-2022 09:20:49 UTC] PHP  12. WP_Hook->apply_filters($value = '', $args = [0 => '']) E:\wamp64\www\test02\wp-includes\class-wp-hook.php:331
+[29-Jun-2022 09:20:49 UTC] PHP Warning:  Use of undefined constant THEME_URI - assumed 'THEME_URI' (this will throw an Error in a future version of PHP) in E:\wamp64\www\test02\wp-content\themes\silky-new\functions.php on line 72
+[29-Jun-2022 09:20:49 UTC] PHP  13. get_header_script('') E:\wamp64\www\test02\wp-includes\class-wp-hook.php:307
+[29-Jun-2022 09:20:49 UTC] PHP Stack trace:
+[29-Jun-2022 09:20:49 UTC] PHP   1. {main}() E:\wamp64\www\test02\index.php:0
+[29-Jun-2022 09:20:49 UTC] PHP   2. require() E:\wamp64\www\test02\index.php:17
+[29-Jun-2022 09:20:49 UTC] PHP   3. require_once() E:\wamp64\www\test02\wp-blog-header.php:19
+[29-Jun-2022 09:20:49 UTC] PHP   4. include() E:\wamp64\www\test02\wp-includes\template-loader.php:106
+[29-Jun-2022 09:20:49 UTC] PHP   5. get_header($name = *uninitialized*, $args = *uninitialized*) E:\wamp64\www\test02\wp-content\themes\silky-new\404.php:11
+[29-Jun-2022 09:20:49 UTC] PHP   6. locate_template($template_names = [0 => 'header.php'], $load = TRUE, $require_once = TRUE, $args = []) E:\wamp64\www\test02\wp-includes\general-template.php:48
+[29-Jun-2022 09:20:49 UTC] PHP   7. load_template($_template_file = 'E:\\wamp64\\www\\test02/wp-content/themes/silky-new/header.php', $require_once = TRUE, $args = []) E:\wamp64\www\test02\wp-includes\template.php:716
+[29-Jun-2022 09:20:49 UTC] PHP Warning:  Use of undefined constant THEME_URI - assumed 'THEME_URI' (this will throw an Error in a future version of PHP) in E:\wamp64\www\test02\wp-content\themes\silky-new\functions.php on line 72
+[29-Jun-2022 09:20:49 UTC] PHP   8. require_once() E:\wamp64\www\test02\wp-includes\template.php:770
+[29-Jun-2022 09:20:49 UTC] PHP Stack trace:
+[29-Jun-2022 09:20:49 UTC] PHP   9. wp_head() E:\wamp64\www\test02\wp-content\themes\silky-new\header.php:28
+[29-Jun-2022 09:20:49 UTC] PHP   1. {main}() E:\wamp64\www\test02\index.php:0
+[29-Jun-2022 09:20:49 UTC] PHP  10. do_action($hook_name = 'wp_head') E:\wamp64\www\test02\wp-includes\general-template.php:3042
+[29-Jun-2022 09:20:49 UTC] PHP   2. require() E:\wamp64\www\test02\index.php:17
+[29-Jun-2022 09:20:49 UTC] PHP  11. WP_Hook->do_action($args = [0 => '']) E:\wamp64\www\test02\wp-includes\plugin.php:476
+[29-Jun-2022 09:20:49 UTC] PHP   3. require_once() E:\wamp64\www\test02\wp-blog-header.php:19
+[29-Jun-2022 09:20:49 UTC] PHP  12. WP_Hook->apply_filters($value = '', $args = [0 => '']) E:\wamp64\www\test02\wp-includes\class-wp-hook.php:331
+[29-Jun-2022 09:20:49 UTC] PHP   4. include() E:\wamp64\www\test02\wp-includes\template-loader.php:106
+[29-Jun-2022 09:20:49 UTC] PHP   5. get_header($name = *uninitialized*, $args = *uninitialized*) E:\wamp64\www\test02\wp-content\themes\silky-new\404.php:11
+[29-Jun-2022 09:20:49 UTC] PHP  13. get_header_script('') E:\wamp64\www\test02\wp-includes\class-wp-hook.php:307
+[29-Jun-2022 09:20:49 UTC] PHP   6. locate_template($template_names = [0 => 'header.php'], $load = TRUE, $require_once = TRUE, $args = []) E:\wamp64\www\test02\wp-includes\general-template.php:48
+[29-Jun-2022 09:20:49 UTC] PHP   7. load_template($_template_file = 'E:\\wamp64\\www\\test02/wp-content/themes/silky-new/header.php', $require_once = TRUE, $args = []) E:\wamp64\www\test02\wp-includes\template.php:716
+[29-Jun-2022 09:20:49 UTC] PHP   8. require_once() E:\wamp64\www\test02\wp-includes\template.php:770
+[29-Jun-2022 09:20:49 UTC] PHP   9. wp_head() E:\wamp64\www\test02\wp-content\themes\silky-new\header.php:28
+[29-Jun-2022 09:20:49 UTC] PHP  10. do_action($hook_name = 'wp_head') E:\wamp64\www\test02\wp-includes\general-template.php:3042
+[29-Jun-2022 09:20:49 UTC] PHP  11. WP_Hook->do_action($args = [0 => '']) E:\wamp64\www\test02\wp-includes\plugin.php:476
+[29-Jun-2022 09:20:49 UTC] PHP  12. WP_Hook->apply_filters($value = '', $args = [0 => '']) E:\wamp64\www\test02\wp-includes\class-wp-hook.php:331
+[29-Jun-2022 09:20:49 UTC] PHP  13. get_header_script('') E:\wamp64\www\test02\wp-includes\class-wp-hook.php:307
+[29-Jun-2022 09:50:21 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[29-Jun-2022 09:50:21 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[29-Jun-2022 09:50:21 UTC] WordPress database error Unknown character set: 'utf8bin' for query CREATE TABLE IF NOT EXISTS `wp_woof_query_cache` (
+                                                    `mkey` varchar(64) NOT NULL,
+                                                    `mvalue` text NOT NULL,
+                                                    KEY `mkey` (`mkey`)
+                                                  ) DEFAULT CHARACTER SET utf8bin made by do_action('woocommerce_page_wc-settings'), WP_Hook->do_action, WP_Hook->apply_filters, WC_Admin_Menus->settings_page, WC_Admin_Settings::output, include('/plugins/woocommerce/includes/admin/views/html-admin-settings.php'), do_action('woocommerce_settings_tabs_woof'), WP_Hook->do_action, WP_Hook->apply_filters, WOOF->print_plugin_options, WOOF->render_html, include('/plugins/woocommerce-products-filter/views/plugin_options.php')
+[29-Jun-2022 09:50:24 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[29-Jun-2022 09:50:24 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[29-Jun-2022 09:50:35 UTC] WordPress database error Unknown character set: 'utf8bin' for query CREATE TABLE IF NOT EXISTS `wp_woof_query_cache` (
+                                                    `mkey` varchar(64) NOT NULL,
+                                                    `mvalue` text NOT NULL,
+                                                    KEY `mkey` (`mkey`)
+                                                  ) DEFAULT CHARACTER SET utf8bin made by do_action('woocommerce_page_wc-settings'), WP_Hook->do_action, WP_Hook->apply_filters, WC_Admin_Menus->settings_page, WC_Admin_Settings::output, include('/plugins/woocommerce/includes/admin/views/html-admin-settings.php'), do_action('woocommerce_settings_tabs_woof'), WP_Hook->do_action, WP_Hook->apply_filters, WOOF->print_plugin_options, WOOF->render_html, include('/plugins/woocommerce-products-filter/views/plugin_options.php')
+[29-Jun-2022 09:50:39 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[29-Jun-2022 09:50:39 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[29-Jun-2022 10:11:49 UTC] PHP Warning:  filemtime(): stat failed for E:\wamp64\www\test02/wp-content/themes/silky-new/css/theme-bootstrap4.min.css in E:\wamp64\www\test02\wp-content\themes\silky-new\inc\enqueue.php on line 30
+[29-Jun-2022 10:11:49 UTC] PHP Stack trace:
+[29-Jun-2022 10:11:49 UTC] PHP   1. {main}() E:\wamp64\www\test02\index.php:0
+[29-Jun-2022 10:11:49 UTC] PHP   2. require() E:\wamp64\www\test02\index.php:17
+[29-Jun-2022 10:11:49 UTC] PHP   3. require_once() E:\wamp64\www\test02\wp-blog-header.php:19
+[29-Jun-2022 10:11:49 UTC] PHP   4. include() E:\wamp64\www\test02\wp-includes\template-loader.php:106
+[29-Jun-2022 10:11:49 UTC] PHP   5. get_header($name = *uninitialized*, $args = *uninitialized*) E:\wamp64\www\test02\wp-content\themes\silky-new\woocommerce\archive-product.php:20
+[29-Jun-2022 10:11:49 UTC] PHP   6. locate_template($template_names = [0 => 'header.php'], $load = TRUE, $require_once = TRUE, $args = []) E:\wamp64\www\test02\wp-includes\general-template.php:48
+[29-Jun-2022 10:11:49 UTC] PHP   7. load_template($_template_file = 'E:\\wamp64\\www\\test02/wp-content/themes/silky-new/header.php', $require_once = TRUE, $args = []) E:\wamp64\www\test02\wp-includes\template.php:716
+[29-Jun-2022 10:11:49 UTC] PHP   8. require_once() E:\wamp64\www\test02\wp-includes\template.php:770
+[29-Jun-2022 10:11:49 UTC] PHP   9. wp_head() E:\wamp64\www\test02\wp-content\themes\silky-new\header.php:28
+[29-Jun-2022 10:11:49 UTC] PHP  10. do_action($hook_name = 'wp_head') E:\wamp64\www\test02\wp-includes\general-template.php:3042
+[29-Jun-2022 10:11:49 UTC] PHP  11. WP_Hook->do_action($args = [0 => '']) E:\wamp64\www\test02\wp-includes\plugin.php:476
+[29-Jun-2022 10:11:49 UTC] PHP  12. WP_Hook->apply_filters($value = '', $args = [0 => '']) E:\wamp64\www\test02\wp-includes\class-wp-hook.php:331
+[29-Jun-2022 10:11:49 UTC] PHP  13. wp_enqueue_scripts('') E:\wamp64\www\test02\wp-includes\class-wp-hook.php:307
+[29-Jun-2022 10:11:49 UTC] PHP  14. do_action($hook_name = 'wp_enqueue_scripts') E:\wamp64\www\test02\wp-includes\script-loader.php:2156
+[29-Jun-2022 10:11:49 UTC] PHP  15. WP_Hook->do_action($args = [0 => '']) E:\wamp64\www\test02\wp-includes\plugin.php:476
+[29-Jun-2022 10:11:49 UTC] PHP  16. WP_Hook->apply_filters($value = '', $args = [0 => '']) E:\wamp64\www\test02\wp-includes\class-wp-hook.php:331
+[29-Jun-2022 10:11:49 UTC] PHP  17. understrap_scripts('') E:\wamp64\www\test02\wp-includes\class-wp-hook.php:307
+[29-Jun-2022 10:11:49 UTC] PHP  18. filemtime($filename = 'E:\\wamp64\\www\\test02/wp-content/themes/silky-new/css/theme-bootstrap4.min.css') E:\wamp64\www\test02\wp-content\themes\silky-new\inc\enqueue.php:30
+[29-Jun-2022 10:11:50 UTC] PHP Warning:  filemtime(): stat failed for E:\wamp64\www\test02/wp-content/themes/silky-new/css/theme-bootstrap4.min.css in E:\wamp64\www\test02\wp-content\themes\silky-new\inc\enqueue.php on line 30
+[29-Jun-2022 10:11:50 UTC] PHP Stack trace:
+[29-Jun-2022 10:11:50 UTC] PHP   1. {main}() E:\wamp64\www\test02\index.php:0
+[29-Jun-2022 10:11:50 UTC] PHP   2. require() E:\wamp64\www\test02\index.php:17
+[29-Jun-2022 10:11:50 UTC] PHP   3. require_once() E:\wamp64\www\test02\wp-blog-header.php:19
+[29-Jun-2022 10:11:50 UTC] PHP   4. include() E:\wamp64\www\test02\wp-includes\template-loader.php:106
+[29-Jun-2022 10:11:50 UTC] PHP   5. get_header($name = *uninitialized*, $args = *uninitialized*) E:\wamp64\www\test02\wp-content\themes\silky-new\404.php:11
+[29-Jun-2022 10:11:50 UTC] PHP   6. locate_template($template_names = [0 => 'header.php'], $load = TRUE, $require_once = TRUE, $args = []) E:\wamp64\www\test02\wp-includes\general-template.php:48
+[29-Jun-2022 10:11:50 UTC] PHP   7. load_template($_template_file = 'E:\\wamp64\\www\\test02/wp-content/themes/silky-new/header.php', $require_once = TRUE, $args = []) E:\wamp64\www\test02\wp-includes\template.php:716
+[29-Jun-2022 10:11:50 UTC] PHP   8. require_once() E:\wamp64\www\test02\wp-includes\template.php:770
+[29-Jun-2022 10:11:50 UTC] PHP   9. wp_head() E:\wamp64\www\test02\wp-content\themes\silky-new\header.php:28
+[29-Jun-2022 10:11:50 UTC] PHP  10. do_action($hook_name = 'wp_head') E:\wamp64\www\test02\wp-includes\general-template.php:3042
+[29-Jun-2022 10:11:50 UTC] PHP  11. WP_Hook->do_action($args = [0 => '']) E:\wamp64\www\test02\wp-includes\plugin.php:476
+[29-Jun-2022 10:11:50 UTC] PHP  12. WP_Hook->apply_filters($value = '', $args = [0 => '']) E:\wamp64\www\test02\wp-includes\class-wp-hook.php:331
+[29-Jun-2022 10:11:50 UTC] PHP  13. wp_enqueue_scripts('') E:\wamp64\www\test02\wp-includes\class-wp-hook.php:307
+[29-Jun-2022 10:11:50 UTC] PHP  14. do_action($hook_name = 'wp_enqueue_scripts') E:\wamp64\www\test02\wp-includes\script-loader.php:2156
+[29-Jun-2022 10:11:50 UTC] PHP  15. WP_Hook->do_action($args = [0 => '']) E:\wamp64\www\test02\wp-includes\plugin.php:476
+[29-Jun-2022 10:11:50 UTC] PHP  16. WP_Hook->apply_filters($value = '', $args = [0 => '']) E:\wamp64\www\test02\wp-includes\class-wp-hook.php:331
+[29-Jun-2022 10:11:50 UTC] PHP  17. understrap_scripts('') E:\wamp64\www\test02\wp-includes\class-wp-hook.php:307
+[29-Jun-2022 10:11:50 UTC] PHP  18. filemtime($filename = 'E:\\wamp64\\www\\test02/wp-content/themes/silky-new/css/theme-bootstrap4.min.css') E:\wamp64\www\test02\wp-content\themes\silky-new\inc\enqueue.php:30
+[29-Jun-2022 10:13:22 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[29-Jun-2022 10:13:22 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[29-Jun-2022 10:17:28 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[29-Jun-2022 10:17:28 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[29-Jun-2022 10:18:09 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[29-Jun-2022 10:18:09 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[29-Jun-2022 10:19:33 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[29-Jun-2022 10:19:33 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[29-Jun-2022 10:19:37 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[29-Jun-2022 10:19:37 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[29-Jun-2022 10:21:06 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[29-Jun-2022 10:21:06 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[29-Jun-2022 10:33:36 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting function (T_FUNCTION) or const (T_CONST) in E:\wamp64\www\test02\wp-content\plugins\woocommerce-products-filter\index.php on line 3416
+[29-Jun-2022 10:33:36 UTC] PHP Notice:  Function is_embed was called <strong>incorrectly</strong>. Conditional query tags do not work before the query is run. Before then, they always return false. Please see <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 3.1.0.) in E:\wamp64\www\test02\wp-includes\functions.php on line 5831
+[29-Jun-2022 10:33:36 UTC] PHP Stack trace:
+[29-Jun-2022 10:33:36 UTC] PHP   1. WP_Fatal_Error_Handler->handle() E:\wamp64\www\test02\wp-includes\class-wp-fatal-error-handler.php:0
+[29-Jun-2022 10:33:36 UTC] PHP   2. WP_Fatal_Error_Handler->display_error_template($error = ['type' => 4, 'message' => 'syntax error, unexpected \'echo\' (T_ECHO), expecting function (T_FUNCTION) or const (T_CONST)', 'file' => 'E:\\wamp64\\www\\test02\\wp-content\\plugins\\woocommerce-products-filter\\index.php', 'line' => 3416], $handled = class WP_Error { public $errors = ['non_protected_endpoint' => [...]]; public $error_data = []; protected $additional_data = [] }) E:\wamp64\www\test02\wp-includes\class-wp-fatal-error-handler.php:57
+[29-Jun-2022 10:33:36 UTC] PHP   3. WP_Fatal_Error_Handler->display_default_error_template($error = ['type' => 4, 'message' => 'syntax error, unexpected \'echo\' (T_ECHO), expecting function (T_FUNCTION) or const (T_CONST)', 'file' => 'E:\\wamp64\\www\\test02\\wp-content\\plugins\\woocommerce-products-filter\\index.php', 'line' => 3416], $handled = class WP_Error { public $errors = ['non_protected_endpoint' => [...]]; public $error_data = []; protected $additional_data = [] }) E:\wamp64\www\test02\wp-includes\class-wp-fatal-error-handler.php:153
+[29-Jun-2022 10:33:36 UTC] PHP   4. wp_die($message = class WP_Error { public $errors = ['internal_server_error' => [...]]; public $error_data = ['internal_server_error' => [...]]; protected $additional_data = [] }, $title = '', $args = ['response' => 500, 'exit' => FALSE]) E:\wamp64\www\test02\wp-includes\class-wp-fatal-error-handler.php:234
+[29-Jun-2022 10:33:36 UTC] PHP   5. _default_wp_die_handler($message = class WP_Error { public $errors = ['internal_server_error' => [...]]; public $error_data = ['internal_server_error' => [...]]; protected $additional_data = [] }, $title = '', $args = ['response' => 500, 'exit' => FALSE]) E:\wamp64\www\test02\wp-includes\functions.php:3713
+[29-Jun-2022 10:33:36 UTC] PHP   6. wp_robots() E:\wamp64\www\test02\wp-includes\functions.php:3789
+[29-Jun-2022 10:33:36 UTC] PHP   7. apply_filters($hook_name = 'wp_robots', $value = []) E:\wamp64\www\test02\wp-includes\robots-template.php:32
+[29-Jun-2022 10:33:36 UTC] PHP   8. WP_Hook->apply_filters($value = [], $args = [0 => []]) E:\wamp64\www\test02\wp-includes\plugin.php:191
+[29-Jun-2022 10:33:36 UTC] PHP   9. wp_robots_noindex_embeds($robots = ['noindex' => TRUE, 'nofollow' => TRUE]) E:\wamp64\www\test02\wp-includes\class-wp-hook.php:307
+[29-Jun-2022 10:33:36 UTC] PHP  10. is_embed() E:\wamp64\www\test02\wp-includes\robots-template.php:93
+[29-Jun-2022 10:33:36 UTC] PHP  11. _doing_it_wrong($function = 'is_embed', $message = 'Conditional query tags do not work before the query is run. Before then, they always return false.', $version = '3.1.0') E:\wamp64\www\test02\wp-includes\query.php:881
+[29-Jun-2022 10:33:36 UTC] PHP  12. trigger_error($message = 'Function is_embed was called <strong>incorrectly</strong>. Conditional query tags do not work before the query is run. Before then, they always return false. Please see <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 3.1.0.)', $error_type = 1024) E:\wamp64\www\test02\wp-includes\functions.php:5831
+[29-Jun-2022 10:33:36 UTC] PHP Notice:  Function is_search was called <strong>incorrectly</strong>. Conditional query tags do not work before the query is run. Before then, they always return false. Please see <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 3.1.0.) in E:\wamp64\www\test02\wp-includes\functions.php on line 5831
+[29-Jun-2022 10:33:36 UTC] PHP Stack trace:
+[29-Jun-2022 10:33:36 UTC] PHP   1. WP_Fatal_Error_Handler->handle() E:\wamp64\www\test02\wp-includes\class-wp-fatal-error-handler.php:0
+[29-Jun-2022 10:33:36 UTC] PHP   2. WP_Fatal_Error_Handler->display_error_template($error = ['type' => 4, 'message' => 'syntax error, unexpected \'echo\' (T_ECHO), expecting function (T_FUNCTION) or const (T_CONST)', 'file' => 'E:\\wamp64\\www\\test02\\wp-content\\plugins\\woocommerce-products-filter\\index.php', 'line' => 3416], $handled = class WP_Error { public $errors = ['non_protected_endpoint' => [...]]; public $error_data = []; protected $additional_data = [] }) E:\wamp64\www\test02\wp-includes\class-wp-fatal-error-handler.php:57
+[29-Jun-2022 10:33:36 UTC] PHP   3. WP_Fatal_Error_Handler->display_default_error_template($error = ['type' => 4, 'message' => 'syntax error, unexpected \'echo\' (T_ECHO), expecting function (T_FUNCTION) or const (T_CONST)', 'file' => 'E:\\wamp64\\www\\test02\\wp-content\\plugins\\woocommerce-products-filter\\index.php', 'line' => 3416], $handled = class WP_Error { public $errors = ['non_protected_endpoint' => [...]]; public $error_data = []; protected $additional_data = [] }) E:\wamp64\www\test02\wp-includes\class-wp-fatal-error-handler.php:153
+[29-Jun-2022 10:33:36 UTC] PHP   4. wp_die($message = class WP_Error { public $errors = ['internal_server_error' => [...]]; public $error_data = ['internal_server_error' => [...]]; protected $additional_data = [] }, $title = '', $args = ['response' => 500, 'exit' => FALSE]) E:\wamp64\www\test02\wp-includes\class-wp-fatal-error-handler.php:234
+[29-Jun-2022 10:33:36 UTC] PHP   5. _default_wp_die_handler($message = class WP_Error { public $errors = ['internal_server_error' => [...]]; public $error_data = ['internal_server_error' => [...]]; protected $additional_data = [] }, $title = '', $args = ['response' => 500, 'exit' => FALSE]) E:\wamp64\www\test02\wp-includes\functions.php:3713
+[29-Jun-2022 10:33:36 UTC] PHP   6. wp_robots() E:\wamp64\www\test02\wp-includes\functions.php:3789
+[29-Jun-2022 10:33:36 UTC] PHP   7. apply_filters($hook_name = 'wp_robots', $value = []) E:\wamp64\www\test02\wp-includes\robots-template.php:32
+[29-Jun-2022 10:33:36 UTC] PHP   8. WP_Hook->apply_filters($value = [], $args = [0 => []]) E:\wamp64\www\test02\wp-includes\plugin.php:191
+[29-Jun-2022 10:33:36 UTC] PHP   9. wp_robots_noindex_search($robots = ['noindex' => TRUE, 'nofollow' => TRUE]) E:\wamp64\www\test02\wp-includes\class-wp-hook.php:307
+[29-Jun-2022 10:33:36 UTC] PHP  10. is_search() E:\wamp64\www\test02\wp-includes\robots-template.php:119
+[29-Jun-2022 10:33:36 UTC] PHP  11. _doing_it_wrong($function = 'is_search', $message = 'Conditional query tags do not work before the query is run. Before then, they always return false.', $version = '3.1.0') E:\wamp64\www\test02\wp-includes\query.php:699
+[29-Jun-2022 10:33:36 UTC] PHP  12. trigger_error($message = 'Function is_search was called <strong>incorrectly</strong>. Conditional query tags do not work before the query is run. Before then, they always return false. Please see <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 3.1.0.)', $error_type = 1024) E:\wamp64\www\test02\wp-includes\functions.php:5831
+[29-Jun-2022 10:34:12 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting function (T_FUNCTION) or const (T_CONST) in E:\wamp64\www\test02\wp-content\plugins\woocommerce-products-filter\index.php on line 3416
+[29-Jun-2022 10:36:24 UTC] PHP Parse error:  syntax error, unexpected '(int)' (int) (T_INT_CAST) in E:\wamp64\www\test02\wp-content\plugins\woocommerce-products-filter\index.php on line 3472
+[29-Jun-2022 10:36:24 UTC] PHP Notice:  Function is_embed was called <strong>incorrectly</strong>. Conditional query tags do not work before the query is run. Before then, they always return false. Please see <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 3.1.0.) in E:\wamp64\www\test02\wp-includes\functions.php on line 5831
+[29-Jun-2022 10:36:24 UTC] PHP Stack trace:
+[29-Jun-2022 10:36:24 UTC] PHP   1. WP_Fatal_Error_Handler->handle() E:\wamp64\www\test02\wp-includes\class-wp-fatal-error-handler.php:0
+[29-Jun-2022 10:36:24 UTC] PHP   2. WP_Fatal_Error_Handler->display_error_template($error = ['type' => 4, 'message' => 'syntax error, unexpected \'(int)\' (int) (T_INT_CAST)', 'file' => 'E:\\wamp64\\www\\test02\\wp-content\\plugins\\woocommerce-products-filter\\index.php', 'line' => 3472], $handled = class WP_Error { public $errors = ['non_protected_endpoint' => [...]]; public $error_data = []; protected $additional_data = [] }) E:\wamp64\www\test02\wp-includes\class-wp-fatal-error-handler.php:57
+[29-Jun-2022 10:36:24 UTC] PHP   3. WP_Fatal_Error_Handler->display_default_error_template($error = ['type' => 4, 'message' => 'syntax error, unexpected \'(int)\' (int) (T_INT_CAST)', 'file' => 'E:\\wamp64\\www\\test02\\wp-content\\plugins\\woocommerce-products-filter\\index.php', 'line' => 3472], $handled = class WP_Error { public $errors = ['non_protected_endpoint' => [...]]; public $error_data = []; protected $additional_data = [] }) E:\wamp64\www\test02\wp-includes\class-wp-fatal-error-handler.php:153
+[29-Jun-2022 10:36:24 UTC] PHP   4. wp_die($message = class WP_Error { public $errors = ['internal_server_error' => [...]]; public $error_data = ['internal_server_error' => [...]]; protected $additional_data = [] }, $title = '', $args = ['response' => 500, 'exit' => FALSE]) E:\wamp64\www\test02\wp-includes\class-wp-fatal-error-handler.php:234
+[29-Jun-2022 10:36:24 UTC] PHP   5. _default_wp_die_handler($message = class WP_Error { public $errors = ['internal_server_error' => [...]]; public $error_data = ['internal_server_error' => [...]]; protected $additional_data = [] }, $title = '', $args = ['response' => 500, 'exit' => FALSE]) E:\wamp64\www\test02\wp-includes\functions.php:3713
+[29-Jun-2022 10:36:24 UTC] PHP   6. wp_robots() E:\wamp64\www\test02\wp-includes\functions.php:3789
+[29-Jun-2022 10:36:24 UTC] PHP   7. apply_filters($hook_name = 'wp_robots', $value = []) E:\wamp64\www\test02\wp-includes\robots-template.php:32
+[29-Jun-2022 10:36:24 UTC] PHP   8. WP_Hook->apply_filters($value = [], $args = [0 => []]) E:\wamp64\www\test02\wp-includes\plugin.php:191
+[29-Jun-2022 10:36:24 UTC] PHP   9. wp_robots_noindex_embeds($robots = ['noindex' => TRUE, 'nofollow' => TRUE]) E:\wamp64\www\test02\wp-includes\class-wp-hook.php:307
+[29-Jun-2022 10:36:24 UTC] PHP  10. is_embed() E:\wamp64\www\test02\wp-includes\robots-template.php:93
+[29-Jun-2022 10:36:24 UTC] PHP  11. _doing_it_wrong($function = 'is_embed', $message = 'Conditional query tags do not work before the query is run. Before then, they always return false.', $version = '3.1.0') E:\wamp64\www\test02\wp-includes\query.php:881
+[29-Jun-2022 10:36:24 UTC] PHP  12. trigger_error($message = 'Function is_embed was called <strong>incorrectly</strong>. Conditional query tags do not work before the query is run. Before then, they always return false. Please see <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 3.1.0.)', $error_type = 1024) E:\wamp64\www\test02\wp-includes\functions.php:5831
+[29-Jun-2022 10:36:24 UTC] PHP Notice:  Function is_search was called <strong>incorrectly</strong>. Conditional query tags do not work before the query is run. Before then, they always return false. Please see <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 3.1.0.) in E:\wamp64\www\test02\wp-includes\functions.php on line 5831
+[29-Jun-2022 10:36:24 UTC] PHP Stack trace:
+[29-Jun-2022 10:36:24 UTC] PHP   1. WP_Fatal_Error_Handler->handle() E:\wamp64\www\test02\wp-includes\class-wp-fatal-error-handler.php:0
+[29-Jun-2022 10:36:24 UTC] PHP   2. WP_Fatal_Error_Handler->display_error_template($error = ['type' => 4, 'message' => 'syntax error, unexpected \'(int)\' (int) (T_INT_CAST)', 'file' => 'E:\\wamp64\\www\\test02\\wp-content\\plugins\\woocommerce-products-filter\\index.php', 'line' => 3472], $handled = class WP_Error { public $errors = ['non_protected_endpoint' => [...]]; public $error_data = []; protected $additional_data = [] }) E:\wamp64\www\test02\wp-includes\class-wp-fatal-error-handler.php:57
+[29-Jun-2022 10:36:24 UTC] PHP   3. WP_Fatal_Error_Handler->display_default_error_template($error = ['type' => 4, 'message' => 'syntax error, unexpected \'(int)\' (int) (T_INT_CAST)', 'file' => 'E:\\wamp64\\www\\test02\\wp-content\\plugins\\woocommerce-products-filter\\index.php', 'line' => 3472], $handled = class WP_Error { public $errors = ['non_protected_endpoint' => [...]]; public $error_data = []; protected $additional_data = [] }) E:\wamp64\www\test02\wp-includes\class-wp-fatal-error-handler.php:153
+[29-Jun-2022 10:36:24 UTC] PHP   4. wp_die($message = class WP_Error { public $errors = ['internal_server_error' => [...]]; public $error_data = ['internal_server_error' => [...]]; protected $additional_data = [] }, $title = '', $args = ['response' => 500, 'exit' => FALSE]) E:\wamp64\www\test02\wp-includes\class-wp-fatal-error-handler.php:234
+[29-Jun-2022 10:36:24 UTC] PHP   5. _default_wp_die_handler($message = class WP_Error { public $errors = ['internal_server_error' => [...]]; public $error_data = ['internal_server_error' => [...]]; protected $additional_data = [] }, $title = '', $args = ['response' => 500, 'exit' => FALSE]) E:\wamp64\www\test02\wp-includes\functions.php:3713
+[29-Jun-2022 10:36:24 UTC] PHP   6. wp_robots() E:\wamp64\www\test02\wp-includes\functions.php:3789
+[29-Jun-2022 10:36:24 UTC] PHP   7. apply_filters($hook_name = 'wp_robots', $value = []) E:\wamp64\www\test02\wp-includes\robots-template.php:32
+[29-Jun-2022 10:36:24 UTC] PHP   8. WP_Hook->apply_filters($value = [], $args = [0 => []]) E:\wamp64\www\test02\wp-includes\plugin.php:191
+[29-Jun-2022 10:36:24 UTC] PHP   9. wp_robots_noindex_search($robots = ['noindex' => TRUE, 'nofollow' => TRUE]) E:\wamp64\www\test02\wp-includes\class-wp-hook.php:307
+[29-Jun-2022 10:36:24 UTC] PHP  10. is_search() E:\wamp64\www\test02\wp-includes\robots-template.php:119
+[29-Jun-2022 10:36:24 UTC] PHP  11. _doing_it_wrong($function = 'is_search', $message = 'Conditional query tags do not work before the query is run. Before then, they always return false.', $version = '3.1.0') E:\wamp64\www\test02\wp-includes\query.php:699
+[29-Jun-2022 10:36:24 UTC] PHP  12. trigger_error($message = 'Function is_search was called <strong>incorrectly</strong>. Conditional query tags do not work before the query is run. Before then, they always return false. Please see <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 3.1.0.)', $error_type = 1024) E:\wamp64\www\test02\wp-includes\functions.php:5831
+[29-Jun-2022 10:40:26 UTC] WordPress database error Unknown character set: 'utf8bin' for query CREATE TABLE IF NOT EXISTS `wp_woof_query_cache` (
+                                                    `mkey` varchar(64) NOT NULL,
+                                                    `mvalue` text NOT NULL,
+                                                    KEY `mkey` (`mkey`)
+                                                  ) DEFAULT CHARACTER SET utf8bin made by do_action('woocommerce_page_wc-settings'), WP_Hook->do_action, WP_Hook->apply_filters, WC_Admin_Menus->settings_page, WC_Admin_Settings::output, include('/plugins/woocommerce/includes/admin/views/html-admin-settings.php'), do_action('woocommerce_settings_tabs_woof'), WP_Hook->do_action, WP_Hook->apply_filters, WOOF->print_plugin_options, WOOF->render_html, include('/plugins/woocommerce-products-filter/views/plugin_options.php')
+[29-Jun-2022 10:40:26 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[29-Jun-2022 10:40:26 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[29-Jun-2022 10:40:29 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[29-Jun-2022 10:40:29 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[29-Jun-2022 10:40:49 UTC] WordPress database error Unknown character set: 'utf8bin' for query CREATE TABLE IF NOT EXISTS `wp_woof_query_cache` (
+                                                    `mkey` varchar(64) NOT NULL,
+                                                    `mvalue` text NOT NULL,
+                                                    KEY `mkey` (`mkey`)
+                                                  ) DEFAULT CHARACTER SET utf8bin made by do_action('woocommerce_page_wc-settings'), WP_Hook->do_action, WP_Hook->apply_filters, WC_Admin_Menus->settings_page, WC_Admin_Settings::output, include('/plugins/woocommerce/includes/admin/views/html-admin-settings.php'), do_action('woocommerce_settings_tabs_woof'), WP_Hook->do_action, WP_Hook->apply_filters, WOOF->print_plugin_options, WOOF->render_html, include('/plugins/woocommerce-products-filter/views/plugin_options.php')
+[29-Jun-2022 10:40:52 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[29-Jun-2022 10:40:52 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[29-Jun-2022 10:41:17 UTC] WordPress database error Unknown character set: 'utf8bin' for query CREATE TABLE IF NOT EXISTS `wp_woof_query_cache` (
+                                                    `mkey` varchar(64) NOT NULL,
+                                                    `mvalue` text NOT NULL,
+                                                    KEY `mkey` (`mkey`)
+                                                  ) DEFAULT CHARACTER SET utf8bin made by do_action('woocommerce_page_wc-settings'), WP_Hook->do_action, WP_Hook->apply_filters, WC_Admin_Menus->settings_page, WC_Admin_Settings::output, include('/plugins/woocommerce/includes/admin/views/html-admin-settings.php'), do_action('woocommerce_settings_tabs_woof'), WP_Hook->do_action, WP_Hook->apply_filters, WOOF->print_plugin_options, WOOF->render_html, include('/plugins/woocommerce-products-filter/views/plugin_options.php')
+[29-Jun-2022 10:41:21 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[29-Jun-2022 10:41:21 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[29-Jun-2022 10:41:47 UTC] WordPress database error Unknown character set: 'utf8bin' for query CREATE TABLE IF NOT EXISTS `wp_woof_query_cache` (
+                                                    `mkey` varchar(64) NOT NULL,
+                                                    `mvalue` text NOT NULL,
+                                                    KEY `mkey` (`mkey`)
+                                                  ) DEFAULT CHARACTER SET utf8bin made by do_action('woocommerce_page_wc-settings'), WP_Hook->do_action, WP_Hook->apply_filters, WC_Admin_Menus->settings_page, WC_Admin_Settings::output, include('/plugins/woocommerce/includes/admin/views/html-admin-settings.php'), do_action('woocommerce_settings_tabs_woof'), WP_Hook->do_action, WP_Hook->apply_filters, WOOF->print_plugin_options, WOOF->render_html, include('/plugins/woocommerce-products-filter/views/plugin_options.php')
+[29-Jun-2022 10:41:51 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[29-Jun-2022 10:41:51 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[29-Jun-2022 10:42:19 UTC] WordPress database error Unknown character set: 'utf8bin' for query CREATE TABLE IF NOT EXISTS `wp_woof_query_cache` (
+                                                    `mkey` varchar(64) NOT NULL,
+                                                    `mvalue` text NOT NULL,
+                                                    KEY `mkey` (`mkey`)
+                                                  ) DEFAULT CHARACTER SET utf8bin made by do_action('woocommerce_page_wc-settings'), WP_Hook->do_action, WP_Hook->apply_filters, WC_Admin_Menus->settings_page, WC_Admin_Settings::output, include('/plugins/woocommerce/includes/admin/views/html-admin-settings.php'), do_action('woocommerce_settings_tabs_woof'), WP_Hook->do_action, WP_Hook->apply_filters, WOOF->print_plugin_options, WOOF->render_html, include('/plugins/woocommerce-products-filter/views/plugin_options.php')
+[29-Jun-2022 10:42:22 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[29-Jun-2022 10:42:22 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[29-Jun-2022 10:42:27 UTC] WordPress database error Unknown character set: 'utf8bin' for query CREATE TABLE IF NOT EXISTS `wp_woof_query_cache` (
+                                                    `mkey` varchar(64) NOT NULL,
+                                                    `mvalue` text NOT NULL,
+                                                    KEY `mkey` (`mkey`)
+                                                  ) DEFAULT CHARACTER SET utf8bin made by do_action('woocommerce_page_wc-settings'), WP_Hook->do_action, WP_Hook->apply_filters, WC_Admin_Menus->settings_page, WC_Admin_Settings::output, include('/plugins/woocommerce/includes/admin/views/html-admin-settings.php'), do_action('woocommerce_settings_tabs_woof'), WP_Hook->do_action, WP_Hook->apply_filters, WOOF->print_plugin_options, WOOF->render_html, include('/plugins/woocommerce-products-filter/views/plugin_options.php')
+[29-Jun-2022 10:42:30 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[29-Jun-2022 10:42:30 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[29-Jun-2022 10:42:49 UTC] WordPress database error Unknown character set: 'utf8bin' for query CREATE TABLE IF NOT EXISTS `wp_woof_query_cache` (
+                                                    `mkey` varchar(64) NOT NULL,
+                                                    `mvalue` text NOT NULL,
+                                                    KEY `mkey` (`mkey`)
+                                                  ) DEFAULT CHARACTER SET utf8bin made by do_action('woocommerce_page_wc-settings'), WP_Hook->do_action, WP_Hook->apply_filters, WC_Admin_Menus->settings_page, WC_Admin_Settings::output, include('/plugins/woocommerce/includes/admin/views/html-admin-settings.php'), do_action('woocommerce_settings_tabs_woof'), WP_Hook->do_action, WP_Hook->apply_filters, WOOF->print_plugin_options, WOOF->render_html, include('/plugins/woocommerce-products-filter/views/plugin_options.php')
+[29-Jun-2022 10:42:53 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[29-Jun-2022 10:42:53 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[29-Jun-2022 10:44:12 UTC] WordPress database error Unknown character set: 'utf8bin' for query CREATE TABLE IF NOT EXISTS `wp_woof_query_cache` (
+                                                    `mkey` varchar(64) NOT NULL,
+                                                    `mvalue` text NOT NULL,
+                                                    KEY `mkey` (`mkey`)
+                                                  ) DEFAULT CHARACTER SET utf8bin made by do_action('woocommerce_page_wc-settings'), WP_Hook->do_action, WP_Hook->apply_filters, WC_Admin_Menus->settings_page, WC_Admin_Settings::output, include('/plugins/woocommerce/includes/admin/views/html-admin-settings.php'), do_action('woocommerce_settings_tabs_woof'), WP_Hook->do_action, WP_Hook->apply_filters, WOOF->print_plugin_options, WOOF->render_html, include('/plugins/woocommerce-products-filter/views/plugin_options.php')
+[29-Jun-2022 10:44:12 UTC] WordPress database error Unknown character set: 'utf8bin' for query CREATE TABLE IF NOT EXISTS `wp_woof_query_cache` (
+                                                    `mkey` varchar(64) NOT NULL,
+                                                    `mvalue` text NOT NULL,
+                                                    KEY `mkey` (`mkey`)
+                                                  ) DEFAULT CHARACTER SET utf8bin made by do_action('woocommerce_page_wc-settings'), WP_Hook->do_action, WP_Hook->apply_filters, WC_Admin_Menus->settings_page, WC_Admin_Settings::output, include('/plugins/woocommerce/includes/admin/views/html-admin-settings.php'), do_action('woocommerce_settings_tabs_woof'), WP_Hook->do_action, WP_Hook->apply_filters, WOOF->print_plugin_options, WOOF->render_html, include('/plugins/woocommerce-products-filter/views/plugin_options.php')
+[29-Jun-2022 10:44:17 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[29-Jun-2022 10:44:17 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[30-Jun-2022 13:20:29 UTC] WordPress database error Unknown character set: 'utf8bin' for query CREATE TABLE IF NOT EXISTS `wp_woof_query_cache` (
+                                                    `mkey` varchar(64) NOT NULL,
+                                                    `mvalue` text NOT NULL,
+                                                    KEY `mkey` (`mkey`)
+                                                  ) DEFAULT CHARACTER SET utf8bin made by do_action('woocommerce_page_wc-settings'), WP_Hook->do_action, WP_Hook->apply_filters, WC_Admin_Menus->settings_page, WC_Admin_Settings::output, include('/plugins/woocommerce/includes/admin/views/html-admin-settings.php'), do_action('woocommerce_settings_tabs_woof'), WP_Hook->do_action, WP_Hook->apply_filters, WOOF->print_plugin_options, WOOF->render_html, include('/plugins/woocommerce-products-filter/views/plugin_options.php')
+[30-Jun-2022 13:20:36 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[30-Jun-2022 13:20:36 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[30-Jun-2022 13:26:43 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[30-Jun-2022 13:26:43 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[30-Jun-2022 13:26:49 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[30-Jun-2022 13:26:49 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[30-Jun-2022 13:27:21 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[30-Jun-2022 13:27:21 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[30-Jun-2022 13:28:07 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[30-Jun-2022 13:28:07 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[30-Jun-2022 13:56:52 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[30-Jun-2022 13:56:52 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[30-Jun-2022 13:57:12 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[30-Jun-2022 13:57:12 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[30-Jun-2022 13:57:54 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[30-Jun-2022 13:57:54 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[30-Jun-2022 14:15:42 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[30-Jun-2022 14:15:42 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[30-Jun-2022 14:15:49 UTC] WordPress database error Unknown character set: 'utf8bin' for query CREATE TABLE IF NOT EXISTS `wp_woof_query_cache` (
+                                                    `mkey` varchar(64) NOT NULL,
+                                                    `mvalue` text NOT NULL,
+                                                    KEY `mkey` (`mkey`)
+                                                  ) DEFAULT CHARACTER SET utf8bin made by do_action('woocommerce_page_wc-settings'), WP_Hook->do_action, WP_Hook->apply_filters, WC_Admin_Menus->settings_page, WC_Admin_Settings::output, include('/plugins/woocommerce/includes/admin/views/html-admin-settings.php'), do_action('woocommerce_settings_tabs_woof'), WP_Hook->do_action, WP_Hook->apply_filters, WOOF->print_plugin_options, WOOF->render_html, include('/plugins/woocommerce-products-filter/views/plugin_options.php')
+[30-Jun-2022 14:15:50 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[30-Jun-2022 14:15:50 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[30-Jun-2022 14:15:52 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[30-Jun-2022 14:15:52 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[30-Jun-2022 14:17:06 UTC] WordPress database error Unknown character set: 'utf8bin' for query CREATE TABLE IF NOT EXISTS `wp_woof_query_cache` (
+                                                    `mkey` varchar(64) NOT NULL,
+                                                    `mvalue` text NOT NULL,
+                                                    KEY `mkey` (`mkey`)
+                                                  ) DEFAULT CHARACTER SET utf8bin made by do_action('woocommerce_page_wc-settings'), WP_Hook->do_action, WP_Hook->apply_filters, WC_Admin_Menus->settings_page, WC_Admin_Settings::output, include('/plugins/woocommerce/includes/admin/views/html-admin-settings.php'), do_action('woocommerce_settings_tabs_woof'), WP_Hook->do_action, WP_Hook->apply_filters, WOOF->print_plugin_options, WOOF->render_html, include('/plugins/woocommerce-products-filter/views/plugin_options.php')
+[30-Jun-2022 14:17:10 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[30-Jun-2022 14:17:10 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[30-Jun-2022 14:18:00 UTC] WordPress database error Unknown character set: 'utf8bin' for query CREATE TABLE IF NOT EXISTS `wp_woof_query_cache` (
+                                                    `mkey` varchar(64) NOT NULL,
+                                                    `mvalue` text NOT NULL,
+                                                    KEY `mkey` (`mkey`)
+                                                  ) DEFAULT CHARACTER SET utf8bin made by do_action('woocommerce_page_wc-settings'), WP_Hook->do_action, WP_Hook->apply_filters, WC_Admin_Menus->settings_page, WC_Admin_Settings::output, include('/plugins/woocommerce/includes/admin/views/html-admin-settings.php'), do_action('woocommerce_settings_tabs_woof'), WP_Hook->do_action, WP_Hook->apply_filters, WOOF->print_plugin_options, WOOF->render_html, include('/plugins/woocommerce-products-filter/views/plugin_options.php')
+[30-Jun-2022 14:18:04 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[30-Jun-2022 14:18:04 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[30-Jun-2022 14:18:30 UTC] WordPress database error Unknown character set: 'utf8bin' for query CREATE TABLE IF NOT EXISTS `wp_woof_query_cache` (
+                                                    `mkey` varchar(64) NOT NULL,
+                                                    `mvalue` text NOT NULL,
+                                                    KEY `mkey` (`mkey`)
+                                                  ) DEFAULT CHARACTER SET utf8bin made by do_action('woocommerce_page_wc-settings'), WP_Hook->do_action, WP_Hook->apply_filters, WC_Admin_Menus->settings_page, WC_Admin_Settings::output, include('/plugins/woocommerce/includes/admin/views/html-admin-settings.php'), do_action('woocommerce_settings_tabs_woof'), WP_Hook->do_action, WP_Hook->apply_filters, WOOF->print_plugin_options, WOOF->render_html, include('/plugins/woocommerce-products-filter/views/plugin_options.php')
+[30-Jun-2022 14:18:34 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[30-Jun-2022 14:18:34 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[30-Jun-2022 14:19:34 UTC] WordPress database error Unknown character set: 'utf8bin' for query CREATE TABLE IF NOT EXISTS `wp_woof_query_cache` (
+                                                    `mkey` varchar(64) NOT NULL,
+                                                    `mvalue` text NOT NULL,
+                                                    KEY `mkey` (`mkey`)
+                                                  ) DEFAULT CHARACTER SET utf8bin made by do_action('woocommerce_page_wc-settings'), WP_Hook->do_action, WP_Hook->apply_filters, WC_Admin_Menus->settings_page, WC_Admin_Settings::output, include('/plugins/woocommerce/includes/admin/views/html-admin-settings.php'), do_action('woocommerce_settings_tabs_woof'), WP_Hook->do_action, WP_Hook->apply_filters, WOOF->print_plugin_options, WOOF->render_html, include('/plugins/woocommerce-products-filter/views/plugin_options.php')
+[30-Jun-2022 14:19:38 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[30-Jun-2022 14:19:38 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.

@@ -1,0 +1,142 @@
+.site-footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  z-index: 1199;
+
+  &.other {
+    position: relative;
+  }
+
+  .site-info {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    padding: 40px 65px;
+
+    .policy {
+      width: 75%;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      list-style-type: none;
+
+      li {
+        margin-right: 50pt;
+        font-family: hkgL,sans-serif;
+
+        &:last-child {
+          margin-right: 0;
+        }
+
+        a {
+          color: #000;
+          @include letter-spa;
+        }
+      }
+    }
+
+    .copyright {
+      width: 25%;
+      text-align: right;
+      @include letter-spa;
+    }
+  }
+}
+
+#social-fixed {
+  position: fixed;
+  right: 0;
+  bottom: 115px;
+  max-width: 40px;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  z-index: 1205;
+
+  li {
+    position: relative;
+    height: 40px;
+    width: 40px;
+
+    a {
+      width: 40px;
+      height: 40px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: #000;
+      border: 1px solid #000;
+      position: absolute;
+      top: 0;
+      left: 0;
+
+      img {
+        max-width: 25px;
+      }
+
+      &.hover {
+        background: #fff;
+        opacity: 0;
+        z-index: -1;
+      }
+      // &:hover {
+      //   background: #fff;
+      //
+      //   img {
+      //     path {
+      //       fill: #000;
+      //     }
+      //   }
+      // }
+    }
+
+    &.social-fixed-other {
+      margin-top: 50px;
+
+      a {
+        background: #fff;
+        border: 1px solid #000;
+
+        &:hover {
+          background: #000;
+        }
+      }
+    }
+
+    &:hover {
+      a {
+        opacity: 0;
+        z-index: -1;
+
+        &.hover {
+          opacity: 1;
+          z-index: 1;
+        }
+
+        &.social-fixed-other {
+          a {
+            background: #fff;
+            border: 1px solid #000;
+
+            &:hover {
+              background: #000;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.fb_dialog_advanced,
+.fb_dialog_mobile {
+  iframe {
+    right: 0 !important;
+    margin: 0 !important;
+    z-index: 999999999999999999999999;
+  }
+}

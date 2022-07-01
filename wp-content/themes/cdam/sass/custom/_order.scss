@@ -1,0 +1,209 @@
+#thankyou {
+  .woocommerce-thankyou-order-received {
+    text-align: center;
+    font-family: hkgL, sans-serif;
+    font-size: 1rem;
+  }
+
+  .woocommerce-order-overview {
+    list-style: none;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 0;
+    margin: 0 0 50px;
+
+    li {
+      flex: auto;
+      padding: 4px 30px;
+      border-right: 1px solid #000;
+      text-transform: uppercase;
+      font-size: 0.75rem;
+
+      strong {
+        display: block;
+        width: 100%;
+        margin-top: 5px;
+      }
+
+      &:first-child {
+        padding: 4px 30px 4px 0;
+        text-align: left;
+      }
+
+      &:last-child {
+        border-right: 0;
+        padding: 4px 0 4px 30px;
+        text-align: right;
+      }
+    }
+  }
+
+  .woocommerce-bacs-bank-details {
+    margin-bottom: 50px;
+
+    .wc-bacs-bank-details-heading {
+      font-family: hkgL, sans-serif;
+      font-size: 1rem;
+    }
+  }
+
+  .woocommerce-order-details {
+    margin-bottom: 50px;
+
+    .woocommerce-order-details__title {
+      font-family: hkgL, sans-serif;
+      font-size: 1rem;
+    }
+
+    table {
+      font-size: 0.75rem;
+      border-collapse: collapse;
+
+      &.order_details {
+        thead {
+          display: none;
+        }
+
+        tr {
+          td {
+            padding-top: 10px;
+            padding-bottom: 10px;
+
+            &:nth-child(1) {
+              font-size: 0.75rem;
+              font-family: hkgL, sans-serif;
+            }
+
+            &:nth-child(2) {
+              font-size: 0.75rem;
+              text-align: right;
+              font-family: hkgSB, sans-serif;
+            }
+          }
+        }
+
+        tfoot {
+          tr {
+            &:last-child {
+              font-size: 1rem;
+              border-top: 1px dashed #000;
+              margin-top: 20px;
+
+              th {
+                font-family: hkgSB, sans-serif;
+                font-size: 1rem;
+                text-transform: uppercase;
+              }
+
+              td {
+                &:nth-child(1) {
+                  text-transform: uppercase;
+                }
+
+                &:nth-child(2) {
+                  font-family: hkgSB, sans-serif;
+                  font-size: 1rem;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .woocommerce-customer-details {
+    .addresses {
+      & > div {
+        padding: 20px 35px !important;
+
+        .woocommerce-column__title {
+          font-size: 0.75rem;
+          font-family: hkgSB, sans-serif;
+        }
+
+        address {
+          font-family: hkgL, sans-serif;
+          font-style: normal;
+          font-size: 0.75rem;
+        }
+      }
+    }
+  }
+}
+
+.woocommerce-order-details {
+  margin-bottom: 10px;
+
+  .woocommerce-order-details__title {
+    font-family: hkgL, sans-serif;
+    font-size: 1rem;
+  }
+
+  table {
+    font-size: 0.75rem;
+    border-collapse: collapse;
+
+    &.order_details {
+      thead {
+        display: none;
+      }
+
+      tr {
+        td {
+          padding-top: 10px;
+          padding-bottom: 10px;
+
+          &:nth-child(1) {
+            font-size: 0.75rem;
+            font-family: hkgL, sans-serif;
+          }
+
+          &:nth-child(2) {
+            font-size: 0.75rem;
+            text-align: right;
+            font-family: hkgSB, sans-serif;
+          }
+        }
+      }
+
+      tfoot {
+        tr {
+          &:last-child {
+            font-size: 1rem;
+            border-top: 1px dashed #000;
+            margin-top: 20px;
+
+            th {
+              font-family: hkgSB, sans-serif;
+              font-size: 1rem;
+              text-transform: uppercase;
+            }
+
+            td {
+              &:nth-child(1) {
+                text-transform: uppercase;
+              }
+
+              &:nth-child(2) {
+                font-family: hkgSB, sans-serif;
+                font-size: 1rem;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.woocommerce-OrderUpdates {
+  padding: 0;
+  margin: 0 0 1em 1em;
+}
+
+mark {
+  background: transparent !important;
+}

@@ -1,0 +1,26 @@
+2022-06-15T04:44:27+00:00 CRITICAL Uncaught Error: Call to undefined function sget_permalink() in C:\xampp\htdocs\test01\wp-content\themes\understrap\loop-templates\content.php:18
+Stack trace:
+#0 C:\xampp\htdocs\test01\wp-includes\template.php(772): require()
+#1 C:\xampp\htdocs\test01\wp-includes\template.php(716): load_template('C:\\xampp\\htdocs...', false, Array)
+#2 C:\xampp\htdocs\test01\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#3 C:\xampp\htdocs\test01\wp-content\themes\understrap\index.php(48): get_template_part('loop-templates/...', '')
+#4 C:\xampp\htdocs\test01\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\test01\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\test01\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\test01\wp-content\themes\understrap\loop-templates\content.php on line 18
+
+2022-06-15T04:45:06+00:00 CRITICAL Uncaught Error: Call to undefined function sget_permalink() in C:\xampp\htdocs\test01\wp-content\themes\understrap\loop-templates\content.php:18
+Stack trace:
+#0 C:\xampp\htdocs\test01\wp-includes\template.php(772): require()
+#1 C:\xampp\htdocs\test01\wp-includes\template.php(716): load_template('C:\\xampp\\htdocs...', false, Array)
+#2 C:\xampp\htdocs\test01\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#3 C:\xampp\htdocs\test01\wp-content\themes\understrap\index.php(48): get_template_part('loop-templates/...', '')
+#4 C:\xampp\htdocs\test01\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\test01\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\test01\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\test01\wp-content\themes\understrap\loop-templates\content.php on line 18
+
+2022-06-15T04:58:54+00:00 CRITICAL syntax error, unexpected token "<", expecting end of file in C:\xampp\htdocs\test01\wp-content\themes\SilkyVN\page-product.php on line 318
+

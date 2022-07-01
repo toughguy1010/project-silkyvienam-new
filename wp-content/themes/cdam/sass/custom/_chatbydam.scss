@@ -1,0 +1,74 @@
+.page-template-custom {
+  &:after {
+    content: "";
+    width: 50%;
+    height: 100%;
+    background: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+}
+
+.page-template-contact {
+  .wrap-content {
+    input,
+    textarea {
+      background: transparent !important;
+    }
+
+    .wpforms-submit {
+      background: transparent !important;
+
+      &:hover {}
+    }
+  }
+
+  &:after {
+    content: "";
+    width: 42%;
+    height: 100%;
+    background: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+}
+
+.woocommerce-account {
+  &:after {
+    content: "";
+    width: 23%;
+    height: 100%;
+    background: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+}
+
+.page-template-cart {
+  background: #fff;
+}
+
+.woocommerce-checkout {
+  background: #fff;
+}
+
+.search-results {
+  background: #fff;
+}
+
+.page-template-singin,
+.page-template-singup {
+  a,
+  button,
+  input,
+  textarea,
+  select {
+    background: transparent !important;
+  }
+}

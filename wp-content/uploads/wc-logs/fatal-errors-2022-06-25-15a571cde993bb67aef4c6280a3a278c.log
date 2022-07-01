@@ -1,0 +1,111 @@
+2022-06-25T04:07:33+00:00 CRITICAL Uncaught Error: Call to a member function is_sold_individually() on array in C:\xampp\htdocs\test02\wp-content\plugins\side-cart-woocommerce\includes\class-xoo-wsc-template-args.php:127
+Stack trace:
+#0 C:\xampp\htdocs\test02\wp-content\plugins\side-cart-woocommerce\templates\xoo-wsc-body.php(112): Xoo_Wsc_Template_Args::product(Array, '7fd75ec71d1e494...', Array)
+#1 C:\xampp\htdocs\test02\wp-content\plugins\side-cart-woocommerce\includes\xoo-framework\class-xoo-helper.php(57): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\test02\wp-content\themes\understrap-silkyvn\xoo-wsc-container.php(68): Xoo_Helper->get_template('xoo-wsc-body.ph...')
+#3 C:\xampp\htdocs\test02\wp-content\plugins\side-cart-woocommerce\includes\xoo-framework\class-xoo-helper.php(57): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\test02\wp-content\plugins\side-cart-woocommerce\templates\xoo-wsc-markup.php(24): Xoo_Helper->get_template('xoo-wsc-contain...')
+#5 C:\xampp\htdocs\test02\wp-content\plugins\side-cart-woocommerce\includes\xoo-framework\class-xoo-helper.php(57): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\test02\wp-content\plugins\side-cart-woocommerce\includes\class-xoo-wsc-frontend.php(109): Xoo_Helper->get_template('xoo-wsc-markup....')
+#7 C:\xampp\htdocs\test02\wp-includes\class-wp-hook.php(307): Xoo_Wsc_Frontend->cart_markup('')
+#8 C:\xampp\htdocs\test02\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#9 C:\xampp\htdocs\test02\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#10 C:\xampp\htdocs\test02\wp-includes\general-template.php(3058): do_action('wp_footer')
+#11 C:\xampp\htdocs\test02\wp-content\themes\understrap-silkyvn\footer.php(73): wp_footer()
+#12 C:\xampp\htdocs\test02\wp-includes\template.php(770): require_once('C:\\xampp\\htdocs...')
+#13 C:\xampp\htdocs\test02\wp-includes\template.php(716): load_template('C:\\xampp\\htdocs...', true, Array)
+#14 C:\xampp\htdocs\test02\wp-includes\general-template.php(92): locate_template(Array, true, true, Array)
+#15 C:\xampp\htdocs\test02\wp-content\themes\understrap-silkyvn\woocommerce\archive-product.php(91): get_footer()
+#16 C:\xampp\htdocs\test02\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('C:\\xampp\\htdocs...')
+#17 C:\xampp\htdocs\test02\wp-content\plugins\woocommerce\templates\taxonomy-product-cat.php(22): wc_get_template('archive-product...')
+#18 C:\xampp\htdocs\test02\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#19 C:\xampp\htdocs\test02\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#20 C:\xampp\htdocs\test02\index.php(17): require('C:\\xampp\\htdocs...')
+#21 {main}
+  thrown in C:\xampp\htdocs\test02\wp-content\plugins\side-cart-woocommerce\includes\class-xoo-wsc-template-args.php on line 127
+
+2022-06-25T04:14:50+00:00 CRITICAL Uncaught Error: Call to a member function get_price() on null in C:\xampp\htdocs\test02\wp-content\plugins\side-cart-woocommerce\templates\global\body\product.php:76
+Stack trace:
+#0 C:\xampp\htdocs\test02\wp-content\plugins\side-cart-woocommerce\includes\xoo-framework\class-xoo-helper.php(57): include()
+#1 C:\xampp\htdocs\test02\wp-content\plugins\side-cart-woocommerce\templates\xoo-wsc-body.php(113): Xoo_Helper->get_template('global/body/pro...', Array)
+#2 C:\xampp\htdocs\test02\wp-content\plugins\side-cart-woocommerce\includes\xoo-framework\class-xoo-helper.php(57): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\test02\wp-content\themes\understrap-silkyvn\xoo-wsc-container.php(68): Xoo_Helper->get_template('xoo-wsc-body.ph...')
+#4 C:\xampp\htdocs\test02\wp-content\plugins\side-cart-woocommerce\includes\xoo-framework\class-xoo-helper.php(57): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\test02\wp-content\plugins\side-cart-woocommerce\templates\xoo-wsc-markup.php(24): Xoo_Helper->get_template('xoo-wsc-contain...')
+#6 C:\xampp\htdocs\test02\wp-content\plugins\side-cart-woocommerce\includes\xoo-framework\class-xoo-helper.php(57): include('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\test02\wp-content\plugins\side-cart-woocommerce\includes\class-xoo-wsc-frontend.php(109): Xoo_Helper->get_template('xoo-wsc-markup....')
+#8 C:\xampp\htdocs\test02\wp-includes\class-wp-hook.php(307): Xoo_Wsc_Frontend->cart_markup('')
+#9 C:\xampp\htdocs\test02\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#10 C:\xampp\htdocs\test02\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#11 C:\xampp\htdocs\test02\wp-includes\general-template.php(3058): do_action('wp_footer')
+#12 C:\xampp\htdocs\test02\wp-content\themes\understrap-silkyvn\footer.php(73): wp_footer()
+#13 C:\xampp\htdocs\test02\wp-includes\template.php(770): require_once('C:\\xampp\\htdocs...')
+#14 C:\xampp\htdocs\test02\wp-includes\template.php(716): load_template('C:\\xampp\\htdocs...', true, Array)
+#15 C:\xampp\htdocs\test02\wp-includes\general-template.php(92): locate_template(Array, true, true, Array)
+#16 C:\xampp\htdocs\test02\wp-content\themes\understrap-silkyvn\woocommerce\archive-product.php(91): get_footer()
+#17 C:\xampp\htdocs\test02\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('C:\\xampp\\htdocs...')
+#18 C:\xampp\htdocs\test02\wp-content\plugins\woocommerce\templates\taxonomy-product-cat.php(22): wc_get_template('archive-product...')
+#19 C:\xampp\htdocs\test02\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#20 C:\xampp\htdocs\test02\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#21 C:\xampp\htdocs\test02\index.php(17): require('C:\\xampp\\htdocs...')
+#22 {main}
+  thrown in C:\xampp\htdocs\test02\wp-content\plugins\side-cart-woocommerce\templates\global\body\product.php on line 76
+
+2022-06-25T11:30:25+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "woocommerce_before_add_to_cart_button" not found or invalid function name in C:\xampp\htdocs\test02\wp-includes\class-wp-hook.php:307
+Stack trace:
+#0 C:\xampp\htdocs\test02\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#1 C:\xampp\htdocs\test02\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\test02\wp-content\themes\understrap-silkyvn\woocommerce\content-single-product.php(72): do_action('woocommerce_aft...')
+#3 C:\xampp\htdocs\test02\wp-includes\template.php(772): require('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\test02\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('C:\\xampp\\htdocs...', false)
+#5 C:\xampp\htdocs\test02\wp-content\plugins\woocommerce\templates\single-product.php(38): wc_get_template_part('content', 'single-product')
+#6 C:\xampp\htdocs\test02\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\test02\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\test02\index.php(17): require('C:\\xampp\\htdocs...')
+#9 {main}
+  thrown in C:\xampp\htdocs\test02\wp-includes\class-wp-hook.php on line 307
+
+2022-06-25T11:31:26+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function add_action(), 1 passed in C:\xampp\htdocs\test02\wp-content\themes\understrap-silkyvn\woocommerce\content-single-product.php on line 73 and at least 2 expected in C:\xampp\htdocs\test02\wp-includes\plugin.php:400
+Stack trace:
+#0 C:\xampp\htdocs\test02\wp-content\themes\understrap-silkyvn\woocommerce\content-single-product.php(73): add_action('woocommerce_bef...')
+#1 C:\xampp\htdocs\test02\wp-includes\template.php(772): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\test02\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('C:\\xampp\\htdocs...', false)
+#3 C:\xampp\htdocs\test02\wp-content\plugins\woocommerce\templates\single-product.php(38): wc_get_template_part('content', 'single-product')
+#4 C:\xampp\htdocs\test02\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\test02\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\test02\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\test02\wp-includes\plugin.php on line 400
+
+2022-06-25T11:41:56+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "woocommerce_before_add_to_cart_button" not found or invalid function name in C:\xampp\htdocs\test02\wp-includes\class-wp-hook.php:307
+Stack trace:
+#0 C:\xampp\htdocs\test02\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#1 C:\xampp\htdocs\test02\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\test02\wp-content\themes\understrap-silkyvn\woocommerce\content-single-product.php(72): do_action('woocommerce_aft...')
+#3 C:\xampp\htdocs\test02\wp-includes\template.php(772): require('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\test02\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('C:\\xampp\\htdocs...', false)
+#5 C:\xampp\htdocs\test02\wp-content\plugins\woocommerce\templates\single-product.php(38): wc_get_template_part('content', 'single-product')
+#6 C:\xampp\htdocs\test02\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\test02\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\test02\index.php(17): require('C:\\xampp\\htdocs...')
+#9 {main}
+  thrown in C:\xampp\htdocs\test02\wp-includes\class-wp-hook.php on line 307
+
+2022-06-25T11:45:22+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "woocommerce_before_add_to_cart_button" not found or invalid function name in C:\xampp\htdocs\test02\wp-includes\class-wp-hook.php:307
+Stack trace:
+#0 C:\xampp\htdocs\test02\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#1 C:\xampp\htdocs\test02\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\test02\wp-content\themes\understrap-silkyvn\woocommerce\content-single-product.php(72): do_action('woocommerce_aft...')
+#3 C:\xampp\htdocs\test02\wp-includes\template.php(772): require('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\test02\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('C:\\xampp\\htdocs...', false)
+#5 C:\xampp\htdocs\test02\wp-content\plugins\woocommerce\templates\single-product.php(38): wc_get_template_part('content', 'single-product')
+#6 C:\xampp\htdocs\test02\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\test02\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\test02\index.php(17): require('C:\\xampp\\htdocs...')
+#9 {main}
+  thrown in C:\xampp\htdocs\test02\wp-includes\class-wp-hook.php on line 307
+
+2022-06-25T11:52:53+00:00 CRITICAL Cannot redeclare output_btn() (previously declared in C:\xampp\htdocs\test02\wp-content\themes\understrap-silkyvn\functions.php:178) in C:\xampp\htdocs\test02\wp-content\themes\understrap-silkyvn\woocommerce\content-single-product.php on line 74
+
+2022-06-25T12:01:57+00:00 CRITICAL Cannot redeclare woocommerce_single_variation_add_to_cart_button() (previously declared in C:\xampp\htdocs\test02\wp-content\plugins\woocommerce\includes\wc-template-functions.php:3043) in C:\xampp\htdocs\test02\wp-content\themes\understrap-silkyvn\woocommerce\content-single-product.php on line 76
+

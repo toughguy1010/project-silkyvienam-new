@@ -1,0 +1,11 @@
+@mixin tranx($time:0.5s) {
+  transition: $time;
+  -moz-transition: $time;
+  -webkit-transition: $time;
+}
+
+@mixin orde($number:1) {
+  order: $number;
+  -moz-order: $number;
+  -webkit-order: $number;
+}
