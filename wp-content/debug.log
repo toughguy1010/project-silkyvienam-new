@@ -614,3 +614,84 @@
                                                   ) DEFAULT CHARACTER SET utf8bin made by do_action('woocommerce_page_wc-settings'), WP_Hook->do_action, WP_Hook->apply_filters, WC_Admin_Menus->settings_page, WC_Admin_Settings::output, include('/plugins/woocommerce/includes/admin/views/html-admin-settings.php'), do_action('woocommerce_settings_tabs_woof'), WP_Hook->do_action, WP_Hook->apply_filters, WOOF->print_plugin_options, WOOF->render_html, include('/plugins/woocommerce-products-filter/views/plugin_options.php')
 [30-Jun-2022 14:19:38 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
 [30-Jun-2022 14:19:38 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[01-Jul-2022 04:06:22 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2019] Unknown character set in E:\wamp64\www\test02\wp-content\plugins\mailpoet\vendor-prefixed\doctrine\dbal\lib\Doctrine\DBAL\Driver\PDOConnection.php:20
+Stack trace:
+#0 E:\wamp64\www\test02\wp-content\plugins\mailpoet\vendor-prefixed\doctrine\dbal\lib\Doctrine\DBAL\Driver\PDOConnection.php(20): PDO->__construct('mysql:host=loca...', 'root', '', Array)
+#1 E:\wamp64\www\test02\wp-content\plugins\mailpoet\vendor-prefixed\doctrine\dbal\lib\Doctrine\DBAL\Driver\PDOMySql\Driver.php(14): MailPoetVendor\Doctrine\DBAL\Driver\PDOConnection->__construct('mysql:host=loca...', 'root', '', Array)
+#2 E:\wamp64\www\test02\wp-content\plugins\mailpoet\vendor-prefixed\doctrine\dbal\lib\Doctrine\DBAL\Connection.php(149): MailPoetVendor\Doctrine\DBAL\Driver\PDOMySql\Driver->connect(Array, 'root', '', Array)
+#3 E:\wamp64\www\test02\wp-content\plugins\mailpoet\vendor-prefixed\doctrine\dbal\lib\Doctrine\DBAL\Connection.php(806): MailPoetVendor\Doctrine\DBAL\Connection->connect()
+#4 E:\wamp6 in E:\wamp64\www\test02\wp-content\plugins\mailpoet\vendor-prefixed\doctrine\dbal\lib\Doctrine\DBAL\Driver\AbstractMySQLDriver.php on line 102
+[01-Jul-2022 04:06:32 UTC] WordPress database error Unknown character set: 'utf8bin' for query CREATE TABLE IF NOT EXISTS `wp_woof_query_cache` (
+                                                    `mkey` varchar(64) NOT NULL,
+                                                    `mvalue` text NOT NULL,
+                                                    KEY `mkey` (`mkey`)
+                                                  ) DEFAULT CHARACTER SET utf8bin made by do_action('woocommerce_page_wc-settings'), WP_Hook->do_action, WP_Hook->apply_filters, WC_Admin_Menus->settings_page, WC_Admin_Settings::output, include('/plugins/woocommerce/includes/admin/views/html-admin-settings.php'), do_action('woocommerce_settings_tabs_woof'), WP_Hook->do_action, WP_Hook->apply_filters, WOOF->print_plugin_options, WOOF->render_html, include('/plugins/woocommerce-products-filter/views/plugin_options.php')
+[01-Jul-2022 04:06:32 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[01-Jul-2022 04:06:32 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[01-Jul-2022 04:06:35 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[01-Jul-2022 04:06:35 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[01-Jul-2022 04:06:44 UTC] WordPress database error Unknown character set: 'utf8bin' for query CREATE TABLE IF NOT EXISTS `wp_woof_query_cache` (
+                                                    `mkey` varchar(64) NOT NULL,
+                                                    `mvalue` text NOT NULL,
+                                                    KEY `mkey` (`mkey`)
+                                                  ) DEFAULT CHARACTER SET utf8bin made by do_action('woocommerce_page_wc-settings'), WP_Hook->do_action, WP_Hook->apply_filters, WC_Admin_Menus->settings_page, WC_Admin_Settings::output, include('/plugins/woocommerce/includes/admin/views/html-admin-settings.php'), do_action('woocommerce_settings_tabs_woof'), WP_Hook->do_action, WP_Hook->apply_filters, WOOF->print_plugin_options, WOOF->render_html, include('/plugins/woocommerce-products-filter/views/plugin_options.php')
+[01-Jul-2022 04:06:48 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[01-Jul-2022 04:06:48 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[01-Jul-2022 07:10:40 UTC] WordPress database error Unknown character set: 'utf8bin' for query CREATE TABLE IF NOT EXISTS `wp_woof_query_cache` (
+                                                    `mkey` varchar(64) NOT NULL,
+                                                    `mvalue` text NOT NULL,
+                                                    KEY `mkey` (`mkey`)
+                                                  ) DEFAULT CHARACTER SET utf8bin made by do_action('woocommerce_page_wc-settings'), WP_Hook->do_action, WP_Hook->apply_filters, WC_Admin_Menus->settings_page, WC_Admin_Settings::output, include('/plugins/woocommerce/includes/admin/views/html-admin-settings.php'), do_action('woocommerce_settings_tabs_woof'), WP_Hook->do_action, WP_Hook->apply_filters, WOOF->print_plugin_options, WOOF->render_html, include('/plugins/woocommerce-products-filter/views/plugin_options.php')
+[01-Jul-2022 08:06:05 UTC] PHP Parse error:  syntax error, unexpected '$this' (T_VARIABLE) in E:\wamp64\www\test02\wp-content\plugins\woocommerce-breadcrumbs\woocommerce-breadcrumbs.php on line 26
+[01-Jul-2022 08:06:05 UTC] PHP Notice:  Function is_embed was called <strong>incorrectly</strong>. Conditional query tags do not work before the query is run. Before then, they always return false. Please see <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 3.1.0.) in E:\wamp64\www\test02\wp-includes\functions.php on line 5831
+[01-Jul-2022 08:06:05 UTC] PHP Stack trace:
+[01-Jul-2022 08:06:05 UTC] PHP   1. WP_Fatal_Error_Handler->handle() E:\wamp64\www\test02\wp-includes\class-wp-fatal-error-handler.php:0
+[01-Jul-2022 08:06:05 UTC] PHP   2. WP_Fatal_Error_Handler->display_error_template($error = ['type' => 4, 'message' => 'syntax error, unexpected \'$this\' (T_VARIABLE)', 'file' => 'E:\\wamp64\\www\\test02\\wp-content\\plugins\\woocommerce-breadcrumbs\\woocommerce-breadcrumbs.php', 'line' => 26], $handled = class WP_Error { public $errors = ['non_protected_endpoint' => [...]]; public $error_data = []; protected $additional_data = [] }) E:\wamp64\www\test02\wp-includes\class-wp-fatal-error-handler.php:57
+[01-Jul-2022 08:06:05 UTC] PHP   3. WP_Fatal_Error_Handler->display_default_error_template($error = ['type' => 4, 'message' => 'syntax error, unexpected \'$this\' (T_VARIABLE)', 'file' => 'E:\\wamp64\\www\\test02\\wp-content\\plugins\\woocommerce-breadcrumbs\\woocommerce-breadcrumbs.php', 'line' => 26], $handled = class WP_Error { public $errors = ['non_protected_endpoint' => [...]]; public $error_data = []; protected $additional_data = [] }) E:\wamp64\www\test02\wp-includes\class-wp-fatal-error-handler.php:153
+[01-Jul-2022 08:06:05 UTC] PHP   4. wp_die($message = class WP_Error { public $errors = ['internal_server_error' => [...]]; public $error_data = ['internal_server_error' => [...]]; protected $additional_data = [] }, $title = '', $args = ['response' => 500, 'exit' => FALSE]) E:\wamp64\www\test02\wp-includes\class-wp-fatal-error-handler.php:234
+[01-Jul-2022 08:06:05 UTC] PHP   5. _default_wp_die_handler($message = class WP_Error { public $errors = ['internal_server_error' => [...]]; public $error_data = ['internal_server_error' => [...]]; protected $additional_data = [] }, $title = '', $args = ['response' => 500, 'exit' => FALSE]) E:\wamp64\www\test02\wp-includes\functions.php:3713
+[01-Jul-2022 08:06:05 UTC] PHP   6. wp_robots() E:\wamp64\www\test02\wp-includes\functions.php:3789
+[01-Jul-2022 08:06:05 UTC] PHP   7. apply_filters($hook_name = 'wp_robots', $value = []) E:\wamp64\www\test02\wp-includes\robots-template.php:32
+[01-Jul-2022 08:06:05 UTC] PHP   8. WP_Hook->apply_filters($value = [], $args = [0 => []]) E:\wamp64\www\test02\wp-includes\plugin.php:191
+[01-Jul-2022 08:06:05 UTC] PHP   9. wp_robots_noindex_embeds($robots = ['noindex' => TRUE, 'nofollow' => TRUE]) E:\wamp64\www\test02\wp-includes\class-wp-hook.php:307
+[01-Jul-2022 08:06:05 UTC] PHP  10. is_embed() E:\wamp64\www\test02\wp-includes\robots-template.php:93
+[01-Jul-2022 08:06:05 UTC] PHP  11. _doing_it_wrong($function = 'is_embed', $message = 'Conditional query tags do not work before the query is run. Before then, they always return false.', $version = '3.1.0') E:\wamp64\www\test02\wp-includes\query.php:881
+[01-Jul-2022 08:06:05 UTC] PHP  12. trigger_error($message = 'Function is_embed was called <strong>incorrectly</strong>. Conditional query tags do not work before the query is run. Before then, they always return false. Please see <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 3.1.0.)', $error_type = 1024) E:\wamp64\www\test02\wp-includes\functions.php:5831
+[01-Jul-2022 08:06:05 UTC] PHP Notice:  Function is_search was called <strong>incorrectly</strong>. Conditional query tags do not work before the query is run. Before then, they always return false. Please see <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 3.1.0.) in E:\wamp64\www\test02\wp-includes\functions.php on line 5831
+[01-Jul-2022 08:06:05 UTC] PHP Stack trace:
+[01-Jul-2022 08:06:05 UTC] PHP   1. WP_Fatal_Error_Handler->handle() E:\wamp64\www\test02\wp-includes\class-wp-fatal-error-handler.php:0
+[01-Jul-2022 08:06:05 UTC] PHP   2. WP_Fatal_Error_Handler->display_error_template($error = ['type' => 4, 'message' => 'syntax error, unexpected \'$this\' (T_VARIABLE)', 'file' => 'E:\\wamp64\\www\\test02\\wp-content\\plugins\\woocommerce-breadcrumbs\\woocommerce-breadcrumbs.php', 'line' => 26], $handled = class WP_Error { public $errors = ['non_protected_endpoint' => [...]]; public $error_data = []; protected $additional_data = [] }) E:\wamp64\www\test02\wp-includes\class-wp-fatal-error-handler.php:57
+[01-Jul-2022 08:06:05 UTC] PHP   3. WP_Fatal_Error_Handler->display_default_error_template($error = ['type' => 4, 'message' => 'syntax error, unexpected \'$this\' (T_VARIABLE)', 'file' => 'E:\\wamp64\\www\\test02\\wp-content\\plugins\\woocommerce-breadcrumbs\\woocommerce-breadcrumbs.php', 'line' => 26], $handled = class WP_Error { public $errors = ['non_protected_endpoint' => [...]]; public $error_data = []; protected $additional_data = [] }) E:\wamp64\www\test02\wp-includes\class-wp-fatal-error-handler.php:153
+[01-Jul-2022 08:06:05 UTC] PHP   4. wp_die($message = class WP_Error { public $errors = ['internal_server_error' => [...]]; public $error_data = ['internal_server_error' => [...]]; protected $additional_data = [] }, $title = '', $args = ['response' => 500, 'exit' => FALSE]) E:\wamp64\www\test02\wp-includes\class-wp-fatal-error-handler.php:234
+[01-Jul-2022 08:06:05 UTC] PHP   5. _default_wp_die_handler($message = class WP_Error { public $errors = ['internal_server_error' => [...]]; public $error_data = ['internal_server_error' => [...]]; protected $additional_data = [] }, $title = '', $args = ['response' => 500, 'exit' => FALSE]) E:\wamp64\www\test02\wp-includes\functions.php:3713
+[01-Jul-2022 08:06:05 UTC] PHP   6. wp_robots() E:\wamp64\www\test02\wp-includes\functions.php:3789
+[01-Jul-2022 08:06:05 UTC] PHP   7. apply_filters($hook_name = 'wp_robots', $value = []) E:\wamp64\www\test02\wp-includes\robots-template.php:32
+[01-Jul-2022 08:06:05 UTC] PHP   8. WP_Hook->apply_filters($value = [], $args = [0 => []]) E:\wamp64\www\test02\wp-includes\plugin.php:191
+[01-Jul-2022 08:06:05 UTC] PHP   9. wp_robots_noindex_search($robots = ['noindex' => TRUE, 'nofollow' => TRUE]) E:\wamp64\www\test02\wp-includes\class-wp-hook.php:307
+[01-Jul-2022 08:06:05 UTC] PHP  10. is_search() E:\wamp64\www\test02\wp-includes\robots-template.php:119
+[01-Jul-2022 08:06:05 UTC] PHP  11. _doing_it_wrong($function = 'is_search', $message = 'Conditional query tags do not work before the query is run. Before then, they always return false.', $version = '3.1.0') E:\wamp64\www\test02\wp-includes\query.php:699
+[01-Jul-2022 08:06:05 UTC] PHP  12. trigger_error($message = 'Function is_search was called <strong>incorrectly</strong>. Conditional query tags do not work before the query is run. Before then, they always return false. Please see <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 3.1.0.)', $error_type = 1024) E:\wamp64\www\test02\wp-includes\functions.php:5831
+[01-Jul-2022 09:14:58 UTC] PHP Notice:  Undefined variable: loops in E:\wamp64\www\test02\wp-content\themes\silky-new\woocommerce\archive-product.php on line 95
+[01-Jul-2022 09:14:58 UTC] PHP Stack trace:
+[01-Jul-2022 09:14:58 UTC] PHP   1. {main}() E:\wamp64\www\test02\index.php:0
+[01-Jul-2022 09:14:58 UTC] PHP   2. require() E:\wamp64\www\test02\index.php:17
+[01-Jul-2022 09:14:58 UTC] PHP   3. require_once() E:\wamp64\www\test02\wp-blog-header.php:19
+[01-Jul-2022 09:14:58 UTC] PHP   4. include() E:\wamp64\www\test02\wp-includes\template-loader.php:106
+[01-Jul-2022 09:14:58 UTC] PHP Notice:  Trying to get property 'max_num_pages' of non-object in E:\wamp64\www\test02\wp-content\themes\silky-new\woocommerce\archive-product.php on line 95
+[01-Jul-2022 09:14:58 UTC] PHP Stack trace:
+[01-Jul-2022 09:14:58 UTC] PHP   1. {main}() E:\wamp64\www\test02\index.php:0
+[01-Jul-2022 09:14:58 UTC] PHP   2. require() E:\wamp64\www\test02\index.php:17
+[01-Jul-2022 09:14:58 UTC] PHP   3. require_once() E:\wamp64\www\test02\wp-blog-header.php:19
+[01-Jul-2022 09:14:58 UTC] PHP   4. include() E:\wamp64\www\test02\wp-includes\template-loader.php:106
+[01-Jul-2022 09:15:27 UTC] PHP Notice:  Undefined variable: loops in E:\wamp64\www\test02\wp-content\themes\silky-new\woocommerce\archive-product.php on line 104
+[01-Jul-2022 09:15:27 UTC] PHP Stack trace:
+[01-Jul-2022 09:15:27 UTC] PHP   1. {main}() E:\wamp64\www\test02\index.php:0
+[01-Jul-2022 09:15:27 UTC] PHP   2. require() E:\wamp64\www\test02\index.php:17
+[01-Jul-2022 09:15:27 UTC] PHP   3. require_once() E:\wamp64\www\test02\wp-blog-header.php:19
+[01-Jul-2022 09:15:27 UTC] PHP   4. include() E:\wamp64\www\test02\wp-includes\template-loader.php:106
+[01-Jul-2022 09:15:27 UTC] PHP Notice:  Trying to get property 'max_num_pages' of non-object in E:\wamp64\www\test02\wp-content\themes\silky-new\woocommerce\archive-product.php on line 104
+[01-Jul-2022 09:15:27 UTC] PHP Stack trace:
+[01-Jul-2022 09:15:27 UTC] PHP   1. {main}() E:\wamp64\www\test02\index.php:0
+[01-Jul-2022 09:15:27 UTC] PHP   2. require() E:\wamp64\www\test02\index.php:17
+[01-Jul-2022 09:15:27 UTC] PHP   3. require_once() E:\wamp64\www\test02\wp-blog-header.php:19
+[01-Jul-2022 09:15:27 UTC] PHP   4. include() E:\wamp64\www\test02\wp-includes\template-loader.php:106

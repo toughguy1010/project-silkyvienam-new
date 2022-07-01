@@ -1,4 +1,6 @@
-<?php if (!defined('ABSPATH')) die('No direct access allowed'); ?>
+<?php if (!defined('ABSPATH')) die('No direct access allowed');
+do_action('product_style');	
+?>
 
 <?php
 //+++
@@ -497,8 +499,8 @@ if (!function_exists('woof_print_item_by_key')) {
 
 
     <?php if ($autohide): ?>
-    <div class="filter-section">
-    <div style="position: relative;">
+    <div class="filter-product">
+    <div id="filter-section" class="filter-section">
         <?php
         //***
         $woof_auto_hide_button_txt = '';
@@ -506,7 +508,10 @@ if (!function_exists('woof_print_item_by_key')) {
             $woof_auto_hide_button_txt = WOOF_HELPER::wpml_translate(null, $this->settings['woof_auto_hide_button_txt']);
         }
         ?>
-        <a href="javascript:void(0);" class="woof_show_auto_form woof_btn_default <?php if (isset($this->settings['woof_auto_hide_button_img']) AND $this->settings['woof_auto_hide_button_img'] == 'none') echo 'woof_show_auto_form_txt'; ?>"><?php echo esc_html__($woof_auto_hide_button_txt) ?></a><br />
+        <div class="fillter-btn">
+            <a href="#" id = "activefilterbtn" class="woof_show_auto_form woof_btn_default <?php if (isset($this->settings['woof_auto_hide_button_img']) AND $this->settings['woof_auto_hide_button_img'] == 'none') echo 'woof_show_auto_form_txt'; ?>"><?php echo esc_html__($woof_auto_hide_button_txt) ?> Bộ lọc</a><br />
+            <div class="filter_arrow_btn"></div>
+        </div>
         <!-------------------- inline css for js anim ----------------------->
         <div class="woof_auto_show woof_overflow_hidden" style="opacity: 0; height: 1px;">
             <div class="woof_auto_show_indent woof_overflow_hidden">
@@ -542,6 +547,7 @@ if (!function_exists('woof_print_item_by_key')) {
                             <span><?php echo WOOF_HELPER::wpml_translate(null, $text_mb_open); ?></span>
     <?php endif; ?>
                     </div>
+                    
                     
                     <div class="woof_hide_mobile_filter" >
                         <?php if ($image_mb_close != -1) : ?>
@@ -688,11 +694,11 @@ if (!function_exists('woof_print_item_by_key')) {
 
             </div>
 
-          </div>
+        </div>
 
 <?php if ($autohide): ?>
             </div>
         </div>
-    </div>
+   
 
 <?php endif; ?>

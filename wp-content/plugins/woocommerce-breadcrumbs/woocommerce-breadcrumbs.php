@@ -22,73 +22,75 @@ class Wcb_WooCommerce_Breadcrumbs_plugin{
 	private $storefront_theme;
 
 	public function __construct() {
-
+	
 		$this->breadcrumb_defaults = array(
 			'wcb_enable_breadcrumbs' => '1',
 			'wcb_breadcrumb_delimiter' => ' &#47; ',
-			'wcb_wrap_before' => '<nav class="woocommerce-breadcrumb">',
+			'wcb_wrap_before' => '<div class = product-navigation><nav class="woocommerce-breadcrumb">',
 			'wcb_wrap_after' => '</nav>',
 			'wcb_before' => '',
 			'wcb_after' => '',
 			'wcb_home_text' => _x( 'Home', 'breadcrumb', 'woocommerce-breadcrumbs' ),
 			'wcb_home_url' => esc_url( home_url( '/' ) )
 			);
-
 		add_action( 'admin_menu', array( $this, 'wcb_create_menu_option' ) );
 		add_action( 'admin_init', array( $this, 'wcb_admin_init' ) );
+		
+		
 		add_action( 'init', array( $this, 'wcb_init' ) );
 		add_filter( 'plugin_action_links', array( $this, 'wcb_add_settings_link'), 10, 2);
+		
 		add_action( 'head', 'woocommerce_breadcrumb', 20, 0);
-
+		
 	}
-
 	/**
 	 * Add a new option to the Settings menu
 	 */
 	public function wcb_create_menu_option() {
 		add_options_page( 'WooCommerce Breadcrumbs', 'WC Breadcrumbs', 'manage_options', 'woocommerce-breadcrumbs', array( $this, 'wcb_plugin_settings_page' ) );
 	}
-
+	
 	/**
 	 * Add a settings link to plugin page
 	 */
 	public function wcb_add_settings_link( $links, $file ) {
 		static $this_plugin;
-
+		
 		if( !$this_plugin ) {
 			$this_plugin = plugin_basename( __FILE__ );
 		}
-
+		
 		if( $file == $this_plugin ) {
 			$settings_link = '<a href="options-general.php?page=woocommerce-breadcrumbs">' . __( 'Settings', 'woocommerce-breadcrumbs' ) . '</a>';
 			array_unshift( $links, $settings_link ) ;
 		}
-
+		
 		return $links;
 	}
-
+	
 	/**
 	 * Create our settings page
 	 */
 	public function wcb_plugin_settings_page() {
 		$this->options = ( get_option( 'wcb_breadcrumb_options' ) === false ? $this->breadcrumb_defaults : get_option( 'wcb_breadcrumb_options' ) );
-
+		
 		if( !is_plugin_active( 'woocommerce/woocommerce.php' ) ) {
 			$message = __('It appears that WooCommerce is not currently activated. To get the most out of WooCommerce Breadcrumbs install & activate the WooCommerce plugin', 'woocommerce-breadcrumbs' );
 			add_settings_error( 'woocommerce-breadcrumb-warnings', esc_attr( 'wcb_woocommerce_disabled' ), $message, 'error' );
 		}
-
+		
 		if ( $this->wootheme_theme ) {
 			$message = esc_html("It looks like you're using a WooThemes theme. If you notice a few less breadcrumb options than you may expect this is because WooThemes disables the WooCommerce breadcrumbs in favour of the WooFramework Breadcrumbs.", 'woocommerce-breadcrumbs' );
 			add_settings_error( 'woocommerce-breadcrumb-warnings', esc_attr( 'wcb_woo_framework_breadcrumbs' ), $message, 'updated' );
 		}
-
+		
 		settings_errors( 'woocommerce-breadcrumb-warnings' );
-
+		
+		
 		echo '<div class="wrap">';
-			echo '<h2>WooCommerce Breadcrumbs</h2>';
-			echo '<form action="options.php" method="post">';
-				settings_fields( 'wcb_breadcrumb_options' );
+		echo '<h2>WooCommerce Breadcrumbs</h2>';
+		echo '<form action="options.php" method="post">';
+		settings_fields( 'wcb_breadcrumb_options' );
 				do_settings_sections( 'woocommerce-breadcrumbs' );
 				echo '<p>';
 					submit_button( _x( 'Save Changes', 'breadcrumb', 'woocommerce-breadcrumbs' ), 'primary', 'submit', false  );
@@ -99,6 +101,7 @@ class Wcb_WooCommerce_Breadcrumbs_plugin{
 				echo '</p>';
 			echo '</form>';
 		echo '</div>';
+		
 		
 
 	}
@@ -146,7 +149,7 @@ class Wcb_WooCommerce_Breadcrumbs_plugin{
 		if( empty( $this->options['wcb_enable_breadcrumbs'] ) ) {
 			add_action( 'wp_loaded', array( $this, 'wcb_remove_woocommerce_breadcrumb' ) );
 		}
-		
+	
 		if ( class_exists( 'Storefront' ) ) {
 			$this->storefront_theme = true;
 		}

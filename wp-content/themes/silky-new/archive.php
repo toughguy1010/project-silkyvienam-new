@@ -11,7 +11,7 @@
 defined( 'ABSPATH' ) || exit;
 
 get_header();
-// do_action('product_style');
+do_action('product_style');
 $container = get_theme_mod( 'understrap_container_type' );
 ?>
 
