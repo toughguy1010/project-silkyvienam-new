@@ -28,7 +28,7 @@ if ( $total <= 1 ) {
 	return;
 }
 ?>
-<nav class="woocommerce-pagination ">
+<nav class="woocommerce-pagination product-pagination  ">
 	<?php
 	echo paginate_links(
 		apply_filters(
@@ -39,8 +39,8 @@ if ( $total <= 1 ) {
 				'add_args'  => false,
 				'current'   => max( 1, $current ),
 				'total'     => $total,
-				'prev_text' => is_rtl() ? '&rarr;' : '&larr;',
-				'next_text' => is_rtl() ? '&larr;' : '&rarr;',
+				'prev_text' => is_rtl() ? 'aaa' : '<div class = "pagination-arrow-btn pagi-prev-btn"></div>',
+				'next_text' => is_rtl() ? 'ddd' : '<div class = "pagination-arrow-btn pagi-next-btn"></div>',
 				'type'      => 'list',
 				'end_size'  => 3,
 				'mid_size'  => 3,

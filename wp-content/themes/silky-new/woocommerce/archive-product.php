@@ -32,7 +32,7 @@ do_action('product_style');
 do_action( 'woocommerce_before_main_content' );
 
 ?>
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 
 <?php
 if ( woocommerce_product_loop() ) {

@@ -572,15 +572,6 @@
 
 /* header css end */
 
-.woof_checkbox_term[type="checkbox"] {
-    background-color: #F5F1EC !important;
-    /* width: 200px; */
-}
-
-.woof_checkbox_term[type="checkbox"]:checked {
-    background-color: #1a1510 !important;
-}
-
 
 /* content css start */
 
@@ -676,8 +667,8 @@
 .menu-product-list li {
     margin-bottom: 5%;
     /* height: 468px; */
-    width: 20%;
-    margin-right: 6.3%
+    width: 22.7%;
+    margin-right: 3%
 }
 
 .menu-product-list li:nth-child(4n+4) {
@@ -801,6 +792,7 @@
     right: 40%;
     transition: all .5s;
     z-index: 99;
+    cursor: pointer;
     background-color: rgba(255, 255, 255, 0.9);
 }
 
@@ -836,6 +828,57 @@
 .active_filter_arrow_btn {
     transform: rotate(-135deg);
     -webkit-transform: rotate(-135deg);
+}
+
+.filter_arrow_btn:focus {
+    cursor: none;
+}
+
+.woof-active {
+    opacity: 0.96 !important;
+    height: auto !important;
+}
+
+.woof_checkbox_term[type="checkbox"] {
+    /* display: none; */
+}
+
+.filter-checkbox[type="checkbox"] {
+    background-color: red !important;
+}
+
+.woof_checkbox_label {
+    position: relative;
+    margin-left: 0px !important;
+    padding-left: 15px;
+}
+
+.woof_checkbox_label::before {
+    content: "";
+    background-color: #fafafa;
+    border: 1px solid #000000;
+    position: absolute;
+    width: 13px;
+    display: none;
+    left: 0;
+    top: 5px;
+    height: 13px;
+}
+
+.woof_checkbox_label::after {
+    content: "";
+    left: 4px;
+    top: 5px;
+    width: 5px;
+    display: none;
+    height: 5px;
+    position: absolute;
+    display: block;
+}
+
+.woof_checkbox_label::after:checked {
+    display: block;
+    background-color: #000;
 }
 
 
@@ -1566,40 +1609,63 @@
     width: 52%;
 }
 
-.pagination {
+.product-pagination {
     width: 100%;
-    margin-bottom: 11%;
+    margin-bottom: 3%;
 }
 
-.pagination-list {
+.product-pagination ul {
     margin: 0 auto;
     list-style-type: none;
     display: flex;
     padding-left: 0;
-    justify-content: space-around;
-    width: 170px;
+    width: 100%;
+    justify-content: center;
 }
 
-.pagination-btn {
-    color: #000000;
+.product-pagination .page-numbers li {
+    margin: 0 10px;
+}
+
+.product-pagination li .page-numbers {
+    width: 35px;
+    height: 35px;
+    display: block;
     display: flex;
     justify-content: center;
-    border: solid 1px rgb(0, 0, 0);
-    border-radius: 50%;
     align-items: center;
-}
-
-.pagination-item {
-    height: 26px;
-    width: 26px;
+    text-decoration: none;
+    color: #000;
+    border-radius: 50%;
     cursor: pointer;
+    outline: #ffffff 1.5px solid;
+    border: #000 1px solid;
 }
 
-.active-pagination {
-    outline: #9E8760 1.5px solid;
+.current {
+    outline: #9E8760 1.5px solid !important;
     background-color: #9E8760;
     border: solid 1px rgb(255, 255, 255) !important;
     color: #ffffff !important;
+}
+
+.pagination-arrow-btn {
+    border: solid black;
+    border-width: 0 1px 1px 0;
+    display: inline-block;
+    padding: 2px;
+    height: 6px;
+    width: 6px;
+}
+
+.pagi-prev-btn {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+}
+
+.pagi-next-btn {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
 }
 
 .menu-product {
