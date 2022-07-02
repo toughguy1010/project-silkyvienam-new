@@ -47,14 +47,17 @@ if ( ! $checkout->is_registration_enabled() && $checkout->is_registration_requir
 				<!-- form coupon -->
 				<form class="checkout_coupon woocommerce-form-coupon" method="post" style="display:block">
 					<div class="coupon_checkout">
-					<p><?php esc_html_e( 'If you have a coupon code, please apply it below.', 'woocommerce' ); ?></p>
+					<p>
+						<img src="<?php echo get_template_directory_uri().'/assets/coupon-icon.svg' ?>" style="margin-right: 10px ;"></img>
+						<?php esc_html_e( 'If you have a coupon code, please apply it below.', 'woocommerce' ); ?>
+					</p>
 
 					<p class="form-row form-row-first">
 						<input type="text" name="coupon_code" class="form-control" placeholder="<?php esc_attr_e( 'Coupon code', 'woocommerce' ); ?>" id="coupon_code" value="" />
 					</p>
 
 					<p class="form-row form-row-last">
-						<button type="submit" class="btn btn-outline-primary" name="apply_coupon" value="<?php esc_attr_e( 'Apply coupon', 'woocommerce' ); ?>"><?php esc_html_e( 'Apply coupon', 'woocommerce' ); ?></button>
+						<button type="submit" class="coupon-btn" name="apply_coupon" value="<?php esc_attr_e( 'Apply coupon', 'woocommerce' ); ?>"><?php esc_html_e( 'Apply coupon', 'woocommerce' ); ?></button>
 					</p>
 					</div>
 				</form>
