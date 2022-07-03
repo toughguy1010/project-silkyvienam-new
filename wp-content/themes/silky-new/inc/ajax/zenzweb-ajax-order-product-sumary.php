@@ -130,7 +130,7 @@ function zenzweb_ajax_zwc_order_product_sumary(){
             <div class="title checkout_product_title">
               <a href="<?php echo esc_url( get_permalink( $_product->get_parent_id() ) ); ?>"><?php echo "<b>".$_product->get_title() .'</b>'; ?></a>
             </div>
-              <p>Light Cotton Canvas</p>
+              <!-- <p>Light Cotton Canvas</p> -->
           </div>
           <div class="wrap-attr">
             <div class="left">

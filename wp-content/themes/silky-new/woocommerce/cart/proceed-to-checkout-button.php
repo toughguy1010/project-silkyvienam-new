@@ -13,14 +13,11 @@
  * the readme will list any important changes.
  *
  * @see     https://docs.woocommerce.com/document/template-structure/
- * @package WooCommerce/Templates
+ * @package WooCommerce\Templates
  * @version 2.4.0
  */
 
-// Exit if accessed directly.
-defined( 'ABSPATH' ) || exit;
+if ( ! defined( 'ABSPATH' ) ) {
+	exit; // Exit if accessed directly.
+}
 ?>
-
-<a href="<?php echo esc_url( wc_get_checkout_url() ); ?>" class="btn btn-primary btn-lg btn-block">
-	<?php esc_html_e( 'Proceed to checkout', 'woocommerce' ); ?>
-</a>
