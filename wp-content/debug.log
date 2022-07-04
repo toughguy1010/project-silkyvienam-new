@@ -2241,3 +2241,17 @@ Stack trace:
 [04-Jul-2022 03:52:38 UTC] PHP  27. apply_filters($hook_name = 'wp_trim_excerpt', $value = 'Light Cotton Canvas', ...$args = variadic('Light Cotton Canvas')) E:\wamp64\www\test02\wp-includes\formatting.php:3911
 [04-Jul-2022 03:52:38 UTC] PHP  28. WP_Hook->apply_filters($value = 'Light Cotton Canvas', $args = [0 => 'Light Cotton Canvas', 1 => 'Light Cotton Canvas']) E:\wamp64\www\test02\wp-includes\plugin.php:191
 [04-Jul-2022 04:36:16 UTC] PHP Parse error:  syntax error, unexpected end of file in E:\wamp64\www\test02\wp-content\themes\silky-new\functions.php on line 223
+[04-Jul-2022 04:56:46 UTC] PHP Notice:  Array to string conversion in E:\wamp64\www\test02\wp-includes\formatting.php on line 1098
+[04-Jul-2022 04:56:46 UTC] PHP Stack trace:
+[04-Jul-2022 04:56:46 UTC] PHP   1. {main}() E:\wamp64\www\test02\index.php:0
+[04-Jul-2022 04:56:46 UTC] PHP   2. require() E:\wamp64\www\test02\index.php:17
+[04-Jul-2022 04:56:46 UTC] PHP   3. require_once() E:\wamp64\www\test02\wp-blog-header.php:19
+[04-Jul-2022 04:56:46 UTC] PHP   4. include() E:\wamp64\www\test02\wp-includes\template-loader.php:106
+[04-Jul-2022 04:56:46 UTC] PHP   5. do_action($hook_name = 'woocommerce_before_shop_loop') E:\wamp64\www\test02\wp-content\themes\silky-new\woocommerce\archive-product.php:46
+[04-Jul-2022 04:56:46 UTC] PHP   6. WP_Hook->do_action($args = [0 => '']) E:\wamp64\www\test02\wp-includes\plugin.php:476
+[04-Jul-2022 04:56:46 UTC] PHP   7. WP_Hook->apply_filters($value = '', $args = [0 => '']) E:\wamp64\www\test02\wp-includes\class-wp-hook.php:331
+[04-Jul-2022 04:56:46 UTC] PHP   8. woocommerce_catalog_ordering('') E:\wamp64\www\test02\wp-includes\class-wp-hook.php:307
+[04-Jul-2022 04:56:46 UTC] PHP   9. wc_get_template($template_name = 'loop/orderby.php', $args = ['catalog_orderby_options' => ['menu_order' => 'Default sorting', 'popularity' => 'Sort by popularity', 'date' => 'Sort by latest', 'price' => 'Sort by price: low to high', 'price-desc' => 'Sort by price: high to low'], 'orderby' => 'menu_order', 'show_default_orderby' => TRUE], $template_path = *uninitialized*, $default_path = *uninitialized*) E:\wamp64\www\test02\wp-content\plugins\woocommerce\includes\wc-template-functions.php:1495
+[04-Jul-2022 04:56:46 UTC] PHP  10. include() E:\wamp64\www\test02\wp-content\plugins\woocommerce\includes\wc-core-functions.php:345
+[04-Jul-2022 04:56:46 UTC] PHP  11. esc_attr($text = ['menu_order' => 'Default sorting', 'popularity' => 'Sort by popularity', 'date' => 'Sort by latest', 'price' => 'Sort by price: low to high', 'price-desc' => 'Sort by price: high to low']) E:\wamp64\www\test02\wp-content\themes\silky-new\woocommerce\loop\orderby.php:31
+[04-Jul-2022 04:56:46 UTC] PHP  12. wp_check_invalid_utf8($string = ['menu_order' => 'Default sorting', 'popularity' => 'Sort by popularity', 'date' => 'Sort by latest', 'price' => 'Sort by price: low to high', 'price-desc' => 'Sort by price: high to low'], $strip = *uninitialized*) E:\wamp64\www\test02\wp-includes\formatting.php:4578

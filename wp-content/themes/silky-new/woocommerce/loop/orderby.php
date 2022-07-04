@@ -22,12 +22,20 @@ if ( ! defined( 'ABSPATH' ) ) {
 ?>
 <form class="woocommerce-ordering custom-select" method="get">
 	<!-- <label for="orderby">Sắp xếp</label> -->
-	<select name="orderby" class="orderby form-select" aria-label="<?php esc_attr_e( 'Shop order', 'woocommerce' ); ?>">
-			<?php foreach ( $catalog_orderby_options as $option_id => $name ) : ?>
+		<!-- <select name="orderby" class="orderby form-select" aria-label="<?php esc_attr_e( 'Shop order', 'woocommerce' ); ?>">
+				<?php foreach ( $catalog_orderby_options as $option_id => $name ) : ?>
+					<option value="<?php echo esc_attr( $option_id ); ?>" <?php selected( $orderby, $option_id ); ?>><?php echo esc_html( $name ); ?></option>
+				<?php endforeach; ?>
+		</select> -->
+	<div class="dropdown "  >
+    <input type="button" id="select_staff" class="btn btn-default btn-sm dropdown-toggle" type="button" data-toggle="dropdown" value="Name">
+    <ul id="admin_cal_list" class="dropdown-menu" >
+    <input type="hidden" id="admin_id" class="form-control" name="orderby" class="orderby form-select" aria-label="<?php esc_attr_e( 'Shop order', 'woocommerce' ); ?>" value="popularity">
+	<?php foreach ( $catalog_orderby_options as $option_id => $name ) : ?>
 				<option value="<?php echo esc_attr( $option_id ); ?>" <?php selected( $orderby, $option_id ); ?>><?php echo esc_html( $name ); ?></option>
 			<?php endforeach; ?>
-	</select>
-
+    </ul>
+	</div>
 	<input type="hidden" name="paged" value="1" />
 	<?php wc_query_string_form_fields( null, array( 'orderby', 'submit', 'paged', 'product-page' ) ); ?>
 </form>

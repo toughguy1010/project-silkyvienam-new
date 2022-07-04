@@ -22,7 +22,19 @@ do_action('product_style');
 
 do_action( 'woocommerce_before_cart' ); 
 
-$cart = WC()->cart
+$cart = WC()->cart;
+
+function excerpt_in_cart($cart_item_html, $product_data) {
+    global $_product;
+    
+    $excerpt = get_the_excerpt($product_data['product_id']);
+    $excerpt = substr($excerpt, 0, 80);
+    
+    echo $cart_item_html . '<p class="shortDescription" style="margin: 0 !important ; display: block">' . $excerpt . '' . '</p>';
+    }
+    
+    add_filter('woocommerce_cart_item_name', 'excerpt_in_cart', 40, 2);
+
 ?>
 <h2 class="view-cart-title">My cart</h2>
 <form class="woocommerce-cart-form" action="<?php echo esc_url( wc_get_cart_url() ); ?>" method="post">

@@ -1007,6 +1007,11 @@
     width: 140%;
 }
 
+#admin_cal_list {
+    position: unset !important;
+    transform: translate3d(0px, 0px, 0px) !important;
+}
+
 
 /* custom slect css */
 
