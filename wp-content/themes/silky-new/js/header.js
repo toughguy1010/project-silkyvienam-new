@@ -52,12 +52,12 @@ jQuery(document).ready(function() {
         console.log(selText);
         $(this).parents('.dropdown').find('.dropdown-toggle').val(selText);
         $(this).closest('form').trigger('submit');
-        alert("a");
+
     });
 
     $(".dropdown-menu option").click(function() {
         /* woo3.3 */
-        alert("88888");
+
         if (!jQuery("#is_woo_shortcode").length) {
             woof_current_values.orderby = jQuery(this).val();
             woof_ajax_page_num = 1;
