@@ -181,14 +181,25 @@ function custom_quantity_fields_script(){
 }
 
 
+function excerpt_in_cart($cart_item_html, $product_data) {
+    global $_product;
+    
+    $excerpt = get_the_excerpt($product_data['product_id']);
+    $excerpt = substr($excerpt, 0, 80);
+    
+    echo $cart_item_html . '<p class="shortDescription" style="margin: 0 !important ; display: block">' . $excerpt . '' . '</p>';
+    }
+    
+    add_filter('woocommerce_cart_item_name', 'excerpt_in_cart', 40, 2);
 
-// function excerpt_in_cart($cart_item_html, $product_data) {
-//     global $_product;
-    
-//     $excerpt = get_the_excerpt($product_data['product_id']);
-//     $excerpt = substr($excerpt, 0, 80);
-    
-//     echo $cart_item_html . '<br><p class="shortDescription">' . $excerpt . '...' . '</p>';
-//     }
-    
-//     add_filter('woocommerce_cart_item_name', 'excerpt_in_cart', 40, 2);
+
+
+remove_action( 'woocommerce_cart_is_empty', 'wc_empty_cart_message', 10 );
+add_action('woocommerce_cart_is_empty','custom_empty_cart_message',10);
+function custom_empty_cart_message(){
+    echo '<div class = "custom_cart-empty_wrapper"> ';
+	echo '<p class="custom_cart-empty_mess woocommerce-info">' . wp_kses_post( apply_filters( 'custom_empty_cart_message', __( 'Your cart is currently empty.', 'woocommerce' ) ) ) . '</p>';
+
+}
+
+ 

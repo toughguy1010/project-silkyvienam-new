@@ -24,12 +24,13 @@ do_action( 'woocommerce_before_cart' );
 
 $cart = WC()->cart
 ?>
-
+<h2 class="view-cart-title">My cart</h2>
 <form class="woocommerce-cart-form" action="<?php echo esc_url( wc_get_cart_url() ); ?>" method="post">
 	<?php do_action( 'woocommerce_before_cart_table' ); ?>
-
+	
 	<table class="shop_table shop_table_responsive cart woocommerce-cart-form__contents view-cart-content " cellspacing="0"  cellpadding="0">
-		<?php do_action( 'woocommerce_before_cart_contents' ); ?>
+	
+	<?php do_action( 'woocommerce_before_cart_contents' ); ?>
 		<?php
 			
 		
@@ -192,8 +193,10 @@ $cart = WC()->cart
 							</div>
 						</div>
 						<!-- cart total -->
-						<div><?php esc_html_e( 'Total', 'woocommerce' ); ?></div>
-						<div data-title="<?php esc_attr_e( 'Total', 'woocommerce' ); ?>"><?php wc_cart_totals_order_total_html(); ?></div>
+						<div class="cart-items">
+							<div class="view-cart-title-total"><?php esc_html_e( 'Total', 'woocommerce' ); ?></div>
+							<div class="view-cart-price-total" data-title="<?php esc_attr_e( 'Total', 'woocommerce' ); ?>"><?php wc_cart_totals_order_total_html(); ?></div>
+						</div>
 						<!-- cart total  -->
 					</div>
 
