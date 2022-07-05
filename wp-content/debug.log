@@ -2255,3 +2255,52 @@ Stack trace:
 [04-Jul-2022 04:56:46 UTC] PHP  10. include() E:\wamp64\www\test02\wp-content\plugins\woocommerce\includes\wc-core-functions.php:345
 [04-Jul-2022 04:56:46 UTC] PHP  11. esc_attr($text = ['menu_order' => 'Default sorting', 'popularity' => 'Sort by popularity', 'date' => 'Sort by latest', 'price' => 'Sort by price: low to high', 'price-desc' => 'Sort by price: high to low']) E:\wamp64\www\test02\wp-content\themes\silky-new\woocommerce\loop\orderby.php:31
 [04-Jul-2022 04:56:46 UTC] PHP  12. wp_check_invalid_utf8($string = ['menu_order' => 'Default sorting', 'popularity' => 'Sort by popularity', 'date' => 'Sort by latest', 'price' => 'Sort by price: low to high', 'price-desc' => 'Sort by price: high to low'], $strip = *uninitialized*) E:\wamp64\www\test02\wp-includes\formatting.php:4578
+[05-Jul-2022 03:25:08 UTC] PHP Notice:  Undefined variable: loops in E:\wamp64\www\test02\wp-content\themes\silky-new\page-about.php on line 34
+[05-Jul-2022 03:25:08 UTC] PHP Stack trace:
+[05-Jul-2022 03:25:08 UTC] PHP   1. {main}() E:\wamp64\www\test02\index.php:0
+[05-Jul-2022 03:25:08 UTC] PHP   2. require() E:\wamp64\www\test02\index.php:17
+[05-Jul-2022 03:25:08 UTC] PHP   3. require_once() E:\wamp64\www\test02\wp-blog-header.php:19
+[05-Jul-2022 03:25:08 UTC] PHP   4. include() E:\wamp64\www\test02\wp-includes\template-loader.php:106
+[05-Jul-2022 03:25:08 UTC] PHP Notice:  Trying to get property 'posts' of non-object in E:\wamp64\www\test02\wp-content\themes\silky-new\page-about.php on line 34
+[05-Jul-2022 03:25:08 UTC] PHP Stack trace:
+[05-Jul-2022 03:25:08 UTC] PHP   1. {main}() E:\wamp64\www\test02\index.php:0
+[05-Jul-2022 03:25:08 UTC] PHP   2. require() E:\wamp64\www\test02\index.php:17
+[05-Jul-2022 03:25:08 UTC] PHP   3. require_once() E:\wamp64\www\test02\wp-blog-header.php:19
+[05-Jul-2022 03:25:08 UTC] PHP   4. include() E:\wamp64\www\test02\wp-includes\template-loader.php:106
+[05-Jul-2022 03:25:08 UTC] PHP Notice:  Trying to access array offset on value of type null in E:\wamp64\www\test02\wp-content\themes\silky-new\page-about.php on line 34
+[05-Jul-2022 03:25:08 UTC] PHP Stack trace:
+[05-Jul-2022 03:25:08 UTC] PHP   1. {main}() E:\wamp64\www\test02\index.php:0
+[05-Jul-2022 03:25:08 UTC] PHP   2. require() E:\wamp64\www\test02\index.php:17
+[05-Jul-2022 03:25:08 UTC] PHP   3. require_once() E:\wamp64\www\test02\wp-blog-header.php:19
+[05-Jul-2022 03:25:08 UTC] PHP   4. include() E:\wamp64\www\test02\wp-includes\template-loader.php:106
+[05-Jul-2022 03:25:08 UTC] PHP Notice:  Trying to get property 'ID' of non-object in E:\wamp64\www\test02\wp-content\themes\silky-new\page-about.php on line 36
+[05-Jul-2022 03:25:08 UTC] PHP Stack trace:
+[05-Jul-2022 03:25:08 UTC] PHP   1. {main}() E:\wamp64\www\test02\index.php:0
+[05-Jul-2022 03:25:08 UTC] PHP   2. require() E:\wamp64\www\test02\index.php:17
+[05-Jul-2022 03:25:08 UTC] PHP   3. require_once() E:\wamp64\www\test02\wp-blog-header.php:19
+[05-Jul-2022 03:25:08 UTC] PHP   4. include() E:\wamp64\www\test02\wp-includes\template-loader.php:106
+[05-Jul-2022 03:25:08 UTC] PHP Notice:  Undefined variable: loops in E:\wamp64\www\test02\wp-content\themes\silky-new\page-about.php on line 42
+[05-Jul-2022 03:25:08 UTC] PHP Stack trace:
+[05-Jul-2022 03:25:08 UTC] PHP   1. {main}() E:\wamp64\www\test02\index.php:0
+[05-Jul-2022 03:25:08 UTC] PHP   2. require() E:\wamp64\www\test02\index.php:17
+[05-Jul-2022 03:25:08 UTC] PHP   3. require_once() E:\wamp64\www\test02\wp-blog-header.php:19
+[05-Jul-2022 03:25:08 UTC] PHP   4. include() E:\wamp64\www\test02\wp-includes\template-loader.php:106
+[05-Jul-2022 03:25:08 UTC] PHP Fatal error:  Uncaught Error: Call to a member function have_posts() on null in E:\wamp64\www\test02\wp-content\themes\silky-new\page-about.php:42
+Stack trace:
+#0 E:\wamp64\www\test02\wp-includes\template-loader.php(106): include()
+#1 E:\wamp64\www\test02\wp-blog-header.php(19): require_once('E:\\wamp64\\www\\t...')
+#2 E:\wamp64\www\test02\index.php(17): require('E:\\wamp64\\www\\t...')
+#3 {main}
+  thrown in E:\wamp64\www\test02\wp-content\themes\silky-new\page-about.php on line 42
+[05-Jul-2022 03:25:37 UTC] PHP Notice:  Undefined offset: 0 in E:\wamp64\www\test02\wp-content\themes\silky-new\page-about.php on line 34
+[05-Jul-2022 03:25:37 UTC] PHP Stack trace:
+[05-Jul-2022 03:25:37 UTC] PHP   1. {main}() E:\wamp64\www\test02\index.php:0
+[05-Jul-2022 03:25:37 UTC] PHP   2. require() E:\wamp64\www\test02\index.php:17
+[05-Jul-2022 03:25:37 UTC] PHP   3. require_once() E:\wamp64\www\test02\wp-blog-header.php:19
+[05-Jul-2022 03:25:37 UTC] PHP   4. include() E:\wamp64\www\test02\wp-includes\template-loader.php:106
+[05-Jul-2022 03:25:37 UTC] PHP Notice:  Trying to get property 'ID' of non-object in E:\wamp64\www\test02\wp-content\themes\silky-new\page-about.php on line 36
+[05-Jul-2022 03:25:37 UTC] PHP Stack trace:
+[05-Jul-2022 03:25:37 UTC] PHP   1. {main}() E:\wamp64\www\test02\index.php:0
+[05-Jul-2022 03:25:37 UTC] PHP   2. require() E:\wamp64\www\test02\index.php:17
+[05-Jul-2022 03:25:37 UTC] PHP   3. require_once() E:\wamp64\www\test02\wp-blog-header.php:19
+[05-Jul-2022 03:25:37 UTC] PHP   4. include() E:\wamp64\www\test02\wp-includes\template-loader.php:106

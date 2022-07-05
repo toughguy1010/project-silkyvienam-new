@@ -35,8 +35,9 @@ if ( ! defined( 'ABSPATH' ) ) {
 						<option value="<?php echo esc_attr( $option_id ); ?>" <?php selected( $orderby, $option_id ); ?>><?php echo esc_html( $name ); ?></option>
 					<?php endforeach; ?>
 		</ul>
+		<div class="sorting-arrow-btn"></div>
 	</div>
-	<div class="sorting-arrow-btn"></div>
+	
 	<input type="hidden" name="paged" value="1" />
 	<?php wc_query_string_form_fields( null, array( 'orderby', 'submit', 'paged', 'product-page' ) ); ?>
 </form>
