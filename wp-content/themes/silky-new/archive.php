@@ -11,7 +11,7 @@
 defined( 'ABSPATH' ) || exit;
 
 get_header();
-do_action('product_style');
+// do_action('product_style');
 $container = get_theme_mod( 'understrap_container_type' );
 ?>
 
@@ -35,8 +35,10 @@ $container = get_theme_mod( 'understrap_container_type' );
 						the_archive_description( '<div class="taxonomy-description">', '</div>' );
 						?>
 					</header><!-- .page-header -->
+					<div class="blog-entry-content-wrapper">
 					<?php
 					// Start the loop.
+				
 					while ( have_posts() ) {
 						the_post();
 
@@ -51,7 +53,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 					get_template_part( 'loop-templates/content', 'none' );
 				}
 				?>
-
+					</div>
 			</main><!-- #main -->
 
 			<?php

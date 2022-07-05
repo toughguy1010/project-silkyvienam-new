@@ -4,42 +4,32 @@
  *
  * @package Understrap
  */
+do_action('blog-style');
 
 // Exit if accessed directly.
 defined( 'ABSPATH' ) || exit;
 ?>
-đasdadasdads
-<article <?php post_class(); ?> id="post-<?php the_ID(); ?>">
+
+<article class="blog-content-item" <?php post_class(); ?> id="post-<?php the_ID(); ?>">
 
 	<header class="entry-header">
-
-		<?php
-		the_title(
-			sprintf( '<h2 class="entry-title"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ),
-			'</a></h2>'
-		);
-		?>
-
-		<?php if ( 'post' === get_post_type() ) : ?>
-
-			<div class="entry-meta">
-				<?php understrap_posted_on(); ?>
-			</div><!-- .entry-meta -->
-
-		<?php endif; ?>
-
+	
+		
 	</header><!-- .entry-header -->
 
-	<?php echo get_the_post_thumbnail( $post->ID, 'large' ); ?>
 
-	<div class="entry-content">
+		<div class="entry-content blog-category-content">
+		<?php echo get_the_post_thumbnail( $post->ID, 'large' ); ?>
+			<?php
+			the_title(
+				sprintf( '<h2 class="blog-content-item-title entry-title"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ),
+				'</a></h2>'
+			);
+			the_excerpt();
+			understrap_link_pages();
+			?>
 
-		<?php
-		the_excerpt();
-		understrap_link_pages();
-		?>
-
-	</div><!-- .entry-content -->
+		</div><!-- .entry-content -->
 
 	<footer class="entry-footer">
 

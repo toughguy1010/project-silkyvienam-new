@@ -5,9 +5,11 @@ do_action('blog-style');
 
         <!-- content start -->
         <div class="wrapper-content">
-            <?php
-                do_action('head');
-            ?>
+            <div class="breadcrumb-blog">
+                <?php
+                    do_action('head');
+                ?>
+            </div>
             <div class="menu-content">
                 <ul class="menu-blog-list">
                     <?php 
@@ -15,7 +17,6 @@ do_action('blog-style');
                     // var_dump($wp_query);
                     // echo '</pre>';
                     $paged = ( get_query_var( 'paged' ) ) ? get_query_var( 'paged' ) : 1;
-                   
                     $args = array(
                         'post_type'=> 'post',
                         'orderby'    => 'ID',
@@ -23,7 +24,7 @@ do_action('blog-style');
                         'order'    => 'DESC',
                         
                         'posts_per_page' => 4,// this will retrive all the post that is published 
-                        'paged' => $paged,
+                        'paged' => $paged
                         );
                         $result = new WP_Query( $args );
                      
@@ -51,7 +52,7 @@ do_action('blog-style');
                     ?>
                 </ul>
             </div>
-            <div class="pagination">
+            <div class="pagination-blog">
             
             <?php //the_title();
                         // the_post();
@@ -72,27 +73,7 @@ do_action('blog-style');
                             'add_fragment' => '',
                         ) );
                          ?>    
-                <!-- <ul class="pagination-list">
-                    <li class="pagination-item ">
-                        <div class="pagination-btn active-pagination" id="pagination-btn">1</div>
-                    </li>
-                    <li class="pagination-item">
-                        <div class="pagination-btn " id="pagination-btn">2</div>
-                    </li>
-                    <li class="pagination-item">
-                        <div class="pagination-btn " id="pagination-btn">3</div>
-                    </li>
-                    <li class="pagination-item">
-                        <div class="pagination-btn " id="pagination-btn">4</div>
-                    </li>
-                    <li class="pagination-item">
-                        <div class="pagination-btn ">
-                            <svg class=" " xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 9 17">
-                                <text id="_ " class=" " data-name="&gt;" transform="translate(1 13.5)" font-size="9" font-family="SegoeUI-Light, Segoe UI" font-weight="300"><tspan  x="1" y="-2">&gt;</tspan></text>
-                            </svg>
-                        </div>
-                    </li>
-                </ul> -->
+           
             </div>
         </div>
         

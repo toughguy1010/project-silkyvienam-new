@@ -10,3 +10,5 @@ Stack trace:
 
 2022-07-05T08:46:08+00:00 CRITICAL syntax error, unexpected ''paged'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in E:\wamp64\www\test02\wp-content\themes\silky-new\page-blog.php on line 25
 
+2022-07-05T09:05:22+00:00 CRITICAL syntax error, unexpected ''paged'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in E:\wamp64\www\test02\wp-content\themes\silky-new\page-blog.php on line 25
+

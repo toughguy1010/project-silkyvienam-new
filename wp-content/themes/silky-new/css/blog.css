@@ -589,6 +589,11 @@
 
 /* content start */
 
+.breadcrumb-blog .woocommerce-breadcrumb a {
+    text-decoration: none;
+    color: #000;
+}
+
 .wrapper-content {
     margin-top: 7%;
     margin-left: 3%;
@@ -712,17 +717,117 @@
 }
 
 .pagination-item {
-    height: 26px;
-    width: 26px;
+    height: 30px;
+    width: 30px;
     cursor: pointer;
 }
 
-.active-pagination {
+.pagination-blog {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 7%;
+}
+
+.pagination-blog .current {
     outline: #9E8760 1.5px solid;
     background-color: #9E8760;
-    border: solid 1px rgb(255, 255, 255) !important;
+    border: solid 2px rgb(255, 255, 255) !important;
     color: #ffffff !important;
 }
+
+.pagination-blog .page-numbers {
+    display: block;
+    color: #000000;
+    display: flex;
+    justify-content: center;
+    border: solid 1px rgb(0, 0, 0);
+    border-radius: 50%;
+    align-items: center;
+    height: 35px;
+    width: 35px;
+    cursor: pointer;
+    text-decoration: none;
+    margin: 0 7px;
+}
+
+.posts-nav-label {
+    display: none !important;
+}
+
+
+/* blog-category start  */
+
+.page-title {
+    display: none;
+}
+
+.blog-entry-content-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 3%;
+}
+
+.blog-category-content {
+    width: 100%;
+}
+
+.blog-category-content img {
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.blog-content-item {
+    width: 47%;
+    font-size: 13px;
+    margin: 5% 0;
+}
+
+.blog-content-item-title a {
+    display: block;
+    color: #000 !important;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+}
+
+.blog-content-item-title a:hover {
+    color: #9E8760 !important;
+}
+
+.silky-pagi {
+    display: flex;
+    justify-content: center;
+}
+
+.silky-pagi-item {
+    margin: 0 10px;
+}
+
+.silky-pagi-item .page-link {
+    display: block;
+    color: #000000;
+    display: flex;
+    justify-content: center;
+    border: solid 1px rgb(0, 0, 0);
+    border-radius: 50% !important;
+    align-items: center;
+    height: 35px;
+    width: 35px;
+    cursor: pointer;
+    text-decoration: none;
+    margin: 0 7px;
+}
+
+.silky-pagi-item .current {
+    outline: #9E8760 1.5px solid;
+    background-color: #9E8760;
+    border: solid 2px rgb(255, 255, 255) !important;
+    color: #ffffff !important;
+}
+
+
+/* blog-category end  */
 
 
 /* content end */
