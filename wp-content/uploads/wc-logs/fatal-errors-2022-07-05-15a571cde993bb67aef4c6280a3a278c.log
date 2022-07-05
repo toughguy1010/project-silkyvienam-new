@@ -6,3 +6,7 @@ Stack trace:
 #3 {main}
   thrown in E:\wamp64\www\test02\wp-content\themes\silky-new\page-about.php on line 42
 
+2022-07-05T04:41:21+00:00 CRITICAL Cannot redeclare get_the_excerpt() (previously declared in E:\wamp64\www\test02\wp-includes\post-template.php:406) in E:\wamp64\www\test02\wp-content\themes\silky-new\page-blog.php on line 19
+
+2022-07-05T08:46:08+00:00 CRITICAL syntax error, unexpected ''paged'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in E:\wamp64\www\test02\wp-content\themes\silky-new\page-blog.php on line 25
+

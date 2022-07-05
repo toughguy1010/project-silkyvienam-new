@@ -2304,3 +2304,54 @@ Stack trace:
 [05-Jul-2022 03:25:37 UTC] PHP   2. require() E:\wamp64\www\test02\index.php:17
 [05-Jul-2022 03:25:37 UTC] PHP   3. require_once() E:\wamp64\www\test02\wp-blog-header.php:19
 [05-Jul-2022 03:25:37 UTC] PHP   4. include() E:\wamp64\www\test02\wp-includes\template-loader.php:106
+[05-Jul-2022 04:05:33 UTC] PHP Notice:  Undefined offset: 1 in E:\wamp64\www\test02\wp-includes\class-wp-query.php on line 3421
+[05-Jul-2022 04:05:33 UTC] PHP Stack trace:
+[05-Jul-2022 04:05:33 UTC] PHP   1. {main}() E:\wamp64\www\test02\index.php:0
+[05-Jul-2022 04:05:33 UTC] PHP   2. require() E:\wamp64\www\test02\index.php:17
+[05-Jul-2022 04:05:33 UTC] PHP   3. require_once() E:\wamp64\www\test02\wp-blog-header.php:19
+[05-Jul-2022 04:05:33 UTC] PHP   4. include() E:\wamp64\www\test02\wp-includes\template-loader.php:106
+[05-Jul-2022 04:05:33 UTC] PHP   5. the_post() E:\wamp64\www\test02\wp-content\themes\silky-new\page-blog.php:81
+[05-Jul-2022 04:05:33 UTC] PHP   6. WP_Query->the_post() E:\wamp64\www\test02\wp-includes\query.php:979
+[05-Jul-2022 04:05:33 UTC] PHP   7. WP_Query->next_post() E:\wamp64\www\test02\wp-includes\class-wp-query.php:3450
+[05-Jul-2022 04:14:05 UTC] PHP Notice:  Undefined offset: 1 in E:\wamp64\www\test02\wp-includes\class-wp-query.php on line 3421
+[05-Jul-2022 04:14:05 UTC] PHP Stack trace:
+[05-Jul-2022 04:14:05 UTC] PHP   1. {main}() E:\wamp64\www\test02\index.php:0
+[05-Jul-2022 04:14:05 UTC] PHP   2. require() E:\wamp64\www\test02\index.php:17
+[05-Jul-2022 04:14:05 UTC] PHP   3. require_once() E:\wamp64\www\test02\wp-blog-header.php:19
+[05-Jul-2022 04:14:05 UTC] PHP   4. include() E:\wamp64\www\test02\wp-includes\template-loader.php:106
+[05-Jul-2022 04:14:05 UTC] PHP   5. the_post() E:\wamp64\www\test02\wp-content\themes\silky-new\page-blog.php:29
+[05-Jul-2022 04:14:05 UTC] PHP   6. WP_Query->the_post() E:\wamp64\www\test02\wp-includes\query.php:979
+[05-Jul-2022 04:14:05 UTC] PHP   7. WP_Query->next_post() E:\wamp64\www\test02\wp-includes\class-wp-query.php:3450
+[05-Jul-2022 04:14:05 UTC] PHP Notice:  Undefined offset: 2 in E:\wamp64\www\test02\wp-includes\class-wp-query.php on line 3421
+[05-Jul-2022 04:14:05 UTC] PHP Stack trace:
+[05-Jul-2022 04:14:05 UTC] PHP   1. {main}() E:\wamp64\www\test02\index.php:0
+[05-Jul-2022 04:14:05 UTC] PHP   2. require() E:\wamp64\www\test02\index.php:17
+[05-Jul-2022 04:14:05 UTC] PHP   3. require_once() E:\wamp64\www\test02\wp-blog-header.php:19
+[05-Jul-2022 04:14:05 UTC] PHP   4. include() E:\wamp64\www\test02\wp-includes\template-loader.php:106
+[05-Jul-2022 04:14:05 UTC] PHP   5. the_post() E:\wamp64\www\test02\wp-content\themes\silky-new\page-blog.php:29
+[05-Jul-2022 04:14:05 UTC] PHP   6. WP_Query->the_post() E:\wamp64\www\test02\wp-includes\query.php:979
+[05-Jul-2022 04:14:05 UTC] PHP   7. WP_Query->next_post() E:\wamp64\www\test02\wp-includes\class-wp-query.php:3450
+[05-Jul-2022 04:14:42 UTC] PHP Notice:  Undefined offset: 1 in E:\wamp64\www\test02\wp-includes\class-wp-query.php on line 3421
+[05-Jul-2022 04:14:42 UTC] PHP Stack trace:
+[05-Jul-2022 04:14:42 UTC] PHP   1. {main}() E:\wamp64\www\test02\index.php:0
+[05-Jul-2022 04:14:42 UTC] PHP   2. require() E:\wamp64\www\test02\index.php:17
+[05-Jul-2022 04:14:42 UTC] PHP   3. require_once() E:\wamp64\www\test02\wp-blog-header.php:19
+[05-Jul-2022 04:14:42 UTC] PHP   4. include() E:\wamp64\www\test02\wp-includes\template-loader.php:106
+[05-Jul-2022 04:14:42 UTC] PHP   5. the_post() E:\wamp64\www\test02\wp-content\themes\silky-new\page-blog.php:29
+[05-Jul-2022 04:14:42 UTC] PHP   6. WP_Query->the_post() E:\wamp64\www\test02\wp-includes\query.php:979
+[05-Jul-2022 04:14:42 UTC] PHP   7. WP_Query->next_post() E:\wamp64\www\test02\wp-includes\class-wp-query.php:3450
+[05-Jul-2022 04:14:42 UTC] PHP Notice:  Undefined offset: 2 in E:\wamp64\www\test02\wp-includes\class-wp-query.php on line 3421
+[05-Jul-2022 04:14:42 UTC] PHP Stack trace:
+[05-Jul-2022 04:14:42 UTC] PHP   1. {main}() E:\wamp64\www\test02\index.php:0
+[05-Jul-2022 04:14:42 UTC] PHP   2. require() E:\wamp64\www\test02\index.php:17
+[05-Jul-2022 04:14:42 UTC] PHP   3. require_once() E:\wamp64\www\test02\wp-blog-header.php:19
+[05-Jul-2022 04:14:42 UTC] PHP   4. include() E:\wamp64\www\test02\wp-includes\template-loader.php:106
+[05-Jul-2022 04:14:42 UTC] PHP   5. the_post() E:\wamp64\www\test02\wp-content\themes\silky-new\page-blog.php:29
+[05-Jul-2022 04:14:42 UTC] PHP   6. WP_Query->the_post() E:\wamp64\www\test02\wp-includes\query.php:979
+[05-Jul-2022 04:14:42 UTC] PHP   7. WP_Query->next_post() E:\wamp64\www\test02\wp-includes\class-wp-query.php:3450
+[05-Jul-2022 04:41:20 UTC] PHP Fatal error:  Cannot redeclare get_the_excerpt() (previously declared in E:\wamp64\www\test02\wp-includes\post-template.php:406) in E:\wamp64\www\test02\wp-content\themes\silky-new\page-blog.php on line 19
+[05-Jul-2022 04:41:21 UTC] PHP Stack trace:
+[05-Jul-2022 04:41:21 UTC] PHP   1. {main}() E:\wamp64\www\test02\index.php:0
+[05-Jul-2022 04:41:21 UTC] PHP   2. require() E:\wamp64\www\test02\index.php:17
+[05-Jul-2022 04:41:21 UTC] PHP   3. require_once() E:\wamp64\www\test02\wp-blog-header.php:19
+[05-Jul-2022 08:46:08 UTC] PHP Parse error:  syntax error, unexpected ''paged'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in E:\wamp64\www\test02\wp-content\themes\silky-new\page-blog.php on line 25

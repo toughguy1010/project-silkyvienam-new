@@ -40,7 +40,8 @@ $container = get_theme_mod( 'understrap_container_type' );
 						comments_template();
 					}
 				}
-				?>
+				 ?>
+			
 
 			</main><!-- #main -->
 

@@ -14,6 +14,21 @@
 }
 
 
+/* Header wp css */
+
+.collapse {
+    width: fit-content;
+    height: 100%;
+    display: block !important;
+    flex-grow: 0 !important;
+}
+
+.main-menu {
+    height: 100%;
+    align-items: center;
+}
+
+
 /* Header css */
 
 .header-section {
@@ -305,13 +320,15 @@
     font-size: 12px;
     /* margin-right: 2%; */
     justify-content: space-around;
-    width: 8%;
+    width: 128px;
 }
 
 .header-feature-list {
     height: 100%;
     display: flex;
     align-items: center;
+    width: 90px;
+    position: relative;
 }
 
 
@@ -331,6 +348,7 @@
     top: 0;
     height: 100vh;
     opacity: .95;
+    /* display: none; */
     z-index: 800;
     transform: translateX(300%);
     transition: all .5s;
@@ -464,7 +482,7 @@
 } */
 
 .cart-menu-open {
-    transform: translate(0px);
+    right: 0;
 }
 
 .cart-menu-close {
@@ -485,11 +503,11 @@
 
 .switch-english-btn {
     line-height: 20px;
-    margin-top: 1.5px;
+    /* margin-top: 1.5px; */
 }
 
 .switch-vietnamese-btn {
-    transform: translateX(100px);
+    transform: translateY(1px);
     transition: all 0.4s;
     /* display: none; */
     margin-left: 0.4%;
@@ -520,19 +538,27 @@
 }
 
 .switch-languae-btn:hover .switch-vietnamese-btn {
-    transform: translateX(0px);
+    transform: translateY(0px);
     opacity: 1;
     /* display: block; */
 }
 
 .searching-form {
     display: flex;
-    padding: 5px 5px;
+    padding: 0px 11px;
     justify-content: space-between;
     z-index: 600;
     width: fit-content;
     height: fit-content;
-    position: relative;
+    align-items: center;
+    position: absolute;
+    right: 0%;
+    transition: all .5s;
+    /* position: relative; */
+}
+
+.search-btn {
+    margin-right: 6px;
 }
 
 .search-input {
@@ -540,6 +566,7 @@
     width: 0px;
     /* display: none; */
     outline: none;
+    height: 28px;
     transition: width 1s;
 }
 
@@ -600,8 +627,8 @@
     padding-left: 0;
     display: flex;
     margin-bottom: 0;
-    flex-wrap: wrap;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .menu-content {
@@ -612,15 +639,19 @@
     width: 47.5%;
 }
 
-.blog-img {
-    width: 100%;
-}
-
 .blog-item {
     display: block;
     text-decoration: none;
     color: #000000;
     margin-bottom: 15%;
+    width: 100%;
+}
+
+.blog-item img {
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    height: auto;
 }
 
 .blog-item:hover {
