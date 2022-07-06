@@ -10,21 +10,21 @@ defined( 'ABSPATH' ) || exit;
 do_action('blog-style');
 ?>
 
-<article <?php post_class(); ?> id="post-<?php the_ID(); ?>">
-			<?php
+<article class="detail-post-section" <?php post_class(); ?> id="post-<?php the_ID(); ?>">
+		
+	<header class="detail-blog-header entry-header">
+	<?php
                 do_action('head');
             ?>
-	<header class="entry-header">
-
-		<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
 
 
 	</header><!-- .entry-header -->
 
 	<?php // echo get_the_post_thumbnail( $post->ID, 'large' ); ?>
 
-	<div class="entry-content">
-
+	<div class="detail-blog entry-content">
+		
+	<?php the_title( '<h1 class="entry-title detail-blog-title">', '</h1>' ); ?>
 		<?php
 		the_content();
 		understrap_link_pages();

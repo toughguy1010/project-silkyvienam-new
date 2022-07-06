@@ -7,7 +7,7 @@ use Elementor\Plugin;
 use Elementor\Controls_Manager;
 use Elementor\Core\Base\Document;
 use Elementor\Modules\PageTemplates\Module as PageTemplatesModule;
-
+do_action('blog_style');
 if ( ! defined( 'ABSPATH' ) ) {
 	exit; // Exit if accessed directly
 }
@@ -33,7 +33,7 @@ class Settings_Layout extends Tab_Base {
 	}
 
 	public function get_help_url() {
-		return 'https://go.elementor.com/global-layout';
+		return 'https://go.elementor.com/global-layout/';
 	}
 
 	protected function register_tab_controls() {

@@ -28,7 +28,7 @@ if ( $total <= 1 ) {
 	return;
 }
 ?>
-<nav class="woocommerce-pagination product-pagination  ">
+<nav class="woocommerce-pagination product-pagination">
 	<?php
 	echo paginate_links(
 		apply_filters(
@@ -49,3 +49,4 @@ if ( $total <= 1 ) {
 	);
 	?>
 </nav>
+ 
