@@ -3283,3 +3283,111 @@ Stack trace:
                                                   ) DEFAULT CHARACTER SET utf8bin made by do_action('woocommerce_page_wc-settings'), WP_Hook->do_action, WP_Hook->apply_filters, WC_Admin_Menus->settings_page, WC_Admin_Settings::output, include('/plugins/woocommerce/includes/admin/views/html-admin-settings.php'), do_action('woocommerce_settings_tabs_woof'), WP_Hook->do_action, WP_Hook->apply_filters, WOOF->print_plugin_options, WOOF->render_html, include('/plugins/woocommerce-products-filter/views/plugin_options.php')
 [06-Jul-2022 06:49:35 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
 [06-Jul-2022 06:49:35 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[06-Jul-2022 09:13:53 UTC] PHP Notice:  Constant AT_START already defined in E:\wamp64\www\test02\wp-content\plugins\tablepress\libraries\csstidy\class.csstidy.php on line 52
+[06-Jul-2022 09:13:53 UTC] PHP Stack trace:
+[06-Jul-2022 09:13:53 UTC] PHP   1. {main}() E:\wamp64\www\test02\wp-admin\admin-post.php:0
+[06-Jul-2022 09:13:53 UTC] PHP   2. do_action($hook_name = 'admin_post_tablepress_options') E:\wamp64\www\test02\wp-admin\admin-post.php:85
+[06-Jul-2022 09:13:53 UTC] PHP   3. WP_Hook->do_action($args = [0 => '']) E:\wamp64\www\test02\wp-includes\plugin.php:476
+[06-Jul-2022 09:13:53 UTC] PHP   4. WP_Hook->apply_filters($value = '', $args = [0 => '']) E:\wamp64\www\test02\wp-includes\class-wp-hook.php:331
+[06-Jul-2022 09:13:53 UTC] PHP   5. TablePress_Admin_Controller->handle_post_action_options('') E:\wamp64\www\test02\wp-includes\class-wp-hook.php:307
+[06-Jul-2022 09:13:53 UTC] PHP   6. TablePress_CSS->sanitize_css($css = '') E:\wamp64\www\test02\wp-content\plugins\tablepress\controllers\controller-admin.php:833
+[06-Jul-2022 09:13:53 UTC] PHP   7. TablePress::load_class($class = 'TablePress_CSSTidy', $file = 'class.csstidy.php', $folder = 'libraries/csstidy', $params = *uninitialized*) E:\wamp64\www\test02\wp-content\plugins\tablepress\classes\class-css.php:32
+[06-Jul-2022 09:13:53 UTC] PHP   8. TablePress::load_file($file = 'class.csstidy.php', $folder = 'libraries/csstidy') E:\wamp64\www\test02\wp-content\plugins\tablepress\classes\class-tablepress.php:206
+[06-Jul-2022 09:13:53 UTC] PHP   9. require_once() E:\wamp64\www\test02\wp-content\plugins\tablepress\classes\class-tablepress.php:180
+[06-Jul-2022 09:13:53 UTC] PHP  10. define($constant_name = 'AT_START', $value = 1) E:\wamp64\www\test02\wp-content\plugins\tablepress\libraries\csstidy\class.csstidy.php:52
+[06-Jul-2022 09:13:53 UTC] PHP Notice:  Constant AT_END already defined in E:\wamp64\www\test02\wp-content\plugins\tablepress\libraries\csstidy\class.csstidy.php on line 53
+[06-Jul-2022 09:13:53 UTC] PHP Stack trace:
+[06-Jul-2022 09:13:53 UTC] PHP   1. {main}() E:\wamp64\www\test02\wp-admin\admin-post.php:0
+[06-Jul-2022 09:13:53 UTC] PHP   2. do_action($hook_name = 'admin_post_tablepress_options') E:\wamp64\www\test02\wp-admin\admin-post.php:85
+[06-Jul-2022 09:13:53 UTC] PHP   3. WP_Hook->do_action($args = [0 => '']) E:\wamp64\www\test02\wp-includes\plugin.php:476
+[06-Jul-2022 09:13:53 UTC] PHP   4. WP_Hook->apply_filters($value = '', $args = [0 => '']) E:\wamp64\www\test02\wp-includes\class-wp-hook.php:331
+[06-Jul-2022 09:13:53 UTC] PHP   5. TablePress_Admin_Controller->handle_post_action_options('') E:\wamp64\www\test02\wp-includes\class-wp-hook.php:307
+[06-Jul-2022 09:13:53 UTC] PHP   6. TablePress_CSS->sanitize_css($css = '') E:\wamp64\www\test02\wp-content\plugins\tablepress\controllers\controller-admin.php:833
+[06-Jul-2022 09:13:53 UTC] PHP   7. TablePress::load_class($class = 'TablePress_CSSTidy', $file = 'class.csstidy.php', $folder = 'libraries/csstidy', $params = *uninitialized*) E:\wamp64\www\test02\wp-content\plugins\tablepress\classes\class-css.php:32
+[06-Jul-2022 09:13:53 UTC] PHP   8. TablePress::load_file($file = 'class.csstidy.php', $folder = 'libraries/csstidy') E:\wamp64\www\test02\wp-content\plugins\tablepress\classes\class-tablepress.php:206
+[06-Jul-2022 09:13:53 UTC] PHP   9. require_once() E:\wamp64\www\test02\wp-content\plugins\tablepress\classes\class-tablepress.php:180
+[06-Jul-2022 09:13:53 UTC] PHP  10. define($constant_name = 'AT_END', $value = 2) E:\wamp64\www\test02\wp-content\plugins\tablepress\libraries\csstidy\class.csstidy.php:53
+[06-Jul-2022 09:13:53 UTC] PHP Notice:  Constant SEL_START already defined in E:\wamp64\www\test02\wp-content\plugins\tablepress\libraries\csstidy\class.csstidy.php on line 54
+[06-Jul-2022 09:13:53 UTC] PHP Stack trace:
+[06-Jul-2022 09:13:53 UTC] PHP   1. {main}() E:\wamp64\www\test02\wp-admin\admin-post.php:0
+[06-Jul-2022 09:13:53 UTC] PHP   2. do_action($hook_name = 'admin_post_tablepress_options') E:\wamp64\www\test02\wp-admin\admin-post.php:85
+[06-Jul-2022 09:13:53 UTC] PHP   3. WP_Hook->do_action($args = [0 => '']) E:\wamp64\www\test02\wp-includes\plugin.php:476
+[06-Jul-2022 09:13:53 UTC] PHP   4. WP_Hook->apply_filters($value = '', $args = [0 => '']) E:\wamp64\www\test02\wp-includes\class-wp-hook.php:331
+[06-Jul-2022 09:13:53 UTC] PHP   5. TablePress_Admin_Controller->handle_post_action_options('') E:\wamp64\www\test02\wp-includes\class-wp-hook.php:307
+[06-Jul-2022 09:13:53 UTC] PHP   6. TablePress_CSS->sanitize_css($css = '') E:\wamp64\www\test02\wp-content\plugins\tablepress\controllers\controller-admin.php:833
+[06-Jul-2022 09:13:53 UTC] PHP   7. TablePress::load_class($class = 'TablePress_CSSTidy', $file = 'class.csstidy.php', $folder = 'libraries/csstidy', $params = *uninitialized*) E:\wamp64\www\test02\wp-content\plugins\tablepress\classes\class-css.php:32
+[06-Jul-2022 09:13:53 UTC] PHP   8. TablePress::load_file($file = 'class.csstidy.php', $folder = 'libraries/csstidy') E:\wamp64\www\test02\wp-content\plugins\tablepress\classes\class-tablepress.php:206
+[06-Jul-2022 09:13:53 UTC] PHP   9. require_once() E:\wamp64\www\test02\wp-content\plugins\tablepress\classes\class-tablepress.php:180
+[06-Jul-2022 09:13:53 UTC] PHP  10. define($constant_name = 'SEL_START', $value = 3) E:\wamp64\www\test02\wp-content\plugins\tablepress\libraries\csstidy\class.csstidy.php:54
+[06-Jul-2022 09:13:53 UTC] PHP Notice:  Constant SEL_END already defined in E:\wamp64\www\test02\wp-content\plugins\tablepress\libraries\csstidy\class.csstidy.php on line 55
+[06-Jul-2022 09:13:53 UTC] PHP Stack trace:
+[06-Jul-2022 09:13:53 UTC] PHP   1. {main}() E:\wamp64\www\test02\wp-admin\admin-post.php:0
+[06-Jul-2022 09:13:53 UTC] PHP   2. do_action($hook_name = 'admin_post_tablepress_options') E:\wamp64\www\test02\wp-admin\admin-post.php:85
+[06-Jul-2022 09:13:53 UTC] PHP   3. WP_Hook->do_action($args = [0 => '']) E:\wamp64\www\test02\wp-includes\plugin.php:476
+[06-Jul-2022 09:13:53 UTC] PHP   4. WP_Hook->apply_filters($value = '', $args = [0 => '']) E:\wamp64\www\test02\wp-includes\class-wp-hook.php:331
+[06-Jul-2022 09:13:53 UTC] PHP   5. TablePress_Admin_Controller->handle_post_action_options('') E:\wamp64\www\test02\wp-includes\class-wp-hook.php:307
+[06-Jul-2022 09:13:53 UTC] PHP   6. TablePress_CSS->sanitize_css($css = '') E:\wamp64\www\test02\wp-content\plugins\tablepress\controllers\controller-admin.php:833
+[06-Jul-2022 09:13:53 UTC] PHP   7. TablePress::load_class($class = 'TablePress_CSSTidy', $file = 'class.csstidy.php', $folder = 'libraries/csstidy', $params = *uninitialized*) E:\wamp64\www\test02\wp-content\plugins\tablepress\classes\class-css.php:32
+[06-Jul-2022 09:13:53 UTC] PHP   8. TablePress::load_file($file = 'class.csstidy.php', $folder = 'libraries/csstidy') E:\wamp64\www\test02\wp-content\plugins\tablepress\classes\class-tablepress.php:206
+[06-Jul-2022 09:13:53 UTC] PHP   9. require_once() E:\wamp64\www\test02\wp-content\plugins\tablepress\classes\class-tablepress.php:180
+[06-Jul-2022 09:13:53 UTC] PHP  10. define($constant_name = 'SEL_END', $value = 4) E:\wamp64\www\test02\wp-content\plugins\tablepress\libraries\csstidy\class.csstidy.php:55
+[06-Jul-2022 09:13:53 UTC] PHP Notice:  Constant PROPERTY already defined in E:\wamp64\www\test02\wp-content\plugins\tablepress\libraries\csstidy\class.csstidy.php on line 56
+[06-Jul-2022 09:13:53 UTC] PHP Stack trace:
+[06-Jul-2022 09:13:53 UTC] PHP   1. {main}() E:\wamp64\www\test02\wp-admin\admin-post.php:0
+[06-Jul-2022 09:13:53 UTC] PHP   2. do_action($hook_name = 'admin_post_tablepress_options') E:\wamp64\www\test02\wp-admin\admin-post.php:85
+[06-Jul-2022 09:13:53 UTC] PHP   3. WP_Hook->do_action($args = [0 => '']) E:\wamp64\www\test02\wp-includes\plugin.php:476
+[06-Jul-2022 09:13:53 UTC] PHP   4. WP_Hook->apply_filters($value = '', $args = [0 => '']) E:\wamp64\www\test02\wp-includes\class-wp-hook.php:331
+[06-Jul-2022 09:13:53 UTC] PHP   5. TablePress_Admin_Controller->handle_post_action_options('') E:\wamp64\www\test02\wp-includes\class-wp-hook.php:307
+[06-Jul-2022 09:13:53 UTC] PHP   6. TablePress_CSS->sanitize_css($css = '') E:\wamp64\www\test02\wp-content\plugins\tablepress\controllers\controller-admin.php:833
+[06-Jul-2022 09:13:53 UTC] PHP   7. TablePress::load_class($class = 'TablePress_CSSTidy', $file = 'class.csstidy.php', $folder = 'libraries/csstidy', $params = *uninitialized*) E:\wamp64\www\test02\wp-content\plugins\tablepress\classes\class-css.php:32
+[06-Jul-2022 09:13:53 UTC] PHP   8. TablePress::load_file($file = 'class.csstidy.php', $folder = 'libraries/csstidy') E:\wamp64\www\test02\wp-content\plugins\tablepress\classes\class-tablepress.php:206
+[06-Jul-2022 09:13:53 UTC] PHP   9. require_once() E:\wamp64\www\test02\wp-content\plugins\tablepress\classes\class-tablepress.php:180
+[06-Jul-2022 09:13:53 UTC] PHP  10. define($constant_name = 'PROPERTY', $value = 5) E:\wamp64\www\test02\wp-content\plugins\tablepress\libraries\csstidy\class.csstidy.php:56
+[06-Jul-2022 09:13:53 UTC] PHP Notice:  Constant VALUE already defined in E:\wamp64\www\test02\wp-content\plugins\tablepress\libraries\csstidy\class.csstidy.php on line 57
+[06-Jul-2022 09:13:53 UTC] PHP Stack trace:
+[06-Jul-2022 09:13:53 UTC] PHP   1. {main}() E:\wamp64\www\test02\wp-admin\admin-post.php:0
+[06-Jul-2022 09:13:53 UTC] PHP   2. do_action($hook_name = 'admin_post_tablepress_options') E:\wamp64\www\test02\wp-admin\admin-post.php:85
+[06-Jul-2022 09:13:53 UTC] PHP   3. WP_Hook->do_action($args = [0 => '']) E:\wamp64\www\test02\wp-includes\plugin.php:476
+[06-Jul-2022 09:13:53 UTC] PHP   4. WP_Hook->apply_filters($value = '', $args = [0 => '']) E:\wamp64\www\test02\wp-includes\class-wp-hook.php:331
+[06-Jul-2022 09:13:53 UTC] PHP   5. TablePress_Admin_Controller->handle_post_action_options('') E:\wamp64\www\test02\wp-includes\class-wp-hook.php:307
+[06-Jul-2022 09:13:53 UTC] PHP   6. TablePress_CSS->sanitize_css($css = '') E:\wamp64\www\test02\wp-content\plugins\tablepress\controllers\controller-admin.php:833
+[06-Jul-2022 09:13:53 UTC] PHP   7. TablePress::load_class($class = 'TablePress_CSSTidy', $file = 'class.csstidy.php', $folder = 'libraries/csstidy', $params = *uninitialized*) E:\wamp64\www\test02\wp-content\plugins\tablepress\classes\class-css.php:32
+[06-Jul-2022 09:13:53 UTC] PHP   8. TablePress::load_file($file = 'class.csstidy.php', $folder = 'libraries/csstidy') E:\wamp64\www\test02\wp-content\plugins\tablepress\classes\class-tablepress.php:206
+[06-Jul-2022 09:13:53 UTC] PHP   9. require_once() E:\wamp64\www\test02\wp-content\plugins\tablepress\classes\class-tablepress.php:180
+[06-Jul-2022 09:13:53 UTC] PHP  10. define($constant_name = 'VALUE', $value = 6) E:\wamp64\www\test02\wp-content\plugins\tablepress\libraries\csstidy\class.csstidy.php:57
+[06-Jul-2022 09:13:53 UTC] PHP Notice:  Constant COMMENT already defined in E:\wamp64\www\test02\wp-content\plugins\tablepress\libraries\csstidy\class.csstidy.php on line 58
+[06-Jul-2022 09:13:53 UTC] PHP Stack trace:
+[06-Jul-2022 09:13:53 UTC] PHP   1. {main}() E:\wamp64\www\test02\wp-admin\admin-post.php:0
+[06-Jul-2022 09:13:53 UTC] PHP   2. do_action($hook_name = 'admin_post_tablepress_options') E:\wamp64\www\test02\wp-admin\admin-post.php:85
+[06-Jul-2022 09:13:53 UTC] PHP   3. WP_Hook->do_action($args = [0 => '']) E:\wamp64\www\test02\wp-includes\plugin.php:476
+[06-Jul-2022 09:13:53 UTC] PHP   4. WP_Hook->apply_filters($value = '', $args = [0 => '']) E:\wamp64\www\test02\wp-includes\class-wp-hook.php:331
+[06-Jul-2022 09:13:53 UTC] PHP   5. TablePress_Admin_Controller->handle_post_action_options('') E:\wamp64\www\test02\wp-includes\class-wp-hook.php:307
+[06-Jul-2022 09:13:53 UTC] PHP   6. TablePress_CSS->sanitize_css($css = '') E:\wamp64\www\test02\wp-content\plugins\tablepress\controllers\controller-admin.php:833
+[06-Jul-2022 09:13:53 UTC] PHP   7. TablePress::load_class($class = 'TablePress_CSSTidy', $file = 'class.csstidy.php', $folder = 'libraries/csstidy', $params = *uninitialized*) E:\wamp64\www\test02\wp-content\plugins\tablepress\classes\class-css.php:32
+[06-Jul-2022 09:13:53 UTC] PHP   8. TablePress::load_file($file = 'class.csstidy.php', $folder = 'libraries/csstidy') E:\wamp64\www\test02\wp-content\plugins\tablepress\classes\class-tablepress.php:206
+[06-Jul-2022 09:13:53 UTC] PHP   9. require_once() E:\wamp64\www\test02\wp-content\plugins\tablepress\classes\class-tablepress.php:180
+[06-Jul-2022 09:13:53 UTC] PHP  10. define($constant_name = 'COMMENT', $value = 7) E:\wamp64\www\test02\wp-content\plugins\tablepress\libraries\csstidy\class.csstidy.php:58
+[06-Jul-2022 09:13:53 UTC] PHP Notice:  Constant IMPORTANT_COMMENT already defined in E:\wamp64\www\test02\wp-content\plugins\tablepress\libraries\csstidy\class.csstidy.php on line 59
+[06-Jul-2022 09:13:53 UTC] PHP Stack trace:
+[06-Jul-2022 09:13:53 UTC] PHP   1. {main}() E:\wamp64\www\test02\wp-admin\admin-post.php:0
+[06-Jul-2022 09:13:53 UTC] PHP   2. do_action($hook_name = 'admin_post_tablepress_options') E:\wamp64\www\test02\wp-admin\admin-post.php:85
+[06-Jul-2022 09:13:53 UTC] PHP   3. WP_Hook->do_action($args = [0 => '']) E:\wamp64\www\test02\wp-includes\plugin.php:476
+[06-Jul-2022 09:13:53 UTC] PHP   4. WP_Hook->apply_filters($value = '', $args = [0 => '']) E:\wamp64\www\test02\wp-includes\class-wp-hook.php:331
+[06-Jul-2022 09:13:53 UTC] PHP   5. TablePress_Admin_Controller->handle_post_action_options('') E:\wamp64\www\test02\wp-includes\class-wp-hook.php:307
+[06-Jul-2022 09:13:53 UTC] PHP   6. TablePress_CSS->sanitize_css($css = '') E:\wamp64\www\test02\wp-content\plugins\tablepress\controllers\controller-admin.php:833
+[06-Jul-2022 09:13:53 UTC] PHP   7. TablePress::load_class($class = 'TablePress_CSSTidy', $file = 'class.csstidy.php', $folder = 'libraries/csstidy', $params = *uninitialized*) E:\wamp64\www\test02\wp-content\plugins\tablepress\classes\class-css.php:32
+[06-Jul-2022 09:13:53 UTC] PHP   8. TablePress::load_file($file = 'class.csstidy.php', $folder = 'libraries/csstidy') E:\wamp64\www\test02\wp-content\plugins\tablepress\classes\class-tablepress.php:206
+[06-Jul-2022 09:13:53 UTC] PHP   9. require_once() E:\wamp64\www\test02\wp-content\plugins\tablepress\classes\class-tablepress.php:180
+[06-Jul-2022 09:13:53 UTC] PHP  10. define($constant_name = 'IMPORTANT_COMMENT', $value = 8) E:\wamp64\www\test02\wp-content\plugins\tablepress\libraries\csstidy\class.csstidy.php:59
+[06-Jul-2022 09:13:53 UTC] PHP Notice:  Constant DEFAULT_AT already defined in E:\wamp64\www\test02\wp-content\plugins\tablepress\libraries\csstidy\class.csstidy.php on line 60
+[06-Jul-2022 09:13:53 UTC] PHP Stack trace:
+[06-Jul-2022 09:13:53 UTC] PHP   1. {main}() E:\wamp64\www\test02\wp-admin\admin-post.php:0
+[06-Jul-2022 09:13:53 UTC] PHP   2. do_action($hook_name = 'admin_post_tablepress_options') E:\wamp64\www\test02\wp-admin\admin-post.php:85
+[06-Jul-2022 09:13:53 UTC] PHP   3. WP_Hook->do_action($args = [0 => '']) E:\wamp64\www\test02\wp-includes\plugin.php:476
+[06-Jul-2022 09:13:53 UTC] PHP   4. WP_Hook->apply_filters($value = '', $args = [0 => '']) E:\wamp64\www\test02\wp-includes\class-wp-hook.php:331
+[06-Jul-2022 09:13:53 UTC] PHP   5. TablePress_Admin_Controller->handle_post_action_options('') E:\wamp64\www\test02\wp-includes\class-wp-hook.php:307
+[06-Jul-2022 09:13:53 UTC] PHP   6. TablePress_CSS->sanitize_css($css = '') E:\wamp64\www\test02\wp-content\plugins\tablepress\controllers\controller-admin.php:833
+[06-Jul-2022 09:13:53 UTC] PHP   7. TablePress::load_class($class = 'TablePress_CSSTidy', $file = 'class.csstidy.php', $folder = 'libraries/csstidy', $params = *uninitialized*) E:\wamp64\www\test02\wp-content\plugins\tablepress\classes\class-css.php:32
+[06-Jul-2022 09:13:53 UTC] PHP   8. TablePress::load_file($file = 'class.csstidy.php', $folder = 'libraries/csstidy') E:\wamp64\www\test02\wp-content\plugins\tablepress\classes\class-tablepress.php:206
+[06-Jul-2022 09:13:53 UTC] PHP   9. require_once() E:\wamp64\www\test02\wp-content\plugins\tablepress\classes\class-tablepress.php:180
+[06-Jul-2022 09:13:53 UTC] PHP  10. define($constant_name = 'DEFAULT_AT', $value = 41) E:\wamp64\www\test02\wp-content\plugins\tablepress\libraries\csstidy\class.csstidy.php:60
