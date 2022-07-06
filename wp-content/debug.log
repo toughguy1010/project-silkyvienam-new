@@ -3276,3 +3276,10 @@ Stack trace:
 [06-Jul-2022 03:12:54 UTC] WordPress database error Table 'silkyvietnam.wp_e_events' doesn't exist for query ALTER TABLE wp_e_events
     		ADD INDEX `created_at_index` (`created_at`)
 		 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, Elementor\Plugin->init, Elementor\Plugin->init_components, Elementor\Core\Admin\Admin->__construct, Elementor\Plugin->init_common, Elementor\Core\Common\App->init_components, Elementor\Core\Common\Modules\EventTracker\Module->__construct, Elementor\Core\Common\Modules\EventTracker\DB->__construct, Elementor\Core\Common\Modules\EventTracker\DB->add_indexes
+[06-Jul-2022 06:49:28 UTC] WordPress database error Unknown character set: 'utf8bin' for query CREATE TABLE IF NOT EXISTS `wp_woof_query_cache` (
+                                                    `mkey` varchar(64) NOT NULL,
+                                                    `mvalue` text NOT NULL,
+                                                    KEY `mkey` (`mkey`)
+                                                  ) DEFAULT CHARACTER SET utf8bin made by do_action('woocommerce_page_wc-settings'), WP_Hook->do_action, WP_Hook->apply_filters, WC_Admin_Menus->settings_page, WC_Admin_Settings::output, include('/plugins/woocommerce/includes/admin/views/html-admin-settings.php'), do_action('woocommerce_settings_tabs_woof'), WP_Hook->do_action, WP_Hook->apply_filters, WOOF->print_plugin_options, WOOF->render_html, include('/plugins/woocommerce-products-filter/views/plugin_options.php')
+[06-Jul-2022 06:49:35 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[06-Jul-2022 06:49:35 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.

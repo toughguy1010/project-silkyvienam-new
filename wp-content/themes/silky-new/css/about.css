@@ -675,6 +675,30 @@
     margin-right: 6%;
 }
 
+.elementor-widget-wrap {
+    padding: 0 !important;
+}
+
+.elementor-heading-title {
+    position: relative;
+    padding-bottom: 10px;
+}
+
+.about-section,
+.about-header {
+    margin-left: 3%;
+}
+
+.elementor-heading-title::after {
+    content: "";
+    width: 3%;
+    height: 1px;
+    left: 0.4%;
+    bottom: 0;
+    background-color: #000;
+    position: absolute;
+}
+
 
 /* content css end */
 
