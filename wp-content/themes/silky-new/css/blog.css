@@ -759,7 +759,7 @@
 /* blog-category start  */
 
 .page-title {
-    display: none;
+    /* display: none; */
 }
 
 .blog-entry-content-wrapper {

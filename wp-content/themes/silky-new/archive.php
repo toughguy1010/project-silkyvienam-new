@@ -31,7 +31,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 					?>
 					<header class="page-header">
 						<?php
-						the_archive_title( '<h1 class="page-title">', '</h1>' );
+						//the_archive_title( '<h1 class="page-title ">', '</h1>' );
 						the_archive_description( '<div class="taxonomy-description">', '</div>' );
 						?>
 					</header><!-- .page-header -->
@@ -58,6 +58,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 			<?php
 			// Display the pagination component.
+			
 			understrap_pagination();
 			// Do the right sidebar check.
 			get_template_part( 'global-templates/right-sidebar-check' );

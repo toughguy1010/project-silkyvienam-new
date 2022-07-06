@@ -14,7 +14,7 @@ use Elementor\Core\Breakpoints\Manager as Breakpoints_Manager;
 if ( ! defined( 'ABSPATH' ) ) {
 	exit; // Exit if accessed directly.
 }
-do_action('blog-style');
+// do_action('blog-style');
 /**
  * Elementor frontend.
  *
