@@ -144,7 +144,7 @@ switch ($type) {
 	case 'collection':
 		?>
 
-		<div class="outer2 collection-category">
+	<div class="outer2 collection-category">
 		<?php
 
 		$paged = ( get_query_var('paged') ) ? get_query_var('paged') : 1;
@@ -270,7 +270,7 @@ switch ($type) {
 			do_action( 'woocommerce_no_products_found' );
 		}
 		?>
-		</div>
+	</div>
 		<?php
 		break;
 

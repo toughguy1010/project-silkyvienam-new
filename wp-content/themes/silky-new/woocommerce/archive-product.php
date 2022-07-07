@@ -21,6 +21,8 @@ get_header();
 
 do_action('product_style');	
 
+// $cate = get_queried_object();
+// var_dump($cate, is_shop(), is_product_category());
 
 /**
  * Hook: woocommerce_before_main_content.
@@ -32,58 +34,129 @@ do_action('product_style');
 do_action( 'woocommerce_before_main_content' );
 // get_template_part('global-templates/part','loading-image-category');
 
-// $cate = get_queried_object();
+if (is_shop()) {
+	if ( woocommerce_product_loop() ) {
+		/**
+		 * Hook: woocommerce_before_shop_loop.
+		 *
+		 * @hooked woocommerce_output_all_notices - 10
+		 * @hooked woocommerce_result_count - 20
+		 * @hooked woocommerce_catalog_ordering - 30
+		 */
+		do_action( 'woocommerce_before_shop_loop' );
+	
+		woocommerce_product_loop_start();
+	
+		if ( wc_get_loop_prop( 'total' ) ) {
+			while ( have_posts() ) {
+				the_post();
+	
+				/**
+				 * Hook: woocommerce_shop_loop.
+				 */
+				do_action( 'woocommerce_shop_loop' );
+	
+				wc_get_template_part( 'content', 'product' );
+			}
+		}
+	
+		woocommerce_product_loop_end();
+	
+		/**
+		 * Hook: woocommerce_after_shop_loop.
+		 *
+		 * @hooked woocommerce_pagination - 10
+		 */
+		do_action( 'woocommerce_after_shop_loop' );
+	} else {
+		/**
+		 * Hook: woocommerce_no_products_found.
+		 *
+		 * @hooked wc_no_products_found - 10
+		 */
+		do_action( 'woocommerce_no_products_found' );
+	}
+	
+} 
+elseif (is_product_category()) {
+	// echo 'ddddd';
+	// global $wp_query;
 
-// $cateFields = get_field_objects( $cate->taxonomy.'_'.$cate->term_id );
-// $cat_type = $cateFields['zwc_product_cat_type']['value'];
+    // // get the query object
+    // $cat = $wp_query->get_queried_object();
+	// var_dump($cat);
 
-// $type = $cat_type['value'];
+
+	// $args = array(
+	// 	'post_type'             => 'product',
+	// 	'post_status'           => 'publish',
+	// 	'ignore_sticky_posts'   => 1,
+	// 	'posts_per_page'        => '12',
+	// 	'tax_query'             => array(
+	// 		array(
+	// 			'taxonomy'      => 'product_cat',
+	// 			'field' => 'term_id', //This is optional, as it defaults to 'term_id'
+	// 			'terms'         => $cat->term_id,
+	// 			'operator'      => 'IN' // Possible values are 'IN', 'NOT IN', 'AND'.
+	// 		),
+	// 		array(
+	// 			'taxonomy'      => 'product_visibility',
+	// 			'field'         => 'slug',
+	// 			'terms'         => 'exclude-from-catalog', // Possibly 'exclude-from-search' too
+	// 			'operator'      => 'NOT IN'
+	// 		)
+	// 	)
+	// );
+	// $products = new WP_Query($args);
+	// var_dump($products);
+
+	if ( woocommerce_product_loop() ) {
+		/**
+		 * Hook: woocommerce_before_shop_loop.
+		 *
+		 * @hooked woocommerce_output_all_notices - 10
+		 * @hooked woocommerce_result_count - 20
+		 * @hooked woocommerce_catalog_ordering - 30
+		 */
+		do_action( 'woocommerce_before_shop_loop' );
+	
+		woocommerce_product_loop_start();
+	
+		if ( wc_get_loop_prop( 'total' ) ) {
+			while ( have_posts() ) {
+				the_post();
+	
+				/**
+				 * Hook: woocommerce_shop_loop.
+				 */
+				do_action( 'woocommerce_shop_loop' );
+	
+				wc_get_template_part( 'content', 'product' );
+			}
+		}
+	
+		woocommerce_product_loop_end();
+	
+		/**
+		 * Hook: woocommerce_after_shop_loop.
+		 *
+		 * @hooked woocommerce_pagination - 10
+		 */
+		do_action( 'woocommerce_after_shop_loop' );
+	} else {
+		/**
+		 * Hook: woocommerce_no_products_found.
+		 *
+		 * @hooked wc_no_products_found - 10
+		 */
+		do_action( 'woocommerce_no_products_found' );
+	}
+}
 
 ?>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 
 <?php
-if ( woocommerce_product_loop() ) {
-	/**
-	 * Hook: woocommerce_before_shop_loop.
-	 *
-	 * @hooked woocommerce_output_all_notices - 10
-	 * @hooked woocommerce_result_count - 20
-	 * @hooked woocommerce_catalog_ordering - 30
-	 */
-	do_action( 'woocommerce_before_shop_loop' );
-
-	woocommerce_product_loop_start();
-
-	if ( wc_get_loop_prop( 'total' ) ) {
-		while ( have_posts() ) {
-			the_post();
-
-			/**
-			 * Hook: woocommerce_shop_loop.
-			 */
-			do_action( 'woocommerce_shop_loop' );
-
-			wc_get_template_part( 'content', 'product' );
-		}
-	}
-
-	woocommerce_product_loop_end();
-
-	/**
-	 * Hook: woocommerce_after_shop_loop.
-	 *
-	 * @hooked woocommerce_pagination - 10
-	 */
-	do_action( 'woocommerce_after_shop_loop' );
-} else {
-	/**
-	 * Hook: woocommerce_no_products_found.
-	 *
-	 * @hooked wc_no_products_found - 10
-	 */
-	do_action( 'woocommerce_no_products_found' );
-}
 
 /**
  * Hook: woocommerce_after_main_content.
