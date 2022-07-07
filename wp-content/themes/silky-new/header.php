@@ -207,78 +207,7 @@ defined( 'ABSPATH' ) || exit;
                             <path id="Path_9" data-name="Path 9" class="cls-1" d="M-35.743,70.273c.107-1.835,1.442-3.5,2.682-3.5a3.7,3.7,0,0,1,2.795.758,3.609,3.609,0,0,1,1.152,2.675,1.652,1.652,0,0,0,.8.061c.961.012,1.356.351,1.417,1.311.134,2.088.247,4.178.371,6.268.028.488.087.975.1,1.464.019.99-.429,1.436-1.412,1.436h-9.112c-1.037,0-1.5-.458-1.457-1.513.07-1.76.172-3.517.258-5.276.031-.625.052-1.252.092-1.876a5.53,5.53,0,0,1,.116-.929,1.017,1.017,0,0,1,1.123-.882C-36.473,70.269-36.124,70.273-35.743,70.273Zm3.328,9.639c1.491,0,2.981-.026,4.471.012.579.014.718-.233.678-.731-.044-.526-.075-1.054-.106-1.582q-.179-2.96-.355-5.92c-.024-.418-.175-.6-.648-.593q-4.058.036-8.116,0c-.532-.007-.7.209-.718.662-.035.744-.065,1.487-.1,2.23q-.131,2.639-.267,5.279c-.023.449.121.669.634.658C-35.434,79.891-33.923,79.911-32.414,79.911Zm2.458-9.661a2.55,2.55,0,0,0-1.287-2.37,2.248,2.248,0,0,0-2.535.113,2.526,2.526,0,0,0-1.1,2.257Z" transform="translate(38.414 -66.777)"/>
                           </svg>
                         </div>
-                        <div class="cart-box ">
-                            <div class="cart-toggle-btn">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28.707 28.707">
-                                    <defs>
-                                        <style>
-                                            .a {
-                                                fill: none;
-                                                stroke: rgb(255, 255, 255);
-                                            }
-                                        </style>
-                                    </defs>
-                                    <g transform="translate(0.354 0.354)">
-                                        <line class="a" x2="28" y2="28" />
-                                        <line class="a" x2="28" y2="28" transform="translate(28) rotate(90)" />
-                                    </g>
-                                </svg>
-                            </div>
-                            <div class="cart-content">
-                                <div class="cart-product-list">
-                                    <div class="cart-product-item">
-                                        <div class="cart-product-content">
-                                            <div class="cart-product-name">BALTHUS PAINTER'S JACKET</div>
-                                            <div class="cart-product-material">Light Cotton Canvas</div>
-                                            <div class="cart-product-price">$205</div>
-                                        </div>
-                                        <div class="cart-product-img">
-                                        <img src="<?php echo get_template_directory_uri() . '/img/cart-product-1.jpg'; ?>" />
-                                            <!-- <img src="/assets/img/cart-product-1.jpg" alt=""> -->
-                                        </div>
-                                    </div>
-                                    <div class="line-cart"></div>
-                                    <div class="cart-product-item">
-                                        <div class="cart-product-content">
-                                            <div class="cart-product-name">BALTHUS PAINTER'S JACKET</div>
-                                            <div class="cart-product-material">Light Cotton Canvas</div>
-                                            <div class="cart-product-price">$205</div>
-                                        </div>
-                                        <div class="cart-product-img">
-                                        <img src="<?php echo get_template_directory_uri() . '/img/cart-product-2.jpg'; ?>" />
-
-                                            <!-- <img src="/assets/img/cart-product-2.jpg" alt=""> -->
-                                        </div>
-                                    </div>
-                                    <div class="line-cart"></div>
-                                    <div class="cart-product-item">
-                                        <div class="cart-product-content">
-                                            <div class="cart-product-name">BALTHUS PAINTER'S JACKET</div>
-                                            <div class="cart-product-material">Light Cotton Canvas</div>
-                                            <div class="cart-product-price">$205</div>
-                                        </div>
-                                        <div class="cart-product-img">
-                                        <img src="<?php echo get_template_directory_uri() . '/img/cart-product-3.jpg'; ?>" />
-
-                                            <!-- <img src="/assets/img/cart-product-3.jpg" alt=""> -->
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="cart-calculate-checkout">
-                                    <div class="cart-calculate-checkout-title">To be calculated in checkout</div>
-                                    <div class="checkout-content d-flex justify-content-between mt-1">
-                                        <div class="checkout-title">Total</div>
-                                        <div class="checkout-price fw-bold">
-                                            $290.00
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="cart-btn">
-                                    <a href="#" class="checkout-btn">check out</a>
-                                    <a href="#" class="checkout-btn mt-2">view my cart</a>
-                                </div>
-                            </div>
-                        </div>
+                        
                     </div>
                 </div>
             </nav>

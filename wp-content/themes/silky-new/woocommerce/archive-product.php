@@ -30,6 +30,14 @@ do_action('product_style');
  * @hooked WC_Structured_Data::generate_website_data() - 30
  */
 do_action( 'woocommerce_before_main_content' );
+// get_template_part('global-templates/part','loading-image-category');
+
+// $cate = get_queried_object();
+
+// $cateFields = get_field_objects( $cate->taxonomy.'_'.$cate->term_id );
+// $cat_type = $cateFields['zwc_product_cat_type']['value'];
+
+// $type = $cat_type['value'];
 
 ?>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>

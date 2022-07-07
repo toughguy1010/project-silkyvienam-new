@@ -13,7 +13,7 @@ jQuery(document).ready(function() {
             // console.log(cartMenu)
     }
     var activeFilterBtn = document.querySelector('#activefilterbtn')
-    console.log(activeFilterBtn);
+        // console.log(activeFilterBtn);
 
     console.log(filterContainer);
     activeFilterBtn.addEventListener('click', activeFilterContent)
@@ -46,7 +46,12 @@ jQuery(document).ready(function() {
 
 
     }
+    // activeFilterBtn.removeEventListener("click", activeFilterContent)
+    // activeFilterBtn.addEventListener("click", removeshowautoform)
 
+    // function removeshowautoform() {
+    //     activeFilterBtn.classList.remove("woof_hide_auto_form")
+    // }
     $(".dropdown-menu option").click(function() {
         var selText = $(this).text();
         console.log(selText);
