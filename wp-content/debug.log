@@ -7144,3 +7144,156 @@ Stack trace:
 [07-Jul-2022 09:21:03 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
 [07-Jul-2022 09:21:09 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
 [07-Jul-2022 09:21:09 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[07-Jul-2022 10:04:50 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[07-Jul-2022 10:04:50 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[07-Jul-2022 10:05:19 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[07-Jul-2022 10:05:19 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[07-Jul-2022 10:05:30 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[07-Jul-2022 10:05:30 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[07-Jul-2022 10:05:44 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[07-Jul-2022 10:05:44 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[07-Jul-2022 10:05:58 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[07-Jul-2022 10:05:58 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[07-Jul-2022 10:11:17 UTC] PHP Notice:  Undefined variable: category in E:\wamp64\www\test02\wp-content\themes\silky-new\woocommerce\content-product-cat.php on line 22
+[07-Jul-2022 10:11:17 UTC] PHP Stack trace:
+[07-Jul-2022 10:11:17 UTC] PHP   1. {main}() E:\wamp64\www\test02\index.php:0
+[07-Jul-2022 10:11:17 UTC] PHP   2. require() E:\wamp64\www\test02\index.php:17
+[07-Jul-2022 10:11:17 UTC] PHP   3. require_once() E:\wamp64\www\test02\wp-blog-header.php:19
+[07-Jul-2022 10:11:17 UTC] PHP   4. include() E:\wamp64\www\test02\wp-includes\template-loader.php:106
+[07-Jul-2022 10:11:17 UTC] PHP   5. wc_get_template($template_name = 'archive-product.php', $args = *uninitialized*, $template_path = *uninitialized*, $default_path = *uninitialized*) E:\wamp64\www\test02\wp-content\plugins\woocommerce\templates\taxonomy-product-cat.php:22
+[07-Jul-2022 10:11:17 UTC] PHP   6. include() E:\wamp64\www\test02\wp-content\plugins\woocommerce\includes\wc-core-functions.php:345
+[07-Jul-2022 10:11:17 UTC] PHP   7. wc_get_template_part($slug = 'content', $name = 'product-cat') E:\wamp64\www\test02\wp-content\themes\silky-new\woocommerce\archive-product.php:134
+[07-Jul-2022 10:11:17 UTC] PHP   8. load_template($_template_file = 'E:\\wamp64\\www\\test02/wp-content/themes/silky-new/woocommerce/content-product-cat.php', $require_once = FALSE, $args = *uninitialized*) E:\wamp64\www\test02\wp-content\plugins\woocommerce\includes\wc-core-functions.php:284
+[07-Jul-2022 10:11:17 UTC] PHP   9. require() E:\wamp64\www\test02\wp-includes\template.php:772
+[07-Jul-2022 10:11:17 UTC] PHP Notice:  Undefined variable: category in E:\wamp64\www\test02\wp-content\themes\silky-new\woocommerce\content-product-cat.php on line 29
+[07-Jul-2022 10:11:17 UTC] PHP Stack trace:
+[07-Jul-2022 10:11:17 UTC] PHP   1. {main}() E:\wamp64\www\test02\index.php:0
+[07-Jul-2022 10:11:17 UTC] PHP   2. require() E:\wamp64\www\test02\index.php:17
+[07-Jul-2022 10:11:17 UTC] PHP   3. require_once() E:\wamp64\www\test02\wp-blog-header.php:19
+[07-Jul-2022 10:11:17 UTC] PHP   4. include() E:\wamp64\www\test02\wp-includes\template-loader.php:106
+[07-Jul-2022 10:11:17 UTC] PHP   5. wc_get_template($template_name = 'archive-product.php', $args = *uninitialized*, $template_path = *uninitialized*, $default_path = *uninitialized*) E:\wamp64\www\test02\wp-content\plugins\woocommerce\templates\taxonomy-product-cat.php:22
+[07-Jul-2022 10:11:17 UTC] PHP   6. include() E:\wamp64\www\test02\wp-content\plugins\woocommerce\includes\wc-core-functions.php:345
+[07-Jul-2022 10:11:17 UTC] PHP   7. wc_get_template_part($slug = 'content', $name = 'product-cat') E:\wamp64\www\test02\wp-content\themes\silky-new\woocommerce\archive-product.php:134
+[07-Jul-2022 10:11:17 UTC] PHP   8. load_template($_template_file = 'E:\\wamp64\\www\\test02/wp-content/themes/silky-new/woocommerce/content-product-cat.php', $require_once = FALSE, $args = *uninitialized*) E:\wamp64\www\test02\wp-content\plugins\woocommerce\includes\wc-core-functions.php:284
+[07-Jul-2022 10:11:17 UTC] PHP   9. require() E:\wamp64\www\test02\wp-includes\template.php:772
+[07-Jul-2022 10:11:17 UTC] PHP Warning:  ltrim() expects parameter 1 to be string, object given in E:\wamp64\www\test02\wp-includes\formatting.php on line 4369
+[07-Jul-2022 10:11:17 UTC] PHP Stack trace:
+[07-Jul-2022 10:11:17 UTC] PHP   1. {main}() E:\wamp64\www\test02\index.php:0
+[07-Jul-2022 10:11:17 UTC] PHP   2. require() E:\wamp64\www\test02\index.php:17
+[07-Jul-2022 10:11:17 UTC] PHP   3. require_once() E:\wamp64\www\test02\wp-blog-header.php:19
+[07-Jul-2022 10:11:17 UTC] PHP   4. include() E:\wamp64\www\test02\wp-includes\template-loader.php:106
+[07-Jul-2022 10:11:17 UTC] PHP   5. wc_get_template($template_name = 'archive-product.php', $args = *uninitialized*, $template_path = *uninitialized*, $default_path = *uninitialized*) E:\wamp64\www\test02\wp-content\plugins\woocommerce\templates\taxonomy-product-cat.php:22
+[07-Jul-2022 10:11:17 UTC] PHP   6. include() E:\wamp64\www\test02\wp-content\plugins\woocommerce\includes\wc-core-functions.php:345
+[07-Jul-2022 10:11:17 UTC] PHP   7. wc_get_template_part($slug = 'content', $name = 'product-cat') E:\wamp64\www\test02\wp-content\themes\silky-new\woocommerce\archive-product.php:134
+[07-Jul-2022 10:11:17 UTC] PHP   8. load_template($_template_file = 'E:\\wamp64\\www\\test02/wp-content/themes/silky-new/woocommerce/content-product-cat.php', $require_once = FALSE, $args = *uninitialized*) E:\wamp64\www\test02\wp-content\plugins\woocommerce\includes\wc-core-functions.php:284
+[07-Jul-2022 10:11:17 UTC] PHP   9. require() E:\wamp64\www\test02\wp-includes\template.php:772
+[07-Jul-2022 10:11:17 UTC] PHP  10. do_action($hook_name = 'woocommerce_before_subcategory', ...$arg = variadic(NULL)) E:\wamp64\www\test02\wp-content\themes\silky-new\woocommerce\content-product-cat.php:29
+[07-Jul-2022 10:11:17 UTC] PHP  11. WP_Hook->do_action($args = [0 => NULL]) E:\wamp64\www\test02\wp-includes\plugin.php:476
+[07-Jul-2022 10:11:17 UTC] PHP  12. WP_Hook->apply_filters($value = '', $args = [0 => NULL]) E:\wamp64\www\test02\wp-includes\class-wp-hook.php:331
+[07-Jul-2022 10:11:17 UTC] PHP  13. woocommerce_template_loop_category_link_open($category = NULL) E:\wamp64\www\test02\wp-includes\class-wp-hook.php:307
+[07-Jul-2022 10:11:17 UTC] PHP  14. esc_url($url = class WP_Error { public $errors = ['invalid_term' => [...]]; public $error_data = []; protected $additional_data = [] }, $protocols = *uninitialized*, $_context = *uninitialized*) E:\wamp64\www\test02\wp-content\plugins\woocommerce\includes\wc-template-functions.php:1220
+[07-Jul-2022 10:11:17 UTC] PHP  15. ltrim($str = class WP_Error { public $errors = ['invalid_term' => [...]]; public $error_data = []; protected $additional_data = [] }) E:\wamp64\www\test02\wp-includes\formatting.php:4369
+[07-Jul-2022 10:11:17 UTC] PHP Notice:  Undefined variable: category in E:\wamp64\www\test02\wp-content\themes\silky-new\woocommerce\content-product-cat.php on line 36
+[07-Jul-2022 10:11:17 UTC] PHP Stack trace:
+[07-Jul-2022 10:11:17 UTC] PHP   1. {main}() E:\wamp64\www\test02\index.php:0
+[07-Jul-2022 10:11:17 UTC] PHP   2. require() E:\wamp64\www\test02\index.php:17
+[07-Jul-2022 10:11:17 UTC] PHP   3. require_once() E:\wamp64\www\test02\wp-blog-header.php:19
+[07-Jul-2022 10:11:17 UTC] PHP   4. include() E:\wamp64\www\test02\wp-includes\template-loader.php:106
+[07-Jul-2022 10:11:17 UTC] PHP   5. wc_get_template($template_name = 'archive-product.php', $args = *uninitialized*, $template_path = *uninitialized*, $default_path = *uninitialized*) E:\wamp64\www\test02\wp-content\plugins\woocommerce\templates\taxonomy-product-cat.php:22
+[07-Jul-2022 10:11:17 UTC] PHP   6. include() E:\wamp64\www\test02\wp-content\plugins\woocommerce\includes\wc-core-functions.php:345
+[07-Jul-2022 10:11:17 UTC] PHP   7. wc_get_template_part($slug = 'content', $name = 'product-cat') E:\wamp64\www\test02\wp-content\themes\silky-new\woocommerce\archive-product.php:134
+[07-Jul-2022 10:11:17 UTC] PHP   8. load_template($_template_file = 'E:\\wamp64\\www\\test02/wp-content/themes/silky-new/woocommerce/content-product-cat.php', $require_once = FALSE, $args = *uninitialized*) E:\wamp64\www\test02\wp-content\plugins\woocommerce\includes\wc-core-functions.php:284
+[07-Jul-2022 10:11:17 UTC] PHP   9. require() E:\wamp64\www\test02\wp-includes\template.php:772
+[07-Jul-2022 10:11:17 UTC] PHP Notice:  Trying to get property 'term_id' of non-object in E:\wamp64\www\test02\wp-content\plugins\woocommerce\includes\wc-template-functions.php on line 2622
+[07-Jul-2022 10:11:17 UTC] PHP Stack trace:
+[07-Jul-2022 10:11:17 UTC] PHP   1. {main}() E:\wamp64\www\test02\index.php:0
+[07-Jul-2022 10:11:17 UTC] PHP   2. require() E:\wamp64\www\test02\index.php:17
+[07-Jul-2022 10:11:17 UTC] PHP   3. require_once() E:\wamp64\www\test02\wp-blog-header.php:19
+[07-Jul-2022 10:11:17 UTC] PHP   4. include() E:\wamp64\www\test02\wp-includes\template-loader.php:106
+[07-Jul-2022 10:11:17 UTC] PHP   5. wc_get_template($template_name = 'archive-product.php', $args = *uninitialized*, $template_path = *uninitialized*, $default_path = *uninitialized*) E:\wamp64\www\test02\wp-content\plugins\woocommerce\templates\taxonomy-product-cat.php:22
+[07-Jul-2022 10:11:17 UTC] PHP   6. include() E:\wamp64\www\test02\wp-content\plugins\woocommerce\includes\wc-core-functions.php:345
+[07-Jul-2022 10:11:17 UTC] PHP   7. wc_get_template_part($slug = 'content', $name = 'product-cat') E:\wamp64\www\test02\wp-content\themes\silky-new\woocommerce\archive-product.php:134
+[07-Jul-2022 10:11:17 UTC] PHP   8. load_template($_template_file = 'E:\\wamp64\\www\\test02/wp-content/themes/silky-new/woocommerce/content-product-cat.php', $require_once = FALSE, $args = *uninitialized*) E:\wamp64\www\test02\wp-content\plugins\woocommerce\includes\wc-core-functions.php:284
+[07-Jul-2022 10:11:17 UTC] PHP   9. require() E:\wamp64\www\test02\wp-includes\template.php:772
+[07-Jul-2022 10:11:17 UTC] PHP  10. do_action($hook_name = 'woocommerce_before_subcategory_title', ...$arg = variadic(NULL)) E:\wamp64\www\test02\wp-content\themes\silky-new\woocommerce\content-product-cat.php:36
+[07-Jul-2022 10:11:17 UTC] PHP  11. WP_Hook->do_action($args = [0 => NULL]) E:\wamp64\www\test02\wp-includes\plugin.php:476
+[07-Jul-2022 10:11:17 UTC] PHP  12. WP_Hook->apply_filters($value = '', $args = [0 => NULL]) E:\wamp64\www\test02\wp-includes\class-wp-hook.php:331
+[07-Jul-2022 10:11:17 UTC] PHP  13. woocommerce_subcategory_thumbnail($category = NULL) E:\wamp64\www\test02\wp-includes\class-wp-hook.php:307
+[07-Jul-2022 10:11:17 UTC] PHP Notice:  Trying to get property 'name' of non-object in E:\wamp64\www\test02\wp-content\plugins\woocommerce\includes\wc-template-functions.php on line 2644
+[07-Jul-2022 10:11:17 UTC] PHP Stack trace:
+[07-Jul-2022 10:11:17 UTC] PHP   1. {main}() E:\wamp64\www\test02\index.php:0
+[07-Jul-2022 10:11:17 UTC] PHP   2. require() E:\wamp64\www\test02\index.php:17
+[07-Jul-2022 10:11:17 UTC] PHP   3. require_once() E:\wamp64\www\test02\wp-blog-header.php:19
+[07-Jul-2022 10:11:17 UTC] PHP   4. include() E:\wamp64\www\test02\wp-includes\template-loader.php:106
+[07-Jul-2022 10:11:17 UTC] PHP   5. wc_get_template($template_name = 'archive-product.php', $args = *uninitialized*, $template_path = *uninitialized*, $default_path = *uninitialized*) E:\wamp64\www\test02\wp-content\plugins\woocommerce\templates\taxonomy-product-cat.php:22
+[07-Jul-2022 10:11:17 UTC] PHP   6. include() E:\wamp64\www\test02\wp-content\plugins\woocommerce\includes\wc-core-functions.php:345
+[07-Jul-2022 10:11:17 UTC] PHP   7. wc_get_template_part($slug = 'content', $name = 'product-cat') E:\wamp64\www\test02\wp-content\themes\silky-new\woocommerce\archive-product.php:134
+[07-Jul-2022 10:11:17 UTC] PHP   8. load_template($_template_file = 'E:\\wamp64\\www\\test02/wp-content/themes/silky-new/woocommerce/content-product-cat.php', $require_once = FALSE, $args = *uninitialized*) E:\wamp64\www\test02\wp-content\plugins\woocommerce\includes\wc-core-functions.php:284
+[07-Jul-2022 10:11:17 UTC] PHP   9. require() E:\wamp64\www\test02\wp-includes\template.php:772
+[07-Jul-2022 10:11:17 UTC] PHP  10. do_action($hook_name = 'woocommerce_before_subcategory_title', ...$arg = variadic(NULL)) E:\wamp64\www\test02\wp-content\themes\silky-new\woocommerce\content-product-cat.php:36
+[07-Jul-2022 10:11:17 UTC] PHP  11. WP_Hook->do_action($args = [0 => NULL]) E:\wamp64\www\test02\wp-includes\plugin.php:476
+[07-Jul-2022 10:11:17 UTC] PHP  12. WP_Hook->apply_filters($value = '', $args = [0 => NULL]) E:\wamp64\www\test02\wp-includes\class-wp-hook.php:331
+[07-Jul-2022 10:11:17 UTC] PHP  13. woocommerce_subcategory_thumbnail($category = NULL) E:\wamp64\www\test02\wp-includes\class-wp-hook.php:307
+[07-Jul-2022 10:11:17 UTC] PHP Notice:  Undefined variable: category in E:\wamp64\www\test02\wp-content\themes\silky-new\woocommerce\content-product-cat.php on line 43
+[07-Jul-2022 10:11:17 UTC] PHP Stack trace:
+[07-Jul-2022 10:11:17 UTC] PHP   1. {main}() E:\wamp64\www\test02\index.php:0
+[07-Jul-2022 10:11:17 UTC] PHP   2. require() E:\wamp64\www\test02\index.php:17
+[07-Jul-2022 10:11:17 UTC] PHP   3. require_once() E:\wamp64\www\test02\wp-blog-header.php:19
+[07-Jul-2022 10:11:17 UTC] PHP   4. include() E:\wamp64\www\test02\wp-includes\template-loader.php:106
+[07-Jul-2022 10:11:17 UTC] PHP   5. wc_get_template($template_name = 'archive-product.php', $args = *uninitialized*, $template_path = *uninitialized*, $default_path = *uninitialized*) E:\wamp64\www\test02\wp-content\plugins\woocommerce\templates\taxonomy-product-cat.php:22
+[07-Jul-2022 10:11:17 UTC] PHP   6. include() E:\wamp64\www\test02\wp-content\plugins\woocommerce\includes\wc-core-functions.php:345
+[07-Jul-2022 10:11:17 UTC] PHP   7. wc_get_template_part($slug = 'content', $name = 'product-cat') E:\wamp64\www\test02\wp-content\themes\silky-new\woocommerce\archive-product.php:134
+[07-Jul-2022 10:11:17 UTC] PHP   8. load_template($_template_file = 'E:\\wamp64\\www\\test02/wp-content/themes/silky-new/woocommerce/content-product-cat.php', $require_once = FALSE, $args = *uninitialized*) E:\wamp64\www\test02\wp-content\plugins\woocommerce\includes\wc-core-functions.php:284
+[07-Jul-2022 10:11:17 UTC] PHP   9. require() E:\wamp64\www\test02\wp-includes\template.php:772
+[07-Jul-2022 10:11:17 UTC] PHP Notice:  Trying to get property 'name' of non-object in E:\wamp64\www\test02\wp-content\plugins\woocommerce\includes\wc-template-functions.php on line 1179
+[07-Jul-2022 10:11:17 UTC] PHP Stack trace:
+[07-Jul-2022 10:11:17 UTC] PHP   1. {main}() E:\wamp64\www\test02\index.php:0
+[07-Jul-2022 10:11:17 UTC] PHP   2. require() E:\wamp64\www\test02\index.php:17
+[07-Jul-2022 10:11:17 UTC] PHP   3. require_once() E:\wamp64\www\test02\wp-blog-header.php:19
+[07-Jul-2022 10:11:17 UTC] PHP   4. include() E:\wamp64\www\test02\wp-includes\template-loader.php:106
+[07-Jul-2022 10:11:17 UTC] PHP   5. wc_get_template($template_name = 'archive-product.php', $args = *uninitialized*, $template_path = *uninitialized*, $default_path = *uninitialized*) E:\wamp64\www\test02\wp-content\plugins\woocommerce\templates\taxonomy-product-cat.php:22
+[07-Jul-2022 10:11:17 UTC] PHP   6. include() E:\wamp64\www\test02\wp-content\plugins\woocommerce\includes\wc-core-functions.php:345
+[07-Jul-2022 10:11:17 UTC] PHP   7. wc_get_template_part($slug = 'content', $name = 'product-cat') E:\wamp64\www\test02\wp-content\themes\silky-new\woocommerce\archive-product.php:134
+[07-Jul-2022 10:11:17 UTC] PHP   8. load_template($_template_file = 'E:\\wamp64\\www\\test02/wp-content/themes/silky-new/woocommerce/content-product-cat.php', $require_once = FALSE, $args = *uninitialized*) E:\wamp64\www\test02\wp-content\plugins\woocommerce\includes\wc-core-functions.php:284
+[07-Jul-2022 10:11:17 UTC] PHP   9. require() E:\wamp64\www\test02\wp-includes\template.php:772
+[07-Jul-2022 10:11:17 UTC] PHP  10. do_action($hook_name = 'woocommerce_shop_loop_subcategory_title', ...$arg = variadic(NULL)) E:\wamp64\www\test02\wp-content\themes\silky-new\woocommerce\content-product-cat.php:43
+[07-Jul-2022 10:11:17 UTC] PHP  11. WP_Hook->do_action($args = [0 => NULL]) E:\wamp64\www\test02\wp-includes\plugin.php:476
+[07-Jul-2022 10:11:17 UTC] PHP  12. WP_Hook->apply_filters($value = '', $args = [0 => NULL]) E:\wamp64\www\test02\wp-includes\class-wp-hook.php:331
+[07-Jul-2022 10:11:17 UTC] PHP  13. woocommerce_template_loop_category_title($category = NULL) E:\wamp64\www\test02\wp-includes\class-wp-hook.php:307
+[07-Jul-2022 10:11:17 UTC] PHP Notice:  Trying to get property 'count' of non-object in E:\wamp64\www\test02\wp-content\plugins\woocommerce\includes\wc-template-functions.php on line 1181
+[07-Jul-2022 10:11:17 UTC] PHP Stack trace:
+[07-Jul-2022 10:11:17 UTC] PHP   1. {main}() E:\wamp64\www\test02\index.php:0
+[07-Jul-2022 10:11:17 UTC] PHP   2. require() E:\wamp64\www\test02\index.php:17
+[07-Jul-2022 10:11:17 UTC] PHP   3. require_once() E:\wamp64\www\test02\wp-blog-header.php:19
+[07-Jul-2022 10:11:17 UTC] PHP   4. include() E:\wamp64\www\test02\wp-includes\template-loader.php:106
+[07-Jul-2022 10:11:17 UTC] PHP   5. wc_get_template($template_name = 'archive-product.php', $args = *uninitialized*, $template_path = *uninitialized*, $default_path = *uninitialized*) E:\wamp64\www\test02\wp-content\plugins\woocommerce\templates\taxonomy-product-cat.php:22
+[07-Jul-2022 10:11:17 UTC] PHP   6. include() E:\wamp64\www\test02\wp-content\plugins\woocommerce\includes\wc-core-functions.php:345
+[07-Jul-2022 10:11:17 UTC] PHP   7. wc_get_template_part($slug = 'content', $name = 'product-cat') E:\wamp64\www\test02\wp-content\themes\silky-new\woocommerce\archive-product.php:134
+[07-Jul-2022 10:11:17 UTC] PHP   8. load_template($_template_file = 'E:\\wamp64\\www\\test02/wp-content/themes/silky-new/woocommerce/content-product-cat.php', $require_once = FALSE, $args = *uninitialized*) E:\wamp64\www\test02\wp-content\plugins\woocommerce\includes\wc-core-functions.php:284
+[07-Jul-2022 10:11:17 UTC] PHP   9. require() E:\wamp64\www\test02\wp-includes\template.php:772
+[07-Jul-2022 10:11:17 UTC] PHP  10. do_action($hook_name = 'woocommerce_shop_loop_subcategory_title', ...$arg = variadic(NULL)) E:\wamp64\www\test02\wp-content\themes\silky-new\woocommerce\content-product-cat.php:43
+[07-Jul-2022 10:11:17 UTC] PHP  11. WP_Hook->do_action($args = [0 => NULL]) E:\wamp64\www\test02\wp-includes\plugin.php:476
+[07-Jul-2022 10:11:17 UTC] PHP  12. WP_Hook->apply_filters($value = '', $args = [0 => NULL]) E:\wamp64\www\test02\wp-includes\class-wp-hook.php:331
+[07-Jul-2022 10:11:17 UTC] PHP  13. woocommerce_template_loop_category_title($category = NULL) E:\wamp64\www\test02\wp-includes\class-wp-hook.php:307
+[07-Jul-2022 10:11:17 UTC] PHP Notice:  Undefined variable: category in E:\wamp64\www\test02\wp-content\themes\silky-new\woocommerce\content-product-cat.php on line 48
+[07-Jul-2022 10:11:17 UTC] PHP Stack trace:
+[07-Jul-2022 10:11:17 UTC] PHP   1. {main}() E:\wamp64\www\test02\index.php:0
+[07-Jul-2022 10:11:17 UTC] PHP   2. require() E:\wamp64\www\test02\index.php:17
+[07-Jul-2022 10:11:17 UTC] PHP   3. require_once() E:\wamp64\www\test02\wp-blog-header.php:19
+[07-Jul-2022 10:11:17 UTC] PHP   4. include() E:\wamp64\www\test02\wp-includes\template-loader.php:106
+[07-Jul-2022 10:11:17 UTC] PHP   5. wc_get_template($template_name = 'archive-product.php', $args = *uninitialized*, $template_path = *uninitialized*, $default_path = *uninitialized*) E:\wamp64\www\test02\wp-content\plugins\woocommerce\templates\taxonomy-product-cat.php:22
+[07-Jul-2022 10:11:17 UTC] PHP   6. include() E:\wamp64\www\test02\wp-content\plugins\woocommerce\includes\wc-core-functions.php:345
+[07-Jul-2022 10:11:17 UTC] PHP   7. wc_get_template_part($slug = 'content', $name = 'product-cat') E:\wamp64\www\test02\wp-content\themes\silky-new\woocommerce\archive-product.php:134
+[07-Jul-2022 10:11:17 UTC] PHP   8. load_template($_template_file = 'E:\\wamp64\\www\\test02/wp-content/themes/silky-new/woocommerce/content-product-cat.php', $require_once = FALSE, $args = *uninitialized*) E:\wamp64\www\test02\wp-content\plugins\woocommerce\includes\wc-core-functions.php:284
+[07-Jul-2022 10:11:17 UTC] PHP   9. require() E:\wamp64\www\test02\wp-includes\template.php:772
+[07-Jul-2022 10:11:17 UTC] PHP Notice:  Undefined variable: category in E:\wamp64\www\test02\wp-content\themes\silky-new\woocommerce\content-product-cat.php on line 55
+[07-Jul-2022 10:11:17 UTC] PHP Stack trace:
+[07-Jul-2022 10:11:17 UTC] PHP   1. {main}() E:\wamp64\www\test02\index.php:0
+[07-Jul-2022 10:11:17 UTC] PHP   2. require() E:\wamp64\www\test02\index.php:17
+[07-Jul-2022 10:11:17 UTC] PHP   3. require_once() E:\wamp64\www\test02\wp-blog-header.php:19
+[07-Jul-2022 10:11:17 UTC] PHP   4. include() E:\wamp64\www\test02\wp-includes\template-loader.php:106
+[07-Jul-2022 10:11:17 UTC] PHP   5. wc_get_template($template_name = 'archive-product.php', $args = *uninitialized*, $template_path = *uninitialized*, $default_path = *uninitialized*) E:\wamp64\www\test02\wp-content\plugins\woocommerce\templates\taxonomy-product-cat.php:22
+[07-Jul-2022 10:11:17 UTC] PHP   6. include() E:\wamp64\www\test02\wp-content\plugins\woocommerce\includes\wc-core-functions.php:345
+[07-Jul-2022 10:11:17 UTC] PHP   7. wc_get_template_part($slug = 'content', $name = 'product-cat') E:\wamp64\www\test02\wp-content\themes\silky-new\woocommerce\archive-product.php:134
+[07-Jul-2022 10:11:17 UTC] PHP   8. load_template($_template_file = 'E:\\wamp64\\www\\test02/wp-content/themes/silky-new/woocommerce/content-product-cat.php', $require_once = FALSE, $args = *uninitialized*) E:\wamp64\www\test02\wp-content\plugins\woocommerce\includes\wc-core-functions.php:284
+[07-Jul-2022 10:11:17 UTC] PHP   9. require() E:\wamp64\www\test02\wp-includes\template.php:772

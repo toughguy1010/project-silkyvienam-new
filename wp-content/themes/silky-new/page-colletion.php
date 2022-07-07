@@ -30,7 +30,7 @@ do_action('product_style');
                     echo"<img src='{$image}' alt=''  />";
                 echo '</div>';
                 ?> <div class="collection-btn">
-                <a href="<?php echo $category_link ?>"> dddd</a></div> <?php 
+                <a href="<?php echo $category_link ?>"> Shop the look</a></div> <?php 
             echo '</div>';
         }
 
