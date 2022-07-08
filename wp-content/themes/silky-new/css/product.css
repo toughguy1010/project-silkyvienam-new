@@ -692,6 +692,10 @@
     text-transform: uppercase;
 }
 
+.collection-product-short-desc {
+    display: none;
+}
+
 .product-desc {
     display: flex;
     justify-content: space-between;
@@ -2082,6 +2086,15 @@
 
 
 /* collection-product */
+
+.collection-product-content .collection-product-short-desc {
+    display: block;
+}
+
+.collection-product-content .collection-product-short-desc p {
+    display: block;
+    font-size: 9px;
+}
 
 
 /* collection-product */
