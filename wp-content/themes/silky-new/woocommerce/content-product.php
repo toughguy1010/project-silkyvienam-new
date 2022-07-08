@@ -59,6 +59,18 @@ if ( empty( $product ) || ! $product->is_visible() ) {
 	 * @hooked woocommerce_template_loop_price - 10
 	 */
 	// do_action( 'woocommerce_after_shop_loop_item_title' );
+	
+$short_description = apply_filters( 'woocommerce_short_description', $post->post_excerpt );
+
+if ( ! $short_description ) {
+	return;
+}
+
+?>
+<div class="woocommerce-product-details__short-description detail_sub_title">
+	<?php echo $short_description; // WPCS: XSS ok. ?>
+</div>
+<?
 	?> <span class="product-price"><?php echo apply_filters('silky_filter-product-price',$product->get_price_html() ) ?></span> 
 	</div>
 	<?php

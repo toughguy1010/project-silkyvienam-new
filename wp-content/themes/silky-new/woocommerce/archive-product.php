@@ -79,39 +79,39 @@ if (is_shop()) {
 	
 } 
 elseif (is_product_category()) {
-	// echo 'ddddd';
-	// global $wp_query;
+	echo 'ddddd';
+	global $wp_query;
 
-    // // get the query object
-    // $cat = $wp_query->get_queried_object();
-	// var_dump($cat);
+    // get the query object
+    $cat = $wp_query->get_queried_object();
+	var_dump($cat);
 
 
-	// $args = array(
-	// 	'post_type'             => 'product',
-	// 	'post_status'           => 'publish',
-	// 	'ignore_sticky_posts'   => 1,
-	// 	'posts_per_page'        => '12',
-	// 	'tax_query'             => array(
-	// 		array(
-	// 			'taxonomy'      => 'product_cat',
-	// 			'field' => 'term_id', //This is optional, as it defaults to 'term_id'
-	// 			'terms'         => $cat->term_id,
-	// 			'operator'      => 'IN' // Possible values are 'IN', 'NOT IN', 'AND'.
-	// 		),
-	// 		array(
-	// 			'taxonomy'      => 'product_visibility',
-	// 			'field'         => 'slug',
-	// 			'terms'         => 'exclude-from-catalog', // Possibly 'exclude-from-search' too
-	// 			'operator'      => 'NOT IN'
-	// 		)
-	// 	)
-	// );
-	// $products = new WP_Query($args);
+	$args = array(
+		'post_type'             => 'product',
+		'post_status'           => 'publish',
+		'ignore_sticky_posts'   => 1,
+		'posts_per_page'        => '12',
+		'tax_query'             => array(
+			array(
+				'taxonomy'      => 'product_cat',
+				'field' => 'term_id', //This is optional, as it defaults to 'term_id'
+				'terms'         => $cat->term_id,
+				'operator'      => 'IN' // Possible values are 'IN', 'NOT IN', 'AND'.
+			),
+			array(
+				'taxonomy'      => 'product_visibility',
+				'field'         => 'slug',
+				'terms'         => 'exclude-from-catalog', // Possibly 'exclude-from-search' too
+				'operator'      => 'NOT IN'
+			)
+		)
+	);
+	$products = new WP_Query($args);
 	// var_dump($products);
 		echo' <div class = "collection-product-content">';
 		woocommerce_product_loop_start();
-	
+		
 		if ( wc_get_loop_prop( 'total' ) ) {
 			while ( have_posts() ) {
 				the_post();
@@ -122,6 +122,7 @@ elseif (is_product_category()) {
 				do_action( 'woocommerce_shop_loop' );
 	
 				wc_get_template_part( 'content', 'product' );
+				
 			}
 		}
 	

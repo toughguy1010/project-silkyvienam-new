@@ -1986,6 +1986,7 @@
     width: 100vw;
     height: 40vw;
     margin-bottom: 5%;
+    position: relative;
 }
 
 .collection-header-img {
@@ -1993,6 +1994,34 @@
     height: 100%;
     object-fit: cover;
     object-position: bottom;
+}
+
+.header-collection-desc {
+    position: absolute;
+    top: 35%;
+    left: 20%;
+    right: 20%;
+    color: #fff;
+}
+
+.header-colletion-name {
+    display: block;
+    font-size: 2vw;
+    font-weight: 600;
+    font-family: 'Raleway', sans-serif !important;
+}
+
+.header-colletion-line {
+    width: 3%;
+    height: 1px;
+    background-color: #FFFFFF;
+    margin: 2% 0;
+}
+
+.content-header-collection-desc p {
+    display: block;
+    width: 100%;
+    font-size: 13px;
 }
 
 .collection-content {
@@ -2050,6 +2079,15 @@
     color: #fff;
     background-color: rgba(164, 141, 103, 0.9);
 } */
+
+
+/* collection-product */
+
+
+/* collection-product */
+
+
+/* responsive */
 
 @media only screen and (max-width: 1205px) {
     .desc_tabs p {
