@@ -2087,13 +2087,8 @@
 
 /* collection-product */
 
-.collection-product-content .collection-product-short-desc {
-    display: block;
-}
-
-.collection-product-content .collection-product-short-desc p {
-    display: block;
-    font-size: 9px;
+.collection_category_product_list {
+    clear: both;
 }
 
 

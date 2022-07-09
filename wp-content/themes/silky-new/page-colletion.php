@@ -17,7 +17,7 @@ $offset = ( $page-1 ) * COLLECTION_PAGE_SIZE;
 $args = array( 'number' => COLLECTION_PAGE_SIZE, 'offset' => $offset, 'child_of' => $parent_id );
 $termchildren = get_terms( $taxonomy, $args );
 
-var_dump($termchildren);
+// var_dump($parentterm);
 
 ?>
 

@@ -1,0 +1,134 @@
+2022-07-09T01:57:56+00:00 CRITICAL Uncaught Error: Object of class WP_Term could not be converted to string in E:\wamp64\www\test02\wp-includes\taxonomy.php:1060
+Stack trace:
+#0 E:\wamp64\www\test02\wp-includes\category.php(206): get_term_by('name', Object(WP_Term), 'category')
+#1 E:\wamp64\www\test02\wp-content\themes\silky-new\woocommerce\archive-product.php(110): get_cat_ID(Object(WP_Term))
+#2 E:\wamp64\www\test02\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('E:\\wamp64\\www\\t...')
+#3 E:\wamp64\www\test02\wp-content\plugins\woocommerce\templates\taxonomy-product-cat.php(22): wc_get_template('archive-product...')
+#4 E:\wamp64\www\test02\wp-includes\template-loader.php(106): include('E:\\wamp64\\www\\t...')
+#5 E:\wamp64\www\test02\wp-blog-header.php(19): require_once('E:\\wamp64\\www\\t...')
+#6 E:\wamp64\www\test02\index.php(17): require('E:\\wamp64\\www\\t...')
+#7 {main}
+  thrown in E:\wamp64\www\test02\wp-includes\taxonomy.php on line 1060
+
+2022-07-09T01:59:42+00:00 CRITICAL Uncaught Error: Object of class WP_Term could not be converted to string in E:\wamp64\www\test02\wp-includes\taxonomy.php:1060
+Stack trace:
+#0 E:\wamp64\www\test02\wp-includes\category.php(206): get_term_by('name', Object(WP_Term), 'category')
+#1 E:\wamp64\www\test02\wp-content\themes\silky-new\woocommerce\archive-product.php(110): get_cat_ID(Object(WP_Term))
+#2 E:\wamp64\www\test02\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('E:\\wamp64\\www\\t...')
+#3 E:\wamp64\www\test02\wp-content\plugins\woocommerce\templates\taxonomy-product-cat.php(22): wc_get_template('archive-product...')
+#4 E:\wamp64\www\test02\wp-includes\template-loader.php(106): include('E:\\wamp64\\www\\t...')
+#5 E:\wamp64\www\test02\wp-blog-header.php(19): require_once('E:\\wamp64\\www\\t...')
+#6 E:\wamp64\www\test02\index.php(17): require('E:\\wamp64\\www\\t...')
+#7 {main}
+  thrown in E:\wamp64\www\test02\wp-includes\taxonomy.php on line 1060
+
+2022-07-09T02:01:15+00:00 CRITICAL syntax error, unexpected 'var_dump' (T_STRING) in E:\wamp64\www\test02\wp-content\themes\silky-new\woocommerce\archive-product.php on line 128
+
+2022-07-09T02:02:41+00:00 CRITICAL syntax error, unexpected end of file in E:\wamp64\www\test02\wp-content\themes\silky-new\woocommerce\archive-product.php on line 174
+
+2022-07-09T02:31:08+00:00 CRITICAL Uncaught Error: Call to a member function get_items() on bool in E:\wamp64\www\test02\wp-content\themes\silky-new\woocommerce\archive-product.php:139
+Stack trace:
+#0 E:\wamp64\www\test02\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 E:\wamp64\www\test02\wp-content\plugins\woocommerce\templates\taxonomy-product-cat.php(22): wc_get_template('archive-product...')
+#2 E:\wamp64\www\test02\wp-includes\template-loader.php(106): include('E:\\wamp64\\www\\t...')
+#3 E:\wamp64\www\test02\wp-blog-header.php(19): require_once('E:\\wamp64\\www\\t...')
+#4 E:\wamp64\www\test02\index.php(17): require('E:\\wamp64\\www\\t...')
+#5 {main}
+  thrown in E:\wamp64\www\test02\wp-content\themes\silky-new\woocommerce\archive-product.php on line 139
+
+2022-07-09T02:33:49+00:00 CRITICAL Uncaught Error: Call to a member function have_posts() on null in E:\wamp64\www\test02\wp-content\themes\silky-new\woocommerce\archive-product.php:132
+Stack trace:
+#0 E:\wamp64\www\test02\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 E:\wamp64\www\test02\wp-content\plugins\woocommerce\templates\taxonomy-product-cat.php(22): wc_get_template('archive-product...')
+#2 E:\wamp64\www\test02\wp-includes\template-loader.php(106): include('E:\\wamp64\\www\\t...')
+#3 E:\wamp64\www\test02\wp-blog-header.php(19): require_once('E:\\wamp64\\www\\t...')
+#4 E:\wamp64\www\test02\index.php(17): require('E:\\wamp64\\www\\t...')
+#5 {main}
+  thrown in E:\wamp64\www\test02\wp-content\themes\silky-new\woocommerce\archive-product.php on line 132
+
+2022-07-09T02:47:51+00:00 CRITICAL syntax error, unexpected 'woocommerce_product_loop_start' (T_STRING) in E:\wamp64\www\test02\wp-content\themes\silky-new\woocommerce\archive-product.php on line 161
+
+2022-07-09T02:54:06+00:00 CRITICAL Uncaught Error: Call to a member function get_items() on bool in E:\wamp64\www\test02\wp-content\themes\silky-new\woocommerce\archive-product.php:160
+Stack trace:
+#0 E:\wamp64\www\test02\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 E:\wamp64\www\test02\wp-content\plugins\woocommerce\templates\taxonomy-product-cat.php(22): wc_get_template('archive-product...')
+#2 E:\wamp64\www\test02\wp-includes\template-loader.php(106): include('E:\\wamp64\\www\\t...')
+#3 E:\wamp64\www\test02\wp-blog-header.php(19): require_once('E:\\wamp64\\www\\t...')
+#4 E:\wamp64\www\test02\index.php(17): require('E:\\wamp64\\www\\t...')
+#5 {main}
+  thrown in E:\wamp64\www\test02\wp-content\themes\silky-new\woocommerce\archive-product.php on line 160
+
+2022-07-09T02:54:38+00:00 CRITICAL Uncaught Error: Call to a member function get_items() on bool in E:\wamp64\www\test02\wp-content\themes\silky-new\woocommerce\archive-product.php:160
+Stack trace:
+#0 E:\wamp64\www\test02\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 E:\wamp64\www\test02\wp-content\plugins\woocommerce\templates\taxonomy-product-cat.php(22): wc_get_template('archive-product...')
+#2 E:\wamp64\www\test02\wp-includes\template-loader.php(106): include('E:\\wamp64\\www\\t...')
+#3 E:\wamp64\www\test02\wp-blog-header.php(19): require_once('E:\\wamp64\\www\\t...')
+#4 E:\wamp64\www\test02\index.php(17): require('E:\\wamp64\\www\\t...')
+#5 {main}
+  thrown in E:\wamp64\www\test02\wp-content\themes\silky-new\woocommerce\archive-product.php on line 160
+
+2022-07-09T07:18:23+00:00 CRITICAL Uncaught Error: Call to undefined function get_field_objects() in E:\wamp64\www\test02\wp-content\themes\silky-new\woocommerce\archive-product.php:25
+Stack trace:
+#0 E:\wamp64\www\test02\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 E:\wamp64\www\test02\wp-content\plugins\woocommerce\templates\taxonomy-product-cat.php(22): wc_get_template('archive-product...')
+#2 E:\wamp64\www\test02\wp-includes\template-loader.php(106): include('E:\\wamp64\\www\\t...')
+#3 E:\wamp64\www\test02\wp-blog-header.php(19): require_once('E:\\wamp64\\www\\t...')
+#4 E:\wamp64\www\test02\index.php(17): require('E:\\wamp64\\www\\t...')
+#5 {main}
+  thrown in E:\wamp64\www\test02\wp-content\themes\silky-new\woocommerce\archive-product.php on line 25
+
+2022-07-09T07:18:44+00:00 CRITICAL Uncaught Error: Call to undefined function get_field_objects() in E:\wamp64\www\test02\wp-content\themes\silky-new\woocommerce\archive-product.php:25
+Stack trace:
+#0 E:\wamp64\www\test02\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 E:\wamp64\www\test02\wp-content\plugins\woocommerce\templates\taxonomy-product-cat.php(22): wc_get_template('archive-product...')
+#2 E:\wamp64\www\test02\wp-includes\template-loader.php(106): include('E:\\wamp64\\www\\t...')
+#3 E:\wamp64\www\test02\wp-blog-header.php(19): require_once('E:\\wamp64\\www\\t...')
+#4 E:\wamp64\www\test02\index.php(17): require('E:\\wamp64\\www\\t...')
+#5 {main}
+  thrown in E:\wamp64\www\test02\wp-content\themes\silky-new\woocommerce\archive-product.php on line 25
+
+2022-07-09T07:20:07+00:00 CRITICAL Uncaught Error: Call to undefined function get_field_objects() in E:\wamp64\www\test02\wp-content\themes\silky-new\woocommerce\archive-product.php:25
+Stack trace:
+#0 E:\wamp64\www\test02\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 E:\wamp64\www\test02\wp-content\plugins\woocommerce\templates\taxonomy-product-cat.php(22): wc_get_template('archive-product...')
+#2 E:\wamp64\www\test02\wp-includes\template-loader.php(106): include('E:\\wamp64\\www\\t...')
+#3 E:\wamp64\www\test02\wp-blog-header.php(19): require_once('E:\\wamp64\\www\\t...')
+#4 E:\wamp64\www\test02\index.php(17): require('E:\\wamp64\\www\\t...')
+#5 {main}
+  thrown in E:\wamp64\www\test02\wp-content\themes\silky-new\woocommerce\archive-product.php on line 25
+
+2022-07-09T07:32:20+00:00 CRITICAL syntax error, unexpected end of file in E:\wamp64\www\test02\wp-content\themes\silky-new\woocommerce\archive-product.php on line 151
+
+2022-07-09T08:37:18+00:00 CRITICAL Uncaught Error: Call to a member function have_posts() on null in E:\wamp64\www\test02\wp-content\themes\silky-new\woocommerce\archive-product.php:131
+Stack trace:
+#0 E:\wamp64\www\test02\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 E:\wamp64\www\test02\wp-content\plugins\woocommerce\templates\taxonomy-product-cat.php(22): wc_get_template('archive-product...')
+#2 E:\wamp64\www\test02\wp-includes\template-loader.php(106): include('E:\\wamp64\\www\\t...')
+#3 E:\wamp64\www\test02\wp-blog-header.php(19): require_once('E:\\wamp64\\www\\t...')
+#4 E:\wamp64\www\test02\index.php(17): require('E:\\wamp64\\www\\t...')
+#5 {main}
+  thrown in E:\wamp64\www\test02\wp-content\themes\silky-new\woocommerce\archive-product.php on line 131
+
+2022-07-09T08:37:36+00:00 CRITICAL Uncaught Error: Call to undefined function get_field_objects() in E:\wamp64\www\test02\wp-content\themes\silky-new\global-templates\content-product.php:3
+Stack trace:
+#0 E:\wamp64\www\test02\wp-includes\template.php(772): require()
+#1 E:\wamp64\www\test02\wp-includes\template.php(716): load_template('E:\\wamp64\\www\\t...', false, Array)
+#2 E:\wamp64\www\test02\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#3 E:\wamp64\www\test02\wp-content\themes\silky-new\woocommerce\archive-product.php(134): get_template_part('global-template...', 'product')
+#4 E:\wamp64\www\test02\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('E:\\wamp64\\www\\t...')
+#5 E:\wamp64\www\test02\wp-content\plugins\woocommerce\templates\taxonomy-product-cat.php(22): wc_get_template('archive-product...')
+#6 E:\wamp64\www\test02\wp-includes\template-loader.php(106): include('E:\\wamp64\\www\\t...')
+#7 E:\wamp64\www\test02\wp-blog-header.php(19): require_once('E:\\wamp64\\www\\t...' in E:\wamp64\www\test02\wp-content\themes\silky-new\global-templates\content-product.php on line 3
+
+2022-07-09T08:38:31+00:00 CRITICAL Uncaught Error: Call to a member function get_image_id() on null in E:\wamp64\www\test02\wp-content\themes\silky-new\global-templates\content-product.php:6
+Stack trace:
+#0 E:\wamp64\www\test02\wp-includes\template.php(772): require()
+#1 E:\wamp64\www\test02\wp-includes\template.php(716): load_template('E:\\wamp64\\www\\t...', false, Array)
+#2 E:\wamp64\www\test02\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#3 E:\wamp64\www\test02\wp-content\themes\silky-new\woocommerce\archive-product.php(134): get_template_part('global-template...', 'product')
+#4 E:\wamp64\www\test02\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('E:\\wamp64\\www\\t...')
+#5 E:\wamp64\www\test02\wp-content\plugins\woocommerce\templates\taxonomy-product-cat.php(22): wc_get_template('archive-product...')
+#6 E:\wamp64\www\test02\wp-includes\template-loader.php(106): include('E:\\wamp64\\www\\t...')
+#7 E:\wamp64\www\test02\wp-blog-header.php(19): require_once('E:\\wamp64\\www\\t.. in E:\wamp64\www\test02\wp-content\themes\silky-new\global-templates\content-product.php on line 6
+

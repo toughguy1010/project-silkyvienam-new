@@ -7587,3 +7587,514 @@ Stack trace:
 [08-Jul-2022 10:43:19 UTC] PHP   2. require() E:\wamp64\www\test02\index.php:17
 [08-Jul-2022 10:43:19 UTC] PHP   3. require_once() E:\wamp64\www\test02\wp-blog-header.php:19
 [08-Jul-2022 10:43:19 UTC] PHP   4. include() E:\wamp64\www\test02\wp-includes\template-loader.php:106
+[09-Jul-2022 01:47:22 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[09-Jul-2022 01:47:22 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[09-Jul-2022 01:57:56 UTC] PHP Fatal error:  Uncaught Error: Object of class WP_Term could not be converted to string in E:\wamp64\www\test02\wp-includes\taxonomy.php:1060
+Stack trace:
+#0 E:\wamp64\www\test02\wp-includes\category.php(206): get_term_by('name', Object(WP_Term), 'category')
+#1 E:\wamp64\www\test02\wp-content\themes\silky-new\woocommerce\archive-product.php(110): get_cat_ID(Object(WP_Term))
+#2 E:\wamp64\www\test02\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('E:\\wamp64\\www\\t...')
+#3 E:\wamp64\www\test02\wp-content\plugins\woocommerce\templates\taxonomy-product-cat.php(22): wc_get_template('archive-product...')
+#4 E:\wamp64\www\test02\wp-includes\template-loader.php(106): include('E:\\wamp64\\www\\t...')
+#5 E:\wamp64\www\test02\wp-blog-header.php(19): require_once('E:\\wamp64\\www\\t...')
+#6 E:\wamp64\www\test02\index.php(17): require('E:\\wamp64\\www\\t...')
+#7 {main}
+  thrown in E:\wamp64\www\test02\wp-includes\taxonomy.php on line 1060
+[09-Jul-2022 01:59:41 UTC] PHP Fatal error:  Uncaught Error: Object of class WP_Term could not be converted to string in E:\wamp64\www\test02\wp-includes\taxonomy.php:1060
+Stack trace:
+#0 E:\wamp64\www\test02\wp-includes\category.php(206): get_term_by('name', Object(WP_Term), 'category')
+#1 E:\wamp64\www\test02\wp-content\themes\silky-new\woocommerce\archive-product.php(110): get_cat_ID(Object(WP_Term))
+#2 E:\wamp64\www\test02\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('E:\\wamp64\\www\\t...')
+#3 E:\wamp64\www\test02\wp-content\plugins\woocommerce\templates\taxonomy-product-cat.php(22): wc_get_template('archive-product...')
+#4 E:\wamp64\www\test02\wp-includes\template-loader.php(106): include('E:\\wamp64\\www\\t...')
+#5 E:\wamp64\www\test02\wp-blog-header.php(19): require_once('E:\\wamp64\\www\\t...')
+#6 E:\wamp64\www\test02\index.php(17): require('E:\\wamp64\\www\\t...')
+#7 {main}
+  thrown in E:\wamp64\www\test02\wp-includes\taxonomy.php on line 1060
+[09-Jul-2022 02:01:15 UTC] PHP Parse error:  syntax error, unexpected 'var_dump' (T_STRING) in E:\wamp64\www\test02\wp-content\themes\silky-new\woocommerce\archive-product.php on line 128
+[09-Jul-2022 02:02:41 UTC] PHP Parse error:  syntax error, unexpected end of file in E:\wamp64\www\test02\wp-content\themes\silky-new\woocommerce\archive-product.php on line 174
+[09-Jul-2022 02:24:50 UTC] PHP Notice:  Undefined variable: post in E:\wamp64\www\test02\wp-content\themes\silky-new\woocommerce\archive-product.php on line 148
+[09-Jul-2022 02:24:50 UTC] PHP Stack trace:
+[09-Jul-2022 02:24:50 UTC] PHP   1. {main}() E:\wamp64\www\test02\index.php:0
+[09-Jul-2022 02:24:50 UTC] PHP   2. require() E:\wamp64\www\test02\index.php:17
+[09-Jul-2022 02:24:50 UTC] PHP   3. require_once() E:\wamp64\www\test02\wp-blog-header.php:19
+[09-Jul-2022 02:24:50 UTC] PHP   4. include() E:\wamp64\www\test02\wp-includes\template-loader.php:106
+[09-Jul-2022 02:24:50 UTC] PHP   5. wc_get_template($template_name = 'archive-product.php', $args = *uninitialized*, $template_path = *uninitialized*, $default_path = *uninitialized*) E:\wamp64\www\test02\wp-content\plugins\woocommerce\templates\taxonomy-product-cat.php:22
+[09-Jul-2022 02:24:50 UTC] PHP   6. include() E:\wamp64\www\test02\wp-content\plugins\woocommerce\includes\wc-core-functions.php:345
+[09-Jul-2022 02:24:50 UTC] PHP Notice:  Trying to get property 'post_excerpt' of non-object in E:\wamp64\www\test02\wp-content\themes\silky-new\woocommerce\archive-product.php on line 148
+[09-Jul-2022 02:24:50 UTC] PHP Stack trace:
+[09-Jul-2022 02:24:50 UTC] PHP   1. {main}() E:\wamp64\www\test02\index.php:0
+[09-Jul-2022 02:24:50 UTC] PHP   2. require() E:\wamp64\www\test02\index.php:17
+[09-Jul-2022 02:24:50 UTC] PHP   3. require_once() E:\wamp64\www\test02\wp-blog-header.php:19
+[09-Jul-2022 02:24:50 UTC] PHP   4. include() E:\wamp64\www\test02\wp-includes\template-loader.php:106
+[09-Jul-2022 02:24:50 UTC] PHP   5. wc_get_template($template_name = 'archive-product.php', $args = *uninitialized*, $template_path = *uninitialized*, $default_path = *uninitialized*) E:\wamp64\www\test02\wp-content\plugins\woocommerce\templates\taxonomy-product-cat.php:22
+[09-Jul-2022 02:24:50 UTC] PHP   6. include() E:\wamp64\www\test02\wp-content\plugins\woocommerce\includes\wc-core-functions.php:345
+[09-Jul-2022 02:31:08 UTC] PHP Notice:  Undefined variable: order_id in E:\wamp64\www\test02\wp-content\themes\silky-new\woocommerce\archive-product.php on line 138
+[09-Jul-2022 02:31:08 UTC] PHP Stack trace:
+[09-Jul-2022 02:31:08 UTC] PHP   1. {main}() E:\wamp64\www\test02\index.php:0
+[09-Jul-2022 02:31:08 UTC] PHP   2. require() E:\wamp64\www\test02\index.php:17
+[09-Jul-2022 02:31:08 UTC] PHP   3. require_once() E:\wamp64\www\test02\wp-blog-header.php:19
+[09-Jul-2022 02:31:08 UTC] PHP   4. include() E:\wamp64\www\test02\wp-includes\template-loader.php:106
+[09-Jul-2022 02:31:08 UTC] PHP   5. wc_get_template($template_name = 'archive-product.php', $args = *uninitialized*, $template_path = *uninitialized*, $default_path = *uninitialized*) E:\wamp64\www\test02\wp-content\plugins\woocommerce\templates\taxonomy-product-cat.php:22
+[09-Jul-2022 02:31:08 UTC] PHP   6. include() E:\wamp64\www\test02\wp-content\plugins\woocommerce\includes\wc-core-functions.php:345
+[09-Jul-2022 02:31:08 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_items() on bool in E:\wamp64\www\test02\wp-content\themes\silky-new\woocommerce\archive-product.php:139
+Stack trace:
+#0 E:\wamp64\www\test02\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 E:\wamp64\www\test02\wp-content\plugins\woocommerce\templates\taxonomy-product-cat.php(22): wc_get_template('archive-product...')
+#2 E:\wamp64\www\test02\wp-includes\template-loader.php(106): include('E:\\wamp64\\www\\t...')
+#3 E:\wamp64\www\test02\wp-blog-header.php(19): require_once('E:\\wamp64\\www\\t...')
+#4 E:\wamp64\www\test02\index.php(17): require('E:\\wamp64\\www\\t...')
+#5 {main}
+  thrown in E:\wamp64\www\test02\wp-content\themes\silky-new\woocommerce\archive-product.php on line 139
+[09-Jul-2022 02:33:49 UTC] PHP Notice:  Undefined variable: collection_products in E:\wamp64\www\test02\wp-content\themes\silky-new\woocommerce\archive-product.php on line 132
+[09-Jul-2022 02:33:49 UTC] PHP Stack trace:
+[09-Jul-2022 02:33:49 UTC] PHP   1. {main}() E:\wamp64\www\test02\index.php:0
+[09-Jul-2022 02:33:49 UTC] PHP   2. require() E:\wamp64\www\test02\index.php:17
+[09-Jul-2022 02:33:49 UTC] PHP   3. require_once() E:\wamp64\www\test02\wp-blog-header.php:19
+[09-Jul-2022 02:33:49 UTC] PHP   4. include() E:\wamp64\www\test02\wp-includes\template-loader.php:106
+[09-Jul-2022 02:33:49 UTC] PHP   5. wc_get_template($template_name = 'archive-product.php', $args = *uninitialized*, $template_path = *uninitialized*, $default_path = *uninitialized*) E:\wamp64\www\test02\wp-content\plugins\woocommerce\templates\taxonomy-product-cat.php:22
+[09-Jul-2022 02:33:49 UTC] PHP   6. include() E:\wamp64\www\test02\wp-content\plugins\woocommerce\includes\wc-core-functions.php:345
+[09-Jul-2022 02:33:49 UTC] PHP Fatal error:  Uncaught Error: Call to a member function have_posts() on null in E:\wamp64\www\test02\wp-content\themes\silky-new\woocommerce\archive-product.php:132
+Stack trace:
+#0 E:\wamp64\www\test02\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 E:\wamp64\www\test02\wp-content\plugins\woocommerce\templates\taxonomy-product-cat.php(22): wc_get_template('archive-product...')
+#2 E:\wamp64\www\test02\wp-includes\template-loader.php(106): include('E:\\wamp64\\www\\t...')
+#3 E:\wamp64\www\test02\wp-blog-header.php(19): require_once('E:\\wamp64\\www\\t...')
+#4 E:\wamp64\www\test02\index.php(17): require('E:\\wamp64\\www\\t...')
+#5 {main}
+  thrown in E:\wamp64\www\test02\wp-content\themes\silky-new\woocommerce\archive-product.php on line 132
+[09-Jul-2022 02:47:51 UTC] PHP Parse error:  syntax error, unexpected 'woocommerce_product_loop_start' (T_STRING) in E:\wamp64\www\test02\wp-content\themes\silky-new\woocommerce\archive-product.php on line 161
+[09-Jul-2022 02:49:49 UTC] PHP Notice:  Undefined variable: order_id in E:\wamp64\www\test02\wp-content\themes\silky-new\woocommerce\archive-product.php on line 134
+[09-Jul-2022 02:49:49 UTC] PHP Stack trace:
+[09-Jul-2022 02:49:49 UTC] PHP   1. {main}() E:\wamp64\www\test02\index.php:0
+[09-Jul-2022 02:49:49 UTC] PHP   2. require() E:\wamp64\www\test02\index.php:17
+[09-Jul-2022 02:49:49 UTC] PHP   3. require_once() E:\wamp64\www\test02\wp-blog-header.php:19
+[09-Jul-2022 02:49:49 UTC] PHP   4. include() E:\wamp64\www\test02\wp-includes\template-loader.php:106
+[09-Jul-2022 02:49:49 UTC] PHP   5. wc_get_template($template_name = 'archive-product.php', $args = *uninitialized*, $template_path = *uninitialized*, $default_path = *uninitialized*) E:\wamp64\www\test02\wp-content\plugins\woocommerce\templates\taxonomy-product-cat.php:22
+[09-Jul-2022 02:49:49 UTC] PHP   6. include() E:\wamp64\www\test02\wp-content\plugins\woocommerce\includes\wc-core-functions.php:345
+[09-Jul-2022 02:54:06 UTC] PHP Notice:  Undefined variable: order_id in E:\wamp64\www\test02\wp-content\themes\silky-new\woocommerce\archive-product.php on line 158
+[09-Jul-2022 02:54:06 UTC] PHP Stack trace:
+[09-Jul-2022 02:54:06 UTC] PHP   1. {main}() E:\wamp64\www\test02\index.php:0
+[09-Jul-2022 02:54:06 UTC] PHP   2. require() E:\wamp64\www\test02\index.php:17
+[09-Jul-2022 02:54:06 UTC] PHP   3. require_once() E:\wamp64\www\test02\wp-blog-header.php:19
+[09-Jul-2022 02:54:06 UTC] PHP   4. include() E:\wamp64\www\test02\wp-includes\template-loader.php:106
+[09-Jul-2022 02:54:06 UTC] PHP   5. wc_get_template($template_name = 'archive-product.php', $args = *uninitialized*, $template_path = *uninitialized*, $default_path = *uninitialized*) E:\wamp64\www\test02\wp-content\plugins\woocommerce\templates\taxonomy-product-cat.php:22
+[09-Jul-2022 02:54:06 UTC] PHP   6. include() E:\wamp64\www\test02\wp-content\plugins\woocommerce\includes\wc-core-functions.php:345
+[09-Jul-2022 02:54:06 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_items() on bool in E:\wamp64\www\test02\wp-content\themes\silky-new\woocommerce\archive-product.php:160
+Stack trace:
+#0 E:\wamp64\www\test02\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 E:\wamp64\www\test02\wp-content\plugins\woocommerce\templates\taxonomy-product-cat.php(22): wc_get_template('archive-product...')
+#2 E:\wamp64\www\test02\wp-includes\template-loader.php(106): include('E:\\wamp64\\www\\t...')
+#3 E:\wamp64\www\test02\wp-blog-header.php(19): require_once('E:\\wamp64\\www\\t...')
+#4 E:\wamp64\www\test02\index.php(17): require('E:\\wamp64\\www\\t...')
+#5 {main}
+  thrown in E:\wamp64\www\test02\wp-content\themes\silky-new\woocommerce\archive-product.php on line 160
+[09-Jul-2022 02:54:38 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_items() on bool in E:\wamp64\www\test02\wp-content\themes\silky-new\woocommerce\archive-product.php:160
+Stack trace:
+#0 E:\wamp64\www\test02\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 E:\wamp64\www\test02\wp-content\plugins\woocommerce\templates\taxonomy-product-cat.php(22): wc_get_template('archive-product...')
+#2 E:\wamp64\www\test02\wp-includes\template-loader.php(106): include('E:\\wamp64\\www\\t...')
+#3 E:\wamp64\www\test02\wp-blog-header.php(19): require_once('E:\\wamp64\\www\\t...')
+#4 E:\wamp64\www\test02\index.php(17): require('E:\\wamp64\\www\\t...')
+#5 {main}
+  thrown in E:\wamp64\www\test02\wp-content\themes\silky-new\woocommerce\archive-product.php on line 160
+[09-Jul-2022 03:03:02 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[09-Jul-2022 03:03:02 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[09-Jul-2022 03:03:03 UTC] WordPress database error Unknown character set: 'utf8bin' for query CREATE TABLE IF NOT EXISTS `wp_woof_query_cache` (
+                                                    `mkey` varchar(64) NOT NULL,
+                                                    `mvalue` text NOT NULL,
+                                                    KEY `mkey` (`mkey`)
+                                                  ) DEFAULT CHARACTER SET utf8bin made by do_action('woocommerce_page_wc-settings'), WP_Hook->do_action, WP_Hook->apply_filters, WC_Admin_Menus->settings_page, WC_Admin_Settings::output, include('/plugins/woocommerce/includes/admin/views/html-admin-settings.php'), do_action('woocommerce_settings_tabs_woof'), WP_Hook->do_action, WP_Hook->apply_filters, WOOF->print_plugin_options, WOOF->render_html, include('/plugins/woocommerce-products-filter/views/plugin_options.php')
+[09-Jul-2022 03:03:03 UTC] WordPress database error Unknown character set: 'utf8bin' for query CREATE TABLE IF NOT EXISTS `wp_woof_query_cache` (
+                                                    `mkey` varchar(64) NOT NULL,
+                                                    `mvalue` text NOT NULL,
+                                                    KEY `mkey` (`mkey`)
+                                                  ) DEFAULT CHARACTER SET utf8bin made by do_action('woocommerce_page_wc-settings'), WP_Hook->do_action, WP_Hook->apply_filters, WC_Admin_Menus->settings_page, WC_Admin_Settings::output, include('/plugins/woocommerce/includes/admin/views/html-admin-settings.php'), do_action('woocommerce_settings_tabs_woof'), WP_Hook->do_action, WP_Hook->apply_filters, WOOF->print_plugin_options, WOOF->render_html, include('/plugins/woocommerce-products-filter/views/plugin_options.php')
+[09-Jul-2022 03:03:06 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[09-Jul-2022 03:03:06 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[09-Jul-2022 03:33:22 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[09-Jul-2022 03:33:22 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[09-Jul-2022 03:33:29 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[09-Jul-2022 03:33:29 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[09-Jul-2022 03:33:35 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[09-Jul-2022 03:33:35 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[09-Jul-2022 03:33:40 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[09-Jul-2022 03:33:40 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[09-Jul-2022 03:34:13 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[09-Jul-2022 03:34:13 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[09-Jul-2022 03:40:30 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[09-Jul-2022 03:40:30 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[09-Jul-2022 03:40:38 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[09-Jul-2022 03:40:38 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[09-Jul-2022 03:47:59 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[09-Jul-2022 03:47:59 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[09-Jul-2022 03:48:06 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[09-Jul-2022 03:48:06 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[09-Jul-2022 03:48:08 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[09-Jul-2022 03:48:08 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[09-Jul-2022 03:50:45 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[09-Jul-2022 03:50:45 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[09-Jul-2022 03:50:50 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[09-Jul-2022 03:50:50 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[09-Jul-2022 03:50:59 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[09-Jul-2022 03:50:59 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[09-Jul-2022 03:51:05 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[09-Jul-2022 03:51:05 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[09-Jul-2022 03:51:12 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[09-Jul-2022 03:51:12 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[09-Jul-2022 03:51:22 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[09-Jul-2022 03:51:22 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[09-Jul-2022 04:23:45 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[09-Jul-2022 04:23:45 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[09-Jul-2022 04:23:54 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[09-Jul-2022 04:23:54 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[09-Jul-2022 04:24:14 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[09-Jul-2022 04:24:14 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[09-Jul-2022 04:24:17 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[09-Jul-2022 04:24:17 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[09-Jul-2022 04:26:56 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[09-Jul-2022 04:26:56 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[09-Jul-2022 04:27:04 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[09-Jul-2022 04:27:04 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[09-Jul-2022 04:27:09 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[09-Jul-2022 04:27:09 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[09-Jul-2022 04:27:15 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[09-Jul-2022 04:27:15 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[09-Jul-2022 04:27:22 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[09-Jul-2022 04:27:22 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[09-Jul-2022 04:27:28 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[09-Jul-2022 04:27:28 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[09-Jul-2022 04:27:34 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[09-Jul-2022 04:27:34 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[09-Jul-2022 04:27:40 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[09-Jul-2022 04:27:40 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[09-Jul-2022 04:42:30 UTC] WordPress database error Unknown character set: 'utf8bin' for query CREATE TABLE IF NOT EXISTS `wp_woof_query_cache` (
+                                                    `mkey` varchar(64) NOT NULL,
+                                                    `mvalue` text NOT NULL,
+                                                    KEY `mkey` (`mkey`)
+                                                  ) DEFAULT CHARACTER SET utf8bin made by do_action('woocommerce_page_wc-settings'), WP_Hook->do_action, WP_Hook->apply_filters, WC_Admin_Menus->settings_page, WC_Admin_Settings::output, include('/plugins/woocommerce/includes/admin/views/html-admin-settings.php'), do_action('woocommerce_settings_tabs_woof'), WP_Hook->do_action, WP_Hook->apply_filters, WOOF->print_plugin_options, WOOF->render_html, include('/plugins/woocommerce-products-filter/views/plugin_options.php')
+[09-Jul-2022 04:42:33 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[09-Jul-2022 04:42:33 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[09-Jul-2022 04:43:34 UTC] WordPress database error Unknown character set: 'utf8bin' for query CREATE TABLE IF NOT EXISTS `wp_woof_query_cache` (
+                                                    `mkey` varchar(64) NOT NULL,
+                                                    `mvalue` text NOT NULL,
+                                                    KEY `mkey` (`mkey`)
+                                                  ) DEFAULT CHARACTER SET utf8bin made by do_action('woocommerce_page_wc-settings'), WP_Hook->do_action, WP_Hook->apply_filters, WC_Admin_Menus->settings_page, WC_Admin_Settings::output, include('/plugins/woocommerce/includes/admin/views/html-admin-settings.php'), do_action('woocommerce_settings_tabs_woof'), WP_Hook->do_action, WP_Hook->apply_filters, WOOF->print_plugin_options, WOOF->render_html, include('/plugins/woocommerce-products-filter/views/plugin_options.php')
+[09-Jul-2022 04:43:38 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[09-Jul-2022 04:43:38 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[09-Jul-2022 04:43:51 UTC] WordPress database error Unknown character set: 'utf8bin' for query CREATE TABLE IF NOT EXISTS `wp_woof_query_cache` (
+                                                    `mkey` varchar(64) NOT NULL,
+                                                    `mvalue` text NOT NULL,
+                                                    KEY `mkey` (`mkey`)
+                                                  ) DEFAULT CHARACTER SET utf8bin made by do_action('woocommerce_page_wc-settings'), WP_Hook->do_action, WP_Hook->apply_filters, WC_Admin_Menus->settings_page, WC_Admin_Settings::output, include('/plugins/woocommerce/includes/admin/views/html-admin-settings.php'), do_action('woocommerce_settings_tabs_woof'), WP_Hook->do_action, WP_Hook->apply_filters, WOOF->print_plugin_options, WOOF->render_html, include('/plugins/woocommerce-products-filter/views/plugin_options.php')
+[09-Jul-2022 04:43:55 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[09-Jul-2022 04:43:55 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[09-Jul-2022 04:44:17 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[09-Jul-2022 04:44:17 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[09-Jul-2022 04:44:30 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[09-Jul-2022 04:44:30 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[09-Jul-2022 04:44:47 UTC] WordPress database error Unknown character set: 'utf8bin' for query CREATE TABLE IF NOT EXISTS `wp_woof_query_cache` (
+                                                    `mkey` varchar(64) NOT NULL,
+                                                    `mvalue` text NOT NULL,
+                                                    KEY `mkey` (`mkey`)
+                                                  ) DEFAULT CHARACTER SET utf8bin made by do_action('woocommerce_page_wc-settings'), WP_Hook->do_action, WP_Hook->apply_filters, WC_Admin_Menus->settings_page, WC_Admin_Settings::output, include('/plugins/woocommerce/includes/admin/views/html-admin-settings.php'), do_action('woocommerce_settings_tabs_woof'), WP_Hook->do_action, WP_Hook->apply_filters, WOOF->print_plugin_options, WOOF->render_html, include('/plugins/woocommerce-products-filter/views/plugin_options.php')
+[09-Jul-2022 04:44:51 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[09-Jul-2022 04:44:51 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[09-Jul-2022 04:47:22 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[09-Jul-2022 04:47:22 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[09-Jul-2022 04:47:29 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[09-Jul-2022 04:47:29 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[09-Jul-2022 04:47:42 UTC] WordPress database error Unknown character set: 'utf8bin' for query CREATE TABLE IF NOT EXISTS `wp_woof_query_cache` (
+                                                    `mkey` varchar(64) NOT NULL,
+                                                    `mvalue` text NOT NULL,
+                                                    KEY `mkey` (`mkey`)
+                                                  ) DEFAULT CHARACTER SET utf8bin made by do_action('woocommerce_page_wc-settings'), WP_Hook->do_action, WP_Hook->apply_filters, WC_Admin_Menus->settings_page, WC_Admin_Settings::output, include('/plugins/woocommerce/includes/admin/views/html-admin-settings.php'), do_action('woocommerce_settings_tabs_woof'), WP_Hook->do_action, WP_Hook->apply_filters, WOOF->print_plugin_options, WOOF->render_html, include('/plugins/woocommerce-products-filter/views/plugin_options.php')
+[09-Jul-2022 04:47:45 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[09-Jul-2022 04:47:45 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[09-Jul-2022 04:48:28 UTC] WordPress database error Unknown character set: 'utf8bin' for query CREATE TABLE IF NOT EXISTS `wp_woof_query_cache` (
+                                                    `mkey` varchar(64) NOT NULL,
+                                                    `mvalue` text NOT NULL,
+                                                    KEY `mkey` (`mkey`)
+                                                  ) DEFAULT CHARACTER SET utf8bin made by do_action('woocommerce_page_wc-settings'), WP_Hook->do_action, WP_Hook->apply_filters, WC_Admin_Menus->settings_page, WC_Admin_Settings::output, include('/plugins/woocommerce/includes/admin/views/html-admin-settings.php'), do_action('woocommerce_settings_tabs_woof'), WP_Hook->do_action, WP_Hook->apply_filters, WOOF->print_plugin_options, WOOF->render_html, include('/plugins/woocommerce-products-filter/views/plugin_options.php')
+[09-Jul-2022 04:48:32 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[09-Jul-2022 04:48:32 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[09-Jul-2022 04:48:50 UTC] WordPress database error Unknown character set: 'utf8bin' for query CREATE TABLE IF NOT EXISTS `wp_woof_query_cache` (
+                                                    `mkey` varchar(64) NOT NULL,
+                                                    `mvalue` text NOT NULL,
+                                                    KEY `mkey` (`mkey`)
+                                                  ) DEFAULT CHARACTER SET utf8bin made by do_action('woocommerce_page_wc-settings'), WP_Hook->do_action, WP_Hook->apply_filters, WC_Admin_Menus->settings_page, WC_Admin_Settings::output, include('/plugins/woocommerce/includes/admin/views/html-admin-settings.php'), do_action('woocommerce_settings_tabs_woof'), WP_Hook->do_action, WP_Hook->apply_filters, WOOF->print_plugin_options, WOOF->render_html, include('/plugins/woocommerce-products-filter/views/plugin_options.php')
+[09-Jul-2022 04:48:53 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[09-Jul-2022 04:48:53 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[09-Jul-2022 04:49:37 UTC] WordPress database error Unknown character set: 'utf8bin' for query CREATE TABLE IF NOT EXISTS `wp_woof_query_cache` (
+                                                    `mkey` varchar(64) NOT NULL,
+                                                    `mvalue` text NOT NULL,
+                                                    KEY `mkey` (`mkey`)
+                                                  ) DEFAULT CHARACTER SET utf8bin made by do_action('woocommerce_page_wc-settings'), WP_Hook->do_action, WP_Hook->apply_filters, WC_Admin_Menus->settings_page, WC_Admin_Settings::output, include('/plugins/woocommerce/includes/admin/views/html-admin-settings.php'), do_action('woocommerce_settings_tabs_woof'), WP_Hook->do_action, WP_Hook->apply_filters, WOOF->print_plugin_options, WOOF->render_html, include('/plugins/woocommerce-products-filter/views/plugin_options.php')
+[09-Jul-2022 04:49:40 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[09-Jul-2022 04:49:40 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[09-Jul-2022 04:50:23 UTC] WordPress database error Unknown character set: 'utf8bin' for query CREATE TABLE IF NOT EXISTS `wp_woof_query_cache` (
+                                                    `mkey` varchar(64) NOT NULL,
+                                                    `mvalue` text NOT NULL,
+                                                    KEY `mkey` (`mkey`)
+                                                  ) DEFAULT CHARACTER SET utf8bin made by do_action('woocommerce_page_wc-settings'), WP_Hook->do_action, WP_Hook->apply_filters, WC_Admin_Menus->settings_page, WC_Admin_Settings::output, include('/plugins/woocommerce/includes/admin/views/html-admin-settings.php'), do_action('woocommerce_settings_tabs_woof'), WP_Hook->do_action, WP_Hook->apply_filters, WOOF->print_plugin_options, WOOF->render_html, include('/plugins/woocommerce-products-filter/views/plugin_options.php')
+[09-Jul-2022 04:50:27 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[09-Jul-2022 04:50:27 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[09-Jul-2022 04:51:15 UTC] WordPress database error Unknown character set: 'utf8bin' for query CREATE TABLE IF NOT EXISTS `wp_woof_query_cache` (
+                                                    `mkey` varchar(64) NOT NULL,
+                                                    `mvalue` text NOT NULL,
+                                                    KEY `mkey` (`mkey`)
+                                                  ) DEFAULT CHARACTER SET utf8bin made by do_action('woocommerce_page_wc-settings'), WP_Hook->do_action, WP_Hook->apply_filters, WC_Admin_Menus->settings_page, WC_Admin_Settings::output, include('/plugins/woocommerce/includes/admin/views/html-admin-settings.php'), do_action('woocommerce_settings_tabs_woof'), WP_Hook->do_action, WP_Hook->apply_filters, WOOF->print_plugin_options, WOOF->render_html, include('/plugins/woocommerce-products-filter/views/plugin_options.php')
+[09-Jul-2022 04:51:18 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[09-Jul-2022 04:51:18 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[09-Jul-2022 04:51:33 UTC] WordPress database error Unknown character set: 'utf8bin' for query CREATE TABLE IF NOT EXISTS `wp_woof_query_cache` (
+                                                    `mkey` varchar(64) NOT NULL,
+                                                    `mvalue` text NOT NULL,
+                                                    KEY `mkey` (`mkey`)
+                                                  ) DEFAULT CHARACTER SET utf8bin made by do_action('woocommerce_page_wc-settings'), WP_Hook->do_action, WP_Hook->apply_filters, WC_Admin_Menus->settings_page, WC_Admin_Settings::output, include('/plugins/woocommerce/includes/admin/views/html-admin-settings.php'), do_action('woocommerce_settings_tabs_woof'), WP_Hook->do_action, WP_Hook->apply_filters, WOOF->print_plugin_options, WOOF->render_html, include('/plugins/woocommerce-products-filter/views/plugin_options.php')
+[09-Jul-2022 04:51:37 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[09-Jul-2022 04:51:37 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[09-Jul-2022 04:52:06 UTC] WordPress database error Unknown character set: 'utf8bin' for query CREATE TABLE IF NOT EXISTS `wp_woof_query_cache` (
+                                                    `mkey` varchar(64) NOT NULL,
+                                                    `mvalue` text NOT NULL,
+                                                    KEY `mkey` (`mkey`)
+                                                  ) DEFAULT CHARACTER SET utf8bin made by do_action('woocommerce_page_wc-settings'), WP_Hook->do_action, WP_Hook->apply_filters, WC_Admin_Menus->settings_page, WC_Admin_Settings::output, include('/plugins/woocommerce/includes/admin/views/html-admin-settings.php'), do_action('woocommerce_settings_tabs_woof'), WP_Hook->do_action, WP_Hook->apply_filters, WOOF->print_plugin_options, WOOF->render_html, include('/plugins/woocommerce-products-filter/views/plugin_options.php')
+[09-Jul-2022 04:52:10 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[09-Jul-2022 04:52:10 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[09-Jul-2022 04:52:27 UTC] WordPress database error Unknown character set: 'utf8bin' for query CREATE TABLE IF NOT EXISTS `wp_woof_query_cache` (
+                                                    `mkey` varchar(64) NOT NULL,
+                                                    `mvalue` text NOT NULL,
+                                                    KEY `mkey` (`mkey`)
+                                                  ) DEFAULT CHARACTER SET utf8bin made by do_action('woocommerce_page_wc-settings'), WP_Hook->do_action, WP_Hook->apply_filters, WC_Admin_Menus->settings_page, WC_Admin_Settings::output, include('/plugins/woocommerce/includes/admin/views/html-admin-settings.php'), do_action('woocommerce_settings_tabs_woof'), WP_Hook->do_action, WP_Hook->apply_filters, WOOF->print_plugin_options, WOOF->render_html, include('/plugins/woocommerce-products-filter/views/plugin_options.php')
+[09-Jul-2022 04:52:30 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[09-Jul-2022 04:52:30 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[09-Jul-2022 05:06:35 UTC] WordPress database error Unknown character set: 'utf8bin' for query CREATE TABLE IF NOT EXISTS `wp_woof_query_cache` (
+                                                    `mkey` varchar(64) NOT NULL,
+                                                    `mvalue` text NOT NULL,
+                                                    KEY `mkey` (`mkey`)
+                                                  ) DEFAULT CHARACTER SET utf8bin made by do_action('woocommerce_page_wc-settings'), WP_Hook->do_action, WP_Hook->apply_filters, WC_Admin_Menus->settings_page, WC_Admin_Settings::output, include('/plugins/woocommerce/includes/admin/views/html-admin-settings.php'), do_action('woocommerce_settings_tabs_woof'), WP_Hook->do_action, WP_Hook->apply_filters, WOOF->print_plugin_options, WOOF->render_html, include('/plugins/woocommerce-products-filter/views/plugin_options.php')
+[09-Jul-2022 05:06:39 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[09-Jul-2022 05:06:39 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[09-Jul-2022 05:07:24 UTC] WordPress database error Unknown character set: 'utf8bin' for query CREATE TABLE IF NOT EXISTS `wp_woof_query_cache` (
+                                                    `mkey` varchar(64) NOT NULL,
+                                                    `mvalue` text NOT NULL,
+                                                    KEY `mkey` (`mkey`)
+                                                  ) DEFAULT CHARACTER SET utf8bin made by do_action('woocommerce_page_wc-settings'), WP_Hook->do_action, WP_Hook->apply_filters, WC_Admin_Menus->settings_page, WC_Admin_Settings::output, include('/plugins/woocommerce/includes/admin/views/html-admin-settings.php'), do_action('woocommerce_settings_tabs_woof'), WP_Hook->do_action, WP_Hook->apply_filters, WOOF->print_plugin_options, WOOF->render_html, include('/plugins/woocommerce-products-filter/views/plugin_options.php')
+[09-Jul-2022 05:07:28 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[09-Jul-2022 05:07:28 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[09-Jul-2022 05:07:41 UTC] WordPress database error Unknown character set: 'utf8bin' for query CREATE TABLE IF NOT EXISTS `wp_woof_query_cache` (
+                                                    `mkey` varchar(64) NOT NULL,
+                                                    `mvalue` text NOT NULL,
+                                                    KEY `mkey` (`mkey`)
+                                                  ) DEFAULT CHARACTER SET utf8bin made by do_action('woocommerce_page_wc-settings'), WP_Hook->do_action, WP_Hook->apply_filters, WC_Admin_Menus->settings_page, WC_Admin_Settings::output, include('/plugins/woocommerce/includes/admin/views/html-admin-settings.php'), do_action('woocommerce_settings_tabs_woof'), WP_Hook->do_action, WP_Hook->apply_filters, WOOF->print_plugin_options, WOOF->render_html, include('/plugins/woocommerce-products-filter/views/plugin_options.php')
+[09-Jul-2022 05:07:46 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[09-Jul-2022 05:07:46 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[09-Jul-2022 05:08:04 UTC] WordPress database error Unknown character set: 'utf8bin' for query CREATE TABLE IF NOT EXISTS `wp_woof_query_cache` (
+                                                    `mkey` varchar(64) NOT NULL,
+                                                    `mvalue` text NOT NULL,
+                                                    KEY `mkey` (`mkey`)
+                                                  ) DEFAULT CHARACTER SET utf8bin made by do_action('woocommerce_page_wc-settings'), WP_Hook->do_action, WP_Hook->apply_filters, WC_Admin_Menus->settings_page, WC_Admin_Settings::output, include('/plugins/woocommerce/includes/admin/views/html-admin-settings.php'), do_action('woocommerce_settings_tabs_woof'), WP_Hook->do_action, WP_Hook->apply_filters, WOOF->print_plugin_options, WOOF->render_html, include('/plugins/woocommerce-products-filter/views/plugin_options.php')
+[09-Jul-2022 05:08:08 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[09-Jul-2022 05:08:08 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[09-Jul-2022 06:46:28 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[09-Jul-2022 06:46:28 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[09-Jul-2022 07:06:32 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[09-Jul-2022 07:06:32 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[09-Jul-2022 07:06:37 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[09-Jul-2022 07:06:37 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[09-Jul-2022 07:10:04 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[09-Jul-2022 07:10:04 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[09-Jul-2022 07:18:23 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_field_objects() in E:\wamp64\www\test02\wp-content\themes\silky-new\woocommerce\archive-product.php:25
+Stack trace:
+#0 E:\wamp64\www\test02\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 E:\wamp64\www\test02\wp-content\plugins\woocommerce\templates\taxonomy-product-cat.php(22): wc_get_template('archive-product...')
+#2 E:\wamp64\www\test02\wp-includes\template-loader.php(106): include('E:\\wamp64\\www\\t...')
+#3 E:\wamp64\www\test02\wp-blog-header.php(19): require_once('E:\\wamp64\\www\\t...')
+#4 E:\wamp64\www\test02\index.php(17): require('E:\\wamp64\\www\\t...')
+#5 {main}
+  thrown in E:\wamp64\www\test02\wp-content\themes\silky-new\woocommerce\archive-product.php on line 25
+[09-Jul-2022 07:18:44 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_field_objects() in E:\wamp64\www\test02\wp-content\themes\silky-new\woocommerce\archive-product.php:25
+Stack trace:
+#0 E:\wamp64\www\test02\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 E:\wamp64\www\test02\wp-content\plugins\woocommerce\templates\taxonomy-product-cat.php(22): wc_get_template('archive-product...')
+#2 E:\wamp64\www\test02\wp-includes\template-loader.php(106): include('E:\\wamp64\\www\\t...')
+#3 E:\wamp64\www\test02\wp-blog-header.php(19): require_once('E:\\wamp64\\www\\t...')
+#4 E:\wamp64\www\test02\index.php(17): require('E:\\wamp64\\www\\t...')
+#5 {main}
+  thrown in E:\wamp64\www\test02\wp-content\themes\silky-new\woocommerce\archive-product.php on line 25
+[09-Jul-2022 07:20:07 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_field_objects() in E:\wamp64\www\test02\wp-content\themes\silky-new\woocommerce\archive-product.php:25
+Stack trace:
+#0 E:\wamp64\www\test02\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 E:\wamp64\www\test02\wp-content\plugins\woocommerce\templates\taxonomy-product-cat.php(22): wc_get_template('archive-product...')
+#2 E:\wamp64\www\test02\wp-includes\template-loader.php(106): include('E:\\wamp64\\www\\t...')
+#3 E:\wamp64\www\test02\wp-blog-header.php(19): require_once('E:\\wamp64\\www\\t...')
+#4 E:\wamp64\www\test02\index.php(17): require('E:\\wamp64\\www\\t...')
+#5 {main}
+  thrown in E:\wamp64\www\test02\wp-content\themes\silky-new\woocommerce\archive-product.php on line 25
+[09-Jul-2022 07:24:24 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[09-Jul-2022 07:24:24 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[09-Jul-2022 07:24:29 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[09-Jul-2022 07:24:29 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[09-Jul-2022 07:26:13 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[09-Jul-2022 07:26:13 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[09-Jul-2022 07:29:24 UTC] PHP Notice:  Undefined variable: catId in E:\wamp64\www\test02\wp-content\themes\silky-new\woocommerce\archive-product.php on line 97
+[09-Jul-2022 07:29:24 UTC] PHP Stack trace:
+[09-Jul-2022 07:29:24 UTC] PHP   1. {main}() E:\wamp64\www\test02\index.php:0
+[09-Jul-2022 07:29:24 UTC] PHP   2. require() E:\wamp64\www\test02\index.php:17
+[09-Jul-2022 07:29:24 UTC] PHP   3. require_once() E:\wamp64\www\test02\wp-blog-header.php:19
+[09-Jul-2022 07:29:24 UTC] PHP   4. include() E:\wamp64\www\test02\wp-includes\template-loader.php:106
+[09-Jul-2022 07:29:24 UTC] PHP   5. wc_get_template($template_name = 'archive-product.php', $args = *uninitialized*, $template_path = *uninitialized*, $default_path = *uninitialized*) E:\wamp64\www\test02\wp-content\plugins\woocommerce\templates\taxonomy-product-cat.php:22
+[09-Jul-2022 07:29:24 UTC] PHP   6. include() E:\wamp64\www\test02\wp-content\plugins\woocommerce\includes\wc-core-functions.php:345
+[09-Jul-2022 07:32:20 UTC] PHP Parse error:  syntax error, unexpected end of file in E:\wamp64\www\test02\wp-content\themes\silky-new\woocommerce\archive-product.php on line 151
+[09-Jul-2022 07:32:39 UTC] PHP Notice:  Undefined variable: catId in E:\wamp64\www\test02\wp-content\themes\silky-new\woocommerce\archive-product.php on line 94
+[09-Jul-2022 07:32:39 UTC] PHP Stack trace:
+[09-Jul-2022 07:32:39 UTC] PHP   1. {main}() E:\wamp64\www\test02\index.php:0
+[09-Jul-2022 07:32:39 UTC] PHP   2. require() E:\wamp64\www\test02\index.php:17
+[09-Jul-2022 07:32:39 UTC] PHP   3. require_once() E:\wamp64\www\test02\wp-blog-header.php:19
+[09-Jul-2022 07:32:39 UTC] PHP   4. include() E:\wamp64\www\test02\wp-includes\template-loader.php:106
+[09-Jul-2022 07:32:39 UTC] PHP   5. wc_get_template($template_name = 'archive-product.php', $args = *uninitialized*, $template_path = *uninitialized*, $default_path = *uninitialized*) E:\wamp64\www\test02\wp-content\plugins\woocommerce\templates\taxonomy-product-cat.php:22
+[09-Jul-2022 07:32:39 UTC] PHP   6. include() E:\wamp64\www\test02\wp-content\plugins\woocommerce\includes\wc-core-functions.php:345
+[09-Jul-2022 07:33:46 UTC] PHP Notice:  Undefined variable: catId in E:\wamp64\www\test02\wp-content\themes\silky-new\woocommerce\archive-product.php on line 96
+[09-Jul-2022 07:33:46 UTC] PHP Stack trace:
+[09-Jul-2022 07:33:46 UTC] PHP   1. {main}() E:\wamp64\www\test02\index.php:0
+[09-Jul-2022 07:33:46 UTC] PHP   2. require() E:\wamp64\www\test02\index.php:17
+[09-Jul-2022 07:33:46 UTC] PHP   3. require_once() E:\wamp64\www\test02\wp-blog-header.php:19
+[09-Jul-2022 07:33:46 UTC] PHP   4. include() E:\wamp64\www\test02\wp-includes\template-loader.php:106
+[09-Jul-2022 07:33:46 UTC] PHP   5. wc_get_template($template_name = 'archive-product.php', $args = *uninitialized*, $template_path = *uninitialized*, $default_path = *uninitialized*) E:\wamp64\www\test02\wp-content\plugins\woocommerce\templates\taxonomy-product-cat.php:22
+[09-Jul-2022 07:33:46 UTC] PHP   6. include() E:\wamp64\www\test02\wp-content\plugins\woocommerce\includes\wc-core-functions.php:345
+[09-Jul-2022 07:43:54 UTC] PHP Notice:  Undefined variable: parentterm in E:\wamp64\www\test02\wp-content\themes\silky-new\woocommerce\archive-product.php on line 92
+[09-Jul-2022 07:43:54 UTC] PHP Stack trace:
+[09-Jul-2022 07:43:54 UTC] PHP   1. {main}() E:\wamp64\www\test02\index.php:0
+[09-Jul-2022 07:43:54 UTC] PHP   2. require() E:\wamp64\www\test02\index.php:17
+[09-Jul-2022 07:43:54 UTC] PHP   3. require_once() E:\wamp64\www\test02\wp-blog-header.php:19
+[09-Jul-2022 07:43:54 UTC] PHP   4. include() E:\wamp64\www\test02\wp-includes\template-loader.php:106
+[09-Jul-2022 07:43:54 UTC] PHP   5. wc_get_template($template_name = 'archive-product.php', $args = *uninitialized*, $template_path = *uninitialized*, $default_path = *uninitialized*) E:\wamp64\www\test02\wp-content\plugins\woocommerce\templates\taxonomy-product-cat.php:22
+[09-Jul-2022 07:43:54 UTC] PHP   6. include() E:\wamp64\www\test02\wp-content\plugins\woocommerce\includes\wc-core-functions.php:345
+[09-Jul-2022 07:43:54 UTC] PHP Notice:  Trying to get property 'name' of non-object in E:\wamp64\www\test02\wp-content\themes\silky-new\woocommerce\archive-product.php on line 92
+[09-Jul-2022 07:43:54 UTC] PHP Stack trace:
+[09-Jul-2022 07:43:54 UTC] PHP   1. {main}() E:\wamp64\www\test02\index.php:0
+[09-Jul-2022 07:43:54 UTC] PHP   2. require() E:\wamp64\www\test02\index.php:17
+[09-Jul-2022 07:43:54 UTC] PHP   3. require_once() E:\wamp64\www\test02\wp-blog-header.php:19
+[09-Jul-2022 07:43:54 UTC] PHP   4. include() E:\wamp64\www\test02\wp-includes\template-loader.php:106
+[09-Jul-2022 07:43:54 UTC] PHP   5. wc_get_template($template_name = 'archive-product.php', $args = *uninitialized*, $template_path = *uninitialized*, $default_path = *uninitialized*) E:\wamp64\www\test02\wp-content\plugins\woocommerce\templates\taxonomy-product-cat.php:22
+[09-Jul-2022 07:43:54 UTC] PHP   6. include() E:\wamp64\www\test02\wp-content\plugins\woocommerce\includes\wc-core-functions.php:345
+[09-Jul-2022 07:44:09 UTC] PHP Notice:  Trying to get property 'name' of non-object in E:\wamp64\www\test02\wp-content\themes\silky-new\woocommerce\archive-product.php on line 92
+[09-Jul-2022 07:44:09 UTC] PHP Stack trace:
+[09-Jul-2022 07:44:09 UTC] PHP   1. {main}() E:\wamp64\www\test02\index.php:0
+[09-Jul-2022 07:44:09 UTC] PHP   2. require() E:\wamp64\www\test02\index.php:17
+[09-Jul-2022 07:44:09 UTC] PHP   3. require_once() E:\wamp64\www\test02\wp-blog-header.php:19
+[09-Jul-2022 07:44:09 UTC] PHP   4. include() E:\wamp64\www\test02\wp-includes\template-loader.php:106
+[09-Jul-2022 07:44:09 UTC] PHP   5. wc_get_template($template_name = 'archive-product.php', $args = *uninitialized*, $template_path = *uninitialized*, $default_path = *uninitialized*) E:\wamp64\www\test02\wp-content\plugins\woocommerce\templates\taxonomy-product-cat.php:22
+[09-Jul-2022 07:44:09 UTC] PHP   6. include() E:\wamp64\www\test02\wp-content\plugins\woocommerce\includes\wc-core-functions.php:345
+[09-Jul-2022 07:45:44 UTC] PHP Notice:  Undefined property: WP_Post_Type::$term_id in E:\wamp64\www\test02\wp-content\themes\silky-new\woocommerce\archive-product.php on line 25
+[09-Jul-2022 07:45:44 UTC] PHP Stack trace:
+[09-Jul-2022 07:45:44 UTC] PHP   1. {main}() E:\wamp64\www\test02\index.php:0
+[09-Jul-2022 07:45:44 UTC] PHP   2. require() E:\wamp64\www\test02\index.php:17
+[09-Jul-2022 07:45:44 UTC] PHP   3. require_once() E:\wamp64\www\test02\wp-blog-header.php:19
+[09-Jul-2022 07:45:44 UTC] PHP   4. include() E:\wamp64\www\test02\wp-includes\template-loader.php:106
+[09-Jul-2022 07:46:00 UTC] PHP Notice:  Undefined property: WP_Post_Type::$term_id in E:\wamp64\www\test02\wp-content\themes\silky-new\woocommerce\archive-product.php on line 25
+[09-Jul-2022 07:46:00 UTC] PHP Stack trace:
+[09-Jul-2022 07:46:00 UTC] PHP   1. {main}() E:\wamp64\www\test02\index.php:0
+[09-Jul-2022 07:46:00 UTC] PHP   2. require() E:\wamp64\www\test02\index.php:17
+[09-Jul-2022 07:46:00 UTC] PHP   3. require_once() E:\wamp64\www\test02\wp-blog-header.php:19
+[09-Jul-2022 07:46:00 UTC] PHP   4. include() E:\wamp64\www\test02\wp-includes\template-loader.php:106
+[09-Jul-2022 07:48:24 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[09-Jul-2022 07:48:24 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[09-Jul-2022 07:48:29 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[09-Jul-2022 07:48:29 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[09-Jul-2022 07:48:42 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[09-Jul-2022 07:48:42 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[09-Jul-2022 07:54:01 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[09-Jul-2022 07:54:01 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[09-Jul-2022 08:37:18 UTC] PHP Notice:  Undefined variable: loops in E:\wamp64\www\test02\wp-content\themes\silky-new\woocommerce\archive-product.php on line 131
+[09-Jul-2022 08:37:18 UTC] PHP Stack trace:
+[09-Jul-2022 08:37:18 UTC] PHP   1. {main}() E:\wamp64\www\test02\index.php:0
+[09-Jul-2022 08:37:18 UTC] PHP   2. require() E:\wamp64\www\test02\index.php:17
+[09-Jul-2022 08:37:18 UTC] PHP   3. require_once() E:\wamp64\www\test02\wp-blog-header.php:19
+[09-Jul-2022 08:37:18 UTC] PHP   4. include() E:\wamp64\www\test02\wp-includes\template-loader.php:106
+[09-Jul-2022 08:37:18 UTC] PHP   5. wc_get_template($template_name = 'archive-product.php', $args = *uninitialized*, $template_path = *uninitialized*, $default_path = *uninitialized*) E:\wamp64\www\test02\wp-content\plugins\woocommerce\templates\taxonomy-product-cat.php:22
+[09-Jul-2022 08:37:18 UTC] PHP   6. include() E:\wamp64\www\test02\wp-content\plugins\woocommerce\includes\wc-core-functions.php:345
+[09-Jul-2022 08:37:18 UTC] PHP Fatal error:  Uncaught Error: Call to a member function have_posts() on null in E:\wamp64\www\test02\wp-content\themes\silky-new\woocommerce\archive-product.php:131
+Stack trace:
+#0 E:\wamp64\www\test02\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 E:\wamp64\www\test02\wp-content\plugins\woocommerce\templates\taxonomy-product-cat.php(22): wc_get_template('archive-product...')
+#2 E:\wamp64\www\test02\wp-includes\template-loader.php(106): include('E:\\wamp64\\www\\t...')
+#3 E:\wamp64\www\test02\wp-blog-header.php(19): require_once('E:\\wamp64\\www\\t...')
+#4 E:\wamp64\www\test02\index.php(17): require('E:\\wamp64\\www\\t...')
+#5 {main}
+  thrown in E:\wamp64\www\test02\wp-content\themes\silky-new\woocommerce\archive-product.php on line 131
+[09-Jul-2022 08:37:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_field_objects() in E:\wamp64\www\test02\wp-content\themes\silky-new\global-templates\content-product.php:3
+Stack trace:
+#0 E:\wamp64\www\test02\wp-includes\template.php(772): require()
+#1 E:\wamp64\www\test02\wp-includes\template.php(716): load_template('E:\\wamp64\\www\\t...', false, Array)
+#2 E:\wamp64\www\test02\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#3 E:\wamp64\www\test02\wp-content\themes\silky-new\woocommerce\archive-product.php(134): get_template_part('global-template...', 'product')
+#4 E:\wamp64\www\test02\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('E:\\wamp64\\www\\t...')
+#5 E:\wamp64\www\test02\wp-content\plugins\woocommerce\templates\taxonomy-product-cat.php(22): wc_get_template('archive-product...')
+#6 E:\wamp64\www\test02\wp-includes\template-loader.php(106): include('E:\\wamp64\\www\\t...')
+#7 E:\wamp64\www\test02\wp-blog-header.php(19): require_once('E:\\wamp64\\www\\t...' in E:\wamp64\www\test02\wp-content\themes\silky-new\global-templates\content-product.php on line 3
+[09-Jul-2022 08:38:31 UTC] PHP Notice:  Undefined variable: product in E:\wamp64\www\test02\wp-content\themes\silky-new\global-templates\content-product.php on line 6
+[09-Jul-2022 08:38:31 UTC] PHP Stack trace:
+[09-Jul-2022 08:38:31 UTC] PHP   1. {main}() E:\wamp64\www\test02\index.php:0
+[09-Jul-2022 08:38:31 UTC] PHP   2. require() E:\wamp64\www\test02\index.php:17
+[09-Jul-2022 08:38:31 UTC] PHP   3. require_once() E:\wamp64\www\test02\wp-blog-header.php:19
+[09-Jul-2022 08:38:31 UTC] PHP   4. include() E:\wamp64\www\test02\wp-includes\template-loader.php:106
+[09-Jul-2022 08:38:31 UTC] PHP   5. wc_get_template($template_name = 'archive-product.php', $args = *uninitialized*, $template_path = *uninitialized*, $default_path = *uninitialized*) E:\wamp64\www\test02\wp-content\plugins\woocommerce\templates\taxonomy-product-cat.php:22
+[09-Jul-2022 08:38:31 UTC] PHP   6. include() E:\wamp64\www\test02\wp-content\plugins\woocommerce\includes\wc-core-functions.php:345
+[09-Jul-2022 08:38:31 UTC] PHP   7. get_template_part($slug = 'global-templates/content', $name = 'product', $args = *uninitialized*) E:\wamp64\www\test02\wp-content\themes\silky-new\woocommerce\archive-product.php:134
+[09-Jul-2022 08:38:31 UTC] PHP   8. locate_template($template_names = [0 => 'global-templates/content-product.php', 1 => 'global-templates/content.php'], $load = TRUE, $require_once = FALSE, $args = []) E:\wamp64\www\test02\wp-includes\general-template.php:204
+[09-Jul-2022 08:38:31 UTC] PHP   9. load_template($_template_file = 'E:\\wamp64\\www\\test02/wp-content/themes/silky-new/global-templates/content-product.php', $require_once = FALSE, $args = []) E:\wamp64\www\test02\wp-includes\template.php:716
+[09-Jul-2022 08:38:31 UTC] PHP  10. require() E:\wamp64\www\test02\wp-includes\template.php:772
+[09-Jul-2022 08:38:31 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_image_id() on null in E:\wamp64\www\test02\wp-content\themes\silky-new\global-templates\content-product.php:6
+Stack trace:
+#0 E:\wamp64\www\test02\wp-includes\template.php(772): require()
+#1 E:\wamp64\www\test02\wp-includes\template.php(716): load_template('E:\\wamp64\\www\\t...', false, Array)
+#2 E:\wamp64\www\test02\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#3 E:\wamp64\www\test02\wp-content\themes\silky-new\woocommerce\archive-product.php(134): get_template_part('global-template...', 'product')
+#4 E:\wamp64\www\test02\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('E:\\wamp64\\www\\t...')
+#5 E:\wamp64\www\test02\wp-content\plugins\woocommerce\templates\taxonomy-product-cat.php(22): wc_get_template('archive-product...')
+#6 E:\wamp64\www\test02\wp-includes\template-loader.php(106): include('E:\\wamp64\\www\\t...')
+#7 E:\wamp64\www\test02\wp-blog-header.php(19): require_once('E:\\wamp64\\www\\t.. in E:\wamp64\www\test02\wp-content\themes\silky-new\global-templates\content-product.php on line 6
+[09-Jul-2022 08:38:38 UTC] PHP Notice:  Undefined variable: imgHoverId in E:\wamp64\www\test02\wp-content\themes\silky-new\global-templates\content-product.php on line 7
+[09-Jul-2022 08:38:38 UTC] PHP Stack trace:
+[09-Jul-2022 08:38:38 UTC] PHP   1. {main}() E:\wamp64\www\test02\index.php:0
+[09-Jul-2022 08:38:38 UTC] PHP   2. require() E:\wamp64\www\test02\index.php:17
+[09-Jul-2022 08:38:38 UTC] PHP   3. require_once() E:\wamp64\www\test02\wp-blog-header.php:19
+[09-Jul-2022 08:38:38 UTC] PHP   4. include() E:\wamp64\www\test02\wp-includes\template-loader.php:106
+[09-Jul-2022 08:38:38 UTC] PHP   5. wc_get_template($template_name = 'archive-product.php', $args = *uninitialized*, $template_path = *uninitialized*, $default_path = *uninitialized*) E:\wamp64\www\test02\wp-content\plugins\woocommerce\templates\taxonomy-product-cat.php:22
+[09-Jul-2022 08:38:38 UTC] PHP   6. include() E:\wamp64\www\test02\wp-content\plugins\woocommerce\includes\wc-core-functions.php:345
+[09-Jul-2022 08:38:38 UTC] PHP   7. get_template_part($slug = 'global-templates/content', $name = 'product', $args = *uninitialized*) E:\wamp64\www\test02\wp-content\themes\silky-new\woocommerce\archive-product.php:134
+[09-Jul-2022 08:38:38 UTC] PHP   8. locate_template($template_names = [0 => 'global-templates/content-product.php', 1 => 'global-templates/content.php'], $load = TRUE, $require_once = FALSE, $args = []) E:\wamp64\www\test02\wp-includes\general-template.php:204
+[09-Jul-2022 08:38:38 UTC] PHP   9. load_template($_template_file = 'E:\\wamp64\\www\\test02/wp-content/themes/silky-new/global-templates/content-product.php', $require_once = FALSE, $args = []) E:\wamp64\www\test02\wp-includes\template.php:716
+[09-Jul-2022 08:38:38 UTC] PHP  10. require() E:\wamp64\www\test02\wp-includes\template.php:772
+[09-Jul-2022 08:38:38 UTC] PHP Notice:  Undefined variable: imgHoverId in E:\wamp64\www\test02\wp-content\themes\silky-new\global-templates\content-product.php on line 7
+[09-Jul-2022 08:38:38 UTC] PHP Stack trace:
+[09-Jul-2022 08:38:38 UTC] PHP   1. {main}() E:\wamp64\www\test02\index.php:0
+[09-Jul-2022 08:38:38 UTC] PHP   2. require() E:\wamp64\www\test02\index.php:17
+[09-Jul-2022 08:38:38 UTC] PHP   3. require_once() E:\wamp64\www\test02\wp-blog-header.php:19
+[09-Jul-2022 08:38:38 UTC] PHP   4. include() E:\wamp64\www\test02\wp-includes\template-loader.php:106
+[09-Jul-2022 08:38:38 UTC] PHP   5. wc_get_template($template_name = 'archive-product.php', $args = *uninitialized*, $template_path = *uninitialized*, $default_path = *uninitialized*) E:\wamp64\www\test02\wp-content\plugins\woocommerce\templates\taxonomy-product-cat.php:22
+[09-Jul-2022 08:38:38 UTC] PHP   6. include() E:\wamp64\www\test02\wp-content\plugins\woocommerce\includes\wc-core-functions.php:345
+[09-Jul-2022 08:38:38 UTC] PHP   7. get_template_part($slug = 'global-templates/content', $name = 'product', $args = *uninitialized*) E:\wamp64\www\test02\wp-content\themes\silky-new\woocommerce\archive-product.php:134
+[09-Jul-2022 08:38:38 UTC] PHP   8. locate_template($template_names = [0 => 'global-templates/content-product.php', 1 => 'global-templates/content.php'], $load = TRUE, $require_once = FALSE, $args = []) E:\wamp64\www\test02\wp-includes\general-template.php:204
+[09-Jul-2022 08:38:38 UTC] PHP   9. load_template($_template_file = 'E:\\wamp64\\www\\test02/wp-content/themes/silky-new/global-templates/content-product.php', $require_once = FALSE, $args = []) E:\wamp64\www\test02\wp-includes\template.php:716
+[09-Jul-2022 08:38:38 UTC] PHP  10. require() E:\wamp64\www\test02\wp-includes\template.php:772
+[09-Jul-2022 08:38:38 UTC] PHP Notice:  Undefined variable: imgHoverId in E:\wamp64\www\test02\wp-content\themes\silky-new\global-templates\content-product.php on line 7
+[09-Jul-2022 08:38:38 UTC] PHP Stack trace:
+[09-Jul-2022 08:38:38 UTC] PHP   1. {main}() E:\wamp64\www\test02\index.php:0
+[09-Jul-2022 08:38:38 UTC] PHP   2. require() E:\wamp64\www\test02\index.php:17
+[09-Jul-2022 08:38:38 UTC] PHP   3. require_once() E:\wamp64\www\test02\wp-blog-header.php:19
+[09-Jul-2022 08:38:38 UTC] PHP   4. include() E:\wamp64\www\test02\wp-includes\template-loader.php:106
+[09-Jul-2022 08:38:38 UTC] PHP   5. wc_get_template($template_name = 'archive-product.php', $args = *uninitialized*, $template_path = *uninitialized*, $default_path = *uninitialized*) E:\wamp64\www\test02\wp-content\plugins\woocommerce\templates\taxonomy-product-cat.php:22
+[09-Jul-2022 08:38:38 UTC] PHP   6. include() E:\wamp64\www\test02\wp-content\plugins\woocommerce\includes\wc-core-functions.php:345
+[09-Jul-2022 08:38:38 UTC] PHP   7. get_template_part($slug = 'global-templates/content', $name = 'product', $args = *uninitialized*) E:\wamp64\www\test02\wp-content\themes\silky-new\woocommerce\archive-product.php:134
+[09-Jul-2022 08:38:38 UTC] PHP   8. locate_template($template_names = [0 => 'global-templates/content-product.php', 1 => 'global-templates/content.php'], $load = TRUE, $require_once = FALSE, $args = []) E:\wamp64\www\test02\wp-includes\general-template.php:204
+[09-Jul-2022 08:38:38 UTC] PHP   9. load_template($_template_file = 'E:\\wamp64\\www\\test02/wp-content/themes/silky-new/global-templates/content-product.php', $require_once = FALSE, $args = []) E:\wamp64\www\test02\wp-includes\template.php:716
+[09-Jul-2022 08:38:38 UTC] PHP  10. require() E:\wamp64\www\test02\wp-includes\template.php:772
+[09-Jul-2022 08:49:37 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[09-Jul-2022 08:49:37 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[09-Jul-2022 08:51:08 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[09-Jul-2022 08:51:08 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[09-Jul-2022 08:53:46 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[09-Jul-2022 08:53:46 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[09-Jul-2022 08:53:54 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[09-Jul-2022 08:53:54 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.

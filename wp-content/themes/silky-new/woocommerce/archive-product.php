@@ -31,10 +31,11 @@ do_action('product_style');
  * @hooked woocommerce_breadcrumb - 20
  * @hooked WC_Structured_Data::generate_website_data() - 30
  */
-do_action( 'woocommerce_before_main_content' );
+
 // get_template_part('global-templates/part','loading-image-category');
 
 if (is_shop()) {
+	do_action( 'woocommerce_before_main_content' );
 	if ( woocommerce_product_loop() ) {
 		/**
 		 * Hook: woocommerce_before_shop_loop.
@@ -76,62 +77,8 @@ if (is_shop()) {
 		 */
 		do_action( 'woocommerce_no_products_found' );
 	}
-	
-} 
-elseif (is_product_category()) {
-	echo 'ddddd';
-	global $wp_query;
-
-    // get the query object
-    $cat = $wp_query->get_queried_object();
-	var_dump($cat);
-
-
-	$args = array(
-		'post_type'             => 'product',
-		'post_status'           => 'publish',
-		'ignore_sticky_posts'   => 1,
-		'posts_per_page'        => '12',
-		'tax_query'             => array(
-			array(
-				'taxonomy'      => 'product_cat',
-				'field' => 'term_id', //This is optional, as it defaults to 'term_id'
-				'terms'         => $cat->term_id,
-				'operator'      => 'IN' // Possible values are 'IN', 'NOT IN', 'AND'.
-			),
-			array(
-				'taxonomy'      => 'product_visibility',
-				'field'         => 'slug',
-				'terms'         => 'exclude-from-catalog', // Possibly 'exclude-from-search' too
-				'operator'      => 'NOT IN'
-			)
-		)
-	);
-	$products = new WP_Query($args);
-	// var_dump($products);
-		echo' <div class = "collection-product-content">';
-		woocommerce_product_loop_start();
-		
-		if ( wc_get_loop_prop( 'total' ) ) {
-			while ( have_posts() ) {
-				the_post();
-	
-				/**
-				 * Hook: woocommerce_shop_loop.
-				 */
-				do_action( 'woocommerce_shop_loop' );
-	
-				wc_get_template_part( 'content', 'product' );
-				
-			}
-		}
-	
-		woocommerce_product_loop_end();
-		echo' </div>';
-}
-
-?>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+	?>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 
 <?php
 
@@ -141,6 +88,78 @@ elseif (is_product_category()) {
  * @hooked woocommerce_output_content_wrapper_end - 10 (outputs closing divs for the content)
  */
 do_action( 'woocommerce_after_main_content' );
+
+
+	
+} 
+elseif (is_product_category()) {
+	$cate = get_queried_object();
+
+$cateid = $cate -> term_id;
+
+// var_dump($cate);
+	?>
+	 <div class="collection-wrapp-header">
+        <!-- <img class="collection-header-img" src="" alt=""> -->
+        <img src="<?php echo get_template_directory_uri() . '/img/header-collection.png'; ?>" class="collection-header-img" />
+        <div class="header-collection-desc">
+            <div class="header-colletion-name">
+                <?php echo $cate ->name ?>
+            </div>
+            <div class="header-colletion-line"></div>
+            <div class="content-header-collection-desc"> <?php echo category_description($cateid); ?></div>
+        </div>
+    </div>
+	<div class="collection_category_product_list">
+    <?php
+    $collection_products = new WP_Query(array(
+    'post_type'=>'product',
+    'post_status'=>'publish',
+    'tax_query' => array(
+      array(
+          'taxonomy' => 'product_cat',
+          'field' => 'id',
+          'terms' => $cateid
+      )
+    ),
+    'orderby' => 'ID',
+    'order' => 'DESC',
+    'posts_per_page'=> '4'));
+	// var_dump($collection_products);
+
+    ?>
+    <?php while ( $collection_products->have_posts() ) :
+						$collection_products->the_post();
+
+						get_template_part('global-templates/content','product');
+
+					endwhile; ; wp_reset_query() ;?>
+</div>
+	
+	
+	
+	<?php
+
+
+	
+		woocommerce_product_loop_start();
+		
+		// if ( wc_get_loop_prop( 'total' ) ) {
+		// 	while ( have_posts() ) {
+		// 		the_post();
+	
+		// 		/**
+		// 		 * Hook: woocommerce_shop_loop.
+		// 		 */
+		// 		do_action( 'woocommerce_shop_loop' );
+	
+		// 		wc_get_template_part( 'content', 'product' );
+				
+		// 	}
+		// }
+	
+		woocommerce_product_loop_end();
+}
 
 
   
