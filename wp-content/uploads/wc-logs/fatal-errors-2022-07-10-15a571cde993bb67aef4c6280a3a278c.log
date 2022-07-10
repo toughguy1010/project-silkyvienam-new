@@ -1,0 +1,45 @@
+2022-07-10T03:11:15+00:00 CRITICAL Uncaught Error: Call to undefined function get_field_objects() in E:\wamp64\www\test02\wp-content\themes\silky-new\woocommerce\archive-product.php:97
+Stack trace:
+#0 E:\wamp64\www\test02\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 E:\wamp64\www\test02\wp-content\plugins\woocommerce\templates\taxonomy-product-cat.php(22): wc_get_template('archive-product...')
+#2 E:\wamp64\www\test02\wp-includes\template-loader.php(106): include('E:\\wamp64\\www\\t...')
+#3 E:\wamp64\www\test02\wp-blog-header.php(19): require_once('E:\\wamp64\\www\\t...')
+#4 E:\wamp64\www\test02\index.php(17): require('E:\\wamp64\\www\\t...')
+#5 {main}
+  thrown in E:\wamp64\www\test02\wp-content\themes\silky-new\woocommerce\archive-product.php on line 97
+
+2022-07-10T14:11:33+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Product_Variable::get_post_thumbnail_id() in E:\wamp64\www\test02\wp-content\themes\silky-new\woocommerce\single-product\add-to-cart\grouped.php:95
+Stack trace:
+#0 E:\wamp64\www\test02\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 E:\wamp64\www\test02\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1701): wc_get_template('single-product/...', Array)
+#2 E:\wamp64\www\test02\wp-includes\class-wp-hook.php(307): woocommerce_grouped_add_to_cart('')
+#3 E:\wamp64\www\test02\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#4 E:\wamp64\www\test02\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#5 E:\wamp64\www\test02\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1675): do_action('woocommerce_gro...')
+#6 E:\wamp64\www\test02\wp-includes\class-wp-hook.php(307): woocommerce_template_single_add_to_cart('')
+#7 E:\wamp64\www\test02\wp-includes\class-wp-hook.php(331): WP_Hook->appl in E:\wamp64\www\test02\wp-content\themes\silky-new\woocommerce\single-product\add-to-cart\grouped.php on line 95
+
+2022-07-10T14:25:14+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Product_Variable::get_the_post_thumbnail() in E:\wamp64\www\test02\wp-content\themes\silky-new\woocommerce\single-product\add-to-cart\grouped.php:95
+Stack trace:
+#0 E:\wamp64\www\test02\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 E:\wamp64\www\test02\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1701): wc_get_template('single-product/...', Array)
+#2 E:\wamp64\www\test02\wp-includes\class-wp-hook.php(307): woocommerce_grouped_add_to_cart('')
+#3 E:\wamp64\www\test02\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#4 E:\wamp64\www\test02\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#5 E:\wamp64\www\test02\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1675): do_action('woocommerce_gro...')
+#6 E:\wamp64\www\test02\wp-includes\class-wp-hook.php(307): woocommerce_template_single_add_to_cart('')
+#7 E:\wamp64\www\test02\wp-includes\class-wp-hook.php(331): WP_Hook->app in E:\wamp64\www\test02\wp-content\themes\silky-new\woocommerce\single-product\add-to-cart\grouped.php on line 95
+
+2022-07-10T14:37:08+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Product_Variable::get_the_id() in E:\wamp64\www\test02\wp-content\themes\silky-new\woocommerce\single-product\add-to-cart\grouped.php:95
+Stack trace:
+#0 E:\wamp64\www\test02\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 E:\wamp64\www\test02\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1701): wc_get_template('single-product/...', Array)
+#2 E:\wamp64\www\test02\wp-includes\class-wp-hook.php(307): woocommerce_grouped_add_to_cart('')
+#3 E:\wamp64\www\test02\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#4 E:\wamp64\www\test02\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#5 E:\wamp64\www\test02\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1675): do_action('woocommerce_gro...')
+#6 E:\wamp64\www\test02\wp-includes\class-wp-hook.php(307): woocommerce_template_single_add_to_cart('')
+#7 E:\wamp64\www\test02\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(N in E:\wamp64\www\test02\wp-content\themes\silky-new\woocommerce\single-product\add-to-cart\grouped.php on line 95
+
+2022-07-10T15:40:52+00:00 CRITICAL Cannot redeclare webroom_add_short_description_in_product_categories() (previously declared in E:\wamp64\www\test02\wp-content\themes\silky-new\woocommerce\single-product\add-to-cart\grouped.php:55) in E:\wamp64\www\test02\wp-content\themes\silky-new\woocommerce\single-product\add-to-cart\grouped.php on line 55
+

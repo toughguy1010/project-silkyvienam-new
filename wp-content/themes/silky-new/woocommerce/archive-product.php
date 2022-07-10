@@ -95,11 +95,13 @@ do_action( 'woocommerce_after_main_content' );
 elseif (is_product_category()) {
 	$cate = get_queried_object();
 
-$cateid = $cate -> term_id;
-
+	$cateid = $cate -> term_id;
+	$posts_per_page = 2;
+	$paged = ( get_query_var('paged') ) ? get_query_var('paged') : 1;
+	
 // var_dump($cate);
 	?>
-	 <div class="collection-wrapp-header">
+	<div class="collection-wrapp-header">
         <!-- <img class="collection-header-img" src="" alt=""> -->
         <img src="<?php echo get_template_directory_uri() . '/img/header-collection.png'; ?>" class="collection-header-img" />
         <div class="header-collection-desc">
@@ -111,30 +113,48 @@ $cateid = $cate -> term_id;
         </div>
     </div>
 	<div class="collection_category_product_list">
-    <?php
-    $collection_products = new WP_Query(array(
-    'post_type'=>'product',
-    'post_status'=>'publish',
-    'tax_query' => array(
-      array(
-          'taxonomy' => 'product_cat',
-          'field' => 'id',
-          'terms' => $cateid
-      )
-    ),
-    'orderby' => 'ID',
-    'order' => 'DESC',
-    'posts_per_page'=> '4'));
-	// var_dump($collection_products);
+		<?php
+		$collection_products = new WP_Query(array(
+			'post_type'=>'product',
+			'post_status'=>'publish',
+			'tax_query' => array(
+			array(
+				'taxonomy' => 'product_cat',
+				'field' => 'id',
+				'terms' => $cateid
+			)
+			),
+			'orderby' => 'ID',
+			'order' => 'DESC',
+			'posts_per_page'=> $posts_per_page,
+			'paged' => $paged,
+		));
+		// var_dump($collection_products);
 
-    ?>
-    <?php while ( $collection_products->have_posts() ) :
-						$collection_products->the_post();
+		?>
+		<?php while ( $collection_products->have_posts() ) :
+							$collection_products->the_post();
 
-						get_template_part('global-templates/content','product');
+							get_template_part('global-templates/content','product');
 
-					endwhile; ; wp_reset_query() ;?>
-</div>
+						endwhile; ; wp_reset_query() ;?>
+	</div>
+	<div class="pagination-collection">
+		<?php
+		$big = 999999999; // need an unlikely integer
+		$page_args = array(
+			'base' => str_replace( $big, '%#%', esc_url( get_pagenum_link( $big ) ) ),
+			'format' => '?page=%#%',
+			'current' => max( 1, $paged ),
+			'total' => $collection_products->max_num_pages,
+			'prev_text' => '< ',
+			'next_text' => ' >',
+		);
+		var_dump($collection_products->max_num_pages);
+		echo paginate_links( $page_args );
+		
+		?>
+	</div>
 	
 	
 	
