@@ -9471,3 +9471,120 @@ Stack trace:
 [11-Jul-2022 05:13:05 UTC] PHP   7. WC_AJAX::do_wc_ajax('') E:\wamp64\www\test02\wp-includes\class-wp-hook.php:307
 [11-Jul-2022 05:13:05 UTC] PHP   8. WC_AJAX::wc_ajax_headers() E:\wamp64\www\test02\wp-content\plugins\woocommerce\includes\class-wc-ajax.php:88
 [11-Jul-2022 05:13:05 UTC] PHP   9. trigger_error($message = 'wc_ajax_headers cannot set headers - headers already sent by E:\\wamp64\\www\\test02\\wp-content\\themes\\silky-new\\functions.php on line 276', $error_type = 1024) E:\wamp64\www\test02\wp-content\plugins\woocommerce\includes\class-wc-ajax.php:70
+[11-Jul-2022 13:52:11 UTC] WordPress database error Unknown character set: 'utf8bin' for query CREATE TABLE IF NOT EXISTS `wp_woof_query_cache` (
+                                                    `mkey` varchar(64) NOT NULL,
+                                                    `mvalue` text NOT NULL,
+                                                    KEY `mkey` (`mkey`)
+                                                  ) DEFAULT CHARACTER SET utf8bin made by do_action('woocommerce_page_wc-settings'), WP_Hook->do_action, WP_Hook->apply_filters, WC_Admin_Menus->settings_page, WC_Admin_Settings::output, include('/plugins/woocommerce/includes/admin/views/html-admin-settings.php'), do_action('woocommerce_settings_tabs_woof'), WP_Hook->do_action, WP_Hook->apply_filters, WOOF->print_plugin_options, WOOF->render_html, include('/plugins/woocommerce-products-filter/views/plugin_options.php')
+[11-Jul-2022 13:52:15 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[11-Jul-2022 13:52:15 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[11-Jul-2022 14:25:01 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[11-Jul-2022 14:25:01 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[11-Jul-2022 14:25:04 UTC] WordPress database error Unknown character set: 'utf8bin' for query CREATE TABLE IF NOT EXISTS `wp_woof_query_cache` (
+                                                    `mkey` varchar(64) NOT NULL,
+                                                    `mvalue` text NOT NULL,
+                                                    KEY `mkey` (`mkey`)
+                                                  ) DEFAULT CHARACTER SET utf8bin made by do_action('woocommerce_page_wc-settings'), WP_Hook->do_action, WP_Hook->apply_filters, WC_Admin_Menus->settings_page, WC_Admin_Settings::output, include('/plugins/woocommerce/includes/admin/views/html-admin-settings.php'), do_action('woocommerce_settings_tabs_woof'), WP_Hook->do_action, WP_Hook->apply_filters, WOOF->print_plugin_options, WOOF->render_html, include('/plugins/woocommerce-products-filter/views/plugin_options.php')
+[11-Jul-2022 14:25:04 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[11-Jul-2022 14:25:04 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[11-Jul-2022 14:25:07 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[11-Jul-2022 14:25:07 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[11-Jul-2022 14:47:05 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[11-Jul-2022 14:47:05 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[11-Jul-2022 14:47:40 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[11-Jul-2022 14:47:40 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[11-Jul-2022 14:48:17 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[11-Jul-2022 14:48:17 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[11-Jul-2022 14:49:21 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[11-Jul-2022 14:49:21 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[11-Jul-2022 15:04:12 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[11-Jul-2022 15:04:12 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[11-Jul-2022 15:04:28 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[11-Jul-2022 15:04:28 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[11-Jul-2022 15:04:51 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[11-Jul-2022 15:04:51 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[11-Jul-2022 15:45:41 UTC] PHP Notice:  Undefined variable: size_chart_get_button_class in E:\wamp64\www\test02\wp-content\themes\silky-new\woocommerce\single-product\add-to-cart\variation-add-to-cart-button.php on line 37
+[11-Jul-2022 15:45:41 UTC] PHP Stack trace:
+[11-Jul-2022 15:45:41 UTC] PHP   1. {main}() E:\wamp64\www\test02\index.php:0
+[11-Jul-2022 15:45:41 UTC] PHP   2. require() E:\wamp64\www\test02\index.php:17
+[11-Jul-2022 15:45:41 UTC] PHP   3. require_once() E:\wamp64\www\test02\wp-blog-header.php:19
+[11-Jul-2022 15:45:41 UTC] PHP   4. include() E:\wamp64\www\test02\wp-includes\template-loader.php:106
+[11-Jul-2022 15:45:41 UTC] PHP   5. wc_get_template_part($slug = 'content', $name = 'single-product') E:\wamp64\www\test02\wp-content\plugins\woocommerce\templates\single-product.php:37
+[11-Jul-2022 15:45:41 UTC] PHP   6. load_template($_template_file = 'E:\\wamp64\\www\\test02/wp-content/themes/silky-new/woocommerce/content-single-product.php', $require_once = FALSE, $args = *uninitialized*) E:\wamp64\www\test02\wp-content\plugins\woocommerce\includes\wc-core-functions.php:284
+[11-Jul-2022 15:45:41 UTC] PHP   7. require() E:\wamp64\www\test02\wp-includes\template.php:772
+[11-Jul-2022 15:45:41 UTC] PHP   8. do_action($hook_name = 'woocommerce_single_product_summary') E:\wamp64\www\test02\wp-content\themes\silky-new\woocommerce\content-single-product.php:61
+[11-Jul-2022 15:45:41 UTC] PHP   9. WP_Hook->do_action($args = [0 => '']) E:\wamp64\www\test02\wp-includes\plugin.php:476
+[11-Jul-2022 15:45:41 UTC] PHP  10. WP_Hook->apply_filters($value = '', $args = [0 => '']) E:\wamp64\www\test02\wp-includes\class-wp-hook.php:331
+[11-Jul-2022 15:45:41 UTC] PHP  11. woocommerce_template_single_add_to_cart('') E:\wamp64\www\test02\wp-includes\class-wp-hook.php:307
+[11-Jul-2022 15:45:41 UTC] PHP  12. do_action($hook_name = 'woocommerce_variable_add_to_cart') E:\wamp64\www\test02\wp-content\plugins\woocommerce\includes\wc-template-functions.php:1675
+[11-Jul-2022 15:45:41 UTC] PHP  13. WP_Hook->do_action($args = [0 => '']) E:\wamp64\www\test02\wp-includes\plugin.php:476
+[11-Jul-2022 15:45:41 UTC] PHP  14. WP_Hook->apply_filters($value = '', $args = [0 => '']) E:\wamp64\www\test02\wp-includes\class-wp-hook.php:331
+[11-Jul-2022 15:45:41 UTC] PHP  15. woocommerce_variable_add_to_cart('') E:\wamp64\www\test02\wp-includes\class-wp-hook.php:307
+[11-Jul-2022 15:45:41 UTC] PHP  16. wc_get_template($template_name = 'single-product/add-to-cart/variable.php', $args = ['available_variations' => [0 => [...], 1 => [...], 2 => [...], 3 => [...], 4 => [...], 5 => [...], 6 => [...], 7 => [...], 8 => [...]], 'attributes' => ['pa_color' => [...], 'pa_size' => [...]], 'selected_attributes' => []], $template_path = *uninitialized*, $default_path = *uninitialized*) E:\wamp64\www\test02\wp-content\plugins\woocommerce\includes\wc-template-functions.php:1729
+[11-Jul-2022 15:45:41 UTC] PHP  17. include() E:\wamp64\www\test02\wp-content\plugins\woocommerce\includes\wc-core-functions.php:345
+[11-Jul-2022 15:45:41 UTC] PHP  18. do_action($hook_name = 'woocommerce_single_variation') E:\wamp64\www\test02\wp-content\themes\silky-new\woocommerce\single-product\add-to-cart\variable.php:75
+[11-Jul-2022 15:45:41 UTC] PHP  19. WP_Hook->do_action($args = [0 => '']) E:\wamp64\www\test02\wp-includes\plugin.php:476
+[11-Jul-2022 15:45:41 UTC] PHP  20. WP_Hook->apply_filters($value = '', $args = [0 => '']) E:\wamp64\www\test02\wp-includes\class-wp-hook.php:331
+[11-Jul-2022 15:45:41 UTC] PHP  21. woocommerce_single_variation_add_to_cart_button('') E:\wamp64\www\test02\wp-includes\class-wp-hook.php:307
+[11-Jul-2022 15:45:41 UTC] PHP  22. wc_get_template($template_name = 'single-product/add-to-cart/variation-add-to-cart-button.php', $args = *uninitialized*, $template_path = *uninitialized*, $default_path = *uninitialized*) E:\wamp64\www\test02\wp-content\plugins\woocommerce\includes\wc-template-functions.php:3042
+[11-Jul-2022 15:45:41 UTC] PHP  23. include() E:\wamp64\www\test02\wp-content\plugins\woocommerce\includes\wc-core-functions.php:345
+[11-Jul-2022 15:45:41 UTC] PHP Notice:  Undefined variable: chart_id in E:\wamp64\www\test02\wp-content\themes\silky-new\woocommerce\single-product\add-to-cart\variation-add-to-cart-button.php on line 39
+[11-Jul-2022 15:45:41 UTC] PHP Stack trace:
+[11-Jul-2022 15:45:41 UTC] PHP   1. {main}() E:\wamp64\www\test02\index.php:0
+[11-Jul-2022 15:45:41 UTC] PHP   2. require() E:\wamp64\www\test02\index.php:17
+[11-Jul-2022 15:45:41 UTC] PHP   3. require_once() E:\wamp64\www\test02\wp-blog-header.php:19
+[11-Jul-2022 15:45:41 UTC] PHP   4. include() E:\wamp64\www\test02\wp-includes\template-loader.php:106
+[11-Jul-2022 15:45:41 UTC] PHP   5. wc_get_template_part($slug = 'content', $name = 'single-product') E:\wamp64\www\test02\wp-content\plugins\woocommerce\templates\single-product.php:37
+[11-Jul-2022 15:45:41 UTC] PHP   6. load_template($_template_file = 'E:\\wamp64\\www\\test02/wp-content/themes/silky-new/woocommerce/content-single-product.php', $require_once = FALSE, $args = *uninitialized*) E:\wamp64\www\test02\wp-content\plugins\woocommerce\includes\wc-core-functions.php:284
+[11-Jul-2022 15:45:41 UTC] PHP   7. require() E:\wamp64\www\test02\wp-includes\template.php:772
+[11-Jul-2022 15:45:41 UTC] PHP   8. do_action($hook_name = 'woocommerce_single_product_summary') E:\wamp64\www\test02\wp-content\themes\silky-new\woocommerce\content-single-product.php:61
+[11-Jul-2022 15:45:41 UTC] PHP   9. WP_Hook->do_action($args = [0 => '']) E:\wamp64\www\test02\wp-includes\plugin.php:476
+[11-Jul-2022 15:45:41 UTC] PHP  10. WP_Hook->apply_filters($value = '', $args = [0 => '']) E:\wamp64\www\test02\wp-includes\class-wp-hook.php:331
+[11-Jul-2022 15:45:41 UTC] PHP  11. woocommerce_template_single_add_to_cart('') E:\wamp64\www\test02\wp-includes\class-wp-hook.php:307
+[11-Jul-2022 15:45:41 UTC] PHP  12. do_action($hook_name = 'woocommerce_variable_add_to_cart') E:\wamp64\www\test02\wp-content\plugins\woocommerce\includes\wc-template-functions.php:1675
+[11-Jul-2022 15:45:41 UTC] PHP  13. WP_Hook->do_action($args = [0 => '']) E:\wamp64\www\test02\wp-includes\plugin.php:476
+[11-Jul-2022 15:45:41 UTC] PHP  14. WP_Hook->apply_filters($value = '', $args = [0 => '']) E:\wamp64\www\test02\wp-includes\class-wp-hook.php:331
+[11-Jul-2022 15:45:41 UTC] PHP  15. woocommerce_variable_add_to_cart('') E:\wamp64\www\test02\wp-includes\class-wp-hook.php:307
+[11-Jul-2022 15:45:41 UTC] PHP  16. wc_get_template($template_name = 'single-product/add-to-cart/variable.php', $args = ['available_variations' => [0 => [...], 1 => [...], 2 => [...], 3 => [...], 4 => [...], 5 => [...], 6 => [...], 7 => [...], 8 => [...]], 'attributes' => ['pa_color' => [...], 'pa_size' => [...]], 'selected_attributes' => []], $template_path = *uninitialized*, $default_path = *uninitialized*) E:\wamp64\www\test02\wp-content\plugins\woocommerce\includes\wc-template-functions.php:1729
+[11-Jul-2022 15:45:41 UTC] PHP  17. include() E:\wamp64\www\test02\wp-content\plugins\woocommerce\includes\wc-core-functions.php:345
+[11-Jul-2022 15:45:41 UTC] PHP  18. do_action($hook_name = 'woocommerce_single_variation') E:\wamp64\www\test02\wp-content\themes\silky-new\woocommerce\single-product\add-to-cart\variable.php:75
+[11-Jul-2022 15:45:41 UTC] PHP  19. WP_Hook->do_action($args = [0 => '']) E:\wamp64\www\test02\wp-includes\plugin.php:476
+[11-Jul-2022 15:45:41 UTC] PHP  20. WP_Hook->apply_filters($value = '', $args = [0 => '']) E:\wamp64\www\test02\wp-includes\class-wp-hook.php:331
+[11-Jul-2022 15:45:41 UTC] PHP  21. woocommerce_single_variation_add_to_cart_button('') E:\wamp64\www\test02\wp-includes\class-wp-hook.php:307
+[11-Jul-2022 15:45:41 UTC] PHP  22. wc_get_template($template_name = 'single-product/add-to-cart/variation-add-to-cart-button.php', $args = *uninitialized*, $template_path = *uninitialized*, $default_path = *uninitialized*) E:\wamp64\www\test02\wp-content\plugins\woocommerce\includes\wc-template-functions.php:3042
+[11-Jul-2022 15:45:41 UTC] PHP  23. include() E:\wamp64\www\test02\wp-content\plugins\woocommerce\includes\wc-core-functions.php:345
+[11-Jul-2022 15:45:41 UTC] PHP Notice:  Undefined variable: popup_label in E:\wamp64\www\test02\wp-content\themes\silky-new\woocommerce\single-product\add-to-cart\variation-add-to-cart-button.php on line 42
+[11-Jul-2022 15:45:41 UTC] PHP Stack trace:
+[11-Jul-2022 15:45:41 UTC] PHP   1. {main}() E:\wamp64\www\test02\index.php:0
+[11-Jul-2022 15:45:41 UTC] PHP   2. require() E:\wamp64\www\test02\index.php:17
+[11-Jul-2022 15:45:41 UTC] PHP   3. require_once() E:\wamp64\www\test02\wp-blog-header.php:19
+[11-Jul-2022 15:45:41 UTC] PHP   4. include() E:\wamp64\www\test02\wp-includes\template-loader.php:106
+[11-Jul-2022 15:45:41 UTC] PHP   5. wc_get_template_part($slug = 'content', $name = 'single-product') E:\wamp64\www\test02\wp-content\plugins\woocommerce\templates\single-product.php:37
+[11-Jul-2022 15:45:41 UTC] PHP   6. load_template($_template_file = 'E:\\wamp64\\www\\test02/wp-content/themes/silky-new/woocommerce/content-single-product.php', $require_once = FALSE, $args = *uninitialized*) E:\wamp64\www\test02\wp-content\plugins\woocommerce\includes\wc-core-functions.php:284
+[11-Jul-2022 15:45:41 UTC] PHP   7. require() E:\wamp64\www\test02\wp-includes\template.php:772
+[11-Jul-2022 15:45:41 UTC] PHP   8. do_action($hook_name = 'woocommerce_single_product_summary') E:\wamp64\www\test02\wp-content\themes\silky-new\woocommerce\content-single-product.php:61
+[11-Jul-2022 15:45:41 UTC] PHP   9. WP_Hook->do_action($args = [0 => '']) E:\wamp64\www\test02\wp-includes\plugin.php:476
+[11-Jul-2022 15:45:41 UTC] PHP  10. WP_Hook->apply_filters($value = '', $args = [0 => '']) E:\wamp64\www\test02\wp-includes\class-wp-hook.php:331
+[11-Jul-2022 15:45:41 UTC] PHP  11. woocommerce_template_single_add_to_cart('') E:\wamp64\www\test02\wp-includes\class-wp-hook.php:307
+[11-Jul-2022 15:45:41 UTC] PHP  12. do_action($hook_name = 'woocommerce_variable_add_to_cart') E:\wamp64\www\test02\wp-content\plugins\woocommerce\includes\wc-template-functions.php:1675
+[11-Jul-2022 15:45:41 UTC] PHP  13. WP_Hook->do_action($args = [0 => '']) E:\wamp64\www\test02\wp-includes\plugin.php:476
+[11-Jul-2022 15:45:41 UTC] PHP  14. WP_Hook->apply_filters($value = '', $args = [0 => '']) E:\wamp64\www\test02\wp-includes\class-wp-hook.php:331
+[11-Jul-2022 15:45:41 UTC] PHP  15. woocommerce_variable_add_to_cart('') E:\wamp64\www\test02\wp-includes\class-wp-hook.php:307
+[11-Jul-2022 15:45:41 UTC] PHP  16. wc_get_template($template_name = 'single-product/add-to-cart/variable.php', $args = ['available_variations' => [0 => [...], 1 => [...], 2 => [...], 3 => [...], 4 => [...], 5 => [...], 6 => [...], 7 => [...], 8 => [...]], 'attributes' => ['pa_color' => [...], 'pa_size' => [...]], 'selected_attributes' => []], $template_path = *uninitialized*, $default_path = *uninitialized*) E:\wamp64\www\test02\wp-content\plugins\woocommerce\includes\wc-template-functions.php:1729
+[11-Jul-2022 15:45:41 UTC] PHP  17. include() E:\wamp64\www\test02\wp-content\plugins\woocommerce\includes\wc-core-functions.php:345
+[11-Jul-2022 15:45:41 UTC] PHP  18. do_action($hook_name = 'woocommerce_single_variation') E:\wamp64\www\test02\wp-content\themes\silky-new\woocommerce\single-product\add-to-cart\variable.php:75
+[11-Jul-2022 15:45:41 UTC] PHP  19. WP_Hook->do_action($args = [0 => '']) E:\wamp64\www\test02\wp-includes\plugin.php:476
+[11-Jul-2022 15:45:41 UTC] PHP  20. WP_Hook->apply_filters($value = '', $args = [0 => '']) E:\wamp64\www\test02\wp-includes\class-wp-hook.php:331
+[11-Jul-2022 15:45:41 UTC] PHP  21. woocommerce_single_variation_add_to_cart_button('') E:\wamp64\www\test02\wp-includes\class-wp-hook.php:307
+[11-Jul-2022 15:45:41 UTC] PHP  22. wc_get_template($template_name = 'single-product/add-to-cart/variation-add-to-cart-button.php', $args = *uninitialized*, $template_path = *uninitialized*, $default_path = *uninitialized*) E:\wamp64\www\test02\wp-content\plugins\woocommerce\includes\wc-template-functions.php:3042
+[11-Jul-2022 15:45:41 UTC] PHP  23. include() E:\wamp64\www\test02\wp-content\plugins\woocommerce\includes\wc-core-functions.php:345
+[11-Jul-2022 15:52:15 UTC] PHP Fatal error:  Uncaught Error: Using $this when not in object context in E:\wamp64\www\test02\wp-content\themes\silky-new\woocommerce\single-product\add-to-cart\variation-add-to-cart-button.php:37
+Stack trace:
+#0 E:\wamp64\www\test02\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 E:\wamp64\www\test02\wp-content\plugins\woocommerce\includes\wc-template-functions.php(3042): wc_get_template('single-product/...')
+#2 E:\wamp64\www\test02\wp-includes\class-wp-hook.php(307): woocommerce_single_variation_add_to_cart_button('')
+#3 E:\wamp64\www\test02\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#4 E:\wamp64\www\test02\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#5 E:\wamp64\www\test02\wp-content\themes\silky-new\woocommerce\single-product\add-to-cart\variable.php(75): do_action('woocommerce_sin...')
+#6 E:\wamp64\www\test02\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('E:\\wamp64\\www\\t...')
+#7 E:\wamp64\www\test02\wp-content\plug in E:\wamp64\www\test02\wp-content\themes\silky-new\woocommerce\single-product\add-to-cart\variation-add-to-cart-button.php on line 37

@@ -1173,6 +1173,35 @@
 
 /* Detail-product css start */
 
+.sizechart-btn {
+    width: 14% !important;
+    display: flex;
+    align-items: end;
+    margin-bottom: 10%;
+    text-align: end;
+}
+
+.sizechart-btn a {
+    display: block;
+    font-size: 13px;
+    color: #000 !important;
+    font-family: 'Raleway', sans-serif !important;
+}
+
+.sizechart-btn a:hover {
+    font-weight: 600;
+    color: #9E8760 !important;
+}
+
+.variation-size-guide {
+    display: flex;
+    justify-content: space-between
+}
+
+.variation-size-guide form {
+    width: 70%;
+}
+
 .row {
     margin: 3% 3%;
 }
@@ -2088,6 +2117,27 @@
     background-color: rgba(164, 141, 103, 0.9);
 } */
 
+.page_number_list_collection {
+    display: flex;
+    justify-content: center;
+}
+
+.page_number_list_collection .page-numbers {
+    width: 35px;
+    height: 35px;
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #000;
+    border-radius: 50%;
+    cursor: pointer;
+    outline: #ffffff 1.5px solid;
+    border: #000 1px solid;
+    margin: 5% 7px;
+}
+
 
 /* collection-product */
 
@@ -2155,6 +2205,12 @@
     flex-direction: column;
     justify-content: space-between;
 }
+
+
+/* .product-type-grouped .fancybox-content {
+    width: 100vw !important;
+    height: 100vh !important;
+} */
 
 
 /* .product-type-grouped .wpgs {

@@ -151,6 +151,7 @@ elseif (is_product_category()) {
 						
 	</div>
 	<div class="pagination-collection">
+		<div class="page_number_list_collection">
 		<?php
 		$big = 999999999; // need an unlikely integer
 		$page_args = array(
@@ -165,6 +166,7 @@ elseif (is_product_category()) {
 		echo paginate_links( $page_args );
 		
 		?>
+		</div>
 	</div>
 	
 	

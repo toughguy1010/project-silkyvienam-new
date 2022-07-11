@@ -32,3 +32,15 @@ if ( ! $product_attributes ) {
 	<?php endforeach; ?>
 </table>
 
+<div class="button-wrapper sizechart-btn">
+				<a class="<?php 
+            echo  esc_attr( $size_chart_get_button_class ) ;
+            ?> md-size-chart-btn" chart-data-id="chart-<?php 
+            echo  esc_attr( $chart_id ) ;
+            ?>" href="javascript:void(0);" id="chart-button">
+					<?php 
+            echo  esc_html( $popup_label ) ;
+            ?>
+				</a>
+			</div>
+

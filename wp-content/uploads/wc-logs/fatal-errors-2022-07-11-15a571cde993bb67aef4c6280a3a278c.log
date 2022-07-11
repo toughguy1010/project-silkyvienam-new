@@ -8,3 +8,14 @@ Stack trace:
 #5 {main}
   thrown in E:\wamp64\www\test02\wp-content\themes\silky-new\woocommerce\archive-product.php on line 22
 
+2022-07-11T15:52:15+00:00 CRITICAL Uncaught Error: Using $this when not in object context in E:\wamp64\www\test02\wp-content\themes\silky-new\woocommerce\single-product\add-to-cart\variation-add-to-cart-button.php:37
+Stack trace:
+#0 E:\wamp64\www\test02\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 E:\wamp64\www\test02\wp-content\plugins\woocommerce\includes\wc-template-functions.php(3042): wc_get_template('single-product/...')
+#2 E:\wamp64\www\test02\wp-includes\class-wp-hook.php(307): woocommerce_single_variation_add_to_cart_button('')
+#3 E:\wamp64\www\test02\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#4 E:\wamp64\www\test02\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#5 E:\wamp64\www\test02\wp-content\themes\silky-new\woocommerce\single-product\add-to-cart\variable.php(75): do_action('woocommerce_sin...')
+#6 E:\wamp64\www\test02\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('E:\\wamp64\\www\\t...')
+#7 E:\wamp64\www\test02\wp-content\plug in E:\wamp64\www\test02\wp-content\themes\silky-new\woocommerce\single-product\add-to-cart\variation-add-to-cart-button.php on line 37
+
