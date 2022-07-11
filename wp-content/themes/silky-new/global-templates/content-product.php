@@ -7,7 +7,11 @@ $img_src = wp_get_attachment_url( $product->get_image_id() );
 // $img_src_hover = wp_get_attachment_url( $imgHoverId );
 ?>
 
-<div class="product-collection-item">
-        <a class="product_colletion_img" href=""><?php the_post_thumbnail("medium",array( "title" => get_the_title(),"alt" => get_the_title() ));?></a>
+<div class="collection-item">
+    <div class="collection-img">
+        <?php the_post_thumbnail();?>
+    </div> 
+    <div class="collection-btn">
         <a href="<?php the_permalink() ;?>" class="product_colletion_btn">Shop the look</a>
     </div>
+</div>

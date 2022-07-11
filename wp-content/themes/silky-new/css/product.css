@@ -788,6 +788,7 @@
     justify-content: space-between;
     position: relative;
     width: 183px;
+    margin-top: 5%;
     /* margin-right: 1%; */
 }
 
@@ -831,6 +832,7 @@
     width: 100%;
     height: 100%;
     display: flex;
+    margin-bottom: 5%;
     justify-content: center;
     align-items: center;
 }
@@ -962,6 +964,7 @@
     font-weight: bold;
     margin-left: 27.3%;
     display: block;
+    margin-top: 5%;
     font-size: 1.7vw;
     text-transform: uppercase;
 }
@@ -1190,6 +1193,7 @@
 .woocommerce-breadcrumb {
     font-size: 13px;
     float: left;
+    margin-top: 5%;
     line-height: 35px;
 }
 
@@ -2091,21 +2095,105 @@
     clear: both;
 }
 
+.group_collection_products {
+    margin-top: 12%;
+    height: 530px;
+    overflow: auto;
+}
+
 .product-type-grouped {
     clear: both;
     display: flex;
     flex-direction: row-reverse;
 }
 
-.woocommerce-grouped-product-list-item {
-    display: block !important;
-}
-
 .woocommerce-grouped-product-list-item__thumbnail img {
-    width: 10vw;
-    height: 10vw;
+    width: 7vw;
+    height: 7vw;
     object-fit: cover;
     object-position: center;
+}
+
+.woocommerce-grouped-product-list-item__thumbnail {
+    margin-left: 20%;
+}
+
+.product-type-grouped .detail_product_title,
+.product-type-grouped .price_detail_product {
+    display: none;
+}
+
+.detail_collection_product_item {
+    display: flex;
+    margin-bottom: 10%;
+}
+
+.detail_collection_product_item label a {
+    display: block;
+    text-decoration: none;
+    color: #000;
+    font-size: 1.2vw;
+    font-weight: 600;
+    font-family: 'Raleway', sans-serif !important;
+}
+
+.colleciton_product_short_desc p {
+    display: block;
+    font-size: 13px;
+    margin: 0;
+}
+
+.colleciton_product_price bdi {
+    font-size: 13px;
+    font-weight: 600;
+    font-family: 'Raleway', sans-serif !important;
+    display: block;
+}
+
+.woocommerce-grouped-product-list-item__label {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+/* .product-type-grouped .wpgs {
+    position: absolute;
+    top: 130px;
+    right: 0%;
+    height: 52vw;
+    justify-content: end !important;
+}
+
+.product-type-grouped .wpgs-for {
+    height: 52vw !important;
+}
+
+.product-type-grouped .slick-list {
+    height: 52vw;
+    width: 40vw;
+}
+
+ */
+
+.product-type-grouped .entry-summary {
+    margin-right: 30% !important;
+}
+
+#content .row {
+    margin: 0 2% !important;
+}
+
+.container-fluid {
+    position: relative;
+}
+
+.product-type-grouped .wpgs {
+    position: absolute;
+    width: 45%;
+    top: 0%;
+    right: 0%;
+    justify-content: end !important;
 }
 
 

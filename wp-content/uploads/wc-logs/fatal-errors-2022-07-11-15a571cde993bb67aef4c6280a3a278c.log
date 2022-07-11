@@ -1,0 +1,10 @@
+2022-07-11T05:03:16+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Query as array in E:\wamp64\www\test02\wp-content\themes\silky-new\woocommerce\archive-product.php:22
+Stack trace:
+#0 E:\wamp64\www\test02\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 E:\wamp64\www\test02\wp-content\plugins\woocommerce\templates\taxonomy-product-cat.php(22): wc_get_template('archive-product...')
+#2 E:\wamp64\www\test02\wp-includes\template-loader.php(106): include('E:\\wamp64\\www\\t...')
+#3 E:\wamp64\www\test02\wp-blog-header.php(19): require_once('E:\\wamp64\\www\\t...')
+#4 E:\wamp64\www\test02\index.php(17): require('E:\\wamp64\\www\\t...')
+#5 {main}
+  thrown in E:\wamp64\www\test02\wp-content\themes\silky-new\woocommerce\archive-product.php on line 22
+

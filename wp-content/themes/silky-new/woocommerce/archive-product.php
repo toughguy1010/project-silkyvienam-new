@@ -98,7 +98,9 @@ elseif (is_product_category()) {
 	$cateid = $cate -> term_id;
 	$posts_per_page = 2;
 	$paged = ( get_query_var('paged') ) ? get_query_var('paged') : 1;
-	
+	// var_dump($paged);
+	// var_dump("pages;", $GLOBALS['wp_query']);
+
 // var_dump($cate);
 	?>
 	<div class="collection-wrapp-header">
@@ -112,8 +114,9 @@ elseif (is_product_category()) {
             <div class="content-header-collection-desc"> <?php echo category_description($cateid); ?></div>
         </div>
     </div>
-	<div class="collection_category_product_list">
+	<div class="collection-content ">
 		<?php
+		
 		$collection_products = new WP_Query(array(
 			'post_type'=>'product',
 			'post_status'=>'publish',
@@ -126,18 +129,26 @@ elseif (is_product_category()) {
 			),
 			'orderby' => 'ID',
 			'order' => 'DESC',
-			'posts_per_page'=> $posts_per_page,
+			'posts_per_page'=> 2,
 			'paged' => $paged,
 		));
-		// var_dump($collection_products);
+		// var_dump($GLOBALS['wp_query']->max_num_pages);
 
 		?>
-		<?php while ( $collection_products->have_posts() ) :
+		<?php 
+		while ( $collection_products->have_posts() ) :
 							$collection_products->the_post();
 
 							get_template_part('global-templates/content','product');
 
-						endwhile; ; wp_reset_query() ;?>
+						endwhile; 
+						wp_reset_query() ;
+						
+		
+
+				
+		?>
+						
 	</div>
 	<div class="pagination-collection">
 		<?php
@@ -150,7 +161,7 @@ elseif (is_product_category()) {
 			'prev_text' => '< ',
 			'next_text' => ' >',
 		);
-		var_dump($collection_products->max_num_pages);
+		// var_dump($collection_products->max_num_pages);
 		echo paginate_links( $page_args );
 		
 		?>
@@ -162,7 +173,7 @@ elseif (is_product_category()) {
 
 
 	
-		woocommerce_product_loop_start();
+		// woocommerce_product_loop_start();
 		
 		// if ( wc_get_loop_prop( 'total' ) ) {
 		// 	while ( have_posts() ) {
@@ -178,7 +189,7 @@ elseif (is_product_category()) {
 		// 	}
 		// }
 	
-		woocommerce_product_loop_end();
+		// woocommerce_product_loop_end();
 }
 
 

@@ -21,7 +21,7 @@ global $product, $post;
 
 do_action( 'woocommerce_before_add_to_cart_form' ); ?>
 
-<form class="cart grouped_form" action="<?php echo esc_url( apply_filters( 'woocommerce_add_to_cart_form_action', $product->get_permalink() ) ); ?>" method="post" enctype='multipart/form-data'>
+<form class="group_collection_products cart grouped_form" action="<?php echo esc_url( apply_filters( 'woocommerce_add_to_cart_form_action', $product->get_permalink() ) ); ?>" method="post" enctype='multipart/form-data'>
 	<table cellspacing="0" class="woocommerce-grouped-product-list group_table">
 		<tbody>
 			<?php
@@ -51,7 +51,7 @@ do_action( 'woocommerce_before_add_to_cart_form' ); ?>
 					$show_add_to_cart_button = true;
 				}
 
-				echo '<div id="product-' . esc_attr( $grouped_product_child->get_id() ) . '" class="woocommerce-grouped-product-list-item ' . esc_attr( implode( ' ', wc_get_product_class( '', $grouped_product_child ) ) ) . '">';
+				echo '<div id="product-' . esc_attr( $grouped_product_child->get_id() ) . '" class="detail_collection_product_item woocommerce-grouped-product-list-item ' . esc_attr( implode( ' ', wc_get_product_class( '', $grouped_product_child ) ) ) . '">';
 				
 				global $post;
 
@@ -99,7 +99,7 @@ do_action( 'woocommerce_before_add_to_cart_form' ); ?>
 							$value .= '</label>
 							<div class ="colleciton_product_short_desc">' .$short_description.'</div>
 							</div>
-							<div> '. $grouped_product_child->get_price_html() . wc_get_stock_html( $grouped_product_child ). '</div>
+							<div class ="colleciton_product_price"> '. $grouped_product_child->get_price_html() . wc_get_stock_html( $grouped_product_child ). '</div>
 							';
 							break;
 						case 'price':

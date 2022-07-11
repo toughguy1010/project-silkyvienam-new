@@ -262,3 +262,23 @@ if( !function_exists('zwc_parse_text_to_color') ){{
     }
   }}
   
+
+  /** 
+ * Posts per page for CPT archive
+ * prevent 404 if posts per page on main query
+ * is greater than the posts per page for product cpt archive
+ *
+ * thanks to https://sridharkatakam.com/ for improved solution!
+ */
+
+function prefix_change_cat_product_per_page( $query ) {
+        
+    // var_dump($query->is_tax, $query->queried_object->parent == 34);
+    //* for cpt or any post type main archive
+    if ( $query->is_main_query() && $query->is_tax && $query->queried_object && $query->queried_object->parent == 34 ) {
+        $query->set( 'posts_per_page', '2' );
+        // var_dump("bbbbbb");
+    }
+
+}
+add_action( 'pre_get_posts', 'prefix_change_cat_product_per_page' );
