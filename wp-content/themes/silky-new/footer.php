@@ -27,9 +27,9 @@ defined( 'ABSPATH' ) || exit;
                         </div>
                         <div class="footer-service ">
                             <div class="footer-service-item footer-hidden-element ">Silky VietNam</div>
-                            <div class="footer-service-item ">Chính sách & Điều khoản</div>
-                            <div class="footer-service-item ">Chính sách về Quyền riêng tư & Cookies</div>
-                            <div class="footer-service-item ">Vận chuyển & Hoàn trả</div>
+                            <a href="" class="footer-service-item ">Chính sách & Điều khoản</a>
+                            <a href="" class="footer-service-item ">Chính sách về Quyền riêng tư & Cookies</a>
+                            <a href="" class="footer-service-item ">Vận chuyển & Hoàn trả</a>
                         </div>
                     </div>
                     <div class="footer-input-form">

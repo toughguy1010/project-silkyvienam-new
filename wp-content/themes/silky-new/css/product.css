@@ -2233,7 +2233,7 @@
  */
 
 .product-type-grouped .entry-summary {
-    margin-right: 30% !important;
+    margin-right: 45% !important;
 }
 
 #content .row {
@@ -2246,7 +2246,7 @@
 
 .product-type-grouped .wpgs {
     position: absolute;
-    width: 45%;
+    width: 62%;
     top: 0%;
     right: 0%;
     justify-content: end !important;
@@ -2254,6 +2254,115 @@
 
 
 /* collection-product */
+
+
+/* contact-us */
+
+.wpforms-container {
+    margin-top: 10% !important;
+    margin-left: 18% !important;
+    /* margin-right: 20% !important; */
+    margin-bottom: 15% !important;
+    width: 70% !important;
+}
+
+.wpforms-field-name {
+    float: left !important;
+    clear: none !important;
+}
+
+.wpforms-field-email,
+.wpforms-field-textarea {
+    float: right !important;
+    clear: none !important;
+}
+
+.wpforms-field-number {
+    clear: left !important;
+    float: left !important;
+    margin-top: 5% !important;
+}
+
+.wpforms-field-name,
+.wpforms-field-email,
+.wpforms-field-number,
+.wpforms-field-textarea {
+    width: 50% !important;
+}
+
+.wpforms-field-name input {
+    margin-left: 27% !important;
+}
+
+.wpforms-field-name label {
+    margin-left: 27% !important;
+}
+
+.wpforms-field-number input {
+    margin-left: 27% !important;
+}
+
+.wpforms-field-number label {
+    margin-left: 27% !important;
+}
+
+.wpforms-field-container label {
+    display: block;
+    font-size: 13px !important;
+    font-weight: 400 !important;
+    font-family: 'Open Sans', sans-serif !important;
+}
+
+.wpforms-field-textarea {
+    margin-top: 5% !important;
+}
+
+.wpforms-field-container input {
+    border-top: 0 !important;
+    border-left: 0 !important;
+    border-right: 0 !important;
+}
+
+.wpforms-field-container textarea {
+    border-top: 0 !important;
+    border-left: 0 !important;
+    border-right: 0 !important;
+    width: 62% !important;
+}
+
+.wpforms-submit-container {
+    width: 80% !important;
+}
+
+.wpforms-submit {
+    float: right !important;
+    display: block;
+    text-transform: uppercase !important;
+    background-color: #fff !important;
+    border: 1px solid #000000 !important;
+    outline: 1px solid #ffffff !important;
+    width: 38% !important;
+    margin-top: 7% !important;
+    border-radius: 25px !important;
+}
+
+.wpforms-submit:hover {
+    background-color: #9E8760 !important;
+    color: #fff !important;
+    border: 2px solid #ffffff !important;
+    outline: 1px solid #9E8760 !important;
+}
+
+.contactus-title {
+    font-size: 1.7vw !important;
+    margin-left: 13% !important;
+    margin-bottom: 4% !important;
+    font-weight: 600;
+    font-family: 'Raleway', sans-serif !important;
+}
+
+
+/* contact-us */
 
 
 /* responsive */

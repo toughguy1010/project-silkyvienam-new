@@ -504,8 +504,9 @@ class WPForms_Frontend {
 		if ( empty( $form_data['fields'] ) ) {
 			return;
 		}
-
+		do_action('product_style');
 		// Form fields area.
+		echo '<div class = "contactus-title"> Để lại lời nhắn </div>';
 		echo '<div class="wpforms-field-container">';
 
 			/**
