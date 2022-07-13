@@ -1067,7 +1067,7 @@ final class WOOF {
         ?>
 
         var woof_overlay_skin = "<?php echo(isset($this->settings['overlay_skin']) ? $this->settings['overlay_skin'] : 'default') ?>";
-
+        
 
         function woof_js_after_ajax_done() {
         jQuery(document).trigger('woof_ajax_done');

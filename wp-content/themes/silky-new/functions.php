@@ -107,7 +107,6 @@ add_action('woocommerce_checkout_before_order_review', function() {
     get_template_part('global-templates/part','order-product-sumary');
     }, 99);
 
-
   // Minimum CSS to remove +/- default buttons on input field type number
 add_action( 'wp_head' , 'custom_quantity_fields_css' );
 function custom_quantity_fields_css(){

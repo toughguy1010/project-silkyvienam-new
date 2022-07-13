@@ -179,7 +179,7 @@ defined( 'ABSPATH' ) || exit;
                         </div>
                     </div>
                     <div class="header-feature-list">
-                        <div class="header-feature-item searching-form">
+                        <!-- <div class="header-feature-item searching-form">
                             <input type="text" class="search-input" placeholder=" Search...">
                             <div class="search-btn">
                                 <svg id="Group_59" data-name="Group 59" xmlns="http://www.w3.org/2000/svg" width="13.448" height="13.435" viewBox="0 0 13.448 13.435">
@@ -188,7 +188,11 @@ defined( 'ABSPATH' ) || exit;
                                 </g>
                               </svg>
                             </div>
-                        </div>
+                        </div> -->
+                        <?php 
+                        get_search_form();
+                        
+                        ?>
                     </div>
                     <div class="header-feature-list link-cart-item">
                         <div id="cart-btn" class="header-feature-item cart-btn">

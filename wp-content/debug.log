@@ -9659,3 +9659,498 @@ Stack trace:
 [12-Jul-2022 06:25:32 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
 [12-Jul-2022 06:25:43 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
 [12-Jul-2022 06:25:43 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[12-Jul-2022 13:36:16 UTC] WordPress database error Unknown character set: 'utf8bin' for query CREATE TABLE IF NOT EXISTS `wp_woof_query_cache` (
+                                                    `mkey` varchar(64) NOT NULL,
+                                                    `mvalue` text NOT NULL,
+                                                    KEY `mkey` (`mkey`)
+                                                  ) DEFAULT CHARACTER SET utf8bin made by do_action('woocommerce_page_wc-settings'), WP_Hook->do_action, WP_Hook->apply_filters, WC_Admin_Menus->settings_page, WC_Admin_Settings::output, include('/plugins/woocommerce/includes/admin/views/html-admin-settings.php'), do_action('woocommerce_settings_tabs_woof'), WP_Hook->do_action, WP_Hook->apply_filters, WOOF->print_plugin_options, WOOF->render_html, include('/plugins/woocommerce-products-filter/views/plugin_options.php')
+[12-Jul-2022 13:36:24 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[12-Jul-2022 13:36:24 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[12-Jul-2022 14:42:40 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[12-Jul-2022 14:42:40 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[12-Jul-2022 14:51:08 UTC] PHP Notice:  Undefined variable: product in E:\wamp64\www\test02\wp-content\themes\silky-new\loop-templates\content-search.php on line 18
+[12-Jul-2022 14:51:08 UTC] PHP Stack trace:
+[12-Jul-2022 14:51:08 UTC] PHP   1. {main}() E:\wamp64\www\test02\index.php:0
+[12-Jul-2022 14:51:08 UTC] PHP   2. require() E:\wamp64\www\test02\index.php:17
+[12-Jul-2022 14:51:08 UTC] PHP   3. require_once() E:\wamp64\www\test02\wp-blog-header.php:19
+[12-Jul-2022 14:51:08 UTC] PHP   4. include() E:\wamp64\www\test02\wp-includes\template-loader.php:106
+[12-Jul-2022 14:51:08 UTC] PHP   5. get_template_part($slug = 'loop-templates/content', $name = 'search', $args = *uninitialized*) E:\wamp64\www\test02\wp-content\themes\silky-new\search.php:54
+[12-Jul-2022 14:51:08 UTC] PHP   6. locate_template($template_names = [0 => 'loop-templates/content-search.php', 1 => 'loop-templates/content.php'], $load = TRUE, $require_once = FALSE, $args = []) E:\wamp64\www\test02\wp-includes\general-template.php:204
+[12-Jul-2022 14:51:08 UTC] PHP   7. load_template($_template_file = 'E:\\wamp64\\www\\test02/wp-content/themes/silky-new/loop-templates/content-search.php', $require_once = FALSE, $args = []) E:\wamp64\www\test02\wp-includes\template.php:716
+[12-Jul-2022 14:51:08 UTC] PHP   8. require() E:\wamp64\www\test02\wp-includes\template.php:772
+[12-Jul-2022 14:51:08 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_gallery_image_ids() on null in E:\wamp64\www\test02\wp-content\plugins\tp-product-image-flipper-for-woocommerce\tp-product-image-flipper-for-woocommerce.php:66
+Stack trace:
+#0 E:\wamp64\www\test02\wp-includes\class-wp-hook.php(307): tp_create_flipper_images('')
+#1 E:\wamp64\www\test02\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 E:\wamp64\www\test02\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#3 E:\wamp64\www\test02\wp-content\themes\silky-new\loop-templates\content-search.php(33): do_action('woocommerce_bef...')
+#4 E:\wamp64\www\test02\wp-includes\template.php(772): require('E:\\wamp64\\www\\t...')
+#5 E:\wamp64\www\test02\wp-includes\template.php(716): load_template('E:\\wamp64\\www\\t...', false, Array)
+#6 E:\wamp64\www\test02\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#7 E:\wamp64\www\test02\wp-content\themes\silky-new\search.php(54): get_template_part('loop-templates/...', 'search')
+ in E:\wamp64\www\test02\wp-content\plugins\tp-product-image-flipper-for-woocommerce\tp-product-image-flipper-for-woocommerce.php on line 66
+[12-Jul-2022 15:47:40 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE), expecting end of file in E:\wamp64\www\test02\wp-content\themes\silky-new\search.php on line 64
+[12-Jul-2022 16:01:25 UTC] PHP Notice:  Undefined variable: collection_products in E:\wamp64\www\test02\wp-content\themes\silky-new\search.php on line 106
+[12-Jul-2022 16:01:25 UTC] PHP Stack trace:
+[12-Jul-2022 16:01:25 UTC] PHP   1. {main}() E:\wamp64\www\test02\index.php:0
+[12-Jul-2022 16:01:25 UTC] PHP   2. require() E:\wamp64\www\test02\index.php:17
+[12-Jul-2022 16:01:25 UTC] PHP   3. require_once() E:\wamp64\www\test02\wp-blog-header.php:19
+[12-Jul-2022 16:01:25 UTC] PHP   4. include() E:\wamp64\www\test02\wp-includes\template-loader.php:106
+[12-Jul-2022 16:01:25 UTC] PHP Notice:  Trying to get property 'max_num_pages' of non-object in E:\wamp64\www\test02\wp-content\themes\silky-new\search.php on line 106
+[12-Jul-2022 16:01:25 UTC] PHP Stack trace:
+[12-Jul-2022 16:01:25 UTC] PHP   1. {main}() E:\wamp64\www\test02\index.php:0
+[12-Jul-2022 16:01:25 UTC] PHP   2. require() E:\wamp64\www\test02\index.php:17
+[12-Jul-2022 16:01:25 UTC] PHP   3. require_once() E:\wamp64\www\test02\wp-blog-header.php:19
+[12-Jul-2022 16:01:25 UTC] PHP   4. include() E:\wamp64\www\test02\wp-includes\template-loader.php:106
+[12-Jul-2022 16:05:35 UTC] PHP Notice:  Undefined variable: collection_products in E:\wamp64\www\test02\wp-content\themes\silky-new\search.php on line 107
+[12-Jul-2022 16:05:35 UTC] PHP Stack trace:
+[12-Jul-2022 16:05:35 UTC] PHP   1. {main}() E:\wamp64\www\test02\index.php:0
+[12-Jul-2022 16:05:35 UTC] PHP   2. require() E:\wamp64\www\test02\index.php:17
+[12-Jul-2022 16:05:35 UTC] PHP   3. require_once() E:\wamp64\www\test02\wp-blog-header.php:19
+[12-Jul-2022 16:05:35 UTC] PHP   4. include() E:\wamp64\www\test02\wp-includes\template-loader.php:106
+[12-Jul-2022 16:05:35 UTC] PHP Notice:  Trying to get property 'max_num_pages' of non-object in E:\wamp64\www\test02\wp-content\themes\silky-new\search.php on line 107
+[12-Jul-2022 16:05:35 UTC] PHP Stack trace:
+[12-Jul-2022 16:05:35 UTC] PHP   1. {main}() E:\wamp64\www\test02\index.php:0
+[12-Jul-2022 16:05:35 UTC] PHP   2. require() E:\wamp64\www\test02\index.php:17
+[12-Jul-2022 16:05:35 UTC] PHP   3. require_once() E:\wamp64\www\test02\wp-blog-header.php:19
+[12-Jul-2022 16:05:35 UTC] PHP   4. include() E:\wamp64\www\test02\wp-includes\template-loader.php:106
+[12-Jul-2022 16:24:56 UTC] PHP Notice:  Object of class WP_Query could not be converted to number in E:\wamp64\www\test02\wp-content\themes\silky-new\search.php on line 112
+[12-Jul-2022 16:24:56 UTC] PHP Stack trace:
+[12-Jul-2022 16:24:56 UTC] PHP   1. {main}() E:\wamp64\www\test02\index.php:0
+[12-Jul-2022 16:24:56 UTC] PHP   2. require() E:\wamp64\www\test02\index.php:17
+[12-Jul-2022 16:24:56 UTC] PHP   3. require_once() E:\wamp64\www\test02\wp-blog-header.php:19
+[12-Jul-2022 16:24:56 UTC] PHP   4. include() E:\wamp64\www\test02\wp-includes\template-loader.php:106
+[12-Jul-2022 16:25:43 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in E:\wamp64\www\test02\wp-content\themes\silky-new\search.php on line 112
+[12-Jul-2022 16:25:43 UTC] PHP Stack trace:
+[12-Jul-2022 16:25:43 UTC] PHP   1. {main}() E:\wamp64\www\test02\index.php:0
+[12-Jul-2022 16:25:43 UTC] PHP   2. require() E:\wamp64\www\test02\index.php:17
+[12-Jul-2022 16:25:43 UTC] PHP   3. require_once() E:\wamp64\www\test02\wp-blog-header.php:19
+[12-Jul-2022 16:25:43 UTC] PHP   4. include() E:\wamp64\www\test02\wp-includes\template-loader.php:106
+[12-Jul-2022 16:26:02 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in E:\wamp64\www\test02\wp-content\themes\silky-new\search.php on line 112
+[12-Jul-2022 16:26:02 UTC] PHP Stack trace:
+[12-Jul-2022 16:26:02 UTC] PHP   1. {main}() E:\wamp64\www\test02\index.php:0
+[12-Jul-2022 16:26:02 UTC] PHP   2. require() E:\wamp64\www\test02\index.php:17
+[12-Jul-2022 16:26:02 UTC] PHP   3. require_once() E:\wamp64\www\test02\wp-blog-header.php:19
+[12-Jul-2022 16:26:02 UTC] PHP   4. include() E:\wamp64\www\test02\wp-includes\template-loader.php:106
+[12-Jul-2022 16:26:08 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in E:\wamp64\www\test02\wp-content\themes\silky-new\search.php on line 112
+[12-Jul-2022 16:26:08 UTC] PHP Stack trace:
+[12-Jul-2022 16:26:08 UTC] PHP   1. {main}() E:\wamp64\www\test02\index.php:0
+[12-Jul-2022 16:26:08 UTC] PHP   2. require() E:\wamp64\www\test02\index.php:17
+[12-Jul-2022 16:26:08 UTC] PHP   3. require_once() E:\wamp64\www\test02\wp-blog-header.php:19
+[12-Jul-2022 16:26:08 UTC] PHP   4. include() E:\wamp64\www\test02\wp-includes\template-loader.php:106
+[12-Jul-2022 16:26:33 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in E:\wamp64\www\test02\wp-content\themes\silky-new\search.php on line 112
+[12-Jul-2022 16:26:33 UTC] PHP Stack trace:
+[12-Jul-2022 16:26:33 UTC] PHP   1. {main}() E:\wamp64\www\test02\index.php:0
+[12-Jul-2022 16:26:33 UTC] PHP   2. require() E:\wamp64\www\test02\index.php:17
+[12-Jul-2022 16:26:33 UTC] PHP   3. require_once() E:\wamp64\www\test02\wp-blog-header.php:19
+[12-Jul-2022 16:26:33 UTC] PHP   4. include() E:\wamp64\www\test02\wp-includes\template-loader.php:106
+[12-Jul-2022 16:26:47 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in E:\wamp64\www\test02\wp-content\themes\silky-new\search.php on line 112
+[12-Jul-2022 16:26:47 UTC] PHP Stack trace:
+[12-Jul-2022 16:26:47 UTC] PHP   1. {main}() E:\wamp64\www\test02\index.php:0
+[12-Jul-2022 16:26:47 UTC] PHP   2. require() E:\wamp64\www\test02\index.php:17
+[12-Jul-2022 16:26:47 UTC] PHP   3. require_once() E:\wamp64\www\test02\wp-blog-header.php:19
+[12-Jul-2022 16:26:47 UTC] PHP   4. include() E:\wamp64\www\test02\wp-includes\template-loader.php:106
+[12-Jul-2022 16:30:37 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in E:\wamp64\www\test02\wp-content\themes\silky-new\search.php on line 112
+[12-Jul-2022 16:30:37 UTC] PHP Stack trace:
+[12-Jul-2022 16:30:37 UTC] PHP   1. {main}() E:\wamp64\www\test02\index.php:0
+[12-Jul-2022 16:30:37 UTC] PHP   2. require() E:\wamp64\www\test02\index.php:17
+[12-Jul-2022 16:30:37 UTC] PHP   3. require_once() E:\wamp64\www\test02\wp-blog-header.php:19
+[12-Jul-2022 16:30:37 UTC] PHP   4. include() E:\wamp64\www\test02\wp-includes\template-loader.php:106
+[12-Jul-2022 16:30:54 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in E:\wamp64\www\test02\wp-content\themes\silky-new\search.php on line 112
+[12-Jul-2022 16:30:54 UTC] PHP Stack trace:
+[12-Jul-2022 16:30:54 UTC] PHP   1. {main}() E:\wamp64\www\test02\index.php:0
+[12-Jul-2022 16:30:54 UTC] PHP   2. require() E:\wamp64\www\test02\index.php:17
+[12-Jul-2022 16:30:54 UTC] PHP   3. require_once() E:\wamp64\www\test02\wp-blog-header.php:19
+[12-Jul-2022 16:30:54 UTC] PHP   4. include() E:\wamp64\www\test02\wp-includes\template-loader.php:106
+[12-Jul-2022 16:31:29 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in E:\wamp64\www\test02\wp-content\themes\silky-new\search.php on line 112
+[12-Jul-2022 16:31:29 UTC] PHP Stack trace:
+[12-Jul-2022 16:31:29 UTC] PHP   1. {main}() E:\wamp64\www\test02\index.php:0
+[12-Jul-2022 16:31:29 UTC] PHP   2. require() E:\wamp64\www\test02\index.php:17
+[12-Jul-2022 16:31:29 UTC] PHP   3. require_once() E:\wamp64\www\test02\wp-blog-header.php:19
+[12-Jul-2022 16:31:29 UTC] PHP   4. include() E:\wamp64\www\test02\wp-includes\template-loader.php:106
+[12-Jul-2022 16:32:23 UTC] PHP Warning:  Wrong parameter count for var_dump() in E:\wamp64\www\test02\wp-content\themes\silky-new\search.php on line 118
+[12-Jul-2022 16:32:23 UTC] PHP Stack trace:
+[12-Jul-2022 16:32:23 UTC] PHP   1. {main}() E:\wamp64\www\test02\index.php:0
+[12-Jul-2022 16:32:23 UTC] PHP   2. require() E:\wamp64\www\test02\index.php:17
+[12-Jul-2022 16:32:23 UTC] PHP   3. require_once() E:\wamp64\www\test02\wp-blog-header.php:19
+[12-Jul-2022 16:32:23 UTC] PHP   4. include() E:\wamp64\www\test02\wp-includes\template-loader.php:106
+[12-Jul-2022 16:32:23 UTC] PHP   5. var_dump() E:\wamp64\www\test02\wp-content\themes\silky-new\search.php:118
+[12-Jul-2022 16:32:28 UTC] PHP Warning:  Wrong parameter count for var_dump() in E:\wamp64\www\test02\wp-content\themes\silky-new\search.php on line 118
+[12-Jul-2022 16:32:28 UTC] PHP Stack trace:
+[12-Jul-2022 16:32:28 UTC] PHP   1. {main}() E:\wamp64\www\test02\index.php:0
+[12-Jul-2022 16:32:28 UTC] PHP   2. require() E:\wamp64\www\test02\index.php:17
+[12-Jul-2022 16:32:28 UTC] PHP   3. require_once() E:\wamp64\www\test02\wp-blog-header.php:19
+[12-Jul-2022 16:32:28 UTC] PHP   4. include() E:\wamp64\www\test02\wp-includes\template-loader.php:106
+[12-Jul-2022 16:32:28 UTC] PHP   5. var_dump() E:\wamp64\www\test02\wp-content\themes\silky-new\search.php:118
+[12-Jul-2022 16:32:30 UTC] PHP Warning:  Wrong parameter count for var_dump() in E:\wamp64\www\test02\wp-content\themes\silky-new\search.php on line 118
+[12-Jul-2022 16:32:30 UTC] PHP Stack trace:
+[12-Jul-2022 16:32:30 UTC] PHP   1. {main}() E:\wamp64\www\test02\index.php:0
+[12-Jul-2022 16:32:30 UTC] PHP   2. require() E:\wamp64\www\test02\index.php:17
+[12-Jul-2022 16:32:30 UTC] PHP   3. require_once() E:\wamp64\www\test02\wp-blog-header.php:19
+[12-Jul-2022 16:32:30 UTC] PHP   4. include() E:\wamp64\www\test02\wp-includes\template-loader.php:106
+[12-Jul-2022 16:32:30 UTC] PHP   5. var_dump() E:\wamp64\www\test02\wp-content\themes\silky-new\search.php:118
+[12-Jul-2022 16:32:32 UTC] PHP Warning:  Wrong parameter count for var_dump() in E:\wamp64\www\test02\wp-content\themes\silky-new\search.php on line 118
+[12-Jul-2022 16:32:32 UTC] PHP Stack trace:
+[12-Jul-2022 16:32:32 UTC] PHP   1. {main}() E:\wamp64\www\test02\index.php:0
+[12-Jul-2022 16:32:32 UTC] PHP   2. require() E:\wamp64\www\test02\index.php:17
+[12-Jul-2022 16:32:32 UTC] PHP   3. require_once() E:\wamp64\www\test02\wp-blog-header.php:19
+[12-Jul-2022 16:32:32 UTC] PHP   4. include() E:\wamp64\www\test02\wp-includes\template-loader.php:106
+[12-Jul-2022 16:32:32 UTC] PHP   5. var_dump() E:\wamp64\www\test02\wp-content\themes\silky-new\search.php:118
+[13-Jul-2022 01:19:49 UTC] WordPress database error Unknown character set: 'utf8bin' for query CREATE TABLE IF NOT EXISTS `wp_woof_query_cache` (
+                                                    `mkey` varchar(64) NOT NULL,
+                                                    `mvalue` text NOT NULL,
+                                                    KEY `mkey` (`mkey`)
+                                                  ) DEFAULT CHARACTER SET utf8bin made by do_action('woocommerce_page_wc-settings'), WP_Hook->do_action, WP_Hook->apply_filters, WC_Admin_Menus->settings_page, WC_Admin_Settings::output, include('/plugins/woocommerce/includes/admin/views/html-admin-settings.php'), do_action('woocommerce_settings_tabs_woof'), WP_Hook->do_action, WP_Hook->apply_filters, WOOF->print_plugin_options, WOOF->render_html, include('/plugins/woocommerce-products-filter/views/plugin_options.php')
+[13-Jul-2022 01:19:53 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[13-Jul-2022 01:19:53 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[13-Jul-2022 01:20:55 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[13-Jul-2022 01:20:55 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[13-Jul-2022 01:46:51 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[13-Jul-2022 01:46:51 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[13-Jul-2022 01:47:34 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[13-Jul-2022 01:47:34 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[13-Jul-2022 02:06:06 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[13-Jul-2022 02:06:06 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[13-Jul-2022 02:06:14 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[13-Jul-2022 02:06:14 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[13-Jul-2022 02:06:44 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[13-Jul-2022 02:06:44 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[13-Jul-2022 02:06:53 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[13-Jul-2022 02:06:53 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[13-Jul-2022 02:07:09 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[13-Jul-2022 02:07:09 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[13-Jul-2022 02:07:24 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[13-Jul-2022 02:07:24 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[13-Jul-2022 02:07:31 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[13-Jul-2022 02:07:31 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[13-Jul-2022 02:07:41 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[13-Jul-2022 02:07:41 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[13-Jul-2022 02:07:48 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[13-Jul-2022 02:07:48 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[13-Jul-2022 02:08:05 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[13-Jul-2022 02:08:05 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[13-Jul-2022 02:18:49 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[13-Jul-2022 02:18:49 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[13-Jul-2022 02:19:00 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[13-Jul-2022 02:19:00 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[13-Jul-2022 02:19:15 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[13-Jul-2022 02:19:15 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[13-Jul-2022 02:19:23 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[13-Jul-2022 02:19:23 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[13-Jul-2022 02:22:13 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[13-Jul-2022 02:22:13 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[13-Jul-2022 02:22:24 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[13-Jul-2022 02:22:24 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[13-Jul-2022 02:22:34 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[13-Jul-2022 02:22:34 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[13-Jul-2022 02:22:46 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[13-Jul-2022 02:22:46 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[13-Jul-2022 02:22:56 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[13-Jul-2022 02:22:56 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[13-Jul-2022 02:23:11 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[13-Jul-2022 02:23:11 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[13-Jul-2022 02:23:20 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[13-Jul-2022 02:23:20 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[13-Jul-2022 02:23:27 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[13-Jul-2022 02:23:27 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[13-Jul-2022 02:23:47 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[13-Jul-2022 02:23:47 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[13-Jul-2022 02:23:55 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[13-Jul-2022 02:23:55 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[13-Jul-2022 02:24:00 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[13-Jul-2022 02:24:00 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[13-Jul-2022 02:39:53 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[13-Jul-2022 02:39:53 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[13-Jul-2022 02:40:13 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[13-Jul-2022 02:40:13 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[13-Jul-2022 02:44:45 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[13-Jul-2022 02:44:45 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[13-Jul-2022 02:59:05 UTC] PHP Warning:  Division by zero in E:\wamp64\www\test02\wp-content\themes\silky-new\search.php on line 112
+[13-Jul-2022 02:59:05 UTC] PHP Stack trace:
+[13-Jul-2022 02:59:05 UTC] PHP   1. {main}() E:\wamp64\www\test02\index.php:0
+[13-Jul-2022 02:59:05 UTC] PHP   2. require() E:\wamp64\www\test02\index.php:17
+[13-Jul-2022 02:59:05 UTC] PHP   3. require_once() E:\wamp64\www\test02\wp-blog-header.php:19
+[13-Jul-2022 02:59:05 UTC] PHP   4. include() E:\wamp64\www\test02\wp-includes\template-loader.php:106
+[13-Jul-2022 02:59:11 UTC] PHP Warning:  Division by zero in E:\wamp64\www\test02\wp-content\themes\silky-new\search.php on line 112
+[13-Jul-2022 02:59:11 UTC] PHP Stack trace:
+[13-Jul-2022 02:59:11 UTC] PHP   1. {main}() E:\wamp64\www\test02\index.php:0
+[13-Jul-2022 02:59:11 UTC] PHP   2. require() E:\wamp64\www\test02\index.php:17
+[13-Jul-2022 02:59:11 UTC] PHP   3. require_once() E:\wamp64\www\test02\wp-blog-header.php:19
+[13-Jul-2022 02:59:11 UTC] PHP   4. include() E:\wamp64\www\test02\wp-includes\template-loader.php:106
+[13-Jul-2022 03:16:16 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[13-Jul-2022 03:16:16 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[13-Jul-2022 03:16:24 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[13-Jul-2022 03:16:24 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[13-Jul-2022 03:16:34 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[13-Jul-2022 03:16:34 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[13-Jul-2022 03:16:40 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[13-Jul-2022 03:16:40 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[13-Jul-2022 03:23:05 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[13-Jul-2022 03:23:05 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[13-Jul-2022 03:24:59 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[13-Jul-2022 03:24:59 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[13-Jul-2022 03:50:19 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in E:\wamp64\www\test02\wp-content\themes\silky-new\search.php on line 113
+[13-Jul-2022 03:50:19 UTC] PHP Stack trace:
+[13-Jul-2022 03:50:19 UTC] PHP   1. {main}() E:\wamp64\www\test02\index.php:0
+[13-Jul-2022 03:50:19 UTC] PHP   2. require() E:\wamp64\www\test02\index.php:17
+[13-Jul-2022 03:50:19 UTC] PHP   3. require_once() E:\wamp64\www\test02\wp-blog-header.php:19
+[13-Jul-2022 03:50:19 UTC] PHP   4. include() E:\wamp64\www\test02\wp-includes\template-loader.php:106
+[13-Jul-2022 04:06:59 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[13-Jul-2022 04:06:59 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[13-Jul-2022 04:07:02 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[13-Jul-2022 04:07:02 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[13-Jul-2022 04:07:09 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[13-Jul-2022 04:07:09 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[13-Jul-2022 04:20:40 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[13-Jul-2022 04:20:40 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[13-Jul-2022 04:22:35 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[13-Jul-2022 04:22:35 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[13-Jul-2022 04:27:55 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[13-Jul-2022 04:27:55 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[13-Jul-2022 04:29:24 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[13-Jul-2022 04:29:24 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[13-Jul-2022 04:29:28 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[13-Jul-2022 04:29:28 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[13-Jul-2022 04:29:39 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[13-Jul-2022 04:29:39 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[13-Jul-2022 04:29:43 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[13-Jul-2022 04:29:43 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[13-Jul-2022 04:29:54 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[13-Jul-2022 04:29:54 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[13-Jul-2022 04:29:59 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[13-Jul-2022 04:29:59 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[13-Jul-2022 04:30:07 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[13-Jul-2022 04:30:07 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[13-Jul-2022 04:30:15 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[13-Jul-2022 04:30:15 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[13-Jul-2022 04:30:36 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[13-Jul-2022 04:30:36 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[13-Jul-2022 04:30:40 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[13-Jul-2022 04:30:40 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[13-Jul-2022 04:30:43 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[13-Jul-2022 04:30:43 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[13-Jul-2022 04:38:03 UTC] PHP Notice:  Undefined variable: order_button_text in E:\wamp64\www\test02\wp-content\themes\silky-new\woocommerce\checkout\form-checkout.php on line 142
+[13-Jul-2022 04:38:03 UTC] PHP Stack trace:
+[13-Jul-2022 04:38:03 UTC] PHP   1. {main}() E:\wamp64\www\test02\index.php:0
+[13-Jul-2022 04:38:03 UTC] PHP   2. require() E:\wamp64\www\test02\index.php:17
+[13-Jul-2022 04:38:03 UTC] PHP   3. require_once() E:\wamp64\www\test02\wp-blog-header.php:19
+[13-Jul-2022 04:38:03 UTC] PHP   4. include() E:\wamp64\www\test02\wp-includes\template-loader.php:106
+[13-Jul-2022 04:38:03 UTC] PHP   5. get_template_part($slug = 'loop-templates/content', $name = 'page', $args = *uninitialized*) E:\wamp64\www\test02\wp-content\themes\silky-new\page.php:36
+[13-Jul-2022 04:38:03 UTC] PHP   6. locate_template($template_names = [0 => 'loop-templates/content-page.php', 1 => 'loop-templates/content.php'], $load = TRUE, $require_once = FALSE, $args = []) E:\wamp64\www\test02\wp-includes\general-template.php:204
+[13-Jul-2022 04:38:03 UTC] PHP   7. load_template($_template_file = 'E:\\wamp64\\www\\test02/wp-content/themes/silky-new/loop-templates/content-page.php', $require_once = FALSE, $args = []) E:\wamp64\www\test02\wp-includes\template.php:716
+[13-Jul-2022 04:38:03 UTC] PHP   8. require() E:\wamp64\www\test02\wp-includes\template.php:772
+[13-Jul-2022 04:38:03 UTC] PHP   9. the_content($more_link_text = *uninitialized*, $strip_teaser = *uninitialized*) E:\wamp64\www\test02\wp-content\themes\silky-new\loop-templates\content-page.php:25
+[13-Jul-2022 04:38:03 UTC] PHP  10. apply_filters($hook_name = 'the_content', $value = '<!-- wp:shortcode -->[woocommerce_checkout]<!-- /wp:shortcode -->') E:\wamp64\www\test02\wp-includes\post-template.php:253
+[13-Jul-2022 04:38:03 UTC] PHP  11. WP_Hook->apply_filters($value = '<!-- wp:shortcode -->[woocommerce_checkout]<!-- /wp:shortcode -->', $args = [0 => '<!-- wp:shortcode -->[woocommerce_checkout]<!-- /wp:shortcode -->']) E:\wamp64\www\test02\wp-includes\plugin.php:191
+[13-Jul-2022 04:38:03 UTC] PHP  12. do_shortcode($content = '[woocommerce_checkout]\n', $ignore_html = *uninitialized*) E:\wamp64\www\test02\wp-includes\class-wp-hook.php:307
+[13-Jul-2022 04:38:03 UTC] PHP  13. preg_replace_callback($regex = '/\\[(\\[?)(woocommerce_checkout)(?![\\w-])([^\\]\\/]*(?:\\/(?!\\])[^\\]\\/]*)*?)(?:(\\/)\\]|\\](?:([^\\[]*+(?:\\[(?!\\/\\2\\])[^\\[]*+)*+)\\[\\/\\2\\])?)(\\]?)/', $callback = 'do_shortcode_tag', $subject = '[woocommerce_checkout]\n') E:\wamp64\www\test02\wp-includes\shortcodes.php:228
+[13-Jul-2022 04:38:03 UTC] PHP  14. do_shortcode_tag($m = [0 => '[woocommerce_checkout]', 1 => '', 2 => 'woocommerce_checkout', 3 => '', 4 => '', 5 => '', 6 => '']) E:\wamp64\www\test02\wp-includes\shortcodes.php:228
+[13-Jul-2022 04:38:03 UTC] PHP  15. WC_Shortcodes::checkout($atts = '', '', 'woocommerce_checkout') E:\wamp64\www\test02\wp-includes\shortcodes.php:356
+[13-Jul-2022 04:38:03 UTC] PHP  16. WC_Shortcodes::shortcode_wrapper($function = [0 => 'WC_Shortcode_Checkout', 1 => 'output'], $atts = '', $wrapper = *uninitialized*) E:\wamp64\www\test02\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php:95
+[13-Jul-2022 04:38:03 UTC] PHP  17. WC_Shortcode_Checkout::output($atts = '') E:\wamp64\www\test02\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php:72
+[13-Jul-2022 04:38:03 UTC] PHP  18. WC_Shortcode_Checkout::checkout() E:\wamp64\www\test02\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-checkout.php:67
+[13-Jul-2022 04:38:03 UTC] PHP  19. wc_get_template($template_name = 'checkout/form-checkout.php', $args = ['checkout' => class WC_Checkout { protected $fields = [...]; protected $legacy_posted_data = [...]; private $logged_in_customer = class WC_Customer { ... } }], $template_path = *uninitialized*, $default_path = *uninitialized*) E:\wamp64\www\test02\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-checkout.php:293
+[13-Jul-2022 04:38:03 UTC] PHP  20. include() E:\wamp64\www\test02\wp-content\plugins\woocommerce\includes\wc-core-functions.php:345
+[13-Jul-2022 04:38:03 UTC] PHP Notice:  Undefined variable: order_button_text in E:\wamp64\www\test02\wp-content\themes\silky-new\woocommerce\checkout\form-checkout.php on line 142
+[13-Jul-2022 04:38:03 UTC] PHP Stack trace:
+[13-Jul-2022 04:38:03 UTC] PHP   1. {main}() E:\wamp64\www\test02\index.php:0
+[13-Jul-2022 04:38:03 UTC] PHP   2. require() E:\wamp64\www\test02\index.php:17
+[13-Jul-2022 04:38:03 UTC] PHP   3. require_once() E:\wamp64\www\test02\wp-blog-header.php:19
+[13-Jul-2022 04:38:03 UTC] PHP   4. include() E:\wamp64\www\test02\wp-includes\template-loader.php:106
+[13-Jul-2022 04:38:03 UTC] PHP   5. get_template_part($slug = 'loop-templates/content', $name = 'page', $args = *uninitialized*) E:\wamp64\www\test02\wp-content\themes\silky-new\page.php:36
+[13-Jul-2022 04:38:03 UTC] PHP   6. locate_template($template_names = [0 => 'loop-templates/content-page.php', 1 => 'loop-templates/content.php'], $load = TRUE, $require_once = FALSE, $args = []) E:\wamp64\www\test02\wp-includes\general-template.php:204
+[13-Jul-2022 04:38:03 UTC] PHP   7. load_template($_template_file = 'E:\\wamp64\\www\\test02/wp-content/themes/silky-new/loop-templates/content-page.php', $require_once = FALSE, $args = []) E:\wamp64\www\test02\wp-includes\template.php:716
+[13-Jul-2022 04:38:03 UTC] PHP   8. require() E:\wamp64\www\test02\wp-includes\template.php:772
+[13-Jul-2022 04:38:03 UTC] PHP   9. the_content($more_link_text = *uninitialized*, $strip_teaser = *uninitialized*) E:\wamp64\www\test02\wp-content\themes\silky-new\loop-templates\content-page.php:25
+[13-Jul-2022 04:38:03 UTC] PHP  10. apply_filters($hook_name = 'the_content', $value = '<!-- wp:shortcode -->[woocommerce_checkout]<!-- /wp:shortcode -->') E:\wamp64\www\test02\wp-includes\post-template.php:253
+[13-Jul-2022 04:38:03 UTC] PHP  11. WP_Hook->apply_filters($value = '<!-- wp:shortcode -->[woocommerce_checkout]<!-- /wp:shortcode -->', $args = [0 => '<!-- wp:shortcode -->[woocommerce_checkout]<!-- /wp:shortcode -->']) E:\wamp64\www\test02\wp-includes\plugin.php:191
+[13-Jul-2022 04:38:03 UTC] PHP  12. do_shortcode($content = '[woocommerce_checkout]\n', $ignore_html = *uninitialized*) E:\wamp64\www\test02\wp-includes\class-wp-hook.php:307
+[13-Jul-2022 04:38:03 UTC] PHP  13. preg_replace_callback($regex = '/\\[(\\[?)(woocommerce_checkout)(?![\\w-])([^\\]\\/]*(?:\\/(?!\\])[^\\]\\/]*)*?)(?:(\\/)\\]|\\](?:([^\\[]*+(?:\\[(?!\\/\\2\\])[^\\[]*+)*+)\\[\\/\\2\\])?)(\\]?)/', $callback = 'do_shortcode_tag', $subject = '[woocommerce_checkout]\n') E:\wamp64\www\test02\wp-includes\shortcodes.php:228
+[13-Jul-2022 04:38:03 UTC] PHP  14. do_shortcode_tag($m = [0 => '[woocommerce_checkout]', 1 => '', 2 => 'woocommerce_checkout', 3 => '', 4 => '', 5 => '', 6 => '']) E:\wamp64\www\test02\wp-includes\shortcodes.php:228
+[13-Jul-2022 04:38:03 UTC] PHP  15. WC_Shortcodes::checkout($atts = '', '', 'woocommerce_checkout') E:\wamp64\www\test02\wp-includes\shortcodes.php:356
+[13-Jul-2022 04:38:03 UTC] PHP  16. WC_Shortcodes::shortcode_wrapper($function = [0 => 'WC_Shortcode_Checkout', 1 => 'output'], $atts = '', $wrapper = *uninitialized*) E:\wamp64\www\test02\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php:95
+[13-Jul-2022 04:38:03 UTC] PHP  17. WC_Shortcode_Checkout::output($atts = '') E:\wamp64\www\test02\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php:72
+[13-Jul-2022 04:38:03 UTC] PHP  18. WC_Shortcode_Checkout::checkout() E:\wamp64\www\test02\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-checkout.php:67
+[13-Jul-2022 04:38:03 UTC] PHP  19. wc_get_template($template_name = 'checkout/form-checkout.php', $args = ['checkout' => class WC_Checkout { protected $fields = [...]; protected $legacy_posted_data = [...]; private $logged_in_customer = class WC_Customer { ... } }], $template_path = *uninitialized*, $default_path = *uninitialized*) E:\wamp64\www\test02\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-checkout.php:293
+[13-Jul-2022 04:38:03 UTC] PHP  20. include() E:\wamp64\www\test02\wp-content\plugins\woocommerce\includes\wc-core-functions.php:345
+[13-Jul-2022 04:38:03 UTC] PHP Notice:  Undefined variable: order_button_text in E:\wamp64\www\test02\wp-content\themes\silky-new\woocommerce\checkout\form-checkout.php on line 142
+[13-Jul-2022 04:38:03 UTC] PHP Stack trace:
+[13-Jul-2022 04:38:03 UTC] PHP   1. {main}() E:\wamp64\www\test02\index.php:0
+[13-Jul-2022 04:38:03 UTC] PHP   2. require() E:\wamp64\www\test02\index.php:17
+[13-Jul-2022 04:38:03 UTC] PHP   3. require_once() E:\wamp64\www\test02\wp-blog-header.php:19
+[13-Jul-2022 04:38:03 UTC] PHP   4. include() E:\wamp64\www\test02\wp-includes\template-loader.php:106
+[13-Jul-2022 04:38:03 UTC] PHP   5. get_template_part($slug = 'loop-templates/content', $name = 'page', $args = *uninitialized*) E:\wamp64\www\test02\wp-content\themes\silky-new\page.php:36
+[13-Jul-2022 04:38:03 UTC] PHP   6. locate_template($template_names = [0 => 'loop-templates/content-page.php', 1 => 'loop-templates/content.php'], $load = TRUE, $require_once = FALSE, $args = []) E:\wamp64\www\test02\wp-includes\general-template.php:204
+[13-Jul-2022 04:38:03 UTC] PHP   7. load_template($_template_file = 'E:\\wamp64\\www\\test02/wp-content/themes/silky-new/loop-templates/content-page.php', $require_once = FALSE, $args = []) E:\wamp64\www\test02\wp-includes\template.php:716
+[13-Jul-2022 04:38:03 UTC] PHP   8. require() E:\wamp64\www\test02\wp-includes\template.php:772
+[13-Jul-2022 04:38:03 UTC] PHP   9. the_content($more_link_text = *uninitialized*, $strip_teaser = *uninitialized*) E:\wamp64\www\test02\wp-content\themes\silky-new\loop-templates\content-page.php:25
+[13-Jul-2022 04:38:03 UTC] PHP  10. apply_filters($hook_name = 'the_content', $value = '<!-- wp:shortcode -->[woocommerce_checkout]<!-- /wp:shortcode -->') E:\wamp64\www\test02\wp-includes\post-template.php:253
+[13-Jul-2022 04:38:03 UTC] PHP  11. WP_Hook->apply_filters($value = '<!-- wp:shortcode -->[woocommerce_checkout]<!-- /wp:shortcode -->', $args = [0 => '<!-- wp:shortcode -->[woocommerce_checkout]<!-- /wp:shortcode -->']) E:\wamp64\www\test02\wp-includes\plugin.php:191
+[13-Jul-2022 04:38:03 UTC] PHP  12. do_shortcode($content = '[woocommerce_checkout]\n', $ignore_html = *uninitialized*) E:\wamp64\www\test02\wp-includes\class-wp-hook.php:307
+[13-Jul-2022 04:38:03 UTC] PHP  13. preg_replace_callback($regex = '/\\[(\\[?)(woocommerce_checkout)(?![\\w-])([^\\]\\/]*(?:\\/(?!\\])[^\\]\\/]*)*?)(?:(\\/)\\]|\\](?:([^\\[]*+(?:\\[(?!\\/\\2\\])[^\\[]*+)*+)\\[\\/\\2\\])?)(\\]?)/', $callback = 'do_shortcode_tag', $subject = '[woocommerce_checkout]\n') E:\wamp64\www\test02\wp-includes\shortcodes.php:228
+[13-Jul-2022 04:38:03 UTC] PHP  14. do_shortcode_tag($m = [0 => '[woocommerce_checkout]', 1 => '', 2 => 'woocommerce_checkout', 3 => '', 4 => '', 5 => '', 6 => '']) E:\wamp64\www\test02\wp-includes\shortcodes.php:228
+[13-Jul-2022 04:38:03 UTC] PHP  15. WC_Shortcodes::checkout($atts = '', '', 'woocommerce_checkout') E:\wamp64\www\test02\wp-includes\shortcodes.php:356
+[13-Jul-2022 04:38:03 UTC] PHP  16. WC_Shortcodes::shortcode_wrapper($function = [0 => 'WC_Shortcode_Checkout', 1 => 'output'], $atts = '', $wrapper = *uninitialized*) E:\wamp64\www\test02\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php:95
+[13-Jul-2022 04:38:03 UTC] PHP  17. WC_Shortcode_Checkout::output($atts = '') E:\wamp64\www\test02\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php:72
+[13-Jul-2022 04:38:03 UTC] PHP  18. WC_Shortcode_Checkout::checkout() E:\wamp64\www\test02\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-checkout.php:67
+[13-Jul-2022 04:38:03 UTC] PHP  19. wc_get_template($template_name = 'checkout/form-checkout.php', $args = ['checkout' => class WC_Checkout { protected $fields = [...]; protected $legacy_posted_data = [...]; private $logged_in_customer = class WC_Customer { ... } }], $template_path = *uninitialized*, $default_path = *uninitialized*) E:\wamp64\www\test02\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-checkout.php:293
+[13-Jul-2022 04:38:03 UTC] PHP  20. include() E:\wamp64\www\test02\wp-content\plugins\woocommerce\includes\wc-core-functions.php:345
+[13-Jul-2022 04:38:47 UTC] PHP Notice:  Undefined variable: order_button_text in E:\wamp64\www\test02\wp-content\themes\silky-new\woocommerce\checkout\form-checkout.php on line 139
+[13-Jul-2022 04:38:47 UTC] PHP Stack trace:
+[13-Jul-2022 04:38:47 UTC] PHP   1. {main}() E:\wamp64\www\test02\index.php:0
+[13-Jul-2022 04:38:47 UTC] PHP   2. require() E:\wamp64\www\test02\index.php:17
+[13-Jul-2022 04:38:47 UTC] PHP   3. require_once() E:\wamp64\www\test02\wp-blog-header.php:19
+[13-Jul-2022 04:38:47 UTC] PHP   4. include() E:\wamp64\www\test02\wp-includes\template-loader.php:106
+[13-Jul-2022 04:38:47 UTC] PHP   5. get_template_part($slug = 'loop-templates/content', $name = 'page', $args = *uninitialized*) E:\wamp64\www\test02\wp-content\themes\silky-new\page.php:36
+[13-Jul-2022 04:38:47 UTC] PHP   6. locate_template($template_names = [0 => 'loop-templates/content-page.php', 1 => 'loop-templates/content.php'], $load = TRUE, $require_once = FALSE, $args = []) E:\wamp64\www\test02\wp-includes\general-template.php:204
+[13-Jul-2022 04:38:47 UTC] PHP   7. load_template($_template_file = 'E:\\wamp64\\www\\test02/wp-content/themes/silky-new/loop-templates/content-page.php', $require_once = FALSE, $args = []) E:\wamp64\www\test02\wp-includes\template.php:716
+[13-Jul-2022 04:38:47 UTC] PHP   8. require() E:\wamp64\www\test02\wp-includes\template.php:772
+[13-Jul-2022 04:38:47 UTC] PHP   9. the_content($more_link_text = *uninitialized*, $strip_teaser = *uninitialized*) E:\wamp64\www\test02\wp-content\themes\silky-new\loop-templates\content-page.php:25
+[13-Jul-2022 04:38:47 UTC] PHP  10. apply_filters($hook_name = 'the_content', $value = '<!-- wp:shortcode -->[woocommerce_checkout]<!-- /wp:shortcode -->') E:\wamp64\www\test02\wp-includes\post-template.php:253
+[13-Jul-2022 04:38:47 UTC] PHP  11. WP_Hook->apply_filters($value = '<!-- wp:shortcode -->[woocommerce_checkout]<!-- /wp:shortcode -->', $args = [0 => '<!-- wp:shortcode -->[woocommerce_checkout]<!-- /wp:shortcode -->']) E:\wamp64\www\test02\wp-includes\plugin.php:191
+[13-Jul-2022 04:38:47 UTC] PHP  12. do_shortcode($content = '[woocommerce_checkout]\n', $ignore_html = *uninitialized*) E:\wamp64\www\test02\wp-includes\class-wp-hook.php:307
+[13-Jul-2022 04:38:47 UTC] PHP  13. preg_replace_callback($regex = '/\\[(\\[?)(woocommerce_checkout)(?![\\w-])([^\\]\\/]*(?:\\/(?!\\])[^\\]\\/]*)*?)(?:(\\/)\\]|\\](?:([^\\[]*+(?:\\[(?!\\/\\2\\])[^\\[]*+)*+)\\[\\/\\2\\])?)(\\]?)/', $callback = 'do_shortcode_tag', $subject = '[woocommerce_checkout]\n') E:\wamp64\www\test02\wp-includes\shortcodes.php:228
+[13-Jul-2022 04:38:47 UTC] PHP  14. do_shortcode_tag($m = [0 => '[woocommerce_checkout]', 1 => '', 2 => 'woocommerce_checkout', 3 => '', 4 => '', 5 => '', 6 => '']) E:\wamp64\www\test02\wp-includes\shortcodes.php:228
+[13-Jul-2022 04:38:47 UTC] PHP  15. WC_Shortcodes::checkout($atts = '', '', 'woocommerce_checkout') E:\wamp64\www\test02\wp-includes\shortcodes.php:356
+[13-Jul-2022 04:38:47 UTC] PHP  16. WC_Shortcodes::shortcode_wrapper($function = [0 => 'WC_Shortcode_Checkout', 1 => 'output'], $atts = '', $wrapper = *uninitialized*) E:\wamp64\www\test02\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php:95
+[13-Jul-2022 04:38:47 UTC] PHP  17. WC_Shortcode_Checkout::output($atts = '') E:\wamp64\www\test02\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php:72
+[13-Jul-2022 04:38:47 UTC] PHP  18. WC_Shortcode_Checkout::checkout() E:\wamp64\www\test02\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-checkout.php:67
+[13-Jul-2022 04:38:47 UTC] PHP  19. wc_get_template($template_name = 'checkout/form-checkout.php', $args = ['checkout' => class WC_Checkout { protected $fields = [...]; protected $legacy_posted_data = [...]; private $logged_in_customer = class WC_Customer { ... } }], $template_path = *uninitialized*, $default_path = *uninitialized*) E:\wamp64\www\test02\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-checkout.php:293
+[13-Jul-2022 04:38:47 UTC] PHP  20. include() E:\wamp64\www\test02\wp-content\plugins\woocommerce\includes\wc-core-functions.php:345
+[13-Jul-2022 04:38:47 UTC] PHP Notice:  Undefined variable: order_button_text in E:\wamp64\www\test02\wp-content\themes\silky-new\woocommerce\checkout\form-checkout.php on line 139
+[13-Jul-2022 04:38:47 UTC] PHP Stack trace:
+[13-Jul-2022 04:38:47 UTC] PHP   1. {main}() E:\wamp64\www\test02\index.php:0
+[13-Jul-2022 04:38:47 UTC] PHP   2. require() E:\wamp64\www\test02\index.php:17
+[13-Jul-2022 04:38:47 UTC] PHP   3. require_once() E:\wamp64\www\test02\wp-blog-header.php:19
+[13-Jul-2022 04:38:47 UTC] PHP   4. include() E:\wamp64\www\test02\wp-includes\template-loader.php:106
+[13-Jul-2022 04:38:47 UTC] PHP   5. get_template_part($slug = 'loop-templates/content', $name = 'page', $args = *uninitialized*) E:\wamp64\www\test02\wp-content\themes\silky-new\page.php:36
+[13-Jul-2022 04:38:47 UTC] PHP   6. locate_template($template_names = [0 => 'loop-templates/content-page.php', 1 => 'loop-templates/content.php'], $load = TRUE, $require_once = FALSE, $args = []) E:\wamp64\www\test02\wp-includes\general-template.php:204
+[13-Jul-2022 04:38:47 UTC] PHP   7. load_template($_template_file = 'E:\\wamp64\\www\\test02/wp-content/themes/silky-new/loop-templates/content-page.php', $require_once = FALSE, $args = []) E:\wamp64\www\test02\wp-includes\template.php:716
+[13-Jul-2022 04:38:47 UTC] PHP   8. require() E:\wamp64\www\test02\wp-includes\template.php:772
+[13-Jul-2022 04:38:47 UTC] PHP   9. the_content($more_link_text = *uninitialized*, $strip_teaser = *uninitialized*) E:\wamp64\www\test02\wp-content\themes\silky-new\loop-templates\content-page.php:25
+[13-Jul-2022 04:38:47 UTC] PHP  10. apply_filters($hook_name = 'the_content', $value = '<!-- wp:shortcode -->[woocommerce_checkout]<!-- /wp:shortcode -->') E:\wamp64\www\test02\wp-includes\post-template.php:253
+[13-Jul-2022 04:38:47 UTC] PHP  11. WP_Hook->apply_filters($value = '<!-- wp:shortcode -->[woocommerce_checkout]<!-- /wp:shortcode -->', $args = [0 => '<!-- wp:shortcode -->[woocommerce_checkout]<!-- /wp:shortcode -->']) E:\wamp64\www\test02\wp-includes\plugin.php:191
+[13-Jul-2022 04:38:47 UTC] PHP  12. do_shortcode($content = '[woocommerce_checkout]\n', $ignore_html = *uninitialized*) E:\wamp64\www\test02\wp-includes\class-wp-hook.php:307
+[13-Jul-2022 04:38:47 UTC] PHP  13. preg_replace_callback($regex = '/\\[(\\[?)(woocommerce_checkout)(?![\\w-])([^\\]\\/]*(?:\\/(?!\\])[^\\]\\/]*)*?)(?:(\\/)\\]|\\](?:([^\\[]*+(?:\\[(?!\\/\\2\\])[^\\[]*+)*+)\\[\\/\\2\\])?)(\\]?)/', $callback = 'do_shortcode_tag', $subject = '[woocommerce_checkout]\n') E:\wamp64\www\test02\wp-includes\shortcodes.php:228
+[13-Jul-2022 04:38:47 UTC] PHP  14. do_shortcode_tag($m = [0 => '[woocommerce_checkout]', 1 => '', 2 => 'woocommerce_checkout', 3 => '', 4 => '', 5 => '', 6 => '']) E:\wamp64\www\test02\wp-includes\shortcodes.php:228
+[13-Jul-2022 04:38:47 UTC] PHP  15. WC_Shortcodes::checkout($atts = '', '', 'woocommerce_checkout') E:\wamp64\www\test02\wp-includes\shortcodes.php:356
+[13-Jul-2022 04:38:47 UTC] PHP  16. WC_Shortcodes::shortcode_wrapper($function = [0 => 'WC_Shortcode_Checkout', 1 => 'output'], $atts = '', $wrapper = *uninitialized*) E:\wamp64\www\test02\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php:95
+[13-Jul-2022 04:38:47 UTC] PHP  17. WC_Shortcode_Checkout::output($atts = '') E:\wamp64\www\test02\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php:72
+[13-Jul-2022 04:38:47 UTC] PHP  18. WC_Shortcode_Checkout::checkout() E:\wamp64\www\test02\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-checkout.php:67
+[13-Jul-2022 04:38:47 UTC] PHP  19. wc_get_template($template_name = 'checkout/form-checkout.php', $args = ['checkout' => class WC_Checkout { protected $fields = [...]; protected $legacy_posted_data = [...]; private $logged_in_customer = class WC_Customer { ... } }], $template_path = *uninitialized*, $default_path = *uninitialized*) E:\wamp64\www\test02\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-checkout.php:293
+[13-Jul-2022 04:38:47 UTC] PHP  20. include() E:\wamp64\www\test02\wp-content\plugins\woocommerce\includes\wc-core-functions.php:345
+[13-Jul-2022 04:38:47 UTC] PHP Notice:  Undefined variable: order_button_text in E:\wamp64\www\test02\wp-content\themes\silky-new\woocommerce\checkout\form-checkout.php on line 139
+[13-Jul-2022 04:38:47 UTC] PHP Stack trace:
+[13-Jul-2022 04:38:47 UTC] PHP   1. {main}() E:\wamp64\www\test02\index.php:0
+[13-Jul-2022 04:38:47 UTC] PHP   2. require() E:\wamp64\www\test02\index.php:17
+[13-Jul-2022 04:38:47 UTC] PHP   3. require_once() E:\wamp64\www\test02\wp-blog-header.php:19
+[13-Jul-2022 04:38:47 UTC] PHP   4. include() E:\wamp64\www\test02\wp-includes\template-loader.php:106
+[13-Jul-2022 04:38:47 UTC] PHP   5. get_template_part($slug = 'loop-templates/content', $name = 'page', $args = *uninitialized*) E:\wamp64\www\test02\wp-content\themes\silky-new\page.php:36
+[13-Jul-2022 04:38:47 UTC] PHP   6. locate_template($template_names = [0 => 'loop-templates/content-page.php', 1 => 'loop-templates/content.php'], $load = TRUE, $require_once = FALSE, $args = []) E:\wamp64\www\test02\wp-includes\general-template.php:204
+[13-Jul-2022 04:38:47 UTC] PHP   7. load_template($_template_file = 'E:\\wamp64\\www\\test02/wp-content/themes/silky-new/loop-templates/content-page.php', $require_once = FALSE, $args = []) E:\wamp64\www\test02\wp-includes\template.php:716
+[13-Jul-2022 04:38:47 UTC] PHP   8. require() E:\wamp64\www\test02\wp-includes\template.php:772
+[13-Jul-2022 04:38:47 UTC] PHP   9. the_content($more_link_text = *uninitialized*, $strip_teaser = *uninitialized*) E:\wamp64\www\test02\wp-content\themes\silky-new\loop-templates\content-page.php:25
+[13-Jul-2022 04:38:47 UTC] PHP  10. apply_filters($hook_name = 'the_content', $value = '<!-- wp:shortcode -->[woocommerce_checkout]<!-- /wp:shortcode -->') E:\wamp64\www\test02\wp-includes\post-template.php:253
+[13-Jul-2022 04:38:47 UTC] PHP  11. WP_Hook->apply_filters($value = '<!-- wp:shortcode -->[woocommerce_checkout]<!-- /wp:shortcode -->', $args = [0 => '<!-- wp:shortcode -->[woocommerce_checkout]<!-- /wp:shortcode -->']) E:\wamp64\www\test02\wp-includes\plugin.php:191
+[13-Jul-2022 04:38:47 UTC] PHP  12. do_shortcode($content = '[woocommerce_checkout]\n', $ignore_html = *uninitialized*) E:\wamp64\www\test02\wp-includes\class-wp-hook.php:307
+[13-Jul-2022 04:38:47 UTC] PHP  13. preg_replace_callback($regex = '/\\[(\\[?)(woocommerce_checkout)(?![\\w-])([^\\]\\/]*(?:\\/(?!\\])[^\\]\\/]*)*?)(?:(\\/)\\]|\\](?:([^\\[]*+(?:\\[(?!\\/\\2\\])[^\\[]*+)*+)\\[\\/\\2\\])?)(\\]?)/', $callback = 'do_shortcode_tag', $subject = '[woocommerce_checkout]\n') E:\wamp64\www\test02\wp-includes\shortcodes.php:228
+[13-Jul-2022 04:38:47 UTC] PHP  14. do_shortcode_tag($m = [0 => '[woocommerce_checkout]', 1 => '', 2 => 'woocommerce_checkout', 3 => '', 4 => '', 5 => '', 6 => '']) E:\wamp64\www\test02\wp-includes\shortcodes.php:228
+[13-Jul-2022 04:38:47 UTC] PHP  15. WC_Shortcodes::checkout($atts = '', '', 'woocommerce_checkout') E:\wamp64\www\test02\wp-includes\shortcodes.php:356
+[13-Jul-2022 04:38:47 UTC] PHP  16. WC_Shortcodes::shortcode_wrapper($function = [0 => 'WC_Shortcode_Checkout', 1 => 'output'], $atts = '', $wrapper = *uninitialized*) E:\wamp64\www\test02\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php:95
+[13-Jul-2022 04:38:47 UTC] PHP  17. WC_Shortcode_Checkout::output($atts = '') E:\wamp64\www\test02\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php:72
+[13-Jul-2022 04:38:47 UTC] PHP  18. WC_Shortcode_Checkout::checkout() E:\wamp64\www\test02\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-checkout.php:67
+[13-Jul-2022 04:38:47 UTC] PHP  19. wc_get_template($template_name = 'checkout/form-checkout.php', $args = ['checkout' => class WC_Checkout { protected $fields = [...]; protected $legacy_posted_data = [...]; private $logged_in_customer = class WC_Customer { ... } }], $template_path = *uninitialized*, $default_path = *uninitialized*) E:\wamp64\www\test02\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-checkout.php:293
+[13-Jul-2022 04:38:47 UTC] PHP  20. include() E:\wamp64\www\test02\wp-content\plugins\woocommerce\includes\wc-core-functions.php:345
+[13-Jul-2022 04:55:55 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[13-Jul-2022 04:55:55 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[13-Jul-2022 04:56:06 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[13-Jul-2022 04:56:06 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[13-Jul-2022 04:57:24 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[13-Jul-2022 04:57:24 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[13-Jul-2022 04:57:52 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[13-Jul-2022 04:57:52 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[13-Jul-2022 04:58:18 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[13-Jul-2022 04:58:18 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[13-Jul-2022 04:58:42 UTC] PHP Notice:  Undefined index: shipping in E:\wamp64\www\test02\wp-content\themes\silky-new\inc\ajax\zenzweb-ajax-change-shipping-method.php on line 11
+[13-Jul-2022 04:58:42 UTC] PHP Stack trace:
+[13-Jul-2022 04:58:42 UTC] PHP   1. {main}() E:\wamp64\www\test02\wp-admin\admin-ajax.php:0
+[13-Jul-2022 04:58:42 UTC] PHP   2. do_action($hook_name = 'wp_ajax_zwc_change_shipping_method') E:\wamp64\www\test02\wp-admin\admin-ajax.php:187
+[13-Jul-2022 04:58:42 UTC] PHP   3. WP_Hook->do_action($args = [0 => '']) E:\wamp64\www\test02\wp-includes\plugin.php:476
+[13-Jul-2022 04:58:42 UTC] PHP   4. WP_Hook->apply_filters($value = '', $args = [0 => '']) E:\wamp64\www\test02\wp-includes\class-wp-hook.php:331
+[13-Jul-2022 04:58:42 UTC] PHP   5. zenzweb_ajax_zwc_change_shipping_method('') E:\wamp64\www\test02\wp-includes\class-wp-hook.php:307
+[13-Jul-2022 05:00:13 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[13-Jul-2022 05:00:13 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[13-Jul-2022 05:02:07 UTC] PHP Notice:  Undefined index: shipping in E:\wamp64\www\test02\wp-content\themes\silky-new\inc\ajax\zenzweb-ajax-change-shipping-method.php on line 11
+[13-Jul-2022 05:02:07 UTC] PHP Stack trace:
+[13-Jul-2022 05:02:07 UTC] PHP   1. {main}() E:\wamp64\www\test02\wp-admin\admin-ajax.php:0
+[13-Jul-2022 05:02:07 UTC] PHP   2. do_action($hook_name = 'wp_ajax_zwc_change_shipping_method') E:\wamp64\www\test02\wp-admin\admin-ajax.php:187
+[13-Jul-2022 05:02:07 UTC] PHP   3. WP_Hook->do_action($args = [0 => '']) E:\wamp64\www\test02\wp-includes\plugin.php:476
+[13-Jul-2022 05:02:07 UTC] PHP   4. WP_Hook->apply_filters($value = '', $args = [0 => '']) E:\wamp64\www\test02\wp-includes\class-wp-hook.php:331
+[13-Jul-2022 05:02:07 UTC] PHP   5. zenzweb_ajax_zwc_change_shipping_method('') E:\wamp64\www\test02\wp-includes\class-wp-hook.php:307
+[13-Jul-2022 05:05:13 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[13-Jul-2022 05:05:13 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[13-Jul-2022 05:05:33 UTC] PHP Notice:  Undefined index: shipping in E:\wamp64\www\test02\wp-content\themes\silky-new\inc\ajax\zenzweb-ajax-change-shipping-method.php on line 11
+[13-Jul-2022 05:05:33 UTC] PHP Stack trace:
+[13-Jul-2022 05:05:33 UTC] PHP   1. {main}() E:\wamp64\www\test02\wp-admin\admin-ajax.php:0
+[13-Jul-2022 05:05:33 UTC] PHP   2. do_action($hook_name = 'wp_ajax_zwc_change_shipping_method') E:\wamp64\www\test02\wp-admin\admin-ajax.php:187
+[13-Jul-2022 05:05:33 UTC] PHP   3. WP_Hook->do_action($args = [0 => '']) E:\wamp64\www\test02\wp-includes\plugin.php:476
+[13-Jul-2022 05:05:33 UTC] PHP   4. WP_Hook->apply_filters($value = '', $args = [0 => '']) E:\wamp64\www\test02\wp-includes\class-wp-hook.php:331
+[13-Jul-2022 05:05:33 UTC] PHP   5. zenzweb_ajax_zwc_change_shipping_method('') E:\wamp64\www\test02\wp-includes\class-wp-hook.php:307
+[13-Jul-2022 05:05:54 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[13-Jul-2022 05:05:54 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[13-Jul-2022 05:07:47 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[13-Jul-2022 05:07:47 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[13-Jul-2022 05:07:52 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[13-Jul-2022 05:07:52 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[13-Jul-2022 05:08:07 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[13-Jul-2022 05:08:07 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[13-Jul-2022 05:24:29 UTC] PHP Parse error:  syntax error, unexpected end of file in E:\wamp64\www\test02\wp-content\themes\silky-new\woocommerce\checkout\form-coupon.php on line 50
+[13-Jul-2022 12:51:28 UTC] WordPress database error Unknown character set: 'utf8bin' for query CREATE TABLE IF NOT EXISTS `wp_woof_query_cache` (
+                                                    `mkey` varchar(64) NOT NULL,
+                                                    `mvalue` text NOT NULL,
+                                                    KEY `mkey` (`mkey`)
+                                                  ) DEFAULT CHARACTER SET utf8bin made by do_action('woocommerce_page_wc-settings'), WP_Hook->do_action, WP_Hook->apply_filters, WC_Admin_Menus->settings_page, WC_Admin_Settings::output, include('/plugins/woocommerce/includes/admin/views/html-admin-settings.php'), do_action('woocommerce_settings_tabs_woof'), WP_Hook->do_action, WP_Hook->apply_filters, WOOF->print_plugin_options, WOOF->render_html, include('/plugins/woocommerce-products-filter/views/plugin_options.php')
+[13-Jul-2022 12:51:33 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[13-Jul-2022 12:51:33 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[13-Jul-2022 12:53:32 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[13-Jul-2022 12:53:32 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[13-Jul-2022 12:53:32 UTC] WordPress database error Unknown character set: 'utf8bin' for query CREATE TABLE IF NOT EXISTS `wp_woof_query_cache` (
+                                                    `mkey` varchar(64) NOT NULL,
+                                                    `mvalue` text NOT NULL,
+                                                    KEY `mkey` (`mkey`)
+                                                  ) DEFAULT CHARACTER SET utf8bin made by do_action('woocommerce_page_wc-settings'), WP_Hook->do_action, WP_Hook->apply_filters, WC_Admin_Menus->settings_page, WC_Admin_Settings::output, include('/plugins/woocommerce/includes/admin/views/html-admin-settings.php'), do_action('woocommerce_settings_tabs_woof'), WP_Hook->do_action, WP_Hook->apply_filters, WOOF->print_plugin_options, WOOF->render_html, include('/plugins/woocommerce-products-filter/views/plugin_options.php')
+[13-Jul-2022 12:53:35 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[13-Jul-2022 12:53:35 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[13-Jul-2022 12:58:54 UTC] WordPress database error Unknown character set: 'utf8bin' for query CREATE TABLE IF NOT EXISTS `wp_woof_query_cache` (
+                                                    `mkey` varchar(64) NOT NULL,
+                                                    `mvalue` text NOT NULL,
+                                                    KEY `mkey` (`mkey`)
+                                                  ) DEFAULT CHARACTER SET utf8bin made by do_action('woocommerce_page_wc-settings'), WP_Hook->do_action, WP_Hook->apply_filters, WC_Admin_Menus->settings_page, WC_Admin_Settings::output, include('/plugins/woocommerce/includes/admin/views/html-admin-settings.php'), do_action('woocommerce_settings_tabs_woof'), WP_Hook->do_action, WP_Hook->apply_filters, WOOF->print_plugin_options, WOOF->render_html, include('/plugins/woocommerce-products-filter/views/plugin_options.php')
+[13-Jul-2022 12:58:59 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[13-Jul-2022 12:58:59 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[13-Jul-2022 12:59:51 UTC] WordPress database error Unknown character set: 'utf8bin' for query CREATE TABLE IF NOT EXISTS `wp_woof_query_cache` (
+                                                    `mkey` varchar(64) NOT NULL,
+                                                    `mvalue` text NOT NULL,
+                                                    KEY `mkey` (`mkey`)
+                                                  ) DEFAULT CHARACTER SET utf8bin made by do_action('woocommerce_page_wc-settings'), WP_Hook->do_action, WP_Hook->apply_filters, WC_Admin_Menus->settings_page, WC_Admin_Settings::output, include('/plugins/woocommerce/includes/admin/views/html-admin-settings.php'), do_action('woocommerce_settings_tabs_woof'), WP_Hook->do_action, WP_Hook->apply_filters, WOOF->print_plugin_options, WOOF->render_html, include('/plugins/woocommerce-products-filter/views/plugin_options.php')
+[13-Jul-2022 12:59:55 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[13-Jul-2022 12:59:55 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[13-Jul-2022 13:04:20 UTC] WordPress database error Unknown character set: 'utf8bin' for query CREATE TABLE IF NOT EXISTS `wp_woof_query_cache` (
+                                                    `mkey` varchar(64) NOT NULL,
+                                                    `mvalue` text NOT NULL,
+                                                    KEY `mkey` (`mkey`)
+                                                  ) DEFAULT CHARACTER SET utf8bin made by do_action('woocommerce_page_wc-settings'), WP_Hook->do_action, WP_Hook->apply_filters, WC_Admin_Menus->settings_page, WC_Admin_Settings::output, include('/plugins/woocommerce/includes/admin/views/html-admin-settings.php'), do_action('woocommerce_settings_tabs_woof'), WP_Hook->do_action, WP_Hook->apply_filters, WOOF->print_plugin_options, WOOF->render_html, include('/plugins/woocommerce-products-filter/views/plugin_options.php')
+[13-Jul-2022 13:04:25 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[13-Jul-2022 13:04:25 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[13-Jul-2022 14:05:46 UTC] WordPress database error Unknown character set: 'utf8bin' for query CREATE TABLE IF NOT EXISTS `wp_woof_query_cache` (
+                                                    `mkey` varchar(64) NOT NULL,
+                                                    `mvalue` text NOT NULL,
+                                                    KEY `mkey` (`mkey`)
+                                                  ) DEFAULT CHARACTER SET utf8bin made by do_action('woocommerce_page_wc-settings'), WP_Hook->do_action, WP_Hook->apply_filters, WC_Admin_Menus->settings_page, WC_Admin_Settings::output, include('/plugins/woocommerce/includes/admin/views/html-admin-settings.php'), do_action('woocommerce_settings_tabs_woof'), WP_Hook->do_action, WP_Hook->apply_filters, WOOF->print_plugin_options, WOOF->render_html, include('/plugins/woocommerce-products-filter/views/plugin_options.php')
+[13-Jul-2022 14:05:46 UTC] WordPress database error Unknown character set: 'utf8bin' for query CREATE TABLE IF NOT EXISTS `wp_woof_query_cache` (
+                                                    `mkey` varchar(64) NOT NULL,
+                                                    `mvalue` text NOT NULL,
+                                                    KEY `mkey` (`mkey`)
+                                                  ) DEFAULT CHARACTER SET utf8bin made by do_action('woocommerce_page_wc-settings'), WP_Hook->do_action, WP_Hook->apply_filters, WC_Admin_Menus->settings_page, WC_Admin_Settings::output, include('/plugins/woocommerce/includes/admin/views/html-admin-settings.php'), do_action('woocommerce_settings_tabs_woof'), WP_Hook->do_action, WP_Hook->apply_filters, WOOF->print_plugin_options, WOOF->render_html, include('/plugins/woocommerce-products-filter/views/plugin_options.php')
+[13-Jul-2022 14:05:50 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[13-Jul-2022 14:05:50 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.

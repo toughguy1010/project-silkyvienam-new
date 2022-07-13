@@ -129,7 +129,7 @@ elseif (is_product_category()) {
 			),
 			'orderby' => 'ID',
 			'order' => 'DESC',
-			'posts_per_page'=> 2,
+			'posts_per_page'=> 9,
 			'paged' => $paged,
 		));
 		// var_dump($GLOBALS['wp_query']->max_num_pages);

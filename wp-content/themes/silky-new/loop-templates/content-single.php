@@ -17,7 +17,6 @@ do_action('blog-style');
                 do_action('head');
             ?>
 
-
 	</header><!-- .entry-header -->
 
 	<?php // echo get_the_post_thumbnail( $post->ID, 'large' ); ?>

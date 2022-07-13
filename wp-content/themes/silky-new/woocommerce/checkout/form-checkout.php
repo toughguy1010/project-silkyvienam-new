@@ -34,7 +34,7 @@ if ( ! $checkout->is_registration_enabled() && $checkout->is_registration_requir
 }
 
 ?>
-<div class="checkout-container">
+<div class="checkout-container mt-4">
 <form name="checkout" method="post" class="checkout woocommerce-checkout checkout-container-item" action="<?php echo esc_url( wc_get_checkout_url() ); ?>" enctype="multipart/form-data">
 
 	<?php if ( $checkout->get_checkout_fields() ) : ?>
@@ -44,22 +44,22 @@ if ( ! $checkout->is_registration_enabled() && $checkout->is_registration_requir
 		<div class="col" id="customer_details">
 			<div class="col-12 col-sm-7">
 				<?php do_action( 'woocommerce_checkout_billing' ); ?>
-				<!-- form coupon -->
+				<div>
 				<form class="checkout_coupon woocommerce-form-coupon" method="post" style="display:block">
-					<div class="coupon_checkout">
-					<p>
-						<img src="<?php echo get_template_directory_uri().'/assets/coupon-icon.svg' ?>" style="margin-right: 10px ;"></img>
-						<?php esc_html_e( 'If you have a coupon code, please apply it below.', 'woocommerce' ); ?>
-					</p>
-
-					<p class="form-row form-row-first">
-						<input type="text" name="coupon_code" class="form-control" placeholder="<?php esc_attr_e( 'Coupon code', 'woocommerce' ); ?>" id="coupon_code" value="" />
-					</p>
-
-					<p class="form-row form-row-last">
-						<button type="submit" class="coupon-btn" name="apply_coupon" value="<?php esc_attr_e( 'Apply coupon', 'woocommerce' ); ?>"><?php esc_html_e( 'Apply coupon', 'woocommerce' ); ?></button>
-					</p>
-					</div>
+									<div class="coupon_checkout">
+									<p>
+										<img src="<?php echo get_template_directory_uri().'/assets/coupon-icon.svg' ?>" style="margin-right: 10px ;"></img>
+										<?php esc_html_e( 'If you have a coupon code, please apply it below.', 'woocommerce' ); ?>
+									</p>
+				
+									<p class="form-row form-row-first">
+										<input type="text" name="coupon_code" class="form-control" placeholder="<?php esc_attr_e( 'Coupon code', 'woocommerce' ); ?>" id="coupon_code" value="" />
+									</p>
+				
+									<p class="form-row form-row-last">
+										<button type="submit" class="coupon-btn" name="apply_coupon" value="<?php esc_attr_e( 'Apply coupon', 'woocommerce' ); ?>"><?php esc_html_e( 'Apply coupon', 'woocommerce' ); ?></button>
+									</p>
+									</div>
 				</form>
 					<div class="woocommerce-additional-fields">
 						<?php do_action( 'woocommerce_before_order_notes', $checkout ); ?>
@@ -71,16 +71,19 @@ if ( ! $checkout->is_registration_enabled() && $checkout->is_registration_requir
 								<h3><?php esc_html_e( 'Additional information', 'woocommerce' ); ?></h3>
 
 							<?php endif; ?>
-
+						
 							<div class="woocommerce-additional-fields__field-wrapper">
 								<?php foreach ( $checkout->get_checkout_fields( 'order' ) as $key => $field ) : ?>
 									<?php woocommerce_form_field( $key, $field, $checkout->get_value( $key ) ); ?>
 								<?php endforeach; ?>
+								
 							</div>
-
+							
+						<?php //get_template_part('checkout/form','coupon') ?>
 						<?php endif; ?>
-
+						
 						<?php do_action( 'woocommerce_after_order_notes', $checkout ); ?>
+					</div>
 					</div>
 
 					<div class="clear"></div>
@@ -91,6 +94,7 @@ if ( ! $checkout->is_registration_enabled() && $checkout->is_registration_requir
 				<?php do_action( 'woocommerce_checkout_shipping' ); ?>
 			</div>
 		</div>
+		
 
 		<?php do_action( 'woocommerce_checkout_after_customer_details' ); ?>
 
@@ -105,8 +109,11 @@ if ( ! $checkout->is_registration_enabled() && $checkout->is_registration_requir
 
 		
 </form>
+
 <div class="order_review_heading checkout-container-item">
-<?php do_action( 'woocommerce_checkout_before_order_review_heading' ); ?>
+<?php do_action( 'woocommerce_checkout_before_order_review_heading' );
+
+?>
 
 
 	<?php do_action( 'woocommerce_checkout_before_order_review' ); ?>

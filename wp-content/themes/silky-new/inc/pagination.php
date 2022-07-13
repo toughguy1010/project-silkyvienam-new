@@ -48,7 +48,7 @@ if ( ! function_exists( 'understrap_pagination' ) ) {
 		$args = wp_parse_args(
 			$args,
 			array(
-				'mid_size'           => 2,
+				'mid_size'           => 3,
 				'prev_next'          => true,
 				'prev_text'          => __( '<', 'understrap' ),
 				'next_text'          => __( '>', 'understrap' ),

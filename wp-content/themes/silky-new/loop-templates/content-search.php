@@ -8,40 +8,77 @@
 // Exit if accessed directly.
 defined( 'ABSPATH' ) || exit;
 ?>
+<?php
+do_action('product_style');
+global $product;
+// Ensure visibility.
+if ( empty( $product ) || ! $product->is_visible() ) {
+	return;
+}
+?>
+<?php ?>
 
-<article <?php post_class(); ?> id="post-<?php the_ID(); ?>">
 
-	<header class="entry-header">
+<li class="product-item" <?php wc_product_class( '', $product ); ?>>
+	<?php
+	/**
+	 * Hook: woocommerce_before_shop_loop_item.
+	 *
+	 * @hooked woocommerce_template_loop_product_link_open - 10
+	 */
+	// do_action( 'woocommerce_before_shop_loop_item' );
+	$link = apply_filters( 'woocommerce_loop_product_link', get_the_permalink(), $product );
 
+	echo '<a href="' . esc_url( $link ) . '" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">';
+	/**
+	 * Hook: woocommerce_before_shop_loop_item_title.
+	 *
+	 * @hooked woocommerce_show_product_loop_sale_flash - 10
+	 * @hooked woocommerce_template_loop_product_thumbnail - 10
+	 */
+	do_action( 'woocommerce_before_shop_loop_item_title',  );
+
+	/**
+	 * Hook: woocommerce_shop_loop_item_title.
+	 *
+	 * @hooked woocommerce_template_loop_product_title - 10
+	 */
+	// do_action( 'woocommerce_shop_loop_item_title' );
+	
+	?> 
+	<div class="product-desc">
+		<div class="product-title"><?php echo apply_filters( 'silky_filter-product-title_name', get_the_title() ); 	;?>
+
+
+		</div>
+		
 		<?php
-		the_title(
-			sprintf( '<h2 class="entry-title"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ),
-			'</a></h2>'
-		);
-		?>
 
-		<?php if ( 'post' === get_post_type() ) : ?>
+		?> <span class="product-price"><?php echo apply_filters('silky_filter-product-price',$product->get_price_html() ) ?></span> 
+	</div>
+	<?php
+	/**
+	 * Hook: woocommerce_after_shop_loop_item.
+	 *
+	 * @hooked woocommerce_template_loop_product_link_close - 5
+	 * @hooked woocommerce_template_loop_add_to_cart - 10
+	 */
 
-			<div class="entry-meta">
+	
+	echo '</a>';
 
-				<?php understrap_posted_on(); ?>
+	// do_action( 'woocommerce_after_shop_loop_item' );
+	
+	
 
-			</div><!-- .entry-meta -->
+	?>
+	
+</li>
 
-		<?php endif; ?>
 
-	</header><!-- .entry-header -->
+<?php  
 
-	<div class="entry-summary">
 
-		<?php the_excerpt(); ?>
 
-	</div><!-- .entry-summary -->
+?>
 
-	<footer class="entry-footer">
-
-		<?php understrap_entry_footer(); ?>
-
-	</footer><!-- .entry-footer -->
-
-</article><!-- #post-## -->

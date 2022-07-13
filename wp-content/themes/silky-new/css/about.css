@@ -959,3 +959,10 @@
     object-fit: contain;
     width: 52%;
 }
+
+.footer-service a {
+    display: block;
+    text-decoration: none;
+    color: #000;
+    font-size: 13px;
+}

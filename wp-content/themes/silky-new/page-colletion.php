@@ -96,6 +96,7 @@ $termchildren = get_terms( $taxonomy, $args );
         );
 
         $termchildren = get_terms('product_cat',array('child_of' => $parent_id));
+  
         //     // $paged = ( get_query_var( 'paged' ) ) ? get_query_var( 'paged' ) : 1;
         //     // $args = array(
         //     //     'post_type'=> 'post',

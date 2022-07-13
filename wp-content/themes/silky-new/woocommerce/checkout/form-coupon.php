@@ -16,6 +16,14 @@
  */
 
 defined( 'ABSPATH' ) || exit;
+if ( ! wc_coupons_enabled() ) { // @codingStandardsIgnoreLine.
+	return;
+}
 
-?>
+    ?>
+ 
+<?
+
+
+
 
