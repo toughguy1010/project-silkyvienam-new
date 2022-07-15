@@ -2752,9 +2752,13 @@ div[submit-success]>.wpforms-confirmation-container-full:not(.wpforms-redirectio
     font-size: 11px !important;
 }
 
-.order-received-fields .order_details li {
+.woocommerce ul.order_details li {
     padding-right: 11% !important;
     border-right: 1px solid #000 !important;
+}
+
+.product-name li {
+    border: 0 !important;
 }
 
 .order-received-fields li strong {
@@ -2813,6 +2817,22 @@ div[submit-success]>.wpforms-confirmation-container-full:not(.wpforms-redirectio
 
 .woocommerce .woocommerce-customer-details address {
     border: unset !important;
+}
+
+.order_item td li {
+    border-right: 0px solid #ffff !important;
+}
+
+.woocommerce table.shop_table th {
+    padding: 0 !important;
+}
+
+.woocommerce table.shop_table td {
+    padding: 0 !important;
+}
+
+.woocommerce-checkout .shop_table {
+    display: none !important;
 }
 
 

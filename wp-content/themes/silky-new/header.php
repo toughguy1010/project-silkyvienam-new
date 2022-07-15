@@ -46,7 +46,7 @@ defined( 'ABSPATH' ) || exit;
                   ); 
                 ?> 
             </div>
-                <a href="http://localhost/test02/" class="header-logo">
+                <a href="http://silkyvietnam.vn/" class="header-logo">
                 <img src="<?php echo get_template_directory_uri() . '/img/header-logo-img.jpg'; ?>" class="logo-respon" />
                     <!-- <img src="/assets/img/header-logo-img.jpg" alt="" class="logo-respon"> -->
 

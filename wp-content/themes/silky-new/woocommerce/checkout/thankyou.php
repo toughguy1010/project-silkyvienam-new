@@ -16,6 +16,7 @@
  */
 
 defined( 'ABSPATH' ) || exit;
+
 ?>
 
 <div class="woocommerce-order order-received-fields">
@@ -86,3 +87,5 @@ defined( 'ABSPATH' ) || exit;
 	<?php endif; ?>
 
 </div>
+
+

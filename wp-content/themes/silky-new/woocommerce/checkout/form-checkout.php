@@ -44,7 +44,6 @@ if ( ! $checkout->is_registration_enabled() && $checkout->is_registration_requir
 		<div class="col" id="customer_details">
 			<div class="col-12 col-sm-7">
 				<?php do_action( 'woocommerce_checkout_billing' ); ?>
-				<div>
 				
 				<!-- form coupon -->
 					<div class="woocommerce-additional-fields">
@@ -70,11 +69,13 @@ if ( ! $checkout->is_registration_enabled() && $checkout->is_registration_requir
 						
 						<?php do_action( 'woocommerce_after_order_notes', $checkout ); ?>
 					</div>
-					</div>
+					<!-- </div> comment doan code nay tren server -->
+			
+			
 
 					<div class="clear"></div>
 				
-			</div>
+		
 
 			<div class="col-12 col-sm-5 shipping-fields">
 				<?php do_action( 'woocommerce_checkout_shipping' ); ?>
