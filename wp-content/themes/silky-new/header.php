@@ -34,142 +34,23 @@ defined( 'ABSPATH' ) || exit;
         <!-- Header start -->
         <div class="header-section">
             <nav class="navbar navbar-expand-lg ">
-                <!-- <div class="navbar-nav nav-list">
-                    <div class="nav-item link-shop-item ">
-                        <a class="nav-link active shop-link  " aria-current="page" href="#">Shop</a>
-                        <div class="sub-shop-menu">
-                            <ul class="sub-shop-list">
-                                <li class="shop-item">
-                                    <a href="" class="shop-item-title">Sản phẩm mới</a>
-                                </li>
-                                <li class="shop-item menu-1">
-                                    <a href="" class="shop-item-title shop-item-active">Tất cả sản phẩm</a>
-                                    <div class="sub-menu-1">
-                                        <ul class="sub-list-1">
-                                            <div class="sub-item-1">
-                                                <a href="">Váy</a>
-                                            </div>
-                                            <div class="sub-item-1">
-                                                <a href="">Áo</a>
-                                            </div>
-                                            <div class="sub-item-1">
-                                                <a href="">Quần</a>
-                                            </div>
-                                            <div class="sub-item-1">
-                                                <a href="">Jumpsuit</a>
-                                            </div>
-                                            <div class="sub-item-1">
-                                                <a href="">Áo khoác</a>
-                                            </div>
-                                            <div class="sub-item-1">
-                                                <a href="">Áo dài</a>
-                                            </div>
-                                            <div class="sub-item-1">
-                                                <a href="">Sleepwear</a>
-                                            </div>
-                                        </ul>
-                                    </div>
-                                </li>
-                                <li class="shop-item menu-2">
-                                    <a href="" class="shop-item-title shop-item-active">Quà tặng</a>
-                                    <div class="sub-menu-2">
-                                        <ul class="sub-list-2">
-                                            <div class="sub-item-2 ">
-                                                <a href="">Khăn</a>
-                                            </div>
-                                            <div class="sub-item-2 ms-3">
-                                                <a href="">Khăn trơn</a>
-                                            </div>
-                                            <div class="sub-item-2 ms-3">
-                                                <a href="">Khăn thêu</a>
-                                            </div>
-                                            <div class="sub-item-2 ms-3">
-                                                <a href="">Khăn vẽ</a>
-                                            </div>
-                                            <div class="sub-item-2">
-                                                <a href="">Cà vạt</a>
-                                            </div>
-                                            <div class="sub-item-2">
-                                                <a href="">Khẩu trang</a>
-                                            </div>
-
-                                        </ul>
-                                    </div>
-                                </li>
-                                </li>
-                                <li class="shop-item menu-1">
-                                    <a href="" class="shop-item-title shop-item-active">Chất liệu</a>
-                                    <div class="sub-menu-1">
-                                        <ul class="sub-list-1">
-                                            <div class="sub-item-1">
-                                                <a href="">Lụa</a>
-                                            </div>
-                                            <div class="sub-item-1">
-                                                <a href="">Đũi</a>
-                                            </div>
-                                        </ul>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="nav-item me-3 link-collection-item">
-                        <a class="nav-link active collection-link " aria-current="page" href="#">Bộ sưu tập</a>
-                        <div class="sub-collection-menu">
-                            <ul class="sub-collection-list">
-                                <li class="sub-collection-item">
-                                    <a href="">Pre Fall Winter 2022</a>
-                                </li>
-                                <li class="sub-collection-item">
-                                    <a href="">Spring Summer 2022</a>
-                                </li>
-                                <li class="sub-collection-item">
-                                    <a href="">Fall Winter 2022</a>
-                                </li>
-                                <li class="sub-collection-item">
-                                    <a href="">Spring Summer 2022</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="nav-item  link-about-item ">
-                        <a class="nav-link active about-link" aria-current="page" href="about">Câu chuyện SILKY</a>
-                        <div class="sub-about-menu">
-                            <ul class="sub-about-list">
-                                <li class="sub-about-item">
-                                    <a href="about">Giới thiệu</a>
-                                </li>
-                                <li class="sub-about-item">
-                                    <a href="blog">Blog </a>
-                                </li>
-
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Liên hệ</a>
-                    </div>
-
-                </div> -->
+            <div class="menu-desktop">
                 <?php
-                wp_nav_menu(
-                    array(
-                        'theme_location'  => 'primary',
-                        'container_class' => 'collapse navbar-collapse',
-                        'container_id'    => 'navbarNavDropdown',
-                        'menu_class'      => 'navbar-nav ml-auto',
-                        'fallback_cb'     => '',
-                        'menu_id'         => 'main-menu',
-                        'depth'           => 6,
-                        'walker'          => new Understrap_WP_Bootstrap_Navwalker(),
-                    )
-		        );
-		        ?>
-                <div class="header-logo">
+                wp_nav_menu( 
+                    array( 
+                        'theme_location' => 'primary', 
+                        'container' => 'false', 
+                        'menu_id' => 'header-menu', 
+                        'menu_class' => 'header-desktop-menu-list'
+                     ) 
+                  ); 
+                ?> 
+            </div>
+                <a href="http://localhost/test02/" class="header-logo">
                 <img src="<?php echo get_template_directory_uri() . '/img/header-logo-img.jpg'; ?>" class="logo-respon" />
                     <!-- <img src="/assets/img/header-logo-img.jpg" alt="" class="logo-respon"> -->
 
-                </div>
+                </a>
                 <div class="header-feature">
                     <div class="header-feature-list">
                         <div class="header-feature-item switch-languae-btn">

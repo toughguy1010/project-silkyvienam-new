@@ -72,6 +72,14 @@ jQuery(document).ready(function() {
         /* +++ */
     });
 
+    var sortingBtn = document.querySelector(".dropdown-toggle");
+    var sortingArrow = document.querySelector(".sorting-arrow-btn")
+    console.log(sortingArrow);
+    sortingBtn.addEventListener('click', openSortMenu)
+
+    function openSortMenu() {
+        sortingArrow.classList.toggle("sorting-arrow-btn-active")
+    }
 });
 
 

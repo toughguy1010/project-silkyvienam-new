@@ -45,22 +45,8 @@ if ( ! $checkout->is_registration_enabled() && $checkout->is_registration_requir
 			<div class="col-12 col-sm-7">
 				<?php do_action( 'woocommerce_checkout_billing' ); ?>
 				<div>
-				<form class="checkout_coupon woocommerce-form-coupon" method="post" style="display:block">
-									<div class="coupon_checkout">
-									<p>
-										<img src="<?php echo get_template_directory_uri().'/assets/coupon-icon.svg' ?>" style="margin-right: 10px ;"></img>
-										<?php esc_html_e( 'If you have a coupon code, please apply it below.', 'woocommerce' ); ?>
-									</p>
 				
-									<p class="form-row form-row-first">
-										<input type="text" name="coupon_code" class="form-control" placeholder="<?php esc_attr_e( 'Coupon code', 'woocommerce' ); ?>" id="coupon_code" value="" />
-									</p>
-				
-									<p class="form-row form-row-last">
-										<button type="submit" class="coupon-btn" name="apply_coupon" value="<?php esc_attr_e( 'Apply coupon', 'woocommerce' ); ?>"><?php esc_html_e( 'Apply coupon', 'woocommerce' ); ?></button>
-									</p>
-									</div>
-				</form>
+				<!-- form coupon -->
 					<div class="woocommerce-additional-fields">
 						<?php do_action( 'woocommerce_before_order_notes', $checkout ); ?>
 
@@ -90,7 +76,7 @@ if ( ! $checkout->is_registration_enabled() && $checkout->is_registration_requir
 				
 			</div>
 
-			<div class="col-12 col-sm-5">
+			<div class="col-12 col-sm-5 shipping-fields">
 				<?php do_action( 'woocommerce_checkout_shipping' ); ?>
 			</div>
 		</div>
@@ -102,10 +88,10 @@ if ( ! $checkout->is_registration_enabled() && $checkout->is_registration_requir
 
 	
 	<div id="order_review" class="woocommerce-checkout-review-order">
-		<?php //do_action( 'woocommerce_checkout_order_review' ); ?>
+		<?php do_action( 'woocommerce_checkout_order_review' ); ?>
 	</div>
 
-	<?php //do_action( 'woocommerce_checkout_after_order_review' ); ?>
+	<?php do_action( 'woocommerce_checkout_after_order_review' ); ?>
 
 		
 </form>
@@ -119,6 +105,6 @@ if ( ! $checkout->is_registration_enabled() && $checkout->is_registration_requir
 	<?php do_action( 'woocommerce_checkout_before_order_review' ); ?>
 </div>
 </div>
-
+</div>
 <?php
 do_action( 'woocommerce_after_checkout_form', $checkout );

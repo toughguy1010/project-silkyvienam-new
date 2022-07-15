@@ -33,6 +33,138 @@
 
 /* Header css */
 
+
+/* menu desktop*/
+
+.menu-desktop {
+    height: 100%;
+    z-index: 10;
+    font-size: 13px;
+}
+
+.menu-desktop ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.parent-sub-menu .sub-menu {
+    display: none !important;
+}
+
+.parent-1 .sub-menu {
+    min-height: 19vw;
+}
+
+.sub-menu {
+    display: none;
+    background-color: rgba(255, 255, 255, .9);
+    position: absolute;
+    text-align: start !important;
+    width: 13vw;
+    padding-left: 27px !important;
+    left: 0;
+    padding-top: 20px !important;
+    padding-bottom: 25px !important;
+    line-height: 35px !important;
+}
+
+.parent-sub-menu .sub-menu {
+    display: none !important;
+    position: absolute;
+    top: 0%;
+    left: 100%;
+    padding-left: 49px !important;
+    padding-bottom: 20px !important;
+    width: 100%;
+    background-color: rgba(255, 255, 255, .8);
+}
+
+.parent-sub-menu .sub-menu {
+    min-height: 19vw;
+    /* max-height: 19vw; */
+}
+
+.sub-menu-lv3 {}
+
+.sub-menu-lv3 .sub-menu {
+    position: unset;
+    display: none !important;
+    background-color: rgba(255, 255, 255, 0);
+    left: 0;
+    padding-left: 10px !important;
+    line-height: 23px !important;
+    padding-bottom: 0 !important;
+    min-height: 0 !important;
+    padding-top: 0 !important;
+}
+
+.sub-menu-lv3 a:hover .sub-menu {
+    display: block;
+}
+
+.parent-menu {
+    width: fit-content;
+    text-align: center;
+    padding: 0 1.6vw;
+    height: 100%;
+    line-height: 100px;
+    position: relative;
+}
+
+.parent-menu a {
+    text-decoration: none;
+    color: #000;
+}
+
+.parent-menu a:hover {
+    color: #9E8760;
+}
+
+#header-menu {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.parent-2 .sub-menu {
+    /* display: block !important; */
+}
+
+.parent-2 .parent-sub-menu {
+    /* text-align: center; */
+}
+
+.parent-2 {
+    min-width: 20%;
+}
+
+.parent-1 .sub-menu {
+    min-width: 14vw !important;
+}
+
+
+/* .parent-1 .sub-menu {
+    display: block;
+} */
+
+
+/* active-menu-action  */
+
+.parent-menu:hover .sub-menu {
+    display: block;
+}
+
+.parent-sub-menu:hover .sub-menu {
+    display: block !important;
+}
+
+
+/*  active-menu-action   */
+
+
+/* menu desktop */
+
 .header-section {
     width: 100%;
     height: 100px;
@@ -965,4 +1097,8 @@
     text-decoration: none;
     color: #000;
     font-size: 13px;
+}
+
+.elementor-element {
+    clear: both !important;
 }

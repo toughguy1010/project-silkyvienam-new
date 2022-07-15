@@ -69,6 +69,138 @@
 
 /* Header css */
 
+
+/* menu desktop*/
+
+.menu-desktop {
+    height: 100%;
+    z-index: 10;
+    font-size: 13px;
+}
+
+.menu-desktop ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.parent-sub-menu .sub-menu {
+    display: none !important;
+}
+
+.parent-1 .sub-menu {
+    min-height: 19vw;
+}
+
+.sub-menu {
+    display: none;
+    background-color: rgba(255, 255, 255, .9);
+    position: absolute;
+    text-align: start !important;
+    width: 13vw;
+    padding-left: 27px !important;
+    left: 0;
+    padding-top: 20px !important;
+    padding-bottom: 25px !important;
+    line-height: 35px !important;
+}
+
+.parent-sub-menu .sub-menu {
+    display: none !important;
+    position: absolute;
+    top: 0%;
+    left: 100%;
+    padding-left: 49px !important;
+    padding-bottom: 20px !important;
+    width: 100%;
+    background-color: rgba(255, 255, 255, .8);
+}
+
+.parent-sub-menu .sub-menu {
+    min-height: 19vw;
+    /* max-height: 19vw; */
+}
+
+.sub-menu-lv3 {}
+
+.sub-menu-lv3 .sub-menu {
+    position: unset;
+    display: none !important;
+    background-color: rgba(255, 255, 255, 0);
+    left: 0;
+    padding-left: 10px !important;
+    line-height: 23px !important;
+    padding-bottom: 0 !important;
+    min-height: 0 !important;
+    padding-top: 0 !important;
+}
+
+.sub-menu-lv3 a:hover .sub-menu {
+    display: block;
+}
+
+.parent-menu {
+    width: fit-content;
+    text-align: center;
+    padding: 0 1.6vw;
+    height: 100%;
+    line-height: 100px;
+    position: relative;
+}
+
+.parent-menu a {
+    text-decoration: none;
+    color: #000;
+}
+
+.parent-menu a:hover {
+    color: #9E8760;
+}
+
+#header-menu {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.parent-2 .sub-menu {
+    /* display: block !important; */
+}
+
+.parent-2 .parent-sub-menu {
+    /* text-align: center; */
+}
+
+.parent-2 {
+    min-width: 20%;
+}
+
+.parent-1 .sub-menu {
+    min-width: 14vw !important;
+}
+
+
+/* .parent-1 .sub-menu {
+    display: block;
+} */
+
+
+/* active-menu-action  */
+
+.parent-menu:hover .sub-menu {
+    display: block;
+}
+
+.parent-sub-menu:hover .sub-menu {
+    display: block !important;
+}
+
+
+/*  active-menu-action   */
+
+
+/* menu desktop */
+
 .header-section {
     width: 100%;
     height: 100px;
@@ -371,6 +503,14 @@
 
 
 /* cart-item css */
+
+.xoo-wsc-empty-cart {
+    color: #fff;
+}
+
+.xoo-wsc-empty-cart a {
+    color: #fff !important;
+}
 
 .link-cart-item {
     padding-right: 30%;
@@ -1123,13 +1263,13 @@
     height: 3px;
     margin-right: 15px;
     -webkit-transform: rotate(45deg);
-    transition: all .5s;
+    /* transition: all .5s; */
     position: absolute;
     right: 0;
     top: 15px;
 }
 
-.sorting-btn:hover .sorting-arrow-btn {
+.sorting-arrow-btn-active {
     transform: rotate(-135deg);
     -webkit-transform: rotate(-135deg);
 }
@@ -1656,6 +1796,39 @@
 
 .woocommerce-shipping-fields .form-row {
     margin-bottom: 4% !important;
+}
+
+.shipping-fields {
+    width: unset !important;
+}
+
+#payment {
+    background-color: #ffffff !important;
+}
+
+.payment-btn {
+    background-color: #fff !important;
+    color: #000 !important;
+    border: 1px solid #000;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    outline: 1px solid #ffffff;
+    border-radius: 25px;
+    transition: all .5s;
+}
+
+.payment-btn:hover {
+    background-color: #9E8760 !important;
+    color: rgb(255, 255, 255) !important;
+    border: 2px solid rgb(255, 255, 255);
+    outline: 1px solid #9E8760;
+}
+
+.woocommerce-privacy-policy-link {
+    text-decoration: none;
+    color: #000 !important;
 }
 
 .woocommerce-billing-fields__field-wrapper .form-row {
@@ -2475,6 +2648,14 @@
     font-family: 'Raleway', sans-serif !important;
 }
 
+.wpforms-confirmation-container-full,
+div[submit-success]>.wpforms-confirmation-container-full:not(.wpforms-redirection-message) {
+    background-color: #9E8760 !important;
+    color: #fff !important;
+    text-align: center;
+    width: 50%;
+}
+
 
 /* contact-us */
 
@@ -2544,6 +2725,98 @@
 
 
 /* search-result  */
+
+
+/* order-received-fields */
+
+.order-received-fields {
+    width: 65%;
+    margin: 5% auto;
+    font-size: 13px;
+    font-weight: 400 !important;
+}
+
+.order-received-fields .woocommerce-thankyou-order-received {
+    display: block;
+    text-align: center;
+    font-size: 1.7vw;
+    font-weight: 600;
+    font-family: 'Raleway', sans-serif !important;
+}
+
+.order-received-fields ul {
+    padding-left: 0 !important;
+}
+
+.order-received-fields li {
+    font-size: 11px !important;
+}
+
+.order-received-fields .order_details li {
+    padding-right: 11% !important;
+    border-right: 1px solid #000 !important;
+}
+
+.order-received-fields li strong {
+    font-weight: 400 !important;
+    font-size: 10px !important;
+}
+
+.order-received-fields .order_details li:last-child {
+    border-right: 0px solid #000 !important;
+    padding-right: 0 !important;
+    margin-right: 0 !important;
+}
+
+.woocommerce table.shop_table tfoot td {
+    text-align: end;
+}
+
+.order-received-fields .product-total {
+    text-align: end;
+}
+
+.order-received-fields .woocommerce-order-details__title {
+    text-align: center;
+    font-size: 1.5vw;
+    font-weight: 600;
+    font-family: 'Raleway', sans-serif !important;
+}
+
+.order-received-fields .shop_table {
+    border: 0 !important;
+}
+
+.order-received-fields .shop_table thead,
+.order-received-fields .shop_table td,
+.order-received-fields .shop_table th {
+    font-weight: 400 !important;
+}
+
+.woocommerce table.shop_table tfoot th {
+    border: 0;
+}
+
+.order-received-fields .woocommerce-table__product-name a {
+    text-decoration: none;
+    color: #000;
+}
+
+.order-received-fields .woocommerce-column {
+    border: 1px solid #000;
+    min-height: 12vw;
+}
+
+.order-received-fields .woocommerce-table__product-name strong {
+    font-weight: 400;
+}
+
+.woocommerce .woocommerce-customer-details address {
+    border: unset !important;
+}
+
+
+/* order-received-fields */
 
 
 /* responsive */

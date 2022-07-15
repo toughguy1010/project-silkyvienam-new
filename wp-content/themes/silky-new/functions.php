@@ -29,6 +29,22 @@ $understrap_includes = array(
 	'/deprecated.php',                      // Load deprecated functions.
 );
 
+function yourprefix_get_menu_items($location_id){
+    $menu_items = get_registered_nav_menus();
+    $menus = wp_get_nav_menus();
+   
+    $menu_locations = get_nav_menu_locations();
+
+    if (isset($menu_locations[ $location_id ]) && $menu_locations[ $location_id ]!=0) {
+        foreach ($menus as $menu) {
+            if ($menu->term_id == $menu_locations[ $location_id ]) {
+                $menu_items = wp_get_nav_menu_items($menu);
+                break;
+            }
+        }
+        return $menu_items;
+    }
+}
 // Load WooCommerce functions if WooCommerce is activated.
 if ( class_exists( 'WooCommerce' ) ) {
 	$understrap_includes[] = '/woocommerce.php';
@@ -106,7 +122,9 @@ require get_template_directory() . '/inc/ajax/zenzweb-ajax.php';
 add_action('woocommerce_checkout_before_order_review', function() {
     get_template_part('global-templates/part','order-product-sumary');
     }, 99);
-
+    remove_action( 'woocommerce_before_checkout_form', 'woocommerce_checkout_coupon_form', 10 ); 
+    add_action( 'woocommerce_after_order_notes', 'woocommerce_checkout_coupon_form' );
+    // add_action( 'woocommerce_checkout_before_customer_details', 'woocommerce_checkout_coupon_form', 50 ); 
   // Minimum CSS to remove +/- default buttons on input field type number
 add_action( 'wp_head' , 'custom_quantity_fields_css' );
 function custom_quantity_fields_css(){

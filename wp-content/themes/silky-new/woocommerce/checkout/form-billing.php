@@ -29,7 +29,6 @@ defined( 'ABSPATH' ) || exit;
 
 	<?php endif; ?>
 
-	<?php do_action( 'woocommerce_before_checkout_billing_form', $checkout ); ?>
 
 	<div class="woocommerce-billing-fields__field-wrapper">
 		<?php
@@ -40,6 +39,7 @@ defined( 'ABSPATH' ) || exit;
 		}
 		?>
 	</div>
+	<?php do_action( 'woocommerce_before_checkout_billing_form', $checkout ); ?>
 
 	<?php do_action( 'woocommerce_after_checkout_billing_form', $checkout ); ?>
 </div>

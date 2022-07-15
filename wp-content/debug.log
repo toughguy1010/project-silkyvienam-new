@@ -10154,3 +10154,662 @@ Stack trace:
                                                   ) DEFAULT CHARACTER SET utf8bin made by do_action('woocommerce_page_wc-settings'), WP_Hook->do_action, WP_Hook->apply_filters, WC_Admin_Menus->settings_page, WC_Admin_Settings::output, include('/plugins/woocommerce/includes/admin/views/html-admin-settings.php'), do_action('woocommerce_settings_tabs_woof'), WP_Hook->do_action, WP_Hook->apply_filters, WOOF->print_plugin_options, WOOF->render_html, include('/plugins/woocommerce-products-filter/views/plugin_options.php')
 [13-Jul-2022 14:05:50 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
 [13-Jul-2022 14:05:50 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[14-Jul-2022 06:06:51 UTC] WordPress database error Unknown character set: 'utf8bin' for query CREATE TABLE IF NOT EXISTS `wp_woof_query_cache` (
+                                                    `mkey` varchar(64) NOT NULL,
+                                                    `mvalue` text NOT NULL,
+                                                    KEY `mkey` (`mkey`)
+                                                  ) DEFAULT CHARACTER SET utf8bin made by do_action('woocommerce_page_wc-settings'), WP_Hook->do_action, WP_Hook->apply_filters, WC_Admin_Menus->settings_page, WC_Admin_Settings::output, include('/plugins/woocommerce/includes/admin/views/html-admin-settings.php'), do_action('woocommerce_settings_tabs_woof'), WP_Hook->do_action, WP_Hook->apply_filters, WOOF->print_plugin_options, WOOF->render_html, include('/plugins/woocommerce-products-filter/views/plugin_options.php')
+[14-Jul-2022 06:06:59 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[14-Jul-2022 06:06:59 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[14-Jul-2022 06:20:17 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[14-Jul-2022 06:20:17 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[14-Jul-2022 06:20:24 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[14-Jul-2022 06:20:24 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[14-Jul-2022 06:20:39 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[14-Jul-2022 06:20:39 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[14-Jul-2022 07:04:01 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[14-Jul-2022 07:04:01 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[14-Jul-2022 07:08:08 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[14-Jul-2022 07:08:08 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[14-Jul-2022 07:08:14 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[14-Jul-2022 07:08:14 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[14-Jul-2022 07:11:29 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[14-Jul-2022 07:11:29 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[14-Jul-2022 07:11:34 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[14-Jul-2022 07:11:34 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[14-Jul-2022 07:13:55 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[14-Jul-2022 07:13:55 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[14-Jul-2022 07:15:13 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[14-Jul-2022 07:15:13 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[14-Jul-2022 07:15:19 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[14-Jul-2022 07:15:19 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[14-Jul-2022 07:18:40 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[14-Jul-2022 07:18:40 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[14-Jul-2022 07:19:05 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[14-Jul-2022 07:19:05 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[14-Jul-2022 07:19:35 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[14-Jul-2022 07:19:35 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[14-Jul-2022 07:19:38 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[14-Jul-2022 07:19:38 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[14-Jul-2022 07:19:52 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[14-Jul-2022 07:19:52 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[14-Jul-2022 07:22:19 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[14-Jul-2022 07:22:19 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[14-Jul-2022 07:22:32 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[14-Jul-2022 07:22:32 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[14-Jul-2022 07:25:22 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[14-Jul-2022 07:25:22 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[14-Jul-2022 07:29:04 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[14-Jul-2022 07:29:04 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[14-Jul-2022 07:29:13 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[14-Jul-2022 07:29:13 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[14-Jul-2022 07:29:22 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[14-Jul-2022 07:29:22 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[14-Jul-2022 07:29:51 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[14-Jul-2022 07:29:51 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[14-Jul-2022 07:31:24 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[14-Jul-2022 07:31:24 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[14-Jul-2022 07:32:14 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[14-Jul-2022 07:32:14 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[14-Jul-2022 07:36:56 UTC] PHP Notice:  Undefined index: SHIPTOSTATE in E:\wamp64\www\test02\wp-content\plugins\express-checkout-paypal-payment-gateway-for-woocommerce\includes\class-paypal-express-api.php on line 2317
+[14-Jul-2022 07:36:56 UTC] PHP Stack trace:
+[14-Jul-2022 07:36:56 UTC] PHP   1. {main}() E:\wamp64\www\test02\index.php:0
+[14-Jul-2022 07:36:56 UTC] PHP   2. require() E:\wamp64\www\test02\index.php:17
+[14-Jul-2022 07:36:56 UTC] PHP   3. wp($query_vars = *uninitialized*) E:\wamp64\www\test02\wp-blog-header.php:16
+[14-Jul-2022 07:36:56 UTC] PHP   4. WP->main($query_args = '') E:\wamp64\www\test02\wp-includes\functions.php:1330
+[14-Jul-2022 07:36:56 UTC] PHP   5. WP->parse_request($extra_query_vars = '') E:\wamp64\www\test02\wp-includes\class-wp.php:770
+[14-Jul-2022 07:36:56 UTC] PHP   6. do_action_ref_array($hook_name = 'parse_request', $args = [0 => class WP { public $public_query_vars = [...]; public $private_query_vars = [...]; public $extra_query_vars = [...]; public $query_vars = [...]; public $query_string = ''; public $request = 'wc-api/Eh_PayPal_Express_Payment'; public $matched_rule = 'wc-api(/(.*))?/?$'; public $matched_query = '&wc-api=Eh_PayPal_Express_Payment'; public $did_permalink = TRUE }]) E:\wamp64\www\test02\wp-includes\class-wp.php:398
+[14-Jul-2022 07:36:56 UTC] PHP   7. WP_Hook->do_action($args = [0 => class WP { public $public_query_vars = [...]; public $private_query_vars = [...]; public $extra_query_vars = [...]; public $query_vars = [...]; public $query_string = ''; public $request = 'wc-api/Eh_PayPal_Express_Payment'; public $matched_rule = 'wc-api(/(.*))?/?$'; public $matched_query = '&wc-api=Eh_PayPal_Express_Payment'; public $did_permalink = TRUE }]) E:\wamp64\www\test02\wp-includes\plugin.php:524
+[14-Jul-2022 07:36:56 UTC] PHP   8. WP_Hook->apply_filters($value = '', $args = [0 => class WP { public $public_query_vars = [...]; public $private_query_vars = [...]; public $extra_query_vars = [...]; public $query_vars = [...]; public $query_string = ''; public $request = 'wc-api/Eh_PayPal_Express_Payment'; public $matched_rule = 'wc-api(/(.*))?/?$'; public $matched_query = '&wc-api=Eh_PayPal_Express_Payment'; public $did_permalink = TRUE }]) E:\wamp64\www\test02\wp-includes\class-wp-hook.php:331
+[14-Jul-2022 07:36:56 UTC] PHP   9. WC_API->handle_api_requests(class WP { public $public_query_vars = [0 => 'm', 1 => 'p', 2 => 'posts', 3 => 'w', 4 => 'cat', 5 => 'withcomments', 6 => 'withoutcomments', 7 => 's', 8 => 'search', 9 => 'exact', 10 => 'sentence', 11 => 'calendar', 12 => 'page', 13 => 'paged', 14 => 'more', 15 => 'tb', 16 => 'pb', 17 => 'author', 18 => 'order', 19 => 'orderby', 20 => 'year', 21 => 'monthnum', 22 => 'day', 23 => 'hour', 24 => 'minute', 25 => 'second', 26 => 'name', 27 => 'category_name', 28 => 'tag', 29 => 'feed', 30 => 'author_name', 31 => 'pagename', 32 => 'page_id', 33 => 'error', 34 => 'attachment', 35 => 'attachment_id', 36 => 'subpost', 37 => 'subpost_id', 38 => 'preview', 39 => 'robots', 40 => 'favicon', 41 => 'taxonomy', 42 => 'term', 43 => 'cpage', 44 => 'post_type', 45 => 'embed', 46 => 'post_format', 47 => 'e-landing-page', 48 => 'elementor_library', 49 => 'wc-api', 50 => 'product_cat', 51 => 'product_tag', 52 => 'pa_color', 53 => 'pa_size', 54 => 'product', 55 => 'rest_route', 56 => 'sitemap', 57 => 'sitemap-subtype', 58 => 'sitemap-stylesheet', 59 => 'order-pay', 60 => 'order-received', 61 => 'orders', 62 => 'view-order', 63 => 'downloads', 64 => 'edit-account', 65 => 'edit-address', 66 => 'payment-methods', 67 => 'lost-password', 68 => 'customer-logout', 69 => 'add-payment-method', 70 => 'delete-payment-method', 71 => 'set-default-payment-method', 72 => 'wc-auth-version', 73 => 'wc-auth-route', 74 => 'order-pay', 75 => 'order-received', 76 => 'orders', 77 => 'view-order', 78 => 'downloads', 79 => 'edit-account', 80 => 'edit-address', 81 => 'payment-methods', 82 => 'lost-password', 83 => 'customer-logout', 84 => 'add-payment-method', 85 => 'delete-payment-method', 86 => 'set-default-payment-method', 87 => 'wc-api-version', 88 => 'wc-api-route', 89 => 'wc-api']; public $private_query_vars = [0 => 'offset', 1 => 'posts_per_page', 2 => 'posts_per_archive_page', 3 => 'showposts', 4 => 'nopaging', 5 => 'post_type', 6 => 'post_status', 7 => 'category__in', 8 => 'category__not_in', 9 => 'category__and', 10 => 'tag__in', 11 => 'tag__not_in', 12 => 'tag__and', 13 => 'tag_slug__in', 14 => 'tag_slug__and', 15 => 'tag_id', 16 => 'post_mime_type', 17 => 'perm', 18 => 'comments_per_page', 19 => 'post__in', 20 => 'post__not_in', 21 => 'post_parent', 22 => 'post_parent__in', 23 => 'post_parent__not_in', 24 => 'title', 25 => 'fields']; public $extra_query_vars = []; public $query_vars = ['p' => 'http://localhost/test02/checkout/', 'wc-api' => 'Eh_PayPal_Express_Payment']; public $query_string = ''; public $request = 'wc-api/Eh_PayPal_Express_Payment'; public $matched_rule = 'wc-api(/(.*))?/?$'; public $matched_query = '&wc-api=Eh_PayPal_Express_Payment'; public $did_permalink = TRUE }) E:\wamp64\www\test02\wp-includes\class-wp-hook.php:307
+[14-Jul-2022 07:36:56 UTC] PHP  10. do_action($hook_name = 'woocommerce_api_eh_paypal_express_payment') E:\wamp64\www\test02\wp-content\plugins\woocommerce\includes\class-wc-api.php:161
+[14-Jul-2022 07:36:56 UTC] PHP  11. WP_Hook->do_action($args = [0 => '']) E:\wamp64\www\test02\wp-includes\plugin.php:476
+[14-Jul-2022 07:36:56 UTC] PHP  12. WP_Hook->apply_filters($value = '', $args = [0 => '']) E:\wamp64\www\test02\wp-includes\class-wp-hook.php:331
+[14-Jul-2022 07:36:56 UTC] PHP  13. Eh_PayPal_Express_Payment->perform_api_request_paypal('') E:\wamp64\www\test02\wp-includes\class-wp-hook.php:307
+[14-Jul-2022 07:36:56 UTC] PHP  14. Eh_PayPal_Express_Payment->shipping_parse($response = ['TOKEN' => 'EC-8LR760546M4713719', 'BILLINGAGREEMENTACCEPTEDSTATUS' => '0', 'CHECKOUTSTATUS' => 'PaymentActionNotInitiated', 'TIMESTAMP' => '2022-07-14T07:36:54Z', 'CORRELATIONID' => '2579acc697037', 'ACK' => 'Success', 'VERSION' => '115', 'BUILD' => '57255788', 'EMAIL' => 'sb-j0pjg18903611@personal.example.com', 'PAYERID' => 'TKPKRR78VSB42', 'PAYERSTATUS' => 'verified', 'FIRSTNAME' => 'John', 'LASTNAME' => 'Doe', 'COUNTRYCODE' => 'US', 'SHIPTONAME' => 'phamtuanduc dsa', 'SHIPTOSTREET' => 'Quang Trung, Ha Dong, Ha Noi', 'SHIPTOCITY' => 'Ha Noi', 'SHIPTOZIP' => 'EEEEEE', 'SHIPTOCOUNTRYCODE' => 'VN', 'SHIPTOPHONENUM' => '111111111111', 'SHIPTOCOUNTRYNAME' => 'Vietnam', 'ADDRESSSTATUS' => 'Confirmed', 'CURRENCYCODE' => 'USD', 'AMT' => '500.00', 'ITEMAMT' => '500.00', 'SHIPPINGAMT' => '0.00', 'HANDLINGAMT' => '0.00', 'TAXAMT' => '0.00', 'INSURANCEAMT' => '0.00', 'SHIPDISCAMT' => '0.00', 'INSURANCEOPTIONOFFERED' => 'false', 'L_NAME0' => 'BALTHUS PAINTER\'S JACKET', 'L_QTY0' => '2', 'L_TAXAMT0' => '0.00', 'L_AMT0' => '250.00', 'L_DESC0' => 'Color : be, Size : l', 'PAYMENTREQUEST_0_CURRENCYCODE' => 'USD', 'PAYMENTREQUEST_0_AMT' => '500.00', 'PAYMENTREQUEST_0_ITEMAMT' => '500.00', 'PAYMENTREQUEST_0_SHIPPINGAMT' => '0.00', 'PAYMENTREQUEST_0_HANDLINGAMT' => '0.00', 'PAYMENTREQUEST_0_TAXAMT' => '0.00', 'PAYMENTREQUEST_0_INSURANCEAMT' => '0.00', 'PAYMENTREQUEST_0_SHIPDISCAMT' => '0.00', 'PAYMENTREQUEST_0_SELLERPAYPALACCOUNTID' => 'sb-mj47ex18063965@business.example.com', 'PAYMENTREQUEST_0_INSURANCEOPTIONOFFERED' => 'false', 'PAYMENTREQUEST_0_SHIPTONAME' => 'phamtuanduc dsa', 'PAYMENTREQUEST_0_SHIPTOSTREET' => 'Quang Trung, Ha Dong, Ha Noi', 'PAYMENTREQUEST_0_SHIPTOCITY' => 'Ha Noi', 'PAYMENTREQUEST_0_SHIPTOZIP' => 'EEEEEE', 'PAYMENTREQUEST_0_SHIPTOCOUNTRYCODE' => 'VN', 'PAYMENTREQUEST_0_SHIPTOPHONENUM' => '111111111111', 'PAYMENTREQUEST_0_SHIPTOCOUNTRYNAME' => 'Vietnam', 'PAYMENTREQUEST_0_ADDRESSSTATUS' => 'Confirmed', 'L_PAYMENTREQUEST_0_NAME0' => 'BALTHUS PAINTER\'S JACKET', 'L_PAYMENTREQUEST_0_QTY0' => '2', 'L_PAYMENTREQUEST_0_TAXAMT0' => '0.00', 'L_PAYMENTREQUEST_0_AMT0' => '250.00', 'L_PAYMENTREQUEST_0_DESC0' => 'Color : be, Size : l', 'PAYMENTREQUESTINFO_0_ERRORCODE' => '0'], $type = *uninitialized*) E:\wamp64\www\test02\wp-content\plugins\express-checkout-paypal-payment-gateway-for-woocommerce\includes\class-paypal-express-api.php:687
+[14-Jul-2022 07:53:00 UTC] PHP Fatal error:  Cannot redeclare yourprefix_get_menu_items() (previously declared in E:\wamp64\www\test02\wp-content\themes\silky-new\functions.php:31) in E:\wamp64\www\test02\wp-content\themes\silky-new\header.php on line 168
+[14-Jul-2022 07:53:00 UTC] PHP Stack trace:
+[14-Jul-2022 07:53:00 UTC] PHP   1. {main}() E:\wamp64\www\test02\index.php:0
+[14-Jul-2022 07:53:00 UTC] PHP   2. require() E:\wamp64\www\test02\index.php:17
+[14-Jul-2022 07:53:00 UTC] PHP   3. require_once() E:\wamp64\www\test02\wp-blog-header.php:19
+[14-Jul-2022 07:53:00 UTC] PHP   4. include() E:\wamp64\www\test02\wp-includes\template-loader.php:106
+[14-Jul-2022 07:53:00 UTC] PHP   5. get_header($name = *uninitialized*, $args = *uninitialized*) E:\wamp64\www\test02\wp-content\themes\silky-new\index.php:17
+[14-Jul-2022 07:53:00 UTC] PHP   6. locate_template($template_names = [0 => 'header.php'], $load = TRUE, $require_once = TRUE, $args = []) E:\wamp64\www\test02\wp-includes\general-template.php:48
+[14-Jul-2022 07:53:00 UTC] PHP   7. load_template($_template_file = 'E:\\wamp64\\www\\test02/wp-content/themes/silky-new/header.php', $require_once = TRUE, $args = []) E:\wamp64\www\test02\wp-includes\template.php:716
+[14-Jul-2022 07:54:31 UTC] PHP Notice:  Undefined index: sidebar-menu in E:\wamp64\www\test02\wp-content\themes\silky-new\functions.php on line 34
+[14-Jul-2022 07:54:31 UTC] PHP Stack trace:
+[14-Jul-2022 07:54:31 UTC] PHP   1. {main}() E:\wamp64\www\test02\index.php:0
+[14-Jul-2022 07:54:31 UTC] PHP   2. require() E:\wamp64\www\test02\index.php:17
+[14-Jul-2022 07:54:31 UTC] PHP   3. require_once() E:\wamp64\www\test02\wp-blog-header.php:13
+[14-Jul-2022 07:54:31 UTC] PHP   4. require_once() E:\wamp64\www\test02\wp-load.php:50
+[14-Jul-2022 07:54:31 UTC] PHP   5. require_once() E:\wamp64\www\test02\wp-config.php:98
+[14-Jul-2022 07:54:31 UTC] PHP   6. include() E:\wamp64\www\test02\wp-settings.php:566
+[14-Jul-2022 07:54:31 UTC] PHP Notice:  Trying to get property 'term_id' of non-object in E:\wamp64\www\test02\wp-content\themes\silky-new\functions.php on line 35
+[14-Jul-2022 07:54:31 UTC] PHP Stack trace:
+[14-Jul-2022 07:54:31 UTC] PHP   1. {main}() E:\wamp64\www\test02\index.php:0
+[14-Jul-2022 07:54:31 UTC] PHP   2. require() E:\wamp64\www\test02\index.php:17
+[14-Jul-2022 07:54:31 UTC] PHP   3. require_once() E:\wamp64\www\test02\wp-blog-header.php:13
+[14-Jul-2022 07:54:31 UTC] PHP   4. require_once() E:\wamp64\www\test02\wp-load.php:50
+[14-Jul-2022 07:54:31 UTC] PHP   5. require_once() E:\wamp64\www\test02\wp-config.php:98
+[14-Jul-2022 07:54:31 UTC] PHP   6. include() E:\wamp64\www\test02\wp-settings.php:566
+[14-Jul-2022 07:54:31 UTC] PHP Fatal error:  Cannot redeclare yourprefix_get_menu_items() (previously declared in E:\wamp64\www\test02\wp-content\themes\silky-new\functions.php:40) in E:\wamp64\www\test02\wp-content\themes\silky-new\header.php on line 168
+[14-Jul-2022 07:54:31 UTC] PHP Stack trace:
+[14-Jul-2022 07:54:31 UTC] PHP   1. {main}() E:\wamp64\www\test02\index.php:0
+[14-Jul-2022 07:54:31 UTC] PHP   2. require() E:\wamp64\www\test02\index.php:17
+[14-Jul-2022 07:54:31 UTC] PHP   3. require_once() E:\wamp64\www\test02\wp-blog-header.php:19
+[14-Jul-2022 07:54:31 UTC] PHP   4. include() E:\wamp64\www\test02\wp-includes\template-loader.php:106
+[14-Jul-2022 07:54:31 UTC] PHP   5. get_header($name = *uninitialized*, $args = *uninitialized*) E:\wamp64\www\test02\wp-content\themes\silky-new\index.php:17
+[14-Jul-2022 07:54:31 UTC] PHP   6. locate_template($template_names = [0 => 'header.php'], $load = TRUE, $require_once = TRUE, $args = []) E:\wamp64\www\test02\wp-includes\general-template.php:48
+[14-Jul-2022 07:54:31 UTC] PHP   7. load_template($_template_file = 'E:\\wamp64\\www\\test02/wp-content/themes/silky-new/header.php', $require_once = TRUE, $args = []) E:\wamp64\www\test02\wp-includes\template.php:716
+[14-Jul-2022 07:55:02 UTC] PHP Notice:  Undefined index: Menu 1 in E:\wamp64\www\test02\wp-content\themes\silky-new\functions.php on line 34
+[14-Jul-2022 07:55:02 UTC] PHP Stack trace:
+[14-Jul-2022 07:55:02 UTC] PHP   1. {main}() E:\wamp64\www\test02\index.php:0
+[14-Jul-2022 07:55:02 UTC] PHP   2. require() E:\wamp64\www\test02\index.php:17
+[14-Jul-2022 07:55:02 UTC] PHP   3. require_once() E:\wamp64\www\test02\wp-blog-header.php:13
+[14-Jul-2022 07:55:02 UTC] PHP   4. require_once() E:\wamp64\www\test02\wp-load.php:50
+[14-Jul-2022 07:55:02 UTC] PHP   5. require_once() E:\wamp64\www\test02\wp-config.php:98
+[14-Jul-2022 07:55:02 UTC] PHP   6. include() E:\wamp64\www\test02\wp-settings.php:566
+[14-Jul-2022 07:55:02 UTC] PHP Notice:  Trying to get property 'term_id' of non-object in E:\wamp64\www\test02\wp-content\themes\silky-new\functions.php on line 35
+[14-Jul-2022 07:55:02 UTC] PHP Stack trace:
+[14-Jul-2022 07:55:02 UTC] PHP   1. {main}() E:\wamp64\www\test02\index.php:0
+[14-Jul-2022 07:55:02 UTC] PHP   2. require() E:\wamp64\www\test02\index.php:17
+[14-Jul-2022 07:55:02 UTC] PHP   3. require_once() E:\wamp64\www\test02\wp-blog-header.php:13
+[14-Jul-2022 07:55:02 UTC] PHP   4. require_once() E:\wamp64\www\test02\wp-load.php:50
+[14-Jul-2022 07:55:02 UTC] PHP   5. require_once() E:\wamp64\www\test02\wp-config.php:98
+[14-Jul-2022 07:55:02 UTC] PHP   6. include() E:\wamp64\www\test02\wp-settings.php:566
+[14-Jul-2022 07:55:02 UTC] PHP Notice:  Undefined index: Menu 1 in E:\wamp64\www\test02\wp-content\themes\silky-new\functions.php on line 34
+[14-Jul-2022 07:55:02 UTC] PHP Stack trace:
+[14-Jul-2022 07:55:02 UTC] PHP   1. {main}() E:\wamp64\www\test02\wp-cron.php:0
+[14-Jul-2022 07:55:02 UTC] PHP   2. require_once() E:\wamp64\www\test02\wp-cron.php:44
+[14-Jul-2022 07:55:02 UTC] PHP   3. require_once() E:\wamp64\www\test02\wp-load.php:50
+[14-Jul-2022 07:55:02 UTC] PHP   4. require_once() E:\wamp64\www\test02\wp-config.php:98
+[14-Jul-2022 07:55:02 UTC] PHP   5. include() E:\wamp64\www\test02\wp-settings.php:566
+[14-Jul-2022 07:55:02 UTC] PHP Notice:  Trying to get property 'term_id' of non-object in E:\wamp64\www\test02\wp-content\themes\silky-new\functions.php on line 35
+[14-Jul-2022 07:55:02 UTC] PHP Stack trace:
+[14-Jul-2022 07:55:02 UTC] PHP   1. {main}() E:\wamp64\www\test02\wp-cron.php:0
+[14-Jul-2022 07:55:02 UTC] PHP   2. require_once() E:\wamp64\www\test02\wp-cron.php:44
+[14-Jul-2022 07:55:02 UTC] PHP   3. require_once() E:\wamp64\www\test02\wp-load.php:50
+[14-Jul-2022 07:55:02 UTC] PHP   4. require_once() E:\wamp64\www\test02\wp-config.php:98
+[14-Jul-2022 07:55:02 UTC] PHP   5. include() E:\wamp64\www\test02\wp-settings.php:566
+[14-Jul-2022 07:55:03 UTC] PHP Fatal error:  Cannot redeclare yourprefix_get_menu_items() (previously declared in E:\wamp64\www\test02\wp-content\themes\silky-new\functions.php:40) in E:\wamp64\www\test02\wp-content\themes\silky-new\header.php on line 168
+[14-Jul-2022 07:55:03 UTC] PHP Stack trace:
+[14-Jul-2022 07:55:03 UTC] PHP   1. {main}() E:\wamp64\www\test02\index.php:0
+[14-Jul-2022 07:55:03 UTC] PHP   2. require() E:\wamp64\www\test02\index.php:17
+[14-Jul-2022 07:55:03 UTC] PHP   3. require_once() E:\wamp64\www\test02\wp-blog-header.php:19
+[14-Jul-2022 07:55:03 UTC] PHP   4. include() E:\wamp64\www\test02\wp-includes\template-loader.php:106
+[14-Jul-2022 07:55:03 UTC] PHP   5. get_header($name = *uninitialized*, $args = *uninitialized*) E:\wamp64\www\test02\wp-content\themes\silky-new\index.php:17
+[14-Jul-2022 07:55:03 UTC] PHP   6. locate_template($template_names = [0 => 'header.php'], $load = TRUE, $require_once = TRUE, $args = []) E:\wamp64\www\test02\wp-includes\general-template.php:48
+[14-Jul-2022 07:55:03 UTC] PHP   7. load_template($_template_file = 'E:\\wamp64\\www\\test02/wp-content/themes/silky-new/header.php', $require_once = TRUE, $args = []) E:\wamp64\www\test02\wp-includes\template.php:716
+[14-Jul-2022 07:55:24 UTC] PHP Notice:  Undefined index: Menu 1 in E:\wamp64\www\test02\wp-content\themes\silky-new\functions.php on line 34
+[14-Jul-2022 07:55:24 UTC] PHP Stack trace:
+[14-Jul-2022 07:55:24 UTC] PHP   1. {main}() E:\wamp64\www\test02\wp-admin\admin-ajax.php:0
+[14-Jul-2022 07:55:24 UTC] PHP   2. require_once() E:\wamp64\www\test02\wp-admin\admin-ajax.php:22
+[14-Jul-2022 07:55:24 UTC] PHP   3. require_once() E:\wamp64\www\test02\wp-load.php:50
+[14-Jul-2022 07:55:24 UTC] PHP   4. require_once() E:\wamp64\www\test02\wp-config.php:98
+[14-Jul-2022 07:55:24 UTC] PHP   5. include() E:\wamp64\www\test02\wp-settings.php:566
+[14-Jul-2022 07:55:24 UTC] PHP Notice:  Trying to get property 'term_id' of non-object in E:\wamp64\www\test02\wp-content\themes\silky-new\functions.php on line 35
+[14-Jul-2022 07:55:24 UTC] PHP Stack trace:
+[14-Jul-2022 07:55:24 UTC] PHP   1. {main}() E:\wamp64\www\test02\wp-admin\admin-ajax.php:0
+[14-Jul-2022 07:55:24 UTC] PHP   2. require_once() E:\wamp64\www\test02\wp-admin\admin-ajax.php:22
+[14-Jul-2022 07:55:24 UTC] PHP   3. require_once() E:\wamp64\www\test02\wp-load.php:50
+[14-Jul-2022 07:55:24 UTC] PHP   4. require_once() E:\wamp64\www\test02\wp-config.php:98
+[14-Jul-2022 07:55:24 UTC] PHP   5. include() E:\wamp64\www\test02\wp-settings.php:566
+[14-Jul-2022 07:56:28 UTC] PHP Notice:  Undefined index: Menu 1 in E:\wamp64\www\test02\wp-content\themes\silky-new\functions.php on line 34
+[14-Jul-2022 07:56:28 UTC] PHP Stack trace:
+[14-Jul-2022 07:56:28 UTC] PHP   1. {main}() E:\wamp64\www\test02\wp-admin\admin-ajax.php:0
+[14-Jul-2022 07:56:28 UTC] PHP   2. require_once() E:\wamp64\www\test02\wp-admin\admin-ajax.php:22
+[14-Jul-2022 07:56:28 UTC] PHP   3. require_once() E:\wamp64\www\test02\wp-load.php:50
+[14-Jul-2022 07:56:28 UTC] PHP   4. require_once() E:\wamp64\www\test02\wp-config.php:98
+[14-Jul-2022 07:56:28 UTC] PHP   5. include() E:\wamp64\www\test02\wp-settings.php:566
+[14-Jul-2022 07:56:28 UTC] PHP Notice:  Trying to get property 'term_id' of non-object in E:\wamp64\www\test02\wp-content\themes\silky-new\functions.php on line 35
+[14-Jul-2022 07:56:28 UTC] PHP Stack trace:
+[14-Jul-2022 07:56:28 UTC] PHP   1. {main}() E:\wamp64\www\test02\wp-admin\admin-ajax.php:0
+[14-Jul-2022 07:56:28 UTC] PHP   2. require_once() E:\wamp64\www\test02\wp-admin\admin-ajax.php:22
+[14-Jul-2022 07:56:28 UTC] PHP   3. require_once() E:\wamp64\www\test02\wp-load.php:50
+[14-Jul-2022 07:56:28 UTC] PHP   4. require_once() E:\wamp64\www\test02\wp-config.php:98
+[14-Jul-2022 07:56:28 UTC] PHP   5. include() E:\wamp64\www\test02\wp-settings.php:566
+[14-Jul-2022 07:56:28 UTC] PHP Notice:  Undefined index: Menu 1 in E:\wamp64\www\test02\wp-content\themes\silky-new\functions.php on line 34
+[14-Jul-2022 07:56:28 UTC] PHP Stack trace:
+[14-Jul-2022 07:56:28 UTC] PHP   1. {main}() E:\wamp64\www\test02\wp-cron.php:0
+[14-Jul-2022 07:56:28 UTC] PHP   2. require_once() E:\wamp64\www\test02\wp-cron.php:44
+[14-Jul-2022 07:56:28 UTC] PHP   3. require_once() E:\wamp64\www\test02\wp-load.php:50
+[14-Jul-2022 07:56:28 UTC] PHP   4. require_once() E:\wamp64\www\test02\wp-config.php:98
+[14-Jul-2022 07:56:28 UTC] PHP   5. include() E:\wamp64\www\test02\wp-settings.php:566
+[14-Jul-2022 07:56:28 UTC] PHP Notice:  Trying to get property 'term_id' of non-object in E:\wamp64\www\test02\wp-content\themes\silky-new\functions.php on line 35
+[14-Jul-2022 07:56:28 UTC] PHP Stack trace:
+[14-Jul-2022 07:56:28 UTC] PHP   1. {main}() E:\wamp64\www\test02\wp-cron.php:0
+[14-Jul-2022 07:56:28 UTC] PHP   2. require_once() E:\wamp64\www\test02\wp-cron.php:44
+[14-Jul-2022 07:56:28 UTC] PHP   3. require_once() E:\wamp64\www\test02\wp-load.php:50
+[14-Jul-2022 07:56:28 UTC] PHP   4. require_once() E:\wamp64\www\test02\wp-config.php:98
+[14-Jul-2022 07:56:28 UTC] PHP   5. include() E:\wamp64\www\test02\wp-settings.php:566
+[14-Jul-2022 07:56:42 UTC] PHP Notice:  Undefined index: nav-menus in E:\wamp64\www\test02\wp-content\themes\silky-new\functions.php on line 34
+[14-Jul-2022 07:56:42 UTC] PHP Stack trace:
+[14-Jul-2022 07:56:42 UTC] PHP   1. {main}() E:\wamp64\www\test02\index.php:0
+[14-Jul-2022 07:56:42 UTC] PHP   2. require() E:\wamp64\www\test02\index.php:17
+[14-Jul-2022 07:56:42 UTC] PHP   3. require_once() E:\wamp64\www\test02\wp-blog-header.php:13
+[14-Jul-2022 07:56:42 UTC] PHP   4. require_once() E:\wamp64\www\test02\wp-load.php:50
+[14-Jul-2022 07:56:42 UTC] PHP   5. require_once() E:\wamp64\www\test02\wp-config.php:98
+[14-Jul-2022 07:56:42 UTC] PHP   6. include() E:\wamp64\www\test02\wp-settings.php:566
+[14-Jul-2022 07:56:42 UTC] PHP Notice:  Trying to get property 'term_id' of non-object in E:\wamp64\www\test02\wp-content\themes\silky-new\functions.php on line 35
+[14-Jul-2022 07:56:42 UTC] PHP Stack trace:
+[14-Jul-2022 07:56:42 UTC] PHP   1. {main}() E:\wamp64\www\test02\index.php:0
+[14-Jul-2022 07:56:42 UTC] PHP   2. require() E:\wamp64\www\test02\index.php:17
+[14-Jul-2022 07:56:42 UTC] PHP   3. require_once() E:\wamp64\www\test02\wp-blog-header.php:13
+[14-Jul-2022 07:56:42 UTC] PHP   4. require_once() E:\wamp64\www\test02\wp-load.php:50
+[14-Jul-2022 07:56:42 UTC] PHP   5. require_once() E:\wamp64\www\test02\wp-config.php:98
+[14-Jul-2022 07:56:42 UTC] PHP   6. include() E:\wamp64\www\test02\wp-settings.php:566
+[14-Jul-2022 07:56:42 UTC] PHP Notice:  Undefined index: nav-menus in E:\wamp64\www\test02\wp-content\themes\silky-new\functions.php on line 34
+[14-Jul-2022 07:56:42 UTC] PHP Stack trace:
+[14-Jul-2022 07:56:42 UTC] PHP   1. {main}() E:\wamp64\www\test02\wp-cron.php:0
+[14-Jul-2022 07:56:42 UTC] PHP   2. require_once() E:\wamp64\www\test02\wp-cron.php:44
+[14-Jul-2022 07:56:42 UTC] PHP   3. require_once() E:\wamp64\www\test02\wp-load.php:50
+[14-Jul-2022 07:56:42 UTC] PHP   4. require_once() E:\wamp64\www\test02\wp-config.php:98
+[14-Jul-2022 07:56:42 UTC] PHP   5. include() E:\wamp64\www\test02\wp-settings.php:566
+[14-Jul-2022 07:56:42 UTC] PHP Notice:  Trying to get property 'term_id' of non-object in E:\wamp64\www\test02\wp-content\themes\silky-new\functions.php on line 35
+[14-Jul-2022 07:56:42 UTC] PHP Stack trace:
+[14-Jul-2022 07:56:42 UTC] PHP   1. {main}() E:\wamp64\www\test02\wp-cron.php:0
+[14-Jul-2022 07:56:42 UTC] PHP   2. require_once() E:\wamp64\www\test02\wp-cron.php:44
+[14-Jul-2022 07:56:42 UTC] PHP   3. require_once() E:\wamp64\www\test02\wp-load.php:50
+[14-Jul-2022 07:56:42 UTC] PHP   4. require_once() E:\wamp64\www\test02\wp-config.php:98
+[14-Jul-2022 07:56:42 UTC] PHP   5. include() E:\wamp64\www\test02\wp-settings.php:566
+[14-Jul-2022 07:56:42 UTC] PHP Fatal error:  Cannot redeclare yourprefix_get_menu_items() (previously declared in E:\wamp64\www\test02\wp-content\themes\silky-new\functions.php:40) in E:\wamp64\www\test02\wp-content\themes\silky-new\header.php on line 168
+[14-Jul-2022 07:56:42 UTC] PHP Stack trace:
+[14-Jul-2022 07:56:42 UTC] PHP   1. {main}() E:\wamp64\www\test02\index.php:0
+[14-Jul-2022 07:56:42 UTC] PHP   2. require() E:\wamp64\www\test02\index.php:17
+[14-Jul-2022 07:56:42 UTC] PHP   3. require_once() E:\wamp64\www\test02\wp-blog-header.php:19
+[14-Jul-2022 07:56:42 UTC] PHP   4. include() E:\wamp64\www\test02\wp-includes\template-loader.php:106
+[14-Jul-2022 07:56:42 UTC] PHP   5. get_header($name = *uninitialized*, $args = *uninitialized*) E:\wamp64\www\test02\wp-content\themes\silky-new\index.php:17
+[14-Jul-2022 07:56:42 UTC] PHP   6. locate_template($template_names = [0 => 'header.php'], $load = TRUE, $require_once = TRUE, $args = []) E:\wamp64\www\test02\wp-includes\general-template.php:48
+[14-Jul-2022 07:56:42 UTC] PHP   7. load_template($_template_file = 'E:\\wamp64\\www\\test02/wp-content/themes/silky-new/header.php', $require_once = TRUE, $args = []) E:\wamp64\www\test02\wp-includes\template.php:716
+[14-Jul-2022 07:56:48 UTC] PHP Notice:  Undefined index: nav-menu in E:\wamp64\www\test02\wp-content\themes\silky-new\functions.php on line 34
+[14-Jul-2022 07:56:48 UTC] PHP Stack trace:
+[14-Jul-2022 07:56:48 UTC] PHP   1. {main}() E:\wamp64\www\test02\index.php:0
+[14-Jul-2022 07:56:48 UTC] PHP   2. require() E:\wamp64\www\test02\index.php:17
+[14-Jul-2022 07:56:48 UTC] PHP   3. require_once() E:\wamp64\www\test02\wp-blog-header.php:13
+[14-Jul-2022 07:56:48 UTC] PHP   4. require_once() E:\wamp64\www\test02\wp-load.php:50
+[14-Jul-2022 07:56:48 UTC] PHP   5. require_once() E:\wamp64\www\test02\wp-config.php:98
+[14-Jul-2022 07:56:48 UTC] PHP   6. include() E:\wamp64\www\test02\wp-settings.php:566
+[14-Jul-2022 07:56:48 UTC] PHP Notice:  Trying to get property 'term_id' of non-object in E:\wamp64\www\test02\wp-content\themes\silky-new\functions.php on line 35
+[14-Jul-2022 07:56:48 UTC] PHP Stack trace:
+[14-Jul-2022 07:56:48 UTC] PHP   1. {main}() E:\wamp64\www\test02\index.php:0
+[14-Jul-2022 07:56:48 UTC] PHP   2. require() E:\wamp64\www\test02\index.php:17
+[14-Jul-2022 07:56:48 UTC] PHP   3. require_once() E:\wamp64\www\test02\wp-blog-header.php:13
+[14-Jul-2022 07:56:48 UTC] PHP   4. require_once() E:\wamp64\www\test02\wp-load.php:50
+[14-Jul-2022 07:56:48 UTC] PHP   5. require_once() E:\wamp64\www\test02\wp-config.php:98
+[14-Jul-2022 07:56:48 UTC] PHP   6. include() E:\wamp64\www\test02\wp-settings.php:566
+[14-Jul-2022 07:56:48 UTC] PHP Fatal error:  Cannot redeclare yourprefix_get_menu_items() (previously declared in E:\wamp64\www\test02\wp-content\themes\silky-new\functions.php:40) in E:\wamp64\www\test02\wp-content\themes\silky-new\header.php on line 168
+[14-Jul-2022 07:56:48 UTC] PHP Stack trace:
+[14-Jul-2022 07:56:48 UTC] PHP   1. {main}() E:\wamp64\www\test02\index.php:0
+[14-Jul-2022 07:56:48 UTC] PHP   2. require() E:\wamp64\www\test02\index.php:17
+[14-Jul-2022 07:56:48 UTC] PHP   3. require_once() E:\wamp64\www\test02\wp-blog-header.php:19
+[14-Jul-2022 07:56:48 UTC] PHP   4. include() E:\wamp64\www\test02\wp-includes\template-loader.php:106
+[14-Jul-2022 07:56:48 UTC] PHP   5. get_header($name = *uninitialized*, $args = *uninitialized*) E:\wamp64\www\test02\wp-content\themes\silky-new\index.php:17
+[14-Jul-2022 07:56:48 UTC] PHP   6. locate_template($template_names = [0 => 'header.php'], $load = TRUE, $require_once = TRUE, $args = []) E:\wamp64\www\test02\wp-includes\general-template.php:48
+[14-Jul-2022 07:56:48 UTC] PHP   7. load_template($_template_file = 'E:\\wamp64\\www\\test02/wp-content/themes/silky-new/header.php', $require_once = TRUE, $args = []) E:\wamp64\www\test02\wp-includes\template.php:716
+[14-Jul-2022 07:57:00 UTC] PHP Notice:  Undefined index:  in E:\wamp64\www\test02\wp-content\themes\silky-new\functions.php on line 34
+[14-Jul-2022 07:57:00 UTC] PHP Stack trace:
+[14-Jul-2022 07:57:00 UTC] PHP   1. {main}() E:\wamp64\www\test02\index.php:0
+[14-Jul-2022 07:57:00 UTC] PHP   2. require() E:\wamp64\www\test02\index.php:17
+[14-Jul-2022 07:57:00 UTC] PHP   3. require_once() E:\wamp64\www\test02\wp-blog-header.php:13
+[14-Jul-2022 07:57:00 UTC] PHP   4. require_once() E:\wamp64\www\test02\wp-load.php:50
+[14-Jul-2022 07:57:00 UTC] PHP   5. require_once() E:\wamp64\www\test02\wp-config.php:98
+[14-Jul-2022 07:57:00 UTC] PHP   6. include() E:\wamp64\www\test02\wp-settings.php:566
+[14-Jul-2022 07:57:00 UTC] PHP Notice:  Trying to get property 'term_id' of non-object in E:\wamp64\www\test02\wp-content\themes\silky-new\functions.php on line 35
+[14-Jul-2022 07:57:00 UTC] PHP Stack trace:
+[14-Jul-2022 07:57:00 UTC] PHP   1. {main}() E:\wamp64\www\test02\index.php:0
+[14-Jul-2022 07:57:00 UTC] PHP   2. require() E:\wamp64\www\test02\index.php:17
+[14-Jul-2022 07:57:00 UTC] PHP   3. require_once() E:\wamp64\www\test02\wp-blog-header.php:13
+[14-Jul-2022 07:57:00 UTC] PHP   4. require_once() E:\wamp64\www\test02\wp-load.php:50
+[14-Jul-2022 07:57:00 UTC] PHP   5. require_once() E:\wamp64\www\test02\wp-config.php:98
+[14-Jul-2022 07:57:00 UTC] PHP   6. include() E:\wamp64\www\test02\wp-settings.php:566
+[14-Jul-2022 07:57:00 UTC] PHP Fatal error:  Cannot redeclare yourprefix_get_menu_items() (previously declared in E:\wamp64\www\test02\wp-content\themes\silky-new\functions.php:40) in E:\wamp64\www\test02\wp-content\themes\silky-new\header.php on line 168
+[14-Jul-2022 07:57:00 UTC] PHP Stack trace:
+[14-Jul-2022 07:57:00 UTC] PHP   1. {main}() E:\wamp64\www\test02\index.php:0
+[14-Jul-2022 07:57:00 UTC] PHP   2. require() E:\wamp64\www\test02\index.php:17
+[14-Jul-2022 07:57:00 UTC] PHP   3. require_once() E:\wamp64\www\test02\wp-blog-header.php:19
+[14-Jul-2022 07:57:00 UTC] PHP   4. include() E:\wamp64\www\test02\wp-includes\template-loader.php:106
+[14-Jul-2022 07:57:00 UTC] PHP   5. get_header($name = *uninitialized*, $args = *uninitialized*) E:\wamp64\www\test02\wp-content\themes\silky-new\index.php:17
+[14-Jul-2022 07:57:00 UTC] PHP   6. locate_template($template_names = [0 => 'header.php'], $load = TRUE, $require_once = TRUE, $args = []) E:\wamp64\www\test02\wp-includes\general-template.php:48
+[14-Jul-2022 07:57:00 UTC] PHP   7. load_template($_template_file = 'E:\\wamp64\\www\\test02/wp-content/themes/silky-new/header.php', $require_once = TRUE, $args = []) E:\wamp64\www\test02\wp-includes\template.php:716
+[14-Jul-2022 07:57:28 UTC] PHP Notice:  Undefined index:  in E:\wamp64\www\test02\wp-content\themes\silky-new\functions.php on line 34
+[14-Jul-2022 07:57:28 UTC] PHP Stack trace:
+[14-Jul-2022 07:57:28 UTC] PHP   1. {main}() E:\wamp64\www\test02\wp-admin\admin-ajax.php:0
+[14-Jul-2022 07:57:28 UTC] PHP   2. require_once() E:\wamp64\www\test02\wp-admin\admin-ajax.php:22
+[14-Jul-2022 07:57:28 UTC] PHP   3. require_once() E:\wamp64\www\test02\wp-load.php:50
+[14-Jul-2022 07:57:28 UTC] PHP   4. require_once() E:\wamp64\www\test02\wp-config.php:98
+[14-Jul-2022 07:57:28 UTC] PHP   5. include() E:\wamp64\www\test02\wp-settings.php:566
+[14-Jul-2022 07:57:28 UTC] PHP Notice:  Trying to get property 'term_id' of non-object in E:\wamp64\www\test02\wp-content\themes\silky-new\functions.php on line 35
+[14-Jul-2022 07:57:28 UTC] PHP Stack trace:
+[14-Jul-2022 07:57:28 UTC] PHP   1. {main}() E:\wamp64\www\test02\wp-admin\admin-ajax.php:0
+[14-Jul-2022 07:57:28 UTC] PHP   2. require_once() E:\wamp64\www\test02\wp-admin\admin-ajax.php:22
+[14-Jul-2022 07:57:28 UTC] PHP   3. require_once() E:\wamp64\www\test02\wp-load.php:50
+[14-Jul-2022 07:57:28 UTC] PHP   4. require_once() E:\wamp64\www\test02\wp-config.php:98
+[14-Jul-2022 07:57:28 UTC] PHP   5. include() E:\wamp64\www\test02\wp-settings.php:566
+[14-Jul-2022 07:57:45 UTC] PHP Fatal error:  Cannot redeclare yourprefix_get_menu_items() (previously declared in E:\wamp64\www\test02\wp-content\themes\silky-new\functions.php:40) in E:\wamp64\www\test02\wp-content\themes\silky-new\header.php on line 168
+[14-Jul-2022 07:57:45 UTC] PHP Stack trace:
+[14-Jul-2022 07:57:45 UTC] PHP   1. {main}() E:\wamp64\www\test02\index.php:0
+[14-Jul-2022 07:57:45 UTC] PHP   2. require() E:\wamp64\www\test02\index.php:17
+[14-Jul-2022 07:57:45 UTC] PHP   3. require_once() E:\wamp64\www\test02\wp-blog-header.php:19
+[14-Jul-2022 07:57:45 UTC] PHP   4. include() E:\wamp64\www\test02\wp-includes\template-loader.php:106
+[14-Jul-2022 07:57:45 UTC] PHP   5. get_header($name = *uninitialized*, $args = *uninitialized*) E:\wamp64\www\test02\wp-content\themes\silky-new\index.php:17
+[14-Jul-2022 07:57:45 UTC] PHP   6. locate_template($template_names = [0 => 'header.php'], $load = TRUE, $require_once = TRUE, $args = []) E:\wamp64\www\test02\wp-includes\general-template.php:48
+[14-Jul-2022 07:57:45 UTC] PHP   7. load_template($_template_file = 'E:\\wamp64\\www\\test02/wp-content/themes/silky-new/header.php', $require_once = TRUE, $args = []) E:\wamp64\www\test02\wp-includes\template.php:716
+[14-Jul-2022 07:59:25 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at E:\wamp64\www\test02\wp-content\themes\silky-new\functions.php:38) in E:\wamp64\www\test02\wp-includes\http.php on line 493
+[14-Jul-2022 07:59:25 UTC] PHP Stack trace:
+[14-Jul-2022 07:59:25 UTC] PHP   1. {main}() E:\wamp64\www\test02\wp-admin\admin-ajax.php:0
+[14-Jul-2022 07:59:25 UTC] PHP   2. send_origin_headers() E:\wamp64\www\test02\wp-admin\admin-ajax.php:25
+[14-Jul-2022 07:59:25 UTC] PHP   3. header($header = 'Access-Control-Allow-Origin: http://localhost') E:\wamp64\www\test02\wp-includes\http.php:493
+[14-Jul-2022 07:59:25 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at E:\wamp64\www\test02\wp-content\themes\silky-new\functions.php:38) in E:\wamp64\www\test02\wp-includes\http.php on line 494
+[14-Jul-2022 07:59:25 UTC] PHP Stack trace:
+[14-Jul-2022 07:59:25 UTC] PHP   1. {main}() E:\wamp64\www\test02\wp-admin\admin-ajax.php:0
+[14-Jul-2022 07:59:25 UTC] PHP   2. send_origin_headers() E:\wamp64\www\test02\wp-admin\admin-ajax.php:25
+[14-Jul-2022 07:59:25 UTC] PHP   3. header($header = 'Access-Control-Allow-Credentials: true') E:\wamp64\www\test02\wp-includes\http.php:494
+[14-Jul-2022 07:59:25 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at E:\wamp64\www\test02\wp-content\themes\silky-new\functions.php:38) in E:\wamp64\www\test02\wp-admin\admin-ajax.php on line 27
+[14-Jul-2022 07:59:25 UTC] PHP Stack trace:
+[14-Jul-2022 07:59:25 UTC] PHP   1. {main}() E:\wamp64\www\test02\wp-admin\admin-ajax.php:0
+[14-Jul-2022 07:59:25 UTC] PHP   2. header($header = 'Content-Type: text/html; charset=UTF-8') E:\wamp64\www\test02\wp-admin\admin-ajax.php:27
+[14-Jul-2022 07:59:25 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at E:\wamp64\www\test02\wp-content\themes\silky-new\functions.php:38) in E:\wamp64\www\test02\wp-admin\admin-ajax.php on line 28
+[14-Jul-2022 07:59:25 UTC] PHP Stack trace:
+[14-Jul-2022 07:59:25 UTC] PHP   1. {main}() E:\wamp64\www\test02\wp-admin\admin-ajax.php:0
+[14-Jul-2022 07:59:25 UTC] PHP   2. header($header = 'X-Robots-Tag: noindex') E:\wamp64\www\test02\wp-admin\admin-ajax.php:28
+[14-Jul-2022 07:59:25 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at E:\wamp64\www\test02\wp-content\themes\silky-new\functions.php:38) in E:\wamp64\www\test02\wp-includes\functions.php on line 6764
+[14-Jul-2022 07:59:25 UTC] PHP Stack trace:
+[14-Jul-2022 07:59:25 UTC] PHP   1. {main}() E:\wamp64\www\test02\wp-admin\admin-ajax.php:0
+[14-Jul-2022 07:59:25 UTC] PHP   2. send_nosniff_header() E:\wamp64\www\test02\wp-admin\admin-ajax.php:41
+[14-Jul-2022 07:59:25 UTC] PHP   3. header($header = 'X-Content-Type-Options: nosniff') E:\wamp64\www\test02\wp-includes\functions.php:6764
+[14-Jul-2022 07:59:25 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at E:\wamp64\www\test02\wp-content\themes\silky-new\functions.php:38) in E:\wamp64\www\test02\wp-admin\includes\misc.php on line 1380
+[14-Jul-2022 07:59:25 UTC] PHP Stack trace:
+[14-Jul-2022 07:59:25 UTC] PHP   1. {main}() E:\wamp64\www\test02\wp-admin\admin-ajax.php:0
+[14-Jul-2022 07:59:25 UTC] PHP   2. do_action($hook_name = 'admin_init') E:\wamp64\www\test02\wp-admin\admin-ajax.php:45
+[14-Jul-2022 07:59:25 UTC] PHP   3. WP_Hook->do_action($args = [0 => '']) E:\wamp64\www\test02\wp-includes\plugin.php:476
+[14-Jul-2022 07:59:25 UTC] PHP   4. WP_Hook->apply_filters($value = '', $args = [0 => '']) E:\wamp64\www\test02\wp-includes\class-wp-hook.php:331
+[14-Jul-2022 07:59:25 UTC] PHP   5. wp_admin_headers('') E:\wamp64\www\test02\wp-includes\class-wp-hook.php:307
+[14-Jul-2022 07:59:25 UTC] PHP   6. header($header = 'Referrer-Policy: strict-origin-when-cross-origin') E:\wamp64\www\test02\wp-admin\includes\misc.php:1380
+[14-Jul-2022 07:59:25 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at E:\wamp64\www\test02\wp-content\themes\silky-new\functions.php:38) in E:\wamp64\www\test02\wp-includes\functions.php on line 6878
+[14-Jul-2022 07:59:25 UTC] PHP Stack trace:
+[14-Jul-2022 07:59:25 UTC] PHP   1. {main}() E:\wamp64\www\test02\wp-admin\admin-ajax.php:0
+[14-Jul-2022 07:59:25 UTC] PHP   2. do_action($hook_name = 'admin_init') E:\wamp64\www\test02\wp-admin\admin-ajax.php:45
+[14-Jul-2022 07:59:25 UTC] PHP   3. WP_Hook->do_action($args = [0 => '']) E:\wamp64\www\test02\wp-includes\plugin.php:476
+[14-Jul-2022 07:59:25 UTC] PHP   4. WP_Hook->apply_filters($value = '', $args = [0 => '']) E:\wamp64\www\test02\wp-includes\class-wp-hook.php:331
+[14-Jul-2022 07:59:25 UTC] PHP   5. send_frame_options_header() E:\wamp64\www\test02\wp-includes\class-wp-hook.php:305
+[14-Jul-2022 07:59:25 UTC] PHP   6. header($header = 'X-Frame-Options: SAMEORIGIN') E:\wamp64\www\test02\wp-includes\functions.php:6878
+[14-Jul-2022 08:00:07 UTC] PHP Notice:  wc_ajax_headers cannot set headers - headers already sent by E:\wamp64\www\test02\wp-content\themes\silky-new\functions.php on line 38 in E:\wamp64\www\test02\wp-content\plugins\woocommerce\includes\class-wc-ajax.php on line 70
+[14-Jul-2022 08:00:07 UTC] PHP Stack trace:
+[14-Jul-2022 08:00:07 UTC] PHP   1. {main}() E:\wamp64\www\test02\index.php:0
+[14-Jul-2022 08:00:07 UTC] PHP   2. require() E:\wamp64\www\test02\index.php:17
+[14-Jul-2022 08:00:07 UTC] PHP   3. require_once() E:\wamp64\www\test02\wp-blog-header.php:19
+[14-Jul-2022 08:00:07 UTC] PHP   4. do_action($hook_name = 'template_redirect') E:\wamp64\www\test02\wp-includes\template-loader.php:13
+[14-Jul-2022 08:00:07 UTC] PHP   5. WP_Hook->do_action($args = [0 => '']) E:\wamp64\www\test02\wp-includes\plugin.php:476
+[14-Jul-2022 08:00:07 UTC] PHP   6. WP_Hook->apply_filters($value = '', $args = [0 => '']) E:\wamp64\www\test02\wp-includes\class-wp-hook.php:331
+[14-Jul-2022 08:00:07 UTC] PHP   7. WC_AJAX::do_wc_ajax('') E:\wamp64\www\test02\wp-includes\class-wp-hook.php:307
+[14-Jul-2022 08:00:07 UTC] PHP   8. WC_AJAX::wc_ajax_headers() E:\wamp64\www\test02\wp-content\plugins\woocommerce\includes\class-wc-ajax.php:88
+[14-Jul-2022 08:00:07 UTC] PHP   9. trigger_error($message = 'wc_ajax_headers cannot set headers - headers already sent by E:\\wamp64\\www\\test02\\wp-content\\themes\\silky-new\\functions.php on line 38', $error_type = 1024) E:\wamp64\www\test02\wp-content\plugins\woocommerce\includes\class-wc-ajax.php:70
+[14-Jul-2022 08:00:25 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at E:\wamp64\www\test02\wp-content\themes\silky-new\functions.php:38) in E:\wamp64\www\test02\wp-includes\http.php on line 493
+[14-Jul-2022 08:00:25 UTC] PHP Stack trace:
+[14-Jul-2022 08:00:25 UTC] PHP   1. {main}() E:\wamp64\www\test02\wp-admin\admin-ajax.php:0
+[14-Jul-2022 08:00:25 UTC] PHP   2. send_origin_headers() E:\wamp64\www\test02\wp-admin\admin-ajax.php:25
+[14-Jul-2022 08:00:25 UTC] PHP   3. header($header = 'Access-Control-Allow-Origin: http://localhost') E:\wamp64\www\test02\wp-includes\http.php:493
+[14-Jul-2022 08:00:25 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at E:\wamp64\www\test02\wp-content\themes\silky-new\functions.php:38) in E:\wamp64\www\test02\wp-includes\http.php on line 494
+[14-Jul-2022 08:00:25 UTC] PHP Stack trace:
+[14-Jul-2022 08:00:25 UTC] PHP   1. {main}() E:\wamp64\www\test02\wp-admin\admin-ajax.php:0
+[14-Jul-2022 08:00:25 UTC] PHP   2. send_origin_headers() E:\wamp64\www\test02\wp-admin\admin-ajax.php:25
+[14-Jul-2022 08:00:25 UTC] PHP   3. header($header = 'Access-Control-Allow-Credentials: true') E:\wamp64\www\test02\wp-includes\http.php:494
+[14-Jul-2022 08:00:25 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at E:\wamp64\www\test02\wp-content\themes\silky-new\functions.php:38) in E:\wamp64\www\test02\wp-admin\admin-ajax.php on line 27
+[14-Jul-2022 08:00:25 UTC] PHP Stack trace:
+[14-Jul-2022 08:00:25 UTC] PHP   1. {main}() E:\wamp64\www\test02\wp-admin\admin-ajax.php:0
+[14-Jul-2022 08:00:25 UTC] PHP   2. header($header = 'Content-Type: text/html; charset=UTF-8') E:\wamp64\www\test02\wp-admin\admin-ajax.php:27
+[14-Jul-2022 08:00:25 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at E:\wamp64\www\test02\wp-content\themes\silky-new\functions.php:38) in E:\wamp64\www\test02\wp-admin\admin-ajax.php on line 28
+[14-Jul-2022 08:00:25 UTC] PHP Stack trace:
+[14-Jul-2022 08:00:25 UTC] PHP   1. {main}() E:\wamp64\www\test02\wp-admin\admin-ajax.php:0
+[14-Jul-2022 08:00:25 UTC] PHP   2. header($header = 'X-Robots-Tag: noindex') E:\wamp64\www\test02\wp-admin\admin-ajax.php:28
+[14-Jul-2022 08:00:25 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at E:\wamp64\www\test02\wp-content\themes\silky-new\functions.php:38) in E:\wamp64\www\test02\wp-includes\functions.php on line 6764
+[14-Jul-2022 08:00:25 UTC] PHP Stack trace:
+[14-Jul-2022 08:00:25 UTC] PHP   1. {main}() E:\wamp64\www\test02\wp-admin\admin-ajax.php:0
+[14-Jul-2022 08:00:25 UTC] PHP   2. send_nosniff_header() E:\wamp64\www\test02\wp-admin\admin-ajax.php:41
+[14-Jul-2022 08:00:25 UTC] PHP   3. header($header = 'X-Content-Type-Options: nosniff') E:\wamp64\www\test02\wp-includes\functions.php:6764
+[14-Jul-2022 08:00:25 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at E:\wamp64\www\test02\wp-content\themes\silky-new\functions.php:38) in E:\wamp64\www\test02\wp-admin\includes\misc.php on line 1380
+[14-Jul-2022 08:00:25 UTC] PHP Stack trace:
+[14-Jul-2022 08:00:25 UTC] PHP   1. {main}() E:\wamp64\www\test02\wp-admin\admin-ajax.php:0
+[14-Jul-2022 08:00:25 UTC] PHP   2. do_action($hook_name = 'admin_init') E:\wamp64\www\test02\wp-admin\admin-ajax.php:45
+[14-Jul-2022 08:00:25 UTC] PHP   3. WP_Hook->do_action($args = [0 => '']) E:\wamp64\www\test02\wp-includes\plugin.php:476
+[14-Jul-2022 08:00:25 UTC] PHP   4. WP_Hook->apply_filters($value = '', $args = [0 => '']) E:\wamp64\www\test02\wp-includes\class-wp-hook.php:331
+[14-Jul-2022 08:00:25 UTC] PHP   5. wp_admin_headers('') E:\wamp64\www\test02\wp-includes\class-wp-hook.php:307
+[14-Jul-2022 08:00:25 UTC] PHP   6. header($header = 'Referrer-Policy: strict-origin-when-cross-origin') E:\wamp64\www\test02\wp-admin\includes\misc.php:1380
+[14-Jul-2022 08:00:25 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at E:\wamp64\www\test02\wp-content\themes\silky-new\functions.php:38) in E:\wamp64\www\test02\wp-includes\functions.php on line 6878
+[14-Jul-2022 08:00:25 UTC] PHP Stack trace:
+[14-Jul-2022 08:00:25 UTC] PHP   1. {main}() E:\wamp64\www\test02\wp-admin\admin-ajax.php:0
+[14-Jul-2022 08:00:25 UTC] PHP   2. do_action($hook_name = 'admin_init') E:\wamp64\www\test02\wp-admin\admin-ajax.php:45
+[14-Jul-2022 08:00:25 UTC] PHP   3. WP_Hook->do_action($args = [0 => '']) E:\wamp64\www\test02\wp-includes\plugin.php:476
+[14-Jul-2022 08:00:25 UTC] PHP   4. WP_Hook->apply_filters($value = '', $args = [0 => '']) E:\wamp64\www\test02\wp-includes\class-wp-hook.php:331
+[14-Jul-2022 08:00:25 UTC] PHP   5. send_frame_options_header() E:\wamp64\www\test02\wp-includes\class-wp-hook.php:305
+[14-Jul-2022 08:00:25 UTC] PHP   6. header($header = 'X-Frame-Options: SAMEORIGIN') E:\wamp64\www\test02\wp-includes\functions.php:6878
+[14-Jul-2022 08:02:05 UTC] PHP Notice:  wc_ajax_headers cannot set headers - headers already sent by E:\wamp64\www\test02\wp-content\themes\silky-new\functions.php on line 38 in E:\wamp64\www\test02\wp-content\plugins\woocommerce\includes\class-wc-ajax.php on line 70
+[14-Jul-2022 08:02:05 UTC] PHP Stack trace:
+[14-Jul-2022 08:02:05 UTC] PHP   1. {main}() E:\wamp64\www\test02\index.php:0
+[14-Jul-2022 08:02:05 UTC] PHP   2. require() E:\wamp64\www\test02\index.php:17
+[14-Jul-2022 08:02:05 UTC] PHP   3. require_once() E:\wamp64\www\test02\wp-blog-header.php:19
+[14-Jul-2022 08:02:05 UTC] PHP   4. do_action($hook_name = 'template_redirect') E:\wamp64\www\test02\wp-includes\template-loader.php:13
+[14-Jul-2022 08:02:05 UTC] PHP   5. WP_Hook->do_action($args = [0 => '']) E:\wamp64\www\test02\wp-includes\plugin.php:476
+[14-Jul-2022 08:02:05 UTC] PHP   6. WP_Hook->apply_filters($value = '', $args = [0 => '']) E:\wamp64\www\test02\wp-includes\class-wp-hook.php:331
+[14-Jul-2022 08:02:05 UTC] PHP   7. WC_AJAX::do_wc_ajax('') E:\wamp64\www\test02\wp-includes\class-wp-hook.php:307
+[14-Jul-2022 08:02:05 UTC] PHP   8. WC_AJAX::wc_ajax_headers() E:\wamp64\www\test02\wp-content\plugins\woocommerce\includes\class-wc-ajax.php:88
+[14-Jul-2022 08:02:05 UTC] PHP   9. trigger_error($message = 'wc_ajax_headers cannot set headers - headers already sent by E:\\wamp64\\www\\test02\\wp-content\\themes\\silky-new\\functions.php on line 38', $error_type = 1024) E:\wamp64\www\test02\wp-content\plugins\woocommerce\includes\class-wc-ajax.php:70
+[14-Jul-2022 08:02:26 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at E:\wamp64\www\test02\wp-content\themes\silky-new\functions.php:38) in E:\wamp64\www\test02\wp-includes\http.php on line 493
+[14-Jul-2022 08:02:26 UTC] PHP Stack trace:
+[14-Jul-2022 08:02:26 UTC] PHP   1. {main}() E:\wamp64\www\test02\wp-admin\admin-ajax.php:0
+[14-Jul-2022 08:02:26 UTC] PHP   2. send_origin_headers() E:\wamp64\www\test02\wp-admin\admin-ajax.php:25
+[14-Jul-2022 08:02:26 UTC] PHP   3. header($header = 'Access-Control-Allow-Origin: http://localhost') E:\wamp64\www\test02\wp-includes\http.php:493
+[14-Jul-2022 08:02:26 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at E:\wamp64\www\test02\wp-content\themes\silky-new\functions.php:38) in E:\wamp64\www\test02\wp-includes\http.php on line 494
+[14-Jul-2022 08:02:26 UTC] PHP Stack trace:
+[14-Jul-2022 08:02:26 UTC] PHP   1. {main}() E:\wamp64\www\test02\wp-admin\admin-ajax.php:0
+[14-Jul-2022 08:02:26 UTC] PHP   2. send_origin_headers() E:\wamp64\www\test02\wp-admin\admin-ajax.php:25
+[14-Jul-2022 08:02:26 UTC] PHP   3. header($header = 'Access-Control-Allow-Credentials: true') E:\wamp64\www\test02\wp-includes\http.php:494
+[14-Jul-2022 08:02:26 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at E:\wamp64\www\test02\wp-content\themes\silky-new\functions.php:38) in E:\wamp64\www\test02\wp-admin\admin-ajax.php on line 27
+[14-Jul-2022 08:02:26 UTC] PHP Stack trace:
+[14-Jul-2022 08:02:26 UTC] PHP   1. {main}() E:\wamp64\www\test02\wp-admin\admin-ajax.php:0
+[14-Jul-2022 08:02:26 UTC] PHP   2. header($header = 'Content-Type: text/html; charset=UTF-8') E:\wamp64\www\test02\wp-admin\admin-ajax.php:27
+[14-Jul-2022 08:02:26 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at E:\wamp64\www\test02\wp-content\themes\silky-new\functions.php:38) in E:\wamp64\www\test02\wp-admin\admin-ajax.php on line 28
+[14-Jul-2022 08:02:26 UTC] PHP Stack trace:
+[14-Jul-2022 08:02:26 UTC] PHP   1. {main}() E:\wamp64\www\test02\wp-admin\admin-ajax.php:0
+[14-Jul-2022 08:02:26 UTC] PHP   2. header($header = 'X-Robots-Tag: noindex') E:\wamp64\www\test02\wp-admin\admin-ajax.php:28
+[14-Jul-2022 08:02:26 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at E:\wamp64\www\test02\wp-content\themes\silky-new\functions.php:38) in E:\wamp64\www\test02\wp-includes\functions.php on line 6764
+[14-Jul-2022 08:02:26 UTC] PHP Stack trace:
+[14-Jul-2022 08:02:26 UTC] PHP   1. {main}() E:\wamp64\www\test02\wp-admin\admin-ajax.php:0
+[14-Jul-2022 08:02:26 UTC] PHP   2. send_nosniff_header() E:\wamp64\www\test02\wp-admin\admin-ajax.php:41
+[14-Jul-2022 08:02:26 UTC] PHP   3. header($header = 'X-Content-Type-Options: nosniff') E:\wamp64\www\test02\wp-includes\functions.php:6764
+[14-Jul-2022 08:02:26 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at E:\wamp64\www\test02\wp-content\themes\silky-new\functions.php:38) in E:\wamp64\www\test02\wp-admin\includes\misc.php on line 1380
+[14-Jul-2022 08:02:26 UTC] PHP Stack trace:
+[14-Jul-2022 08:02:26 UTC] PHP   1. {main}() E:\wamp64\www\test02\wp-admin\admin-ajax.php:0
+[14-Jul-2022 08:02:26 UTC] PHP   2. do_action($hook_name = 'admin_init') E:\wamp64\www\test02\wp-admin\admin-ajax.php:45
+[14-Jul-2022 08:02:26 UTC] PHP   3. WP_Hook->do_action($args = [0 => '']) E:\wamp64\www\test02\wp-includes\plugin.php:476
+[14-Jul-2022 08:02:26 UTC] PHP   4. WP_Hook->apply_filters($value = '', $args = [0 => '']) E:\wamp64\www\test02\wp-includes\class-wp-hook.php:331
+[14-Jul-2022 08:02:26 UTC] PHP   5. wp_admin_headers('') E:\wamp64\www\test02\wp-includes\class-wp-hook.php:307
+[14-Jul-2022 08:02:26 UTC] PHP   6. header($header = 'Referrer-Policy: strict-origin-when-cross-origin') E:\wamp64\www\test02\wp-admin\includes\misc.php:1380
+[14-Jul-2022 08:02:26 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at E:\wamp64\www\test02\wp-content\themes\silky-new\functions.php:38) in E:\wamp64\www\test02\wp-includes\functions.php on line 6878
+[14-Jul-2022 08:02:26 UTC] PHP Stack trace:
+[14-Jul-2022 08:02:26 UTC] PHP   1. {main}() E:\wamp64\www\test02\wp-admin\admin-ajax.php:0
+[14-Jul-2022 08:02:26 UTC] PHP   2. do_action($hook_name = 'admin_init') E:\wamp64\www\test02\wp-admin\admin-ajax.php:45
+[14-Jul-2022 08:02:26 UTC] PHP   3. WP_Hook->do_action($args = [0 => '']) E:\wamp64\www\test02\wp-includes\plugin.php:476
+[14-Jul-2022 08:02:26 UTC] PHP   4. WP_Hook->apply_filters($value = '', $args = [0 => '']) E:\wamp64\www\test02\wp-includes\class-wp-hook.php:331
+[14-Jul-2022 08:02:26 UTC] PHP   5. send_frame_options_header() E:\wamp64\www\test02\wp-includes\class-wp-hook.php:305
+[14-Jul-2022 08:02:26 UTC] PHP   6. header($header = 'X-Frame-Options: SAMEORIGIN') E:\wamp64\www\test02\wp-includes\functions.php:6878
+[14-Jul-2022 08:03:10 UTC] PHP Fatal error:  Cannot redeclare yourprefix_get_menu_items() (previously declared in E:\wamp64\www\test02\wp-content\themes\silky-new\functions.php:40) in E:\wamp64\www\test02\wp-content\themes\silky-new\header.php on line 168
+[14-Jul-2022 08:03:10 UTC] PHP Stack trace:
+[14-Jul-2022 08:03:10 UTC] PHP   1. {main}() E:\wamp64\www\test02\index.php:0
+[14-Jul-2022 08:03:10 UTC] PHP   2. require() E:\wamp64\www\test02\index.php:17
+[14-Jul-2022 08:03:10 UTC] PHP   3. require_once() E:\wamp64\www\test02\wp-blog-header.php:19
+[14-Jul-2022 08:03:10 UTC] PHP   4. include() E:\wamp64\www\test02\wp-includes\template-loader.php:106
+[14-Jul-2022 08:03:10 UTC] PHP   5. get_header($name = *uninitialized*, $args = *uninitialized*) E:\wamp64\www\test02\wp-content\themes\silky-new\index.php:17
+[14-Jul-2022 08:03:10 UTC] PHP   6. locate_template($template_names = [0 => 'header.php'], $load = TRUE, $require_once = TRUE, $args = []) E:\wamp64\www\test02\wp-includes\general-template.php:48
+[14-Jul-2022 08:03:10 UTC] PHP   7. load_template($_template_file = 'E:\\wamp64\\www\\test02/wp-content/themes/silky-new/header.php', $require_once = TRUE, $args = []) E:\wamp64\www\test02\wp-includes\template.php:716
+[14-Jul-2022 08:03:44 UTC] PHP Notice:  wc_ajax_headers cannot set headers - headers already sent by E:\wamp64\www\test02\wp-content\themes\silky-new\functions.php on line 38 in E:\wamp64\www\test02\wp-content\plugins\woocommerce\includes\class-wc-ajax.php on line 70
+[14-Jul-2022 08:03:44 UTC] PHP Stack trace:
+[14-Jul-2022 08:03:44 UTC] PHP   1. {main}() E:\wamp64\www\test02\index.php:0
+[14-Jul-2022 08:03:44 UTC] PHP   2. require() E:\wamp64\www\test02\index.php:17
+[14-Jul-2022 08:03:44 UTC] PHP   3. require_once() E:\wamp64\www\test02\wp-blog-header.php:19
+[14-Jul-2022 08:03:44 UTC] PHP   4. do_action($hook_name = 'template_redirect') E:\wamp64\www\test02\wp-includes\template-loader.php:13
+[14-Jul-2022 08:03:44 UTC] PHP   5. WP_Hook->do_action($args = [0 => '']) E:\wamp64\www\test02\wp-includes\plugin.php:476
+[14-Jul-2022 08:03:44 UTC] PHP   6. WP_Hook->apply_filters($value = '', $args = [0 => '']) E:\wamp64\www\test02\wp-includes\class-wp-hook.php:331
+[14-Jul-2022 08:03:44 UTC] PHP   7. WC_AJAX::do_wc_ajax('') E:\wamp64\www\test02\wp-includes\class-wp-hook.php:307
+[14-Jul-2022 08:03:44 UTC] PHP   8. WC_AJAX::wc_ajax_headers() E:\wamp64\www\test02\wp-content\plugins\woocommerce\includes\class-wc-ajax.php:88
+[14-Jul-2022 08:03:44 UTC] PHP   9. trigger_error($message = 'wc_ajax_headers cannot set headers - headers already sent by E:\\wamp64\\www\\test02\\wp-content\\themes\\silky-new\\functions.php on line 38', $error_type = 1024) E:\wamp64\www\test02\wp-content\plugins\woocommerce\includes\class-wc-ajax.php:70
+[14-Jul-2022 08:04:02 UTC] PHP Notice:  wc_ajax_headers cannot set headers - headers already sent by E:\wamp64\www\test02\wp-content\themes\silky-new\functions.php on line 38 in E:\wamp64\www\test02\wp-content\plugins\woocommerce\includes\class-wc-ajax.php on line 70
+[14-Jul-2022 08:04:02 UTC] PHP Stack trace:
+[14-Jul-2022 08:04:02 UTC] PHP   1. {main}() E:\wamp64\www\test02\index.php:0
+[14-Jul-2022 08:04:02 UTC] PHP   2. require() E:\wamp64\www\test02\index.php:17
+[14-Jul-2022 08:04:02 UTC] PHP   3. require_once() E:\wamp64\www\test02\wp-blog-header.php:19
+[14-Jul-2022 08:04:02 UTC] PHP   4. do_action($hook_name = 'template_redirect') E:\wamp64\www\test02\wp-includes\template-loader.php:13
+[14-Jul-2022 08:04:02 UTC] PHP   5. WP_Hook->do_action($args = [0 => '']) E:\wamp64\www\test02\wp-includes\plugin.php:476
+[14-Jul-2022 08:04:02 UTC] PHP   6. WP_Hook->apply_filters($value = '', $args = [0 => '']) E:\wamp64\www\test02\wp-includes\class-wp-hook.php:331
+[14-Jul-2022 08:04:02 UTC] PHP   7. WC_AJAX::do_wc_ajax('') E:\wamp64\www\test02\wp-includes\class-wp-hook.php:307
+[14-Jul-2022 08:04:02 UTC] PHP   8. WC_AJAX::wc_ajax_headers() E:\wamp64\www\test02\wp-content\plugins\woocommerce\includes\class-wc-ajax.php:88
+[14-Jul-2022 08:04:02 UTC] PHP   9. trigger_error($message = 'wc_ajax_headers cannot set headers - headers already sent by E:\\wamp64\\www\\test02\\wp-content\\themes\\silky-new\\functions.php on line 38', $error_type = 1024) E:\wamp64\www\test02\wp-content\plugins\woocommerce\includes\class-wc-ajax.php:70
+[14-Jul-2022 08:04:27 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at E:\wamp64\www\test02\wp-content\themes\silky-new\functions.php:38) in E:\wamp64\www\test02\wp-includes\http.php on line 493
+[14-Jul-2022 08:04:27 UTC] PHP Stack trace:
+[14-Jul-2022 08:04:27 UTC] PHP   1. {main}() E:\wamp64\www\test02\wp-admin\admin-ajax.php:0
+[14-Jul-2022 08:04:27 UTC] PHP   2. send_origin_headers() E:\wamp64\www\test02\wp-admin\admin-ajax.php:25
+[14-Jul-2022 08:04:27 UTC] PHP   3. header($header = 'Access-Control-Allow-Origin: http://localhost') E:\wamp64\www\test02\wp-includes\http.php:493
+[14-Jul-2022 08:04:27 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at E:\wamp64\www\test02\wp-content\themes\silky-new\functions.php:38) in E:\wamp64\www\test02\wp-includes\http.php on line 494
+[14-Jul-2022 08:04:27 UTC] PHP Stack trace:
+[14-Jul-2022 08:04:27 UTC] PHP   1. {main}() E:\wamp64\www\test02\wp-admin\admin-ajax.php:0
+[14-Jul-2022 08:04:27 UTC] PHP   2. send_origin_headers() E:\wamp64\www\test02\wp-admin\admin-ajax.php:25
+[14-Jul-2022 08:04:27 UTC] PHP   3. header($header = 'Access-Control-Allow-Credentials: true') E:\wamp64\www\test02\wp-includes\http.php:494
+[14-Jul-2022 08:04:27 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at E:\wamp64\www\test02\wp-content\themes\silky-new\functions.php:38) in E:\wamp64\www\test02\wp-admin\admin-ajax.php on line 27
+[14-Jul-2022 08:04:27 UTC] PHP Stack trace:
+[14-Jul-2022 08:04:27 UTC] PHP   1. {main}() E:\wamp64\www\test02\wp-admin\admin-ajax.php:0
+[14-Jul-2022 08:04:27 UTC] PHP   2. header($header = 'Content-Type: text/html; charset=UTF-8') E:\wamp64\www\test02\wp-admin\admin-ajax.php:27
+[14-Jul-2022 08:04:27 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at E:\wamp64\www\test02\wp-content\themes\silky-new\functions.php:38) in E:\wamp64\www\test02\wp-admin\admin-ajax.php on line 28
+[14-Jul-2022 08:04:27 UTC] PHP Stack trace:
+[14-Jul-2022 08:04:27 UTC] PHP   1. {main}() E:\wamp64\www\test02\wp-admin\admin-ajax.php:0
+[14-Jul-2022 08:04:27 UTC] PHP   2. header($header = 'X-Robots-Tag: noindex') E:\wamp64\www\test02\wp-admin\admin-ajax.php:28
+[14-Jul-2022 08:04:27 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at E:\wamp64\www\test02\wp-content\themes\silky-new\functions.php:38) in E:\wamp64\www\test02\wp-includes\functions.php on line 6764
+[14-Jul-2022 08:04:27 UTC] PHP Stack trace:
+[14-Jul-2022 08:04:27 UTC] PHP   1. {main}() E:\wamp64\www\test02\wp-admin\admin-ajax.php:0
+[14-Jul-2022 08:04:27 UTC] PHP   2. send_nosniff_header() E:\wamp64\www\test02\wp-admin\admin-ajax.php:41
+[14-Jul-2022 08:04:27 UTC] PHP   3. header($header = 'X-Content-Type-Options: nosniff') E:\wamp64\www\test02\wp-includes\functions.php:6764
+[14-Jul-2022 08:04:27 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at E:\wamp64\www\test02\wp-content\themes\silky-new\functions.php:38) in E:\wamp64\www\test02\wp-admin\includes\misc.php on line 1380
+[14-Jul-2022 08:04:27 UTC] PHP Stack trace:
+[14-Jul-2022 08:04:27 UTC] PHP   1. {main}() E:\wamp64\www\test02\wp-admin\admin-ajax.php:0
+[14-Jul-2022 08:04:27 UTC] PHP   2. do_action($hook_name = 'admin_init') E:\wamp64\www\test02\wp-admin\admin-ajax.php:45
+[14-Jul-2022 08:04:27 UTC] PHP   3. WP_Hook->do_action($args = [0 => '']) E:\wamp64\www\test02\wp-includes\plugin.php:476
+[14-Jul-2022 08:04:27 UTC] PHP   4. WP_Hook->apply_filters($value = '', $args = [0 => '']) E:\wamp64\www\test02\wp-includes\class-wp-hook.php:331
+[14-Jul-2022 08:04:27 UTC] PHP   5. wp_admin_headers('') E:\wamp64\www\test02\wp-includes\class-wp-hook.php:307
+[14-Jul-2022 08:04:27 UTC] PHP   6. header($header = 'Referrer-Policy: strict-origin-when-cross-origin') E:\wamp64\www\test02\wp-admin\includes\misc.php:1380
+[14-Jul-2022 08:04:27 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at E:\wamp64\www\test02\wp-content\themes\silky-new\functions.php:38) in E:\wamp64\www\test02\wp-includes\functions.php on line 6878
+[14-Jul-2022 08:04:27 UTC] PHP Stack trace:
+[14-Jul-2022 08:04:27 UTC] PHP   1. {main}() E:\wamp64\www\test02\wp-admin\admin-ajax.php:0
+[14-Jul-2022 08:04:27 UTC] PHP   2. do_action($hook_name = 'admin_init') E:\wamp64\www\test02\wp-admin\admin-ajax.php:45
+[14-Jul-2022 08:04:27 UTC] PHP   3. WP_Hook->do_action($args = [0 => '']) E:\wamp64\www\test02\wp-includes\plugin.php:476
+[14-Jul-2022 08:04:27 UTC] PHP   4. WP_Hook->apply_filters($value = '', $args = [0 => '']) E:\wamp64\www\test02\wp-includes\class-wp-hook.php:331
+[14-Jul-2022 08:04:27 UTC] PHP   5. send_frame_options_header() E:\wamp64\www\test02\wp-includes\class-wp-hook.php:305
+[14-Jul-2022 08:04:27 UTC] PHP   6. header($header = 'X-Frame-Options: SAMEORIGIN') E:\wamp64\www\test02\wp-includes\functions.php:6878
+[14-Jul-2022 08:04:53 UTC] PHP Notice:  wc_ajax_headers cannot set headers - headers already sent by E:\wamp64\www\test02\wp-content\themes\silky-new\functions.php on line 38 in E:\wamp64\www\test02\wp-content\plugins\woocommerce\includes\class-wc-ajax.php on line 70
+[14-Jul-2022 08:04:53 UTC] PHP Stack trace:
+[14-Jul-2022 08:04:53 UTC] PHP   1. {main}() E:\wamp64\www\test02\index.php:0
+[14-Jul-2022 08:04:53 UTC] PHP   2. require() E:\wamp64\www\test02\index.php:17
+[14-Jul-2022 08:04:53 UTC] PHP   3. require_once() E:\wamp64\www\test02\wp-blog-header.php:19
+[14-Jul-2022 08:04:53 UTC] PHP   4. do_action($hook_name = 'template_redirect') E:\wamp64\www\test02\wp-includes\template-loader.php:13
+[14-Jul-2022 08:04:53 UTC] PHP   5. WP_Hook->do_action($args = [0 => '']) E:\wamp64\www\test02\wp-includes\plugin.php:476
+[14-Jul-2022 08:04:53 UTC] PHP   6. WP_Hook->apply_filters($value = '', $args = [0 => '']) E:\wamp64\www\test02\wp-includes\class-wp-hook.php:331
+[14-Jul-2022 08:04:53 UTC] PHP   7. WC_AJAX::do_wc_ajax('') E:\wamp64\www\test02\wp-includes\class-wp-hook.php:307
+[14-Jul-2022 08:04:53 UTC] PHP   8. WC_AJAX::wc_ajax_headers() E:\wamp64\www\test02\wp-content\plugins\woocommerce\includes\class-wc-ajax.php:88
+[14-Jul-2022 08:04:53 UTC] PHP   9. trigger_error($message = 'wc_ajax_headers cannot set headers - headers already sent by E:\\wamp64\\www\\test02\\wp-content\\themes\\silky-new\\functions.php on line 38', $error_type = 1024) E:\wamp64\www\test02\wp-content\plugins\woocommerce\includes\class-wc-ajax.php:70
+[14-Jul-2022 08:06:20 UTC] PHP Notice:  wc_ajax_headers cannot set headers - headers already sent by E:\wamp64\www\test02\wp-content\themes\silky-new\functions.php on line 38 in E:\wamp64\www\test02\wp-content\plugins\woocommerce\includes\class-wc-ajax.php on line 70
+[14-Jul-2022 08:06:20 UTC] PHP Stack trace:
+[14-Jul-2022 08:06:20 UTC] PHP   1. {main}() E:\wamp64\www\test02\index.php:0
+[14-Jul-2022 08:06:20 UTC] PHP   2. require() E:\wamp64\www\test02\index.php:17
+[14-Jul-2022 08:06:20 UTC] PHP   3. require_once() E:\wamp64\www\test02\wp-blog-header.php:19
+[14-Jul-2022 08:06:20 UTC] PHP   4. do_action($hook_name = 'template_redirect') E:\wamp64\www\test02\wp-includes\template-loader.php:13
+[14-Jul-2022 08:06:20 UTC] PHP   5. WP_Hook->do_action($args = [0 => '']) E:\wamp64\www\test02\wp-includes\plugin.php:476
+[14-Jul-2022 08:06:20 UTC] PHP   6. WP_Hook->apply_filters($value = '', $args = [0 => '']) E:\wamp64\www\test02\wp-includes\class-wp-hook.php:331
+[14-Jul-2022 08:06:20 UTC] PHP   7. WC_AJAX::do_wc_ajax('') E:\wamp64\www\test02\wp-includes\class-wp-hook.php:307
+[14-Jul-2022 08:06:20 UTC] PHP   8. WC_AJAX::wc_ajax_headers() E:\wamp64\www\test02\wp-content\plugins\woocommerce\includes\class-wc-ajax.php:88
+[14-Jul-2022 08:06:20 UTC] PHP   9. trigger_error($message = 'wc_ajax_headers cannot set headers - headers already sent by E:\\wamp64\\www\\test02\\wp-content\\themes\\silky-new\\functions.php on line 38', $error_type = 1024) E:\wamp64\www\test02\wp-content\plugins\woocommerce\includes\class-wc-ajax.php:70
+[14-Jul-2022 08:06:28 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at E:\wamp64\www\test02\wp-content\themes\silky-new\functions.php:38) in E:\wamp64\www\test02\wp-includes\http.php on line 493
+[14-Jul-2022 08:06:28 UTC] PHP Stack trace:
+[14-Jul-2022 08:06:28 UTC] PHP   1. {main}() E:\wamp64\www\test02\wp-admin\admin-ajax.php:0
+[14-Jul-2022 08:06:28 UTC] PHP   2. send_origin_headers() E:\wamp64\www\test02\wp-admin\admin-ajax.php:25
+[14-Jul-2022 08:06:28 UTC] PHP   3. header($header = 'Access-Control-Allow-Origin: http://localhost') E:\wamp64\www\test02\wp-includes\http.php:493
+[14-Jul-2022 08:06:28 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at E:\wamp64\www\test02\wp-content\themes\silky-new\functions.php:38) in E:\wamp64\www\test02\wp-includes\http.php on line 494
+[14-Jul-2022 08:06:28 UTC] PHP Stack trace:
+[14-Jul-2022 08:06:28 UTC] PHP   1. {main}() E:\wamp64\www\test02\wp-admin\admin-ajax.php:0
+[14-Jul-2022 08:06:28 UTC] PHP   2. send_origin_headers() E:\wamp64\www\test02\wp-admin\admin-ajax.php:25
+[14-Jul-2022 08:06:28 UTC] PHP   3. header($header = 'Access-Control-Allow-Credentials: true') E:\wamp64\www\test02\wp-includes\http.php:494
+[14-Jul-2022 08:06:28 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at E:\wamp64\www\test02\wp-content\themes\silky-new\functions.php:38) in E:\wamp64\www\test02\wp-admin\admin-ajax.php on line 27
+[14-Jul-2022 08:06:28 UTC] PHP Stack trace:
+[14-Jul-2022 08:06:28 UTC] PHP   1. {main}() E:\wamp64\www\test02\wp-admin\admin-ajax.php:0
+[14-Jul-2022 08:06:28 UTC] PHP   2. header($header = 'Content-Type: text/html; charset=UTF-8') E:\wamp64\www\test02\wp-admin\admin-ajax.php:27
+[14-Jul-2022 08:06:28 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at E:\wamp64\www\test02\wp-content\themes\silky-new\functions.php:38) in E:\wamp64\www\test02\wp-admin\admin-ajax.php on line 28
+[14-Jul-2022 08:06:28 UTC] PHP Stack trace:
+[14-Jul-2022 08:06:28 UTC] PHP   1. {main}() E:\wamp64\www\test02\wp-admin\admin-ajax.php:0
+[14-Jul-2022 08:06:28 UTC] PHP   2. header($header = 'X-Robots-Tag: noindex') E:\wamp64\www\test02\wp-admin\admin-ajax.php:28
+[14-Jul-2022 08:06:28 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at E:\wamp64\www\test02\wp-content\themes\silky-new\functions.php:38) in E:\wamp64\www\test02\wp-includes\functions.php on line 6764
+[14-Jul-2022 08:06:28 UTC] PHP Stack trace:
+[14-Jul-2022 08:06:28 UTC] PHP   1. {main}() E:\wamp64\www\test02\wp-admin\admin-ajax.php:0
+[14-Jul-2022 08:06:28 UTC] PHP   2. send_nosniff_header() E:\wamp64\www\test02\wp-admin\admin-ajax.php:41
+[14-Jul-2022 08:06:28 UTC] PHP   3. header($header = 'X-Content-Type-Options: nosniff') E:\wamp64\www\test02\wp-includes\functions.php:6764
+[14-Jul-2022 08:06:28 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at E:\wamp64\www\test02\wp-content\themes\silky-new\functions.php:38) in E:\wamp64\www\test02\wp-admin\includes\misc.php on line 1380
+[14-Jul-2022 08:06:28 UTC] PHP Stack trace:
+[14-Jul-2022 08:06:28 UTC] PHP   1. {main}() E:\wamp64\www\test02\wp-admin\admin-ajax.php:0
+[14-Jul-2022 08:06:28 UTC] PHP   2. do_action($hook_name = 'admin_init') E:\wamp64\www\test02\wp-admin\admin-ajax.php:45
+[14-Jul-2022 08:06:28 UTC] PHP   3. WP_Hook->do_action($args = [0 => '']) E:\wamp64\www\test02\wp-includes\plugin.php:476
+[14-Jul-2022 08:06:28 UTC] PHP   4. WP_Hook->apply_filters($value = '', $args = [0 => '']) E:\wamp64\www\test02\wp-includes\class-wp-hook.php:331
+[14-Jul-2022 08:06:28 UTC] PHP   5. wp_admin_headers('') E:\wamp64\www\test02\wp-includes\class-wp-hook.php:307
+[14-Jul-2022 08:06:28 UTC] PHP   6. header($header = 'Referrer-Policy: strict-origin-when-cross-origin') E:\wamp64\www\test02\wp-admin\includes\misc.php:1380
+[14-Jul-2022 08:06:28 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at E:\wamp64\www\test02\wp-content\themes\silky-new\functions.php:38) in E:\wamp64\www\test02\wp-includes\functions.php on line 6878
+[14-Jul-2022 08:06:28 UTC] PHP Stack trace:
+[14-Jul-2022 08:06:28 UTC] PHP   1. {main}() E:\wamp64\www\test02\wp-admin\admin-ajax.php:0
+[14-Jul-2022 08:06:28 UTC] PHP   2. do_action($hook_name = 'admin_init') E:\wamp64\www\test02\wp-admin\admin-ajax.php:45
+[14-Jul-2022 08:06:28 UTC] PHP   3. WP_Hook->do_action($args = [0 => '']) E:\wamp64\www\test02\wp-includes\plugin.php:476
+[14-Jul-2022 08:06:28 UTC] PHP   4. WP_Hook->apply_filters($value = '', $args = [0 => '']) E:\wamp64\www\test02\wp-includes\class-wp-hook.php:331
+[14-Jul-2022 08:06:28 UTC] PHP   5. send_frame_options_header() E:\wamp64\www\test02\wp-includes\class-wp-hook.php:305
+[14-Jul-2022 08:06:28 UTC] PHP   6. header($header = 'X-Frame-Options: SAMEORIGIN') E:\wamp64\www\test02\wp-includes\functions.php:6878
+[14-Jul-2022 08:07:11 UTC] PHP Notice:  wc_ajax_headers cannot set headers - headers already sent by E:\wamp64\www\test02\wp-content\themes\silky-new\functions.php on line 38 in E:\wamp64\www\test02\wp-content\plugins\woocommerce\includes\class-wc-ajax.php on line 70
+[14-Jul-2022 08:07:11 UTC] PHP Stack trace:
+[14-Jul-2022 08:07:11 UTC] PHP   1. {main}() E:\wamp64\www\test02\index.php:0
+[14-Jul-2022 08:07:11 UTC] PHP   2. require() E:\wamp64\www\test02\index.php:17
+[14-Jul-2022 08:07:11 UTC] PHP   3. require_once() E:\wamp64\www\test02\wp-blog-header.php:19
+[14-Jul-2022 08:07:11 UTC] PHP   4. do_action($hook_name = 'template_redirect') E:\wamp64\www\test02\wp-includes\template-loader.php:13
+[14-Jul-2022 08:07:11 UTC] PHP   5. WP_Hook->do_action($args = [0 => '']) E:\wamp64\www\test02\wp-includes\plugin.php:476
+[14-Jul-2022 08:07:11 UTC] PHP   6. WP_Hook->apply_filters($value = '', $args = [0 => '']) E:\wamp64\www\test02\wp-includes\class-wp-hook.php:331
+[14-Jul-2022 08:07:11 UTC] PHP   7. WC_AJAX::do_wc_ajax('') E:\wamp64\www\test02\wp-includes\class-wp-hook.php:307
+[14-Jul-2022 08:07:11 UTC] PHP   8. WC_AJAX::wc_ajax_headers() E:\wamp64\www\test02\wp-content\plugins\woocommerce\includes\class-wc-ajax.php:88
+[14-Jul-2022 08:07:11 UTC] PHP   9. trigger_error($message = 'wc_ajax_headers cannot set headers - headers already sent by E:\\wamp64\\www\\test02\\wp-content\\themes\\silky-new\\functions.php on line 38', $error_type = 1024) E:\wamp64\www\test02\wp-content\plugins\woocommerce\includes\class-wc-ajax.php:70
+[14-Jul-2022 08:08:30 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at E:\wamp64\www\test02\wp-content\themes\silky-new\functions.php:38) in E:\wamp64\www\test02\wp-includes\http.php on line 493
+[14-Jul-2022 08:08:30 UTC] PHP Stack trace:
+[14-Jul-2022 08:08:30 UTC] PHP   1. {main}() E:\wamp64\www\test02\wp-admin\admin-ajax.php:0
+[14-Jul-2022 08:08:30 UTC] PHP   2. send_origin_headers() E:\wamp64\www\test02\wp-admin\admin-ajax.php:25
+[14-Jul-2022 08:08:30 UTC] PHP   3. header($header = 'Access-Control-Allow-Origin: http://localhost') E:\wamp64\www\test02\wp-includes\http.php:493
+[14-Jul-2022 08:08:30 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at E:\wamp64\www\test02\wp-content\themes\silky-new\functions.php:38) in E:\wamp64\www\test02\wp-includes\http.php on line 494
+[14-Jul-2022 08:08:30 UTC] PHP Stack trace:
+[14-Jul-2022 08:08:30 UTC] PHP   1. {main}() E:\wamp64\www\test02\wp-admin\admin-ajax.php:0
+[14-Jul-2022 08:08:30 UTC] PHP   2. send_origin_headers() E:\wamp64\www\test02\wp-admin\admin-ajax.php:25
+[14-Jul-2022 08:08:30 UTC] PHP   3. header($header = 'Access-Control-Allow-Credentials: true') E:\wamp64\www\test02\wp-includes\http.php:494
+[14-Jul-2022 08:08:30 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at E:\wamp64\www\test02\wp-content\themes\silky-new\functions.php:38) in E:\wamp64\www\test02\wp-admin\admin-ajax.php on line 27
+[14-Jul-2022 08:08:30 UTC] PHP Stack trace:
+[14-Jul-2022 08:08:30 UTC] PHP   1. {main}() E:\wamp64\www\test02\wp-admin\admin-ajax.php:0
+[14-Jul-2022 08:08:30 UTC] PHP   2. header($header = 'Content-Type: text/html; charset=UTF-8') E:\wamp64\www\test02\wp-admin\admin-ajax.php:27
+[14-Jul-2022 08:08:30 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at E:\wamp64\www\test02\wp-content\themes\silky-new\functions.php:38) in E:\wamp64\www\test02\wp-admin\admin-ajax.php on line 28
+[14-Jul-2022 08:08:30 UTC] PHP Stack trace:
+[14-Jul-2022 08:08:30 UTC] PHP   1. {main}() E:\wamp64\www\test02\wp-admin\admin-ajax.php:0
+[14-Jul-2022 08:08:30 UTC] PHP   2. header($header = 'X-Robots-Tag: noindex') E:\wamp64\www\test02\wp-admin\admin-ajax.php:28
+[14-Jul-2022 08:08:30 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at E:\wamp64\www\test02\wp-content\themes\silky-new\functions.php:38) in E:\wamp64\www\test02\wp-includes\functions.php on line 6764
+[14-Jul-2022 08:08:30 UTC] PHP Stack trace:
+[14-Jul-2022 08:08:30 UTC] PHP   1. {main}() E:\wamp64\www\test02\wp-admin\admin-ajax.php:0
+[14-Jul-2022 08:08:30 UTC] PHP   2. send_nosniff_header() E:\wamp64\www\test02\wp-admin\admin-ajax.php:41
+[14-Jul-2022 08:08:30 UTC] PHP   3. header($header = 'X-Content-Type-Options: nosniff') E:\wamp64\www\test02\wp-includes\functions.php:6764
+[14-Jul-2022 08:08:30 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at E:\wamp64\www\test02\wp-content\themes\silky-new\functions.php:38) in E:\wamp64\www\test02\wp-admin\includes\misc.php on line 1380
+[14-Jul-2022 08:08:30 UTC] PHP Stack trace:
+[14-Jul-2022 08:08:30 UTC] PHP   1. {main}() E:\wamp64\www\test02\wp-admin\admin-ajax.php:0
+[14-Jul-2022 08:08:30 UTC] PHP   2. do_action($hook_name = 'admin_init') E:\wamp64\www\test02\wp-admin\admin-ajax.php:45
+[14-Jul-2022 08:08:30 UTC] PHP   3. WP_Hook->do_action($args = [0 => '']) E:\wamp64\www\test02\wp-includes\plugin.php:476
+[14-Jul-2022 08:08:30 UTC] PHP   4. WP_Hook->apply_filters($value = '', $args = [0 => '']) E:\wamp64\www\test02\wp-includes\class-wp-hook.php:331
+[14-Jul-2022 08:08:30 UTC] PHP   5. wp_admin_headers('') E:\wamp64\www\test02\wp-includes\class-wp-hook.php:307
+[14-Jul-2022 08:08:30 UTC] PHP   6. header($header = 'Referrer-Policy: strict-origin-when-cross-origin') E:\wamp64\www\test02\wp-admin\includes\misc.php:1380
+[14-Jul-2022 08:08:30 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at E:\wamp64\www\test02\wp-content\themes\silky-new\functions.php:38) in E:\wamp64\www\test02\wp-includes\functions.php on line 6878
+[14-Jul-2022 08:08:30 UTC] PHP Stack trace:
+[14-Jul-2022 08:08:30 UTC] PHP   1. {main}() E:\wamp64\www\test02\wp-admin\admin-ajax.php:0
+[14-Jul-2022 08:08:30 UTC] PHP   2. do_action($hook_name = 'admin_init') E:\wamp64\www\test02\wp-admin\admin-ajax.php:45
+[14-Jul-2022 08:08:30 UTC] PHP   3. WP_Hook->do_action($args = [0 => '']) E:\wamp64\www\test02\wp-includes\plugin.php:476
+[14-Jul-2022 08:08:30 UTC] PHP   4. WP_Hook->apply_filters($value = '', $args = [0 => '']) E:\wamp64\www\test02\wp-includes\class-wp-hook.php:331
+[14-Jul-2022 08:08:30 UTC] PHP   5. send_frame_options_header() E:\wamp64\www\test02\wp-includes\class-wp-hook.php:305
+[14-Jul-2022 08:08:30 UTC] PHP   6. header($header = 'X-Frame-Options: SAMEORIGIN') E:\wamp64\www\test02\wp-includes\functions.php:6878
+[14-Jul-2022 08:08:42 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type WP_Term as array in E:\wamp64\www\test02\wp-admin\menu.php:24
+Stack trace:
+#0 E:\wamp64\www\test02\wp-admin\admin.php(158): require()
+#1 E:\wamp64\www\test02\wp-admin\nav-menus.php(13): require_once('E:\\wamp64\\www\\t...')
+#2 {main}
+  thrown in E:\wamp64\www\test02\wp-admin\menu.php on line 24
+[15-Jul-2022 01:37:33 UTC] WordPress database error Unknown character set: 'utf8bin' for query CREATE TABLE IF NOT EXISTS `wp_woof_query_cache` (
+                                                    `mkey` varchar(64) NOT NULL,
+                                                    `mvalue` text NOT NULL,
+                                                    KEY `mkey` (`mkey`)
+                                                  ) DEFAULT CHARACTER SET utf8bin made by do_action('woocommerce_page_wc-settings'), WP_Hook->do_action, WP_Hook->apply_filters, WC_Admin_Menus->settings_page, WC_Admin_Settings::output, include('/plugins/woocommerce/includes/admin/views/html-admin-settings.php'), do_action('woocommerce_settings_tabs_woof'), WP_Hook->do_action, WP_Hook->apply_filters, WOOF->print_plugin_options, WOOF->render_html, include('/plugins/woocommerce-products-filter/views/plugin_options.php')
+[15-Jul-2022 01:37:38 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[15-Jul-2022 01:37:38 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[15-Jul-2022 01:44:57 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[15-Jul-2022 01:44:57 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[15-Jul-2022 01:45:03 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[15-Jul-2022 01:45:03 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[15-Jul-2022 01:45:49 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[15-Jul-2022 01:45:49 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[15-Jul-2022 01:49:40 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[15-Jul-2022 01:49:40 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[15-Jul-2022 01:50:05 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[15-Jul-2022 01:50:05 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[15-Jul-2022 02:18:11 UTC] PHP Notice:  Undefined index: SHIPTOSTATE in E:\wamp64\www\test02\wp-content\plugins\express-checkout-paypal-payment-gateway-for-woocommerce\includes\class-paypal-express-api.php on line 2317
+[15-Jul-2022 02:18:11 UTC] PHP Stack trace:
+[15-Jul-2022 02:18:11 UTC] PHP   1. {main}() E:\wamp64\www\test02\index.php:0
+[15-Jul-2022 02:18:11 UTC] PHP   2. require() E:\wamp64\www\test02\index.php:17
+[15-Jul-2022 02:18:11 UTC] PHP   3. wp($query_vars = *uninitialized*) E:\wamp64\www\test02\wp-blog-header.php:16
+[15-Jul-2022 02:18:11 UTC] PHP   4. WP->main($query_args = '') E:\wamp64\www\test02\wp-includes\functions.php:1330
+[15-Jul-2022 02:18:11 UTC] PHP   5. WP->parse_request($extra_query_vars = '') E:\wamp64\www\test02\wp-includes\class-wp.php:770
+[15-Jul-2022 02:18:11 UTC] PHP   6. do_action_ref_array($hook_name = 'parse_request', $args = [0 => class WP { public $public_query_vars = [...]; public $private_query_vars = [...]; public $extra_query_vars = [...]; public $query_vars = [...]; public $query_string = ''; public $request = 'wc-api/Eh_PayPal_Express_Payment'; public $matched_rule = 'wc-api(/(.*))?/?$'; public $matched_query = '&wc-api=Eh_PayPal_Express_Payment'; public $did_permalink = TRUE }]) E:\wamp64\www\test02\wp-includes\class-wp.php:398
+[15-Jul-2022 02:18:11 UTC] PHP   7. WP_Hook->do_action($args = [0 => class WP { public $public_query_vars = [...]; public $private_query_vars = [...]; public $extra_query_vars = [...]; public $query_vars = [...]; public $query_string = ''; public $request = 'wc-api/Eh_PayPal_Express_Payment'; public $matched_rule = 'wc-api(/(.*))?/?$'; public $matched_query = '&wc-api=Eh_PayPal_Express_Payment'; public $did_permalink = TRUE }]) E:\wamp64\www\test02\wp-includes\plugin.php:524
+[15-Jul-2022 02:18:11 UTC] PHP   8. WP_Hook->apply_filters($value = '', $args = [0 => class WP { public $public_query_vars = [...]; public $private_query_vars = [...]; public $extra_query_vars = [...]; public $query_vars = [...]; public $query_string = ''; public $request = 'wc-api/Eh_PayPal_Express_Payment'; public $matched_rule = 'wc-api(/(.*))?/?$'; public $matched_query = '&wc-api=Eh_PayPal_Express_Payment'; public $did_permalink = TRUE }]) E:\wamp64\www\test02\wp-includes\class-wp-hook.php:331
+[15-Jul-2022 02:18:11 UTC] PHP   9. WC_API->handle_api_requests(class WP { public $public_query_vars = [0 => 'm', 1 => 'p', 2 => 'posts', 3 => 'w', 4 => 'cat', 5 => 'withcomments', 6 => 'withoutcomments', 7 => 's', 8 => 'search', 9 => 'exact', 10 => 'sentence', 11 => 'calendar', 12 => 'page', 13 => 'paged', 14 => 'more', 15 => 'tb', 16 => 'pb', 17 => 'author', 18 => 'order', 19 => 'orderby', 20 => 'year', 21 => 'monthnum', 22 => 'day', 23 => 'hour', 24 => 'minute', 25 => 'second', 26 => 'name', 27 => 'category_name', 28 => 'tag', 29 => 'feed', 30 => 'author_name', 31 => 'pagename', 32 => 'page_id', 33 => 'error', 34 => 'attachment', 35 => 'attachment_id', 36 => 'subpost', 37 => 'subpost_id', 38 => 'preview', 39 => 'robots', 40 => 'favicon', 41 => 'taxonomy', 42 => 'term', 43 => 'cpage', 44 => 'post_type', 45 => 'embed', 46 => 'post_format', 47 => 'e-landing-page', 48 => 'elementor_library', 49 => 'wc-api', 50 => 'product_cat', 51 => 'product_tag', 52 => 'pa_color', 53 => 'pa_size', 54 => 'product', 55 => 'rest_route', 56 => 'sitemap', 57 => 'sitemap-subtype', 58 => 'sitemap-stylesheet', 59 => 'order-pay', 60 => 'order-received', 61 => 'orders', 62 => 'view-order', 63 => 'downloads', 64 => 'edit-account', 65 => 'edit-address', 66 => 'payment-methods', 67 => 'lost-password', 68 => 'customer-logout', 69 => 'add-payment-method', 70 => 'delete-payment-method', 71 => 'set-default-payment-method', 72 => 'wc-auth-version', 73 => 'wc-auth-route', 74 => 'order-pay', 75 => 'order-received', 76 => 'orders', 77 => 'view-order', 78 => 'downloads', 79 => 'edit-account', 80 => 'edit-address', 81 => 'payment-methods', 82 => 'lost-password', 83 => 'customer-logout', 84 => 'add-payment-method', 85 => 'delete-payment-method', 86 => 'set-default-payment-method', 87 => 'wc-api-version', 88 => 'wc-api-route', 89 => 'wc-api']; public $private_query_vars = [0 => 'offset', 1 => 'posts_per_page', 2 => 'posts_per_archive_page', 3 => 'showposts', 4 => 'nopaging', 5 => 'post_type', 6 => 'post_status', 7 => 'category__in', 8 => 'category__not_in', 9 => 'category__and', 10 => 'tag__in', 11 => 'tag__not_in', 12 => 'tag__and', 13 => 'tag_slug__in', 14 => 'tag_slug__and', 15 => 'tag_id', 16 => 'post_mime_type', 17 => 'perm', 18 => 'comments_per_page', 19 => 'post__in', 20 => 'post__not_in', 21 => 'post_parent', 22 => 'post_parent__in', 23 => 'post_parent__not_in', 24 => 'title', 25 => 'fields']; public $extra_query_vars = []; public $query_vars = ['p' => 'http://localhost/test02/checkout/', 'wc-api' => 'Eh_PayPal_Express_Payment']; public $query_string = ''; public $request = 'wc-api/Eh_PayPal_Express_Payment'; public $matched_rule = 'wc-api(/(.*))?/?$'; public $matched_query = '&wc-api=Eh_PayPal_Express_Payment'; public $did_permalink = TRUE }) E:\wamp64\www\test02\wp-includes\class-wp-hook.php:307
+[15-Jul-2022 02:18:11 UTC] PHP  10. do_action($hook_name = 'woocommerce_api_eh_paypal_express_payment') E:\wamp64\www\test02\wp-content\plugins\woocommerce\includes\class-wc-api.php:161
+[15-Jul-2022 02:18:11 UTC] PHP  11. WP_Hook->do_action($args = [0 => '']) E:\wamp64\www\test02\wp-includes\plugin.php:476
+[15-Jul-2022 02:18:11 UTC] PHP  12. WP_Hook->apply_filters($value = '', $args = [0 => '']) E:\wamp64\www\test02\wp-includes\class-wp-hook.php:331
+[15-Jul-2022 02:18:11 UTC] PHP  13. Eh_PayPal_Express_Payment->perform_api_request_paypal('') E:\wamp64\www\test02\wp-includes\class-wp-hook.php:307
+[15-Jul-2022 02:18:11 UTC] PHP  14. Eh_PayPal_Express_Payment->shipping_parse($response = ['TOKEN' => 'EC-46886579NA841751W', 'BILLINGAGREEMENTACCEPTEDSTATUS' => '0', 'CHECKOUTSTATUS' => 'PaymentActionNotInitiated', 'TIMESTAMP' => '2022-07-15T02:18:11Z', 'CORRELATIONID' => '85574b240b41a', 'ACK' => 'Success', 'VERSION' => '115', 'BUILD' => '57255788', 'EMAIL' => 'sb-j0pjg18903611@personal.example.com', 'PAYERID' => 'TKPKRR78VSB42', 'PAYERSTATUS' => 'verified', 'FIRSTNAME' => 'John', 'LASTNAME' => 'Doe', 'COUNTRYCODE' => 'US', 'SHIPTONAME' => 'phamtuanduc dsa', 'SHIPTOSTREET' => 'Quang Trung, Ha Dong, Ha Noi', 'SHIPTOCITY' => 'Ha Noi', 'SHIPTOZIP' => 'EEEEEE', 'SHIPTOCOUNTRYCODE' => 'VN', 'SHIPTOPHONENUM' => '111111111111', 'SHIPTOCOUNTRYNAME' => 'Vietnam', 'ADDRESSSTATUS' => 'Confirmed', 'CURRENCYCODE' => 'USD', 'AMT' => '100.00', 'ITEMAMT' => '100.00', 'SHIPPINGAMT' => '0.00', 'HANDLINGAMT' => '0.00', 'TAXAMT' => '0.00', 'INSURANCEAMT' => '0.00', 'SHIPDISCAMT' => '0.00', 'INSURANCEOPTIONOFFERED' => 'false', 'L_NAME0' => 'BALTHUS PAINTER\'S JACKET', 'L_QTY0' => '1', 'L_TAXAMT0' => '0.00', 'L_AMT0' => '100.00', 'L_DESC0' => 'Color : be, Size : l', 'PAYMENTREQUEST_0_CURRENCYCODE' => 'USD', 'PAYMENTREQUEST_0_AMT' => '100.00', 'PAYMENTREQUEST_0_ITEMAMT' => '100.00', 'PAYMENTREQUEST_0_SHIPPINGAMT' => '0.00', 'PAYMENTREQUEST_0_HANDLINGAMT' => '0.00', 'PAYMENTREQUEST_0_TAXAMT' => '0.00', 'PAYMENTREQUEST_0_INSURANCEAMT' => '0.00', 'PAYMENTREQUEST_0_SHIPDISCAMT' => '0.00', 'PAYMENTREQUEST_0_SELLERPAYPALACCOUNTID' => 'sb-mj47ex18063965@business.example.com', 'PAYMENTREQUEST_0_INSURANCEOPTIONOFFERED' => 'false', 'PAYMENTREQUEST_0_SHIPTONAME' => 'phamtuanduc dsa', 'PAYMENTREQUEST_0_SHIPTOSTREET' => 'Quang Trung, Ha Dong, Ha Noi', 'PAYMENTREQUEST_0_SHIPTOCITY' => 'Ha Noi', 'PAYMENTREQUEST_0_SHIPTOZIP' => 'EEEEEE', 'PAYMENTREQUEST_0_SHIPTOCOUNTRYCODE' => 'VN', 'PAYMENTREQUEST_0_SHIPTOPHONENUM' => '111111111111', 'PAYMENTREQUEST_0_SHIPTOCOUNTRYNAME' => 'Vietnam', 'PAYMENTREQUEST_0_ADDRESSSTATUS' => 'Confirmed', 'L_PAYMENTREQUEST_0_NAME0' => 'BALTHUS PAINTER\'S JACKET', 'L_PAYMENTREQUEST_0_QTY0' => '1', 'L_PAYMENTREQUEST_0_TAXAMT0' => '0.00', 'L_PAYMENTREQUEST_0_AMT0' => '100.00', 'L_PAYMENTREQUEST_0_DESC0' => 'Color : be, Size : l', 'PAYMENTREQUESTINFO_0_ERRORCODE' => '0'], $type = *uninitialized*) E:\wamp64\www\test02\wp-content\plugins\express-checkout-paypal-payment-gateway-for-woocommerce\includes\class-paypal-express-api.php:687
