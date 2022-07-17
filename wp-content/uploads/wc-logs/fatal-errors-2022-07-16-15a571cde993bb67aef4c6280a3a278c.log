@@ -1,0 +1,36 @@
+2022-07-16T08:53:24+00:00 CRITICAL Uncaught Error: Call to undefined function pll_the_languages() in E:\wamp64\www\test02\wp-content\themes\silky-new\header.php:49
+Stack trace:
+#0 E:\wamp64\www\test02\wp-includes\template.php(770): require_once()
+#1 E:\wamp64\www\test02\wp-includes\template.php(716): load_template('E:\\wamp64\\www\\t...', true, Array)
+#2 E:\wamp64\www\test02\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 E:\wamp64\www\test02\wp-content\themes\silky-new\404.php(11): get_header()
+#4 E:\wamp64\www\test02\wp-includes\template-loader.php(106): include('E:\\wamp64\\www\\t...')
+#5 E:\wamp64\www\test02\wp-blog-header.php(19): require_once('E:\\wamp64\\www\\t...')
+#6 E:\wamp64\www\test02\index.php(17): require('E:\\wamp64\\www\\t...')
+#7 {main}
+  thrown in E:\wamp64\www\test02\wp-content\themes\silky-new\header.php on line 49
+
+2022-07-16T08:53:27+00:00 CRITICAL Uncaught Error: Call to undefined function pll_the_languages() in E:\wamp64\www\test02\wp-content\themes\silky-new\header.php:49
+Stack trace:
+#0 E:\wamp64\www\test02\wp-includes\template.php(770): require_once()
+#1 E:\wamp64\www\test02\wp-includes\template.php(716): load_template('E:\\wamp64\\www\\t...', true, Array)
+#2 E:\wamp64\www\test02\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 E:\wamp64\www\test02\wp-content\themes\silky-new\index.php(17): get_header()
+#4 E:\wamp64\www\test02\wp-includes\template-loader.php(106): include('E:\\wamp64\\www\\t...')
+#5 E:\wamp64\www\test02\wp-blog-header.php(19): require_once('E:\\wamp64\\www\\t...')
+#6 E:\wamp64\www\test02\index.php(17): require('E:\\wamp64\\www\\t...')
+#7 {main}
+  thrown in E:\wamp64\www\test02\wp-content\themes\silky-new\header.php on line 49
+
+2022-07-16T08:53:31+00:00 CRITICAL Uncaught Error: Call to undefined function pll_the_languages() in E:\wamp64\www\test02\wp-content\themes\silky-new\header.php:49
+Stack trace:
+#0 E:\wamp64\www\test02\wp-includes\template.php(770): require_once()
+#1 E:\wamp64\www\test02\wp-includes\template.php(716): load_template('E:\\wamp64\\www\\t...', true, Array)
+#2 E:\wamp64\www\test02\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 E:\wamp64\www\test02\wp-content\themes\silky-new\index.php(17): get_header()
+#4 E:\wamp64\www\test02\wp-includes\template-loader.php(106): include('E:\\wamp64\\www\\t...')
+#5 E:\wamp64\www\test02\wp-blog-header.php(19): require_once('E:\\wamp64\\www\\t...')
+#6 E:\wamp64\www\test02\index.php(17): require('E:\\wamp64\\www\\t...')
+#7 {main}
+  thrown in E:\wamp64\www\test02\wp-content\themes\silky-new\header.php on line 49
+

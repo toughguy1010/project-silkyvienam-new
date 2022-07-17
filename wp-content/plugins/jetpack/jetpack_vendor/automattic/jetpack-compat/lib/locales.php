@@ -2222,7 +2222,7 @@ if ( ! class_exists( 'GP_Locales' ) ) :
 
 			$vi                      = new GP_Locale();
 			$vi->english_name        = 'Vietnamese';
-			$vi->native_name         = 'Tiếng Việt';
+			$vi->native_name         = 'Vi';
 			$vi->lang_code_iso_639_1 = 'vi';
 			$vi->lang_code_iso_639_2 = 'vie';
 			$vi->country_code        = 'vn';

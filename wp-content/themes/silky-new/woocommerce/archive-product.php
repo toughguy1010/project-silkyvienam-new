@@ -98,14 +98,19 @@ elseif (is_product_category()) {
 	$cateid = $cate -> term_id;
 	$posts_per_page = 2;
 	$paged = ( get_query_var('paged') ) ? get_query_var('paged') : 1;
-	// var_dump($paged);
+	$thumbnail_id = get_term_meta( $cate->term_id, 'thumbnail_id', true );
+	$image = wp_get_attachment_url( $thumbnail_id ); 
+	
+	// var_dump($thumbnail_id);
 	// var_dump("pages;", $GLOBALS['wp_query']);
 
 // var_dump($cate);
 	?>
 	<div class="collection-wrapp-header">
         <!-- <img class="collection-header-img" src="" alt=""> -->
-        <img src="<?php echo get_template_directory_uri() . '/img/header-collection.png'; ?>" class="collection-header-img" />
+        <img src="<?php echo $image?>" class="collection-header-img" />
+
+        <!-- <img src="<?php //echo get_template_directory_uri() . '/img/header-collection.png'; ?>" class="collection-header-img" /> -->
         <div class="header-collection-desc">
             <div class="header-colletion-name">
                 <?php echo $cate ->name ?>

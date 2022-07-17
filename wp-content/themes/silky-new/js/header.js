@@ -80,7 +80,78 @@ jQuery(document).ready(function() {
     function openSortMenu() {
         sortingArrow.classList.toggle("sorting-arrow-btn-active")
     }
+
+    $(window).bind('scroll', function() {
+        if ($(window).scrollTop() > 500) {
+            $('.header-section').addClass('nav-down');
+        }
+    });
+
+    // Hide Header on on scroll down
+    var didScroll;
+    var lastScrollTop = 0;
+    var delta = 5;
+    var navbarHeight = $('.header-section').outerHeight();
+    console.log(navbarHeight)
+    $(window).scroll(function(event) {
+        didScroll = true;
+    });
+
+    setInterval(function() {
+        if (didScroll) {
+            hasScrolled();
+            didScroll = false;
+        }
+    }, 500);
+
+    function hasScrolled() {
+        var st = $(this).scrollTop();
+
+        // Make sure they scroll more than delta
+        if (Math.abs(lastScrollTop - st) <= delta)
+            return;
+
+        // If they scrolled down and are past the navbar, add class .nav-up.
+        // This is necessary so you never see what is "behind" the navbar.
+        if (st > lastScrollTop && st > navbarHeight) {
+            // Scroll Down
+            $('.header-section').removeClass('nav-down').addClass('nav-up');
+        } else {
+            // Scroll Up
+            if (st + $(window).height() < $(document).height()) {
+                $('.header-section').removeClass('nav-up');
+            }
+        }
+
+        lastScrollTop = st;
+    }
+
+
+
+
 });
+// var prevScrollpos = window.pageYOffset;
+// window.onscroll = function() {
+//     var currentScrollpos = window.pageYOffset;
+//     if (prevScrollpos > currentScrollpos) {
+//         document.querySelector(".header-section").style.top = "0px";
+//     } else {
+//         document.querySelector(".header-section").style.top = "-100px";
+//     }
+//     prevScrollpos = currentScrollPos;
+// }
+
+// console.log(document.querySelector(".header-section"))
 
 
-// console.log(wcsContainer)
+var lastScrollTop = 0;
+
+window.addEventListener("scroll", function() {
+    var st = window.pageYOffset || document.documentElement.scrollTop;
+    if (st > lastScrollTop) {
+        document.querySelector(".header-section").style.top = "-100%";
+    } else {
+        document.querySelector(".header-section").style.top = "0";
+    }
+    lastScrollTop = st;
+}, false);

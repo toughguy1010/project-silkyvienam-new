@@ -299,3 +299,21 @@ function prefix_change_cat_product_per_page( $query ) {
 
 }
 add_action( 'pre_get_posts', 'prefix_change_cat_product_per_page' );
+
+
+
+
+add_filter('woocommerce_catalog_orderby', 'wc_customize_product_sorting');
+
+function wc_customize_product_sorting($sorting_options){
+    $sorting_options = array(
+        'menu_order' => __( 'Mặc định', 'woocommerce' ),
+        'popularity' => __( 'Phổ biến', 'woocommerce' ),
+        'rating'     => __( 'Đánh giá', 'woocommerce' ),
+        'date'       => __( 'Mới nhất', 'woocommerce' ),
+        'price'      => __( 'Giá từ thấp đến cao', 'woocommerce' ),
+        'price-desc' => __( 'Giá từ cao đến thấp', 'woocommerce' ),
+    );
+
+    return $sorting_options;
+}

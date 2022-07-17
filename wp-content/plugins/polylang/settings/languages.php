@@ -1166,7 +1166,7 @@ return array(
 	'vi' => array(
 		'code'     => 'vi',
 		'locale'   => 'vi',
-		'name'     => 'Tiếng Việt',
+		'name'     => 'Vi',
 		'dir'      => 'ltr',
 		'flag'     => 'vn',
 		'facebook' => 'vi_VN',

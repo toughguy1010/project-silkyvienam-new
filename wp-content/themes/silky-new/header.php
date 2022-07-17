@@ -38,7 +38,7 @@ defined( 'ABSPATH' ) || exit;
                 <?php
                 wp_nav_menu( 
                     array( 
-                        'theme_location' => 'primary', 
+                        'theme_location' => 'main', 
                         'container' => 'false', 
                         'menu_id' => 'header-menu', 
                         'menu_class' => 'header-desktop-menu-list'
@@ -46,6 +46,7 @@ defined( 'ABSPATH' ) || exit;
                   ); 
                 ?> 
             </div>
+           
                 <a href="http://silkyvietnam.vn/" class="header-logo">
                 <img src="<?php echo get_template_directory_uri() . '/img/header-logo-img.jpg'; ?>" class="logo-respon" />
                     <!-- <img src="/assets/img/header-logo-img.jpg" alt="" class="logo-respon"> -->
@@ -53,11 +54,14 @@ defined( 'ABSPATH' ) || exit;
                 </a>
                 <div class="header-feature">
                     <div class="header-feature-list">
-                        <div class="header-feature-item switch-languae-btn">
-                            <div class="switch-english-btn">EN</div>
+                        <div class="header-feature-item wdlog-btn">
+                            <!-- <div class="switch-english-btn">EN</div>
                             <div class="switch-btn-layer"></div>
-                            <div class="switch-vietnamese-btn">VN</div>
+                            <div class="switch-vietnamese-btn">VN</div> -->
+                            <div id="weglot_here"></div>
+                 
                         </div>
+                       
                     </div>
                     <div class="header-feature-list">
                         <!-- <div class="header-feature-item searching-form">
