@@ -122,8 +122,24 @@ require get_template_directory() . '/inc/ajax/zenzweb-ajax.php';
 add_action('woocommerce_checkout_before_order_review', function() {
     get_template_part('global-templates/part','order-product-sumary');
     }, 99);
+
+
+    add_shortcode( 'coupon_field', function() {
+
+        $output  = '<div id="redeem-coupon">
+        <div><img src="'.get_template_directory_uri().'/assets/coupon-icon.svg'.'"/> If you have a coupon code, please apply it below.</div>
+        <input type="text" name="coupon" id="coupon" class = "input-coupon"/>
+        <button class="redeem-coupon" name="redeem-coupon">'.__('Nhập Voucher').'</button>';
+    
+        return $output . '</div>';
+    } );
+
     remove_action( 'woocommerce_before_checkout_form', 'woocommerce_checkout_coupon_form', 10 ); 
-    add_action( 'woocommerce_after_order_notes', 'woocommerce_checkout_coupon_form' );
+    add_action( 'woocommerce_after_checkout_billing_form', function() {
+        echo do_shortcode('[coupon_field]');
+      } );
+    // add_action( 'woocommerce_before_checkout_form', 'woocommerce_checkout_coupon_form',99 );
+   
     // add_action( 'woocommerce_checkout_before_customer_details', 'woocommerce_checkout_coupon_form', 50 ); 
   // Minimum CSS to remove +/- default buttons on input field type number
 add_action( 'wp_head' , 'custom_quantity_fields_css' );

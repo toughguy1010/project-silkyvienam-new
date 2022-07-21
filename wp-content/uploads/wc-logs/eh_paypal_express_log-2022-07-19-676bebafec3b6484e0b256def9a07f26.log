@@ -1,0 +1,555 @@
+2022-07-19T07:13:21+00:00 DEBUG <------------------- WebToffee PayPal Express Payment ( Setting Express Checkout ) ------------------->
+stdClass Object
+(
+    [METHOD] => SetExpressCheckout
+    [RETURNURL] => http://localhost/test02/wc-api/Eh_PayPal_Express_Payment/?c=express_details&express=false&p=http://localhost/test02/checkout/
+    [CANCELURL] => http://localhost/test02/checkout/?cancel_express_checkout=cancel
+    [ADDROVERRIDE] => 
+    [BRANDNAME] => banhangonline
+    [HDRIMG] => 
+    [LOGOIMG] => 
+    [SOLUTIONTYPE] => Sole
+    [LOCALECODE] => en_US
+    [LANDINGPAGE] => Billing
+    [L_PAYMENTREQUEST_0_NAME0] => BALTHUS PAINTER'S JACKET
+    [L_PAYMENTREQUEST_0_DESC0] => Color : be, Size : l
+    [L_PAYMENTREQUEST_0_AMT0] => 250
+    [L_PAYMENTREQUEST_0_QTY0] => 1
+    [L_PAYMENTREQUEST_0_ITEMURL0] => http://localhost/test02/product/balthus-painters-jacket-2/?attribute_pa_color=be&attribute_pa_size=l
+    [PAYMENTREQUEST_0_AMT] => 260
+    [PAYMENTREQUEST_0_CURRENCYCODE] => USD
+    [PAYMENTREQUEST_0_ITEMAMT] => 250
+    [PAYMENTREQUEST_0_SHIPPINGAMT] => 10
+    [PAYMENTREQUEST_0_TAXAMT] => 0
+    [PAYMENTREQUEST_0_SHIPDISCAMT] => 0
+    [PAYMENTREQUEST_0_PAYMENTACTION] => Sale
+    [MAXAMT] => 455
+    [PAYMENTREQUEST_0_SHIPTONAME] => phamtuanduc dsa
+    [PAYMENTREQUEST_0_SHIPTOSTREET] => Quang Trung, Ha Dong, Ha Noi
+    [PAYMENTREQUEST_0_SHIPTOSTREET2] => 
+    [PAYMENTREQUEST_0_SHIPTOCITY] => Ha Noi
+    [PAYMENTREQUEST_0_SHIPTOSTATE] => 
+    [PAYMENTREQUEST_0_SHIPTOZIP] => 111
+    [PAYMENTREQUEST_0_SHIPTOCOUNTRYCODE] => VN
+    [PAYMENTREQUEST_0_SHIPTOPHONENUM] => 111111111111
+    [PAYMENTREQUEST_0_NOTETEXT] => 
+    [PAYMENTREQUEST_0_EMAIL] => dsadsd@gmail.com
+    [PAYMENTREQUEST_0_PAYMENTREQUESTID] => 
+)
+
+2022-07-19T07:13:22+00:00 DEBUG <------------------- WebToffee PayPal Express Payment ( Response on Express Start/Credit Start ) ------------------->
+stdClass Object
+(
+    [TOKEN] => EC-7XU37042Y7793344B
+    [TIMESTAMP] => 2022-07-19T07:13:21Z
+    [CORRELATIONID] => da5bd921908e
+    [ACK] => Success
+    [BUILD] => 57255788
+)
+
+2022-07-19T07:13:35+00:00 DEBUG <------------------- WebToffee PayPal Express Payment ( Getting Express Checkout Details ) ------------------->
+stdClass Object
+(
+    [METHOD] => GetExpressCheckoutDetails
+    [TOKEN] => EC-7XU37042Y7793344B
+)
+
+2022-07-19T07:13:35+00:00 DEBUG <------------------- WebToffee PayPal Express Payment ( Response on Express Details ) ------------------->
+stdClass Object
+(
+    [TOKEN] => EC-7XU37042Y7793344B
+    [BILLINGAGREEMENTACCEPTEDSTATUS] => 0
+    [CHECKOUTSTATUS] => PaymentActionNotInitiated
+    [TIMESTAMP] => 2022-07-19T07:13:35Z
+    [CORRELATIONID] => 4c745592cad91
+    [ACK] => Success
+    [BUILD] => 57255788
+    [EMAIL] => sb-j0pjg18903611@personal.example.com
+    [PAYERID] => TKPKRR78VSB42
+    [PAYERSTATUS] => verified
+    [FIRSTNAME] => John
+    [LASTNAME] => Doe
+    [COUNTRYCODE] => US
+    [SHIPTONAME] => phamtuanduc dsa
+    [SHIPTOSTREET] => Quang Trung, Ha Dong, Ha Noi
+    [SHIPTOCITY] => Ha Noi
+    [SHIPTOZIP] => 111
+    [SHIPTOCOUNTRYCODE] => VN
+    [SHIPTOPHONENUM] => 111111111111
+    [SHIPTOCOUNTRYNAME] => Vietnam
+    [ADDRESSSTATUS] => Confirmed
+    [CURRENCYCODE] => USD
+    [AMT] => 260.00
+    [ITEMAMT] => 250.00
+    [SHIPPINGAMT] => 10.00
+    [HANDLINGAMT] => 0.00
+    [TAXAMT] => 0.00
+    [INSURANCEAMT] => 0.00
+    [SHIPDISCAMT] => 0.00
+    [INSURANCEOPTIONOFFERED] => false
+    [L_NAME0] => BALTHUS PAINTER'S JACKET
+    [L_QTY0] => 1
+    [L_TAXAMT0] => 0.00
+    [L_AMT0] => 250.00
+    [L_DESC0] => Color : be, Size : l
+    [PAYMENTREQUEST_0_CURRENCYCODE] => USD
+    [PAYMENTREQUEST_0_AMT] => 260.00
+    [PAYMENTREQUEST_0_ITEMAMT] => 250.00
+    [PAYMENTREQUEST_0_SHIPPINGAMT] => 10.00
+    [PAYMENTREQUEST_0_HANDLINGAMT] => 0.00
+    [PAYMENTREQUEST_0_TAXAMT] => 0.00
+    [PAYMENTREQUEST_0_INSURANCEAMT] => 0.00
+    [PAYMENTREQUEST_0_SHIPDISCAMT] => 0.00
+    [PAYMENTREQUEST_0_SELLERPAYPALACCOUNTID] => sb-mj47ex18063965@business.example.com
+    [PAYMENTREQUEST_0_INSURANCEOPTIONOFFERED] => false
+    [PAYMENTREQUEST_0_SHIPTONAME] => phamtuanduc dsa
+    [PAYMENTREQUEST_0_SHIPTOSTREET] => Quang Trung, Ha Dong, Ha Noi
+    [PAYMENTREQUEST_0_SHIPTOCITY] => Ha Noi
+    [PAYMENTREQUEST_0_SHIPTOZIP] => 111
+    [PAYMENTREQUEST_0_SHIPTOCOUNTRYCODE] => VN
+    [PAYMENTREQUEST_0_SHIPTOPHONENUM] => 111111111111
+    [PAYMENTREQUEST_0_SHIPTOCOUNTRYNAME] => Vietnam
+    [PAYMENTREQUEST_0_ADDRESSSTATUS] => Confirmed
+    [L_PAYMENTREQUEST_0_NAME0] => BALTHUS PAINTER'S JACKET
+    [L_PAYMENTREQUEST_0_QTY0] => 1
+    [L_PAYMENTREQUEST_0_TAXAMT0] => 0.00
+    [L_PAYMENTREQUEST_0_AMT0] => 250.00
+    [L_PAYMENTREQUEST_0_DESC0] => Color : be, Size : l
+    [PAYMENTREQUESTINFO_0_ERRORCODE] => 0
+)
+
+2022-07-19T07:13:36+00:00 DEBUG <------------------- WebToffee PayPal Express Payment ( Processing Express Checkout ) ------------------->
+stdClass Object
+(
+    [METHOD] => DoExpressCheckoutPayment
+    [TOKEN] => EC-7XU37042Y7793344B
+    [PAYERID] => TKPKRR78VSB42
+    [BUTTONSOURCE] => WebToffee PE Checkout
+    [L_PAYMENTREQUEST_0_NAME0] => BALTHUS PAINTER'S JACKET - Be, L
+    [L_PAYMENTREQUEST_0_DESC0] => 
+    [L_PAYMENTREQUEST_0_AMT0] => 250
+    [L_PAYMENTREQUEST_0_QTY0] => 1
+    [PAYMENTREQUEST_0_AMT] => 260
+    [PAYMENTREQUEST_0_CURRENCYCODE] => USD
+    [PAYMENTREQUEST_0_ITEMAMT] => 250
+    [PAYMENTREQUEST_0_SHIPPINGAMT] => 10
+    [PAYMENTREQUEST_0_TAXAMT] => 0
+    [PAYMENTREQUEST_0_SHIPDISCAMT] => 0
+    [PAYMENTREQUEST_0_PAYMENTACTION] => Sale
+    [PAYMENTREQUEST_0_INVNUM] => 778
+    [PAYMENTREQUEST_0_PAYMENTREQUESTID] => 778
+)
+
+2022-07-19T07:13:39+00:00 DEBUG <------------------- WebToffee PayPal Express Payment ( Response on Finish Express ) ------------------->
+stdClass Object
+(
+    [TOKEN] => EC-7XU37042Y7793344B
+    [SUCCESSPAGEREDIRECTREQUESTED] => false
+    [TIMESTAMP] => 2022-07-19T07:13:38Z
+    [CORRELATIONID] => cc0d672cfb793
+    [ACK] => Success
+    [BUILD] => 57255788
+    [INSURANCEOPTIONSELECTED] => false
+    [SHIPPINGOPTIONISDEFAULT] => false
+    [PAYMENTINFO_0_TRANSACTIONID] => 2CV28676653201120
+    [PAYMENTINFO_0_TRANSACTIONTYPE] => cart
+    [PAYMENTINFO_0_PAYMENTTYPE] => instant
+    [PAYMENTINFO_0_ORDERTIME] => 2022-07-19T07:13:37Z
+    [PAYMENTINFO_0_AMT] => 260.00
+    [PAYMENTINFO_0_FEEAMT] => 9.56
+    [PAYMENTINFO_0_TAXAMT] => 0.00
+    [PAYMENTINFO_0_CURRENCYCODE] => USD
+    [PAYMENTINFO_0_PAYMENTSTATUS] => Completed
+    [PAYMENTINFO_0_PENDINGREASON] => None
+    [PAYMENTINFO_0_REASONCODE] => None
+    [PAYMENTINFO_0_PROTECTIONELIGIBILITY] => Eligible
+    [PAYMENTINFO_0_PROTECTIONELIGIBILITYTYPE] => ItemNotReceivedEligible,UnauthorizedPaymentEligible
+    [PAYMENTINFO_0_SELLERPAYPALACCOUNTID] => sb-mj47ex18063965@business.example.com
+    [PAYMENTINFO_0_SECUREMERCHANTACCOUNTID] => QD8TKWFQPHNY4
+    [PAYMENTINFO_0_PAYMENTREQUESTID] => 778
+    [PAYMENTINFO_0_ERRORCODE] => 0
+    [PAYMENTINFO_0_ACK] => Success
+)
+
+2022-07-19T11:10:28+00:00 DEBUG <------------------- WebToffee PayPal Express Payment ( Setting Express Checkout ) ------------------->
+stdClass Object
+(
+    [METHOD] => SetExpressCheckout
+    [RETURNURL] => http://localhost/test02/wc-api/Eh_PayPal_Express_Payment/?c=express_details&express=false&p=http://localhost/test02/checkout/
+    [CANCELURL] => http://localhost/test02/checkout/?cancel_express_checkout=cancel
+    [ADDROVERRIDE] => 
+    [BRANDNAME] => banhangonline
+    [HDRIMG] => 
+    [LOGOIMG] => 
+    [SOLUTIONTYPE] => Sole
+    [LOCALECODE] => en_US
+    [LANDINGPAGE] => Billing
+    [L_PAYMENTREQUEST_0_NAME0] => BALTHUS PAINTER'S JACKET
+    [L_PAYMENTREQUEST_0_DESC0] => Color : be, Size : l
+    [L_PAYMENTREQUEST_0_AMT0] => 100
+    [L_PAYMENTREQUEST_0_QTY0] => 1
+    [L_PAYMENTREQUEST_0_ITEMURL0] => http://localhost/test02/product/balthus-painters-jacket-6/?attribute_pa_color=be&attribute_pa_size=l
+    [L_PAYMENTREQUEST_0_NAME1] => Discount
+    [L_PAYMENTREQUEST_0_DESC1] => test2
+    [L_PAYMENTREQUEST_0_QTY1] => 1
+    [L_PAYMENTREQUEST_0_AMT1] => -50
+    [PAYMENTREQUEST_0_AMT] => 60
+    [PAYMENTREQUEST_0_CURRENCYCODE] => USD
+    [PAYMENTREQUEST_0_ITEMAMT] => 50
+    [PAYMENTREQUEST_0_SHIPPINGAMT] => 10
+    [PAYMENTREQUEST_0_TAXAMT] => 0
+    [PAYMENTREQUEST_0_SHIPDISCAMT] => 0
+    [PAYMENTREQUEST_0_PAYMENTACTION] => Sale
+    [MAXAMT] => 105
+    [PAYMENTREQUEST_0_SHIPTONAME] => phamtuanduc dsa
+    [PAYMENTREQUEST_0_SHIPTOSTREET] => Quang Trung, Ha Dong, Ha Noi
+    [PAYMENTREQUEST_0_SHIPTOSTREET2] => 
+    [PAYMENTREQUEST_0_SHIPTOCITY] => Ha Noi
+    [PAYMENTREQUEST_0_SHIPTOSTATE] => 
+    [PAYMENTREQUEST_0_SHIPTOZIP] => EEEEEE
+    [PAYMENTREQUEST_0_SHIPTOCOUNTRYCODE] => VN
+    [PAYMENTREQUEST_0_SHIPTOPHONENUM] => 111111111111
+    [PAYMENTREQUEST_0_NOTETEXT] => 
+    [PAYMENTREQUEST_0_EMAIL] => tuanduc10102001@gmail.com
+    [PAYMENTREQUEST_0_PAYMENTREQUESTID] => 
+)
+
+2022-07-19T11:10:30+00:00 DEBUG <------------------- WebToffee PayPal Express Payment ( Response on Express Start/Credit Start ) ------------------->
+stdClass Object
+(
+    [TOKEN] => EC-20U71685JT1484711
+    [TIMESTAMP] => 2022-07-19T11:10:28Z
+    [CORRELATIONID] => 18c5ea195c5a9
+    [ACK] => Success
+    [BUILD] => 57255788
+)
+
+2022-07-19T11:10:43+00:00 DEBUG <------------------- WebToffee PayPal Express Payment ( Getting Express Checkout Details ) ------------------->
+stdClass Object
+(
+    [METHOD] => GetExpressCheckoutDetails
+    [TOKEN] => EC-20U71685JT1484711
+)
+
+2022-07-19T11:10:44+00:00 DEBUG <------------------- WebToffee PayPal Express Payment ( Response on Express Details ) ------------------->
+stdClass Object
+(
+    [TOKEN] => EC-20U71685JT1484711
+    [BILLINGAGREEMENTACCEPTEDSTATUS] => 0
+    [CHECKOUTSTATUS] => PaymentActionNotInitiated
+    [TIMESTAMP] => 2022-07-19T11:10:43Z
+    [CORRELATIONID] => c0d9e28135724
+    [ACK] => Success
+    [BUILD] => 57255788
+    [EMAIL] => sb-j0pjg18903611@personal.example.com
+    [PAYERID] => TKPKRR78VSB42
+    [PAYERSTATUS] => verified
+    [FIRSTNAME] => John
+    [LASTNAME] => Doe
+    [COUNTRYCODE] => US
+    [SHIPTONAME] => phamtuanduc dsa
+    [SHIPTOSTREET] => Quang Trung, Ha Dong, Ha Noi
+    [SHIPTOCITY] => Ha Noi
+    [SHIPTOZIP] => EEEEEE
+    [SHIPTOCOUNTRYCODE] => VN
+    [SHIPTOPHONENUM] => 111111111111
+    [SHIPTOCOUNTRYNAME] => Vietnam
+    [ADDRESSSTATUS] => Confirmed
+    [CURRENCYCODE] => USD
+    [AMT] => 60.00
+    [ITEMAMT] => 50.00
+    [SHIPPINGAMT] => 10.00
+    [HANDLINGAMT] => 0.00
+    [TAXAMT] => 0.00
+    [INSURANCEAMT] => 0.00
+    [SHIPDISCAMT] => 0.00
+    [INSURANCEOPTIONOFFERED] => false
+    [L_NAME0] => BALTHUS PAINTER'S JACKET
+    [L_NAME1] => Discount
+    [L_QTY0] => 1
+    [L_QTY1] => 1
+    [L_TAXAMT0] => 0.00
+    [L_TAXAMT1] => 0.00
+    [L_AMT0] => 100.00
+    [L_AMT1] => -50.00
+    [L_DESC0] => Color : be, Size : l
+    [L_DESC1] => test2
+    [PAYMENTREQUEST_0_CURRENCYCODE] => USD
+    [PAYMENTREQUEST_0_AMT] => 60.00
+    [PAYMENTREQUEST_0_ITEMAMT] => 50.00
+    [PAYMENTREQUEST_0_SHIPPINGAMT] => 10.00
+    [PAYMENTREQUEST_0_HANDLINGAMT] => 0.00
+    [PAYMENTREQUEST_0_TAXAMT] => 0.00
+    [PAYMENTREQUEST_0_INSURANCEAMT] => 0.00
+    [PAYMENTREQUEST_0_SHIPDISCAMT] => 0.00
+    [PAYMENTREQUEST_0_SELLERPAYPALACCOUNTID] => sb-mj47ex18063965@business.example.com
+    [PAYMENTREQUEST_0_INSURANCEOPTIONOFFERED] => false
+    [PAYMENTREQUEST_0_SHIPTONAME] => phamtuanduc dsa
+    [PAYMENTREQUEST_0_SHIPTOSTREET] => Quang Trung, Ha Dong, Ha Noi
+    [PAYMENTREQUEST_0_SHIPTOCITY] => Ha Noi
+    [PAYMENTREQUEST_0_SHIPTOZIP] => EEEEEE
+    [PAYMENTREQUEST_0_SHIPTOCOUNTRYCODE] => VN
+    [PAYMENTREQUEST_0_SHIPTOPHONENUM] => 111111111111
+    [PAYMENTREQUEST_0_SHIPTOCOUNTRYNAME] => Vietnam
+    [PAYMENTREQUEST_0_ADDRESSSTATUS] => Confirmed
+    [L_PAYMENTREQUEST_0_NAME0] => BALTHUS PAINTER'S JACKET
+    [L_PAYMENTREQUEST_0_NAME1] => Discount
+    [L_PAYMENTREQUEST_0_QTY0] => 1
+    [L_PAYMENTREQUEST_0_QTY1] => 1
+    [L_PAYMENTREQUEST_0_TAXAMT0] => 0.00
+    [L_PAYMENTREQUEST_0_TAXAMT1] => 0.00
+    [L_PAYMENTREQUEST_0_AMT0] => 100.00
+    [L_PAYMENTREQUEST_0_AMT1] => -50.00
+    [L_PAYMENTREQUEST_0_DESC0] => Color : be, Size : l
+    [L_PAYMENTREQUEST_0_DESC1] => test2
+    [PAYMENTREQUESTINFO_0_ERRORCODE] => 0
+)
+
+2022-07-19T11:10:44+00:00 DEBUG <------------------- WebToffee PayPal Express Payment ( Processing Express Checkout ) ------------------->
+stdClass Object
+(
+    [METHOD] => DoExpressCheckoutPayment
+    [TOKEN] => EC-20U71685JT1484711
+    [PAYERID] => TKPKRR78VSB42
+    [BUTTONSOURCE] => WebToffee PE Checkout
+    [L_PAYMENTREQUEST_0_NAME0] => BALTHUS PAINTER'S JACKET - Be, L
+    [L_PAYMENTREQUEST_0_DESC0] => 
+    [L_PAYMENTREQUEST_0_AMT0] => 100
+    [L_PAYMENTREQUEST_0_QTY0] => 1
+    [L_PAYMENTREQUEST_0_NAME1] => Discount
+    [L_PAYMENTREQUEST_0_DESC1] => test2
+    [L_PAYMENTREQUEST_0_QTY1] => 1
+    [L_PAYMENTREQUEST_0_AMT1] => -50
+    [PAYMENTREQUEST_0_AMT] => 60
+    [PAYMENTREQUEST_0_CURRENCYCODE] => USD
+    [PAYMENTREQUEST_0_ITEMAMT] => 50
+    [PAYMENTREQUEST_0_SHIPPINGAMT] => 10
+    [PAYMENTREQUEST_0_TAXAMT] => 0
+    [PAYMENTREQUEST_0_SHIPDISCAMT] => 0
+    [PAYMENTREQUEST_0_PAYMENTACTION] => Sale
+    [PAYMENTREQUEST_0_INVNUM] => 837
+    [PAYMENTREQUEST_0_PAYMENTREQUESTID] => 837
+)
+
+2022-07-19T11:10:48+00:00 DEBUG <------------------- WebToffee PayPal Express Payment ( Response on Finish Express ) ------------------->
+stdClass Object
+(
+    [TOKEN] => EC-20U71685JT1484711
+    [SUCCESSPAGEREDIRECTREQUESTED] => false
+    [TIMESTAMP] => 2022-07-19T11:10:46Z
+    [CORRELATIONID] => 90edb6fce797a
+    [ACK] => Success
+    [BUILD] => 57255788
+    [INSURANCEOPTIONSELECTED] => false
+    [SHIPPINGOPTIONISDEFAULT] => false
+    [PAYMENTINFO_0_TRANSACTIONID] => 93791342NN118812R
+    [PAYMENTINFO_0_TRANSACTIONTYPE] => cart
+    [PAYMENTINFO_0_PAYMENTTYPE] => instant
+    [PAYMENTINFO_0_ORDERTIME] => 2022-07-19T11:10:45Z
+    [PAYMENTINFO_0_AMT] => 60.00
+    [PAYMENTINFO_0_FEEAMT] => 2.58
+    [PAYMENTINFO_0_TAXAMT] => 0.00
+    [PAYMENTINFO_0_CURRENCYCODE] => USD
+    [PAYMENTINFO_0_PAYMENTSTATUS] => Completed
+    [PAYMENTINFO_0_PENDINGREASON] => None
+    [PAYMENTINFO_0_REASONCODE] => None
+    [PAYMENTINFO_0_PROTECTIONELIGIBILITY] => Eligible
+    [PAYMENTINFO_0_PROTECTIONELIGIBILITYTYPE] => ItemNotReceivedEligible,UnauthorizedPaymentEligible
+    [PAYMENTINFO_0_SELLERPAYPALACCOUNTID] => sb-mj47ex18063965@business.example.com
+    [PAYMENTINFO_0_SECUREMERCHANTACCOUNTID] => QD8TKWFQPHNY4
+    [PAYMENTINFO_0_PAYMENTREQUESTID] => 837
+    [PAYMENTINFO_0_ERRORCODE] => 0
+    [PAYMENTINFO_0_ACK] => Success
+)
+
+2022-07-19T11:13:57+00:00 DEBUG <------------------- WebToffee PayPal Express Payment ( Setting Express Checkout ) ------------------->
+stdClass Object
+(
+    [METHOD] => SetExpressCheckout
+    [RETURNURL] => http://localhost/test02/wc-api/Eh_PayPal_Express_Payment/?c=express_details&express=false&p=http://localhost/test02/checkout/
+    [CANCELURL] => http://localhost/test02/checkout/?cancel_express_checkout=cancel
+    [ADDROVERRIDE] => 
+    [BRANDNAME] => banhangonline
+    [HDRIMG] => 
+    [LOGOIMG] => 
+    [SOLUTIONTYPE] => Sole
+    [LOCALECODE] => en_US
+    [LANDINGPAGE] => Billing
+    [L_PAYMENTREQUEST_0_NAME0] => BALTHUS PAINTER'S JACKET
+    [L_PAYMENTREQUEST_0_DESC0] => Color : be, Size : l
+    [L_PAYMENTREQUEST_0_AMT0] => 250
+    [L_PAYMENTREQUEST_0_QTY0] => 1
+    [L_PAYMENTREQUEST_0_ITEMURL0] => http://localhost/test02/product/balthus-painters-jacket-4/?attribute_pa_color=be&attribute_pa_size=l
+    [L_PAYMENTREQUEST_0_NAME1] => Discount
+    [L_PAYMENTREQUEST_0_DESC1] => test3
+    [L_PAYMENTREQUEST_0_QTY1] => 1
+    [L_PAYMENTREQUEST_0_AMT1] => -50
+    [PAYMENTREQUEST_0_AMT] => 210
+    [PAYMENTREQUEST_0_CURRENCYCODE] => USD
+    [PAYMENTREQUEST_0_ITEMAMT] => 200
+    [PAYMENTREQUEST_0_SHIPPINGAMT] => 10
+    [PAYMENTREQUEST_0_TAXAMT] => 0
+    [PAYMENTREQUEST_0_SHIPDISCAMT] => 0
+    [PAYMENTREQUEST_0_PAYMENTACTION] => Sale
+    [MAXAMT] => 368
+    [PAYMENTREQUEST_0_SHIPTONAME] => phamtuanduc dsa
+    [PAYMENTREQUEST_0_SHIPTOSTREET] => Quang Trung, Ha Dong, Ha Noi
+    [PAYMENTREQUEST_0_SHIPTOSTREET2] => 
+    [PAYMENTREQUEST_0_SHIPTOCITY] => Ha Noi
+    [PAYMENTREQUEST_0_SHIPTOSTATE] => 
+    [PAYMENTREQUEST_0_SHIPTOZIP] => EEEEEE
+    [PAYMENTREQUEST_0_SHIPTOCOUNTRYCODE] => VN
+    [PAYMENTREQUEST_0_SHIPTOPHONENUM] => 111111111111
+    [PAYMENTREQUEST_0_NOTETEXT] => 
+    [PAYMENTREQUEST_0_EMAIL] => tuanduc10102001@gmail.com
+    [PAYMENTREQUEST_0_PAYMENTREQUESTID] => 
+)
+
+2022-07-19T11:13:58+00:00 DEBUG <------------------- WebToffee PayPal Express Payment ( Response on Express Start/Credit Start ) ------------------->
+stdClass Object
+(
+    [TOKEN] => EC-9DM383835C114412G
+    [TIMESTAMP] => 2022-07-19T11:13:57Z
+    [CORRELATIONID] => 2b0ee69b1dbff
+    [ACK] => Success
+    [BUILD] => 57255788
+)
+
+2022-07-19T11:14:07+00:00 DEBUG <------------------- WebToffee PayPal Express Payment ( Getting Express Checkout Details ) ------------------->
+stdClass Object
+(
+    [METHOD] => GetExpressCheckoutDetails
+    [TOKEN] => EC-9DM383835C114412G
+)
+
+2022-07-19T11:14:08+00:00 DEBUG <------------------- WebToffee PayPal Express Payment ( Response on Express Details ) ------------------->
+stdClass Object
+(
+    [TOKEN] => EC-9DM383835C114412G
+    [BILLINGAGREEMENTACCEPTEDSTATUS] => 0
+    [CHECKOUTSTATUS] => PaymentActionNotInitiated
+    [TIMESTAMP] => 2022-07-19T11:14:07Z
+    [CORRELATIONID] => dd2a23c667066
+    [ACK] => Success
+    [BUILD] => 57255788
+    [EMAIL] => sb-j0pjg18903611@personal.example.com
+    [PAYERID] => TKPKRR78VSB42
+    [PAYERSTATUS] => verified
+    [FIRSTNAME] => John
+    [LASTNAME] => Doe
+    [COUNTRYCODE] => US
+    [SHIPTONAME] => phamtuanduc dsa
+    [SHIPTOSTREET] => Quang Trung, Ha Dong, Ha Noi
+    [SHIPTOCITY] => Ha Noi
+    [SHIPTOZIP] => EEEEEE
+    [SHIPTOCOUNTRYCODE] => VN
+    [SHIPTOPHONENUM] => 111111111111
+    [SHIPTOCOUNTRYNAME] => Vietnam
+    [ADDRESSSTATUS] => Confirmed
+    [CURRENCYCODE] => USD
+    [AMT] => 210.00
+    [ITEMAMT] => 200.00
+    [SHIPPINGAMT] => 10.00
+    [HANDLINGAMT] => 0.00
+    [TAXAMT] => 0.00
+    [INSURANCEAMT] => 0.00
+    [SHIPDISCAMT] => 0.00
+    [INSURANCEOPTIONOFFERED] => false
+    [L_NAME0] => BALTHUS PAINTER'S JACKET
+    [L_NAME1] => Discount
+    [L_QTY0] => 1
+    [L_QTY1] => 1
+    [L_TAXAMT0] => 0.00
+    [L_TAXAMT1] => 0.00
+    [L_AMT0] => 250.00
+    [L_AMT1] => -50.00
+    [L_DESC0] => Color : be, Size : l
+    [L_DESC1] => test3
+    [PAYMENTREQUEST_0_CURRENCYCODE] => USD
+    [PAYMENTREQUEST_0_AMT] => 210.00
+    [PAYMENTREQUEST_0_ITEMAMT] => 200.00
+    [PAYMENTREQUEST_0_SHIPPINGAMT] => 10.00
+    [PAYMENTREQUEST_0_HANDLINGAMT] => 0.00
+    [PAYMENTREQUEST_0_TAXAMT] => 0.00
+    [PAYMENTREQUEST_0_INSURANCEAMT] => 0.00
+    [PAYMENTREQUEST_0_SHIPDISCAMT] => 0.00
+    [PAYMENTREQUEST_0_SELLERPAYPALACCOUNTID] => sb-mj47ex18063965@business.example.com
+    [PAYMENTREQUEST_0_INSURANCEOPTIONOFFERED] => false
+    [PAYMENTREQUEST_0_SHIPTONAME] => phamtuanduc dsa
+    [PAYMENTREQUEST_0_SHIPTOSTREET] => Quang Trung, Ha Dong, Ha Noi
+    [PAYMENTREQUEST_0_SHIPTOCITY] => Ha Noi
+    [PAYMENTREQUEST_0_SHIPTOZIP] => EEEEEE
+    [PAYMENTREQUEST_0_SHIPTOCOUNTRYCODE] => VN
+    [PAYMENTREQUEST_0_SHIPTOPHONENUM] => 111111111111
+    [PAYMENTREQUEST_0_SHIPTOCOUNTRYNAME] => Vietnam
+    [PAYMENTREQUEST_0_ADDRESSSTATUS] => Confirmed
+    [L_PAYMENTREQUEST_0_NAME0] => BALTHUS PAINTER'S JACKET
+    [L_PAYMENTREQUEST_0_NAME1] => Discount
+    [L_PAYMENTREQUEST_0_QTY0] => 1
+    [L_PAYMENTREQUEST_0_QTY1] => 1
+    [L_PAYMENTREQUEST_0_TAXAMT0] => 0.00
+    [L_PAYMENTREQUEST_0_TAXAMT1] => 0.00
+    [L_PAYMENTREQUEST_0_AMT0] => 250.00
+    [L_PAYMENTREQUEST_0_AMT1] => -50.00
+    [L_PAYMENTREQUEST_0_DESC0] => Color : be, Size : l
+    [L_PAYMENTREQUEST_0_DESC1] => test3
+    [PAYMENTREQUESTINFO_0_ERRORCODE] => 0
+)
+
+2022-07-19T11:14:09+00:00 DEBUG <------------------- WebToffee PayPal Express Payment ( Processing Express Checkout ) ------------------->
+stdClass Object
+(
+    [METHOD] => DoExpressCheckoutPayment
+    [TOKEN] => EC-9DM383835C114412G
+    [PAYERID] => TKPKRR78VSB42
+    [BUTTONSOURCE] => WebToffee PE Checkout
+    [L_PAYMENTREQUEST_0_NAME0] => BALTHUS PAINTER'S JACKET - Be, L
+    [L_PAYMENTREQUEST_0_DESC0] => 
+    [L_PAYMENTREQUEST_0_AMT0] => 250
+    [L_PAYMENTREQUEST_0_QTY0] => 1
+    [L_PAYMENTREQUEST_0_NAME1] => Discount
+    [L_PAYMENTREQUEST_0_DESC1] => test3
+    [L_PAYMENTREQUEST_0_QTY1] => 1
+    [L_PAYMENTREQUEST_0_AMT1] => -50
+    [PAYMENTREQUEST_0_AMT] => 210
+    [PAYMENTREQUEST_0_CURRENCYCODE] => USD
+    [PAYMENTREQUEST_0_ITEMAMT] => 200
+    [PAYMENTREQUEST_0_SHIPPINGAMT] => 10
+    [PAYMENTREQUEST_0_TAXAMT] => 0
+    [PAYMENTREQUEST_0_SHIPDISCAMT] => 0
+    [PAYMENTREQUEST_0_PAYMENTACTION] => Sale
+    [PAYMENTREQUEST_0_INVNUM] => 838
+    [PAYMENTREQUEST_0_PAYMENTREQUESTID] => 838
+)
+
+2022-07-19T11:14:12+00:00 DEBUG <------------------- WebToffee PayPal Express Payment ( Response on Finish Express ) ------------------->
+stdClass Object
+(
+    [TOKEN] => EC-9DM383835C114412G
+    [SUCCESSPAGEREDIRECTREQUESTED] => false
+    [TIMESTAMP] => 2022-07-19T11:14:11Z
+    [CORRELATIONID] => 4583dfe31813f
+    [ACK] => Success
+    [BUILD] => 57255788
+    [INSURANCEOPTIONSELECTED] => false
+    [SHIPPINGOPTIONISDEFAULT] => false
+    [PAYMENTINFO_0_TRANSACTIONID] => 35D47441Y5508963X
+    [PAYMENTINFO_0_TRANSACTIONTYPE] => cart
+    [PAYMENTINFO_0_PAYMENTTYPE] => instant
+    [PAYMENTINFO_0_ORDERTIME] => 2022-07-19T11:14:10Z
+    [PAYMENTINFO_0_AMT] => 210.00
+    [PAYMENTINFO_0_FEEAMT] => 7.82
+    [PAYMENTINFO_0_TAXAMT] => 0.00
+    [PAYMENTINFO_0_CURRENCYCODE] => USD
+    [PAYMENTINFO_0_PAYMENTSTATUS] => Completed
+    [PAYMENTINFO_0_PENDINGREASON] => None
+    [PAYMENTINFO_0_REASONCODE] => None
+    [PAYMENTINFO_0_PROTECTIONELIGIBILITY] => Eligible
+    [PAYMENTINFO_0_PROTECTIONELIGIBILITYTYPE] => ItemNotReceivedEligible,UnauthorizedPaymentEligible
+    [PAYMENTINFO_0_SELLERPAYPALACCOUNTID] => sb-mj47ex18063965@business.example.com
+    [PAYMENTINFO_0_SECUREMERCHANTACCOUNTID] => QD8TKWFQPHNY4
+    [PAYMENTINFO_0_PAYMENTREQUESTID] => 838
+    [PAYMENTINFO_0_ERRORCODE] => 0
+    [PAYMENTINFO_0_ACK] => Success
+)
+

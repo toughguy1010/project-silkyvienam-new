@@ -27,9 +27,9 @@ if ( ! defined( 'ABSPATH' ) ) {
 					<option value="<?php echo esc_attr( $option_id ); ?>" <?php selected( $orderby, $option_id ); ?>><?php echo esc_html( $name ); ?></option>
 				<?php endforeach; ?>
 		</select> -->
-	<div class="dropdown sorting-btn "  >
+	<div class="  sorting-btn " style="position:relative ;"  >
 		<input type="button" id="select_staff" class="  dropdown-toggle" type="button" data-toggle="dropdown" value="Sắp xếp">
-		<ul id="admin_cal_list" class="dropdown-menu" >
+		<ul id="admin_cal_list" class=" " >
 			<input type="hidden" id="admin_id" class="form-control" name="orderby" class="orderby form-select" aria-label="<?php esc_attr_e( 'Shop order', 'woocommerce' ); ?>" value="popularity">
 					<?php foreach ( $catalog_orderby_options as $option_id => $name ) : ?>
 						<option value="<?php echo esc_attr( $option_id ); ?>" <?php selected( $orderby, $option_id ); ?>><?php echo esc_html( $name ); ?></option>

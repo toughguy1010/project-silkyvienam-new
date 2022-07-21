@@ -25,7 +25,7 @@ if ( ! wc_coupons_enabled() ) { // @codingStandardsIgnoreLine.
 
 
 do_action('product_style');
-do_action( 'woocommerce_before_checkout_form', $checkout );
+ do_action( 'woocommerce_before_checkout_form', $checkout ); 
 
 // If checkout registration is disabled and not logged in, the user cannot checkout.
 if ( ! $checkout->is_registration_enabled() && $checkout->is_registration_required() && ! is_user_logged_in() ) {
@@ -43,8 +43,9 @@ if ( ! $checkout->is_registration_enabled() && $checkout->is_registration_requir
 
 		<div class="col" id="customer_details">
 			<div class="col-12 col-sm-7">
+			
+
 				<?php do_action( 'woocommerce_checkout_billing' ); ?>
-				
 				<!-- form coupon -->
 					<div class="woocommerce-additional-fields">
 						<?php do_action( 'woocommerce_before_order_notes', $checkout ); ?>
@@ -68,6 +69,7 @@ if ( ! $checkout->is_registration_enabled() && $checkout->is_registration_requir
 						<?php endif; ?>
 						
 						<?php do_action( 'woocommerce_after_order_notes', $checkout ); ?>
+						
 					</div>
 					<!-- </div> comment doan code nay tren server -->
 			

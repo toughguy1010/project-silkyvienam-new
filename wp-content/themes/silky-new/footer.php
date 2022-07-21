@@ -20,7 +20,7 @@ defined( 'ABSPATH' ) || exit;
                 <div class="footer-content">
                     <div class="footer-contact">
                         <div class="footer-contact-infor">
-                            <div class="footer-contact-item fw-bold">Silky VietNam</div>
+                            <div class="footer-contact-item fw-bold footer-title">Silky VietNam</div>
                             <div class="footer-contact-item ">Email: silkyvietnaminfo@gmail.com</div>
                             <div class="footer-contact-item ">Địa chỉ: Số 5 Hàng Bông , Hoàn Kiếm , Hà Nội</div>
                             <div class="footer-contact-item ">Điện thoại : (+84) 89808 3735</div>
