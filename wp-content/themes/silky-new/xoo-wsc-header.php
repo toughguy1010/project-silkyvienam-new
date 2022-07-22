@@ -22,7 +22,7 @@ extract( Xoo_Wsc_Template_Args::cart_header() );
 ?>
 
 <div class="xoo-wsch-top">
-							<div onclick="closeMenu()" class="cart-toggle-btn">
+							<div onclick="closeSideCartMenu1()" class="cart-toggle-btn">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28.707 28.707">
                                     <defs>
                                         <style>
@@ -39,13 +39,13 @@ extract( Xoo_Wsc_Template_Args::cart_header() );
                                 </svg>
                             </div>
 </div>
-
 <script>
 
-	
-function closeMenu() {
-    cartMenu.classList.remove("xoo-wsc-cart-active");
+var cartMenu = document.querySelector('.xoo-wsc-modal')
+function closeSideCartMenu1() {
+        cartMenu.classList.remove("xoo-wsc-cart-active")
 
-}
+    }
+
 
 </script>

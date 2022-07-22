@@ -100,17 +100,17 @@ defined( 'ABSPATH' ) || exit;
                 <div class="bar2"></div>
                 <div class="bar3"></div>
             </div>
-            <div class="header-feature-list wdlog-btn ">
-                        
-                            <div id="weglot_here"></div>
-                 
-                       
-                    </div>
+         
             <div class="menu-mobile-content">
                 <div class="menu-mobile-control-btn">
-                    <div class="back-menu-btn">
+                    <div class="back-menu-btn-group">
+                    <div class="back-menu-btn-1">
                     <img src="<?php echo get_template_directory_uri() .'/assets/back-menu-btn.svg';?>" alt="">
 
+                    </div>
+                    <div class="back-menu-btn-2">
+                    <img src="<?php echo get_template_directory_uri() .'/assets/back-menu-btn.svg';?>" alt="">
+                    </div>
                     </div>
                     <div class="close-menu-btn">
                     <img src="<?php echo get_template_directory_uri() .'/assets/close-menu-btn.svg';?>" alt="">
@@ -118,6 +118,13 @@ defined( 'ABSPATH' ) || exit;
                     </div>
                 </div>
                 <div class="menu-mobile-list">
+                <div class="header-feature-list search-form-mobile">
+                     
+                     <?php 
+                     get_search_form();
+                     
+                     ?>
+                 </div>
                 <?php
                 wp_nav_menu( 
                     array( 
@@ -138,13 +145,12 @@ defined( 'ABSPATH' ) || exit;
 
                 </a>
                 <div class="header-feature">
-                <div class="header-feature-list">
-                     
-                     <?php 
-                     get_search_form();
-                     
-                     ?>
-                 </div>
+                <div class="header-feature-list wdlog-btn ">
+                        
+                        <div id="weglot_here"></div>
+             
+                   
+                </div>
                     <div class="header-feature-list link-cart-item">
                         <div id="cart-btn" class="header-feature-item cart-btn">
                             <svg class="cart-icon" xmlns="http://www.w3.org/2000/svg" width="11.984" height="13.973" viewBox="0 0 11.984 13.973">
