@@ -194,7 +194,7 @@ const openSubMenuChild1 = document.querySelector(".menu-mobile-list .parent-sub-
 openSubMenuChild1.addEventListener('click', openSubMenuActionChild1)
 const closeSubMenuChild1 = document.querySelector(".back-menu-btn-2")
 closeSubMenuChild1.addEventListener("click", closeSubMenuActionChild1);
-console.log(openSubMenuChild1)
+// console.log(openSubMenuChild1)
 
 function openSubMenuActionChild1() {
     closeSubMenu.classList.add("remove-back-menu-btn") //display none back btn 1

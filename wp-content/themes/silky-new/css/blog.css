@@ -1371,6 +1371,9 @@
     .blog-title {
         font-size: 20px;
     }
+    .detail-post-section {
+        margin: 60px 9%;
+    }
 }
 
 

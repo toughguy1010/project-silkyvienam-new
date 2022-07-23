@@ -88,7 +88,14 @@ if ( ! $checkout->is_registration_enabled() && $checkout->is_registration_requir
 		<?php do_action( 'woocommerce_checkout_after_customer_details' ); ?>
 
 	<?php endif; ?>
+	<div class="order_review_heading checkout-container-item">
+<?php do_action( 'woocommerce_checkout_before_order_review_heading' );
 
+?>
+
+
+	<?php do_action( 'woocommerce_checkout_before_order_review' ); ?>
+</div>
 	
 	<div id="order_review" class="woocommerce-checkout-review-order">
 		<?php do_action( 'woocommerce_checkout_order_review' ); ?>
@@ -99,14 +106,7 @@ if ( ! $checkout->is_registration_enabled() && $checkout->is_registration_requir
 		
 </form>
 
-<div class="order_review_heading checkout-container-item">
-<?php do_action( 'woocommerce_checkout_before_order_review_heading' );
 
-?>
-
-
-	<?php do_action( 'woocommerce_checkout_before_order_review' ); ?>
-</div>
 </div>
 </div>
 <?php
