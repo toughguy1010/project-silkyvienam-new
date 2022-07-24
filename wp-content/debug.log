@@ -12040,3 +12040,27 @@ Stack trace:
 [23-Jul-2022 16:01:31 UTC] PHP  17. wc_deprecated_function($function = 'get_used_coupons', $version = '3.7', $replacement = 'WC_Abstract_Order::get_coupon_codes') E:\wamp64\www\test02\wp-content\plugins\woocommerce\includes\legacy\abstract-wc-legacy-order.php:609
 [23-Jul-2022 16:01:31 UTC] PHP  18. _deprecated_function($function = 'get_used_coupons', $version = '3.7', $replacement = 'WC_Abstract_Order::get_coupon_codes') E:\wamp64\www\test02\wp-content\plugins\woocommerce\includes\wc-deprecated-functions.php:54
 [23-Jul-2022 16:01:31 UTC] PHP  19. trigger_error($message = 'Function get_used_coupons is <strong>deprecated</strong> since version 3.7! Use WC_Abstract_Order::get_coupon_codes instead.', $error_type = 16384) E:\wamp64\www\test02\wp-includes\functions.php:5379
+[24-Jul-2022 02:11:21 UTC] WordPress database error Unknown character set: 'utf8bin' for query CREATE TABLE IF NOT EXISTS `wp_woof_query_cache` (
+                                                    `mkey` varchar(64) NOT NULL,
+                                                    `mvalue` text NOT NULL,
+                                                    KEY `mkey` (`mkey`)
+                                                  ) DEFAULT CHARACTER SET utf8bin made by do_action('woocommerce_page_wc-settings'), WP_Hook->do_action, WP_Hook->apply_filters, WC_Admin_Menus->settings_page, WC_Admin_Settings::output, include('/plugins/woocommerce/includes/admin/views/html-admin-settings.php'), do_action('woocommerce_settings_tabs_woof'), WP_Hook->do_action, WP_Hook->apply_filters, WOOF->print_plugin_options, WOOF->render_html, include('/plugins/woocommerce-products-filter/views/plugin_options.php')
+[24-Jul-2022 02:11:21 UTC] WordPress database error Unknown character set: 'utf8bin' for query CREATE TABLE IF NOT EXISTS `wp_woof_query_cache` (
+                                                    `mkey` varchar(64) NOT NULL,
+                                                    `mvalue` text NOT NULL,
+                                                    KEY `mkey` (`mkey`)
+                                                  ) DEFAULT CHARACTER SET utf8bin made by do_action('woocommerce_page_wc-settings'), WP_Hook->do_action, WP_Hook->apply_filters, WC_Admin_Menus->settings_page, WC_Admin_Settings::output, include('/plugins/woocommerce/includes/admin/views/html-admin-settings.php'), do_action('woocommerce_settings_tabs_woof'), WP_Hook->do_action, WP_Hook->apply_filters, WOOF->print_plugin_options, WOOF->render_html, include('/plugins/woocommerce-products-filter/views/plugin_options.php')
+[24-Jul-2022 02:11:25 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[24-Jul-2022 02:11:25 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[24-Jul-2022 02:21:27 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[24-Jul-2022 02:21:27 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[24-Jul-2022 02:21:53 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[24-Jul-2022 02:21:53 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[24-Jul-2022 02:23:36 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[24-Jul-2022 02:23:36 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[24-Jul-2022 02:23:50 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[24-Jul-2022 02:23:50 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[24-Jul-2022 02:23:55 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[24-Jul-2022 02:23:55 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[24-Jul-2022 02:23:59 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[24-Jul-2022 02:23:59 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.

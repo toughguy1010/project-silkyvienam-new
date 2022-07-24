@@ -1201,14 +1201,20 @@
         font-size: 13px;
         position: relative;
     }
-    
-    .woocommerce table.cart td.actions::before {
+    /* .woocommerce table.cart td.actions::before {
         content: " ";
         width: 100%;
         position: absolute;
         height: 1px;
         top: 15px;
         left: 0;
+        background-color: rgb(151, 151, 151);
+    } */
+    
+    .view-cart-action-line {
+        width: 100%;
+        height: 1px;
+        margin-top: 50px;
         background-color: rgb(151, 151, 151);
     }
     
@@ -1235,7 +1241,7 @@
         margin-left: 27.3%;
         display: block;
         margin-top: 5%;
-        font-size: 1.7vw;
+        font-size: 15px;
         text-transform: uppercase;
     }
     
@@ -3572,3 +3578,63 @@
     }
     /* side cart */
     /* side cart */
+    /* view cart */
+    
+    @media only screen and (max-width: 768px) {
+        .woocommerce table.shop_table_responsive tr td::before,
+        .woocommerce-page table.shop_table_responsive tr td::before {
+            display: none;
+        }
+        .woocommerce table.shop_table_responsive tr:nth-child(2n) td,
+        .woocommerce-page table.shop_table_responsive tr:nth-child(2n) td {
+            background-color: rgba(0, 0, 0, 0) !important;
+        }
+        .view-cart-product-title a {
+            font-size: 11px;
+        }
+        .view-cart-product-price bdi {
+            font-size: 11px;
+        }
+        .view-cart-content {
+            width: 80% !important;
+        }
+        .view-cart-product-title-action {
+            display: unset;
+        }
+        .woocommerce table.shop_table_responsive tr td,
+        .woocommerce-page table.shop_table_responsive tr td {
+            text-align: left !important;
+        }
+        .woocommerce #content table.cart .product-thumbnail,
+        .woocommerce table.cart .product-thumbnail,
+        .woocommerce-page #content table.cart .product-thumbnail,
+        .woocommerce-page table.cart .product-thumbnail {
+            display: unset !important;
+        }
+        .view-car-product-img-wrapper a {
+            width: 100%;
+            height: 100%;
+            margin: 0 !important;
+        }
+        .woocommerce table.shop_table_responsive tr,
+        .woocommerce-page table.shop_table_responsive tr {
+            display: flex;
+        }
+        .view-car-product-img-wrapper {
+            width: 100px;
+            height: 100px;
+        }
+        .cart-actions {
+            display: block !important;
+        }
+    }
+    
+    @media only screen and (max-width: 550px) {
+        .view-cart-content {
+            width: 100% !important;
+        }
+        .view-cart-title {
+            margin-left: 0%;
+        }
+    }
+    /* view cart */

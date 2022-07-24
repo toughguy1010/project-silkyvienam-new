@@ -187,8 +187,9 @@ function excerpt_in_cart($cart_item_html, $product_data) {
 			<?php do_action( 'woocommerce_cart_contents' ); ?>
 		
 			<!-- cart action -->
-			<tr>
+			<tr  class="cart-actions">
 				<td colspan="6" class="actions">
+					<div class="view-cart-action-line"></div>
 					<div class="view-cart-total-section">
 						<div class="cart-items item">
 							<div class="coll-left">
