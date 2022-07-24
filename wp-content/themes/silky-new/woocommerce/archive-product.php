@@ -119,8 +119,7 @@ elseif (is_product_category()) {
             <div class="content-header-collection-desc"> <?php echo category_description($cateid); ?></div>
         </div>
     </div>
-	<div class="collection-content ">
-		<?php
+	<?php
 		
 		$collection_products = new WP_Query(array(
 			'post_type'=>'product',
@@ -140,17 +139,23 @@ elseif (is_product_category()) {
 		// var_dump($GLOBALS['wp_query']->max_num_pages);
 
 		?>
+	<?php 
+	while ( $collection_products->have_posts() ) :
+		$collection_products->the_post();
+		echo the_post_thumbnail();
+	endwhile; 
+	wp_reset_query() ;
+	
+	?>
+	<div class="collection-content ">
+	
 		<?php 
 		while ( $collection_products->have_posts() ) :
 							$collection_products->the_post();
-
 							get_template_part('global-templates/content','product');
 
 						endwhile; 
 						wp_reset_query() ;
-						
-		
-
 				
 		?>
 						

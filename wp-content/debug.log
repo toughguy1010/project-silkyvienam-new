@@ -12064,3 +12064,32 @@ Stack trace:
 [24-Jul-2022 02:23:55 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
 [24-Jul-2022 02:23:59 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
 [24-Jul-2022 02:23:59 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[24-Jul-2022 13:02:44 UTC] WordPress database error Unknown character set: 'utf8bin' for query CREATE TABLE IF NOT EXISTS `wp_woof_query_cache` (
+                                                    `mkey` varchar(64) NOT NULL,
+                                                    `mvalue` text NOT NULL,
+                                                    KEY `mkey` (`mkey`)
+                                                  ) DEFAULT CHARACTER SET utf8bin made by do_action('woocommerce_page_wc-settings'), WP_Hook->do_action, WP_Hook->apply_filters, WC_Admin_Menus->settings_page, WC_Admin_Settings::output, include('/plugins/woocommerce/includes/admin/views/html-admin-settings.php'), do_action('woocommerce_settings_tabs_woof'), WP_Hook->do_action, WP_Hook->apply_filters, WOOF->print_plugin_options, WOOF->render_html, include('/plugins/woocommerce-products-filter/views/plugin_options.php')
+[24-Jul-2022 13:02:48 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[24-Jul-2022 13:02:48 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[24-Jul-2022 14:21:45 UTC] PHP Notice:  Function wp_enqueue_script() was called <strong>incorrectly</strong>. "wp-editor" script should not be enqueued together with the new widgets editor (wp-edit-widgets or wp-customize-widgets). Please see <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 5.8.0.) in E:\wamp64\www\test02\wp-includes\functions.php on line 5831
+[24-Jul-2022 14:21:45 UTC] PHP Stack trace:
+[24-Jul-2022 14:21:45 UTC] PHP   1. {main}() E:\wamp64\www\test02\wp-admin\widgets.php:0
+[24-Jul-2022 14:21:45 UTC] PHP   2. require() E:\wamp64\www\test02\wp-admin\widgets.php:32
+[24-Jul-2022 14:21:45 UTC] PHP   3. require_once() E:\wamp64\www\test02\wp-admin\widgets-form-blocks.php:70
+[24-Jul-2022 14:21:45 UTC] PHP   4. do_action($hook_name = 'admin_head') E:\wamp64\www\test02\wp-admin\admin-header.php:163
+[24-Jul-2022 14:21:45 UTC] PHP   5. WP_Hook->do_action($args = [0 => '']) E:\wamp64\www\test02\wp-includes\plugin.php:476
+[24-Jul-2022 14:21:45 UTC] PHP   6. WP_Hook->apply_filters($value = '', $args = [0 => '']) E:\wamp64\www\test02\wp-includes\class-wp-hook.php:331
+[24-Jul-2022 14:21:45 UTC] PHP   7. wp_check_widget_editor_deps('') E:\wamp64\www\test02\wp-includes\class-wp-hook.php:307
+[24-Jul-2022 14:21:45 UTC] PHP   8. _doing_it_wrong($function = 'wp_enqueue_script()', $message = '"wp-editor" script should not be enqueued together with the new widgets editor (wp-edit-widgets or wp-customize-widgets).', $version = '5.8.0') E:\wamp64\www\test02\wp-includes\widgets.php:2090
+[24-Jul-2022 14:21:45 UTC] PHP   9. trigger_error($message = 'Function wp_enqueue_script() was called <strong>incorrectly</strong>. "wp-editor" script should not be enqueued together with the new widgets editor (wp-edit-widgets or wp-customize-widgets). Please see <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 5.8.0.)', $error_type = 1024) E:\wamp64\www\test02\wp-includes\functions.php:5831
+[24-Jul-2022 14:22:02 UTC] PHP Notice:  Function wp_enqueue_script() was called <strong>incorrectly</strong>. "wp-editor" script should not be enqueued together with the new widgets editor (wp-edit-widgets or wp-customize-widgets). Please see <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 5.8.0.) in E:\wamp64\www\test02\wp-includes\functions.php on line 5831
+[24-Jul-2022 14:22:02 UTC] PHP Stack trace:
+[24-Jul-2022 14:22:02 UTC] PHP   1. {main}() E:\wamp64\www\test02\wp-admin\widgets.php:0
+[24-Jul-2022 14:22:02 UTC] PHP   2. require() E:\wamp64\www\test02\wp-admin\widgets.php:32
+[24-Jul-2022 14:22:02 UTC] PHP   3. require_once() E:\wamp64\www\test02\wp-admin\widgets-form-blocks.php:70
+[24-Jul-2022 14:22:02 UTC] PHP   4. do_action($hook_name = 'admin_head') E:\wamp64\www\test02\wp-admin\admin-header.php:163
+[24-Jul-2022 14:22:02 UTC] PHP   5. WP_Hook->do_action($args = [0 => '']) E:\wamp64\www\test02\wp-includes\plugin.php:476
+[24-Jul-2022 14:22:02 UTC] PHP   6. WP_Hook->apply_filters($value = '', $args = [0 => '']) E:\wamp64\www\test02\wp-includes\class-wp-hook.php:331
+[24-Jul-2022 14:22:02 UTC] PHP   7. wp_check_widget_editor_deps('') E:\wamp64\www\test02\wp-includes\class-wp-hook.php:307
+[24-Jul-2022 14:22:02 UTC] PHP   8. _doing_it_wrong($function = 'wp_enqueue_script()', $message = '"wp-editor" script should not be enqueued together with the new widgets editor (wp-edit-widgets or wp-customize-widgets).', $version = '5.8.0') E:\wamp64\www\test02\wp-includes\widgets.php:2090
+[24-Jul-2022 14:22:02 UTC] PHP   9. trigger_error($message = 'Function wp_enqueue_script() was called <strong>incorrectly</strong>. "wp-editor" script should not be enqueued together with the new widgets editor (wp-edit-widgets or wp-customize-widgets). Please see <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 5.8.0.)', $error_type = 1024) E:\wamp64\www\test02\wp-includes\functions.php:5831

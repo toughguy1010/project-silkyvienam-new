@@ -17,11 +17,11 @@
     /* search-btn */
     
     .country-selector ul {
-        padding: 4px 5px !important;
+        /* padding: 4px 5px !important; */
     }
     
     .country-selector.weglot-inline label {
-        padding: 4px 5px !important;
+        /* padding: 4px 5px !important; */
     }
     
     .country-selector {
@@ -112,13 +112,13 @@
         display: flex;
         height: auto;
         position: absolute;
-        right: 30px;
+        right: 10px;
         top: 44%;
-        width: 26px;
-        border-radius: 25px;
-        border: 1px solid #000;
+        width: auto;
+        /* border-radius: 25px; */
+        /* border: 1px solid #000; */
         flex-direction: column;
-        text-align: center;
+        text-align: end;
         transition: all .5s;
     }
     
@@ -134,11 +134,11 @@
     
     .switch-lag {
         transition: all .5s;
-        display: none !important;
+        /* display: none !important; */
     }
     
     .country-selector:hover .switch-lag {
-        display: block !important;
+        /* display: block !important; */
     }
     
     .header-feature-list {

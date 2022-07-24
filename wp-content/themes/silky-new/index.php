@@ -21,22 +21,29 @@ do_action('homepage_style');
 ?>
        <!-- Content start -->
 	   <div class="wrap-content">
-            <div class="slider">
-                <div class="slider-img"></div>
-                <a href="shop" class="slider-btn slider-btn-1">
-                    <p>Chất liệu</p>
-                </a>
-                <a href="shop" class="slider-btn slider-btn-2">
-                    <p>Quần áo</p>
-                </a>
-                <a href="shop" class="slider-btn slider-btn-3">
-                    <p>Bộ <br> sưu tập</p>
-                </a>
-                <a href="shop" class="slider-btn slider-btn-4">
-                    <p>Quà tặng</p>
-                </a>
+            <div class="slider-homepage">
+                <div class="slider-img">
+                <?php if ( function_exists( 'soliloquy' ) ) { soliloquy( '907' ); } ?>
+                </div>
+                <div class="slider-content"></div>
             </div>
+
         </div>
+
+
+<!-- recent post -->
+        <ul>
+<?php
+    $args = array( 'numberposts' => '4' );
+    $recent_posts = wp_get_recent_posts( $args );
+    foreach( $recent_posts as $recent ){
+        echo get_the_post_thumbnail( );
+        echo '<li><a href="' . get_permalink($recent["ID"]) . '" title="Look '.esc_attr($recent["post_title"]).'" >' .   $recent["post_title"].'</a> </li> ';
+        echo the_excerpt();
+    }
+?>
+</ul>
+
         <!-- Content end-->
 <?php
 get_footer();
