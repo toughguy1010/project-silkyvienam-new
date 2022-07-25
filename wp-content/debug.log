@@ -12093,3 +12093,128 @@ Stack trace:
 [24-Jul-2022 14:22:02 UTC] PHP   7. wp_check_widget_editor_deps('') E:\wamp64\www\test02\wp-includes\class-wp-hook.php:307
 [24-Jul-2022 14:22:02 UTC] PHP   8. _doing_it_wrong($function = 'wp_enqueue_script()', $message = '"wp-editor" script should not be enqueued together with the new widgets editor (wp-edit-widgets or wp-customize-widgets).', $version = '5.8.0') E:\wamp64\www\test02\wp-includes\widgets.php:2090
 [24-Jul-2022 14:22:02 UTC] PHP   9. trigger_error($message = 'Function wp_enqueue_script() was called <strong>incorrectly</strong>. "wp-editor" script should not be enqueued together with the new widgets editor (wp-edit-widgets or wp-customize-widgets). Please see <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 5.8.0.)', $error_type = 1024) E:\wamp64\www\test02\wp-includes\functions.php:5831
+[25-Jul-2022 01:41:47 UTC] WordPress database error Unknown character set: 'utf8bin' for query CREATE TABLE IF NOT EXISTS `wp_woof_query_cache` (
+                                                    `mkey` varchar(64) NOT NULL,
+                                                    `mvalue` text NOT NULL,
+                                                    KEY `mkey` (`mkey`)
+                                                  ) DEFAULT CHARACTER SET utf8bin made by do_action('woocommerce_page_wc-settings'), WP_Hook->do_action, WP_Hook->apply_filters, WC_Admin_Menus->settings_page, WC_Admin_Settings::output, include('/plugins/woocommerce/includes/admin/views/html-admin-settings.php'), do_action('woocommerce_settings_tabs_woof'), WP_Hook->do_action, WP_Hook->apply_filters, WOOF->print_plugin_options, WOOF->render_html, include('/plugins/woocommerce-products-filter/views/plugin_options.php')
+[25-Jul-2022 01:41:51 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[25-Jul-2022 01:41:51 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[25-Jul-2022 02:35:40 UTC] PHP Parse error:  syntax error, unexpected '.' in E:\wamp64\www\test02\wp-content\themes\silky-new\index.php on line 50
+[25-Jul-2022 02:36:35 UTC] PHP Parse error:  syntax error, unexpected '}' in E:\wamp64\www\test02\wp-content\themes\silky-new\index.php on line 55
+[25-Jul-2022 03:18:46 UTC] PHP Notice:  Function wp_enqueue_script() was called <strong>incorrectly</strong>. "wp-editor" script should not be enqueued together with the new widgets editor (wp-edit-widgets or wp-customize-widgets). Please see <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 5.8.0.) in E:\wamp64\www\test02\wp-includes\functions.php on line 5831
+[25-Jul-2022 03:18:46 UTC] PHP Stack trace:
+[25-Jul-2022 03:18:46 UTC] PHP   1. {main}() E:\wamp64\www\test02\wp-admin\widgets.php:0
+[25-Jul-2022 03:18:46 UTC] PHP   2. require() E:\wamp64\www\test02\wp-admin\widgets.php:32
+[25-Jul-2022 03:18:46 UTC] PHP   3. require_once() E:\wamp64\www\test02\wp-admin\widgets-form-blocks.php:70
+[25-Jul-2022 03:18:46 UTC] PHP   4. do_action($hook_name = 'admin_head') E:\wamp64\www\test02\wp-admin\admin-header.php:163
+[25-Jul-2022 03:18:46 UTC] PHP   5. WP_Hook->do_action($args = [0 => '']) E:\wamp64\www\test02\wp-includes\plugin.php:476
+[25-Jul-2022 03:18:46 UTC] PHP   6. WP_Hook->apply_filters($value = '', $args = [0 => '']) E:\wamp64\www\test02\wp-includes\class-wp-hook.php:331
+[25-Jul-2022 03:18:46 UTC] PHP   7. wp_check_widget_editor_deps('') E:\wamp64\www\test02\wp-includes\class-wp-hook.php:307
+[25-Jul-2022 03:18:46 UTC] PHP   8. _doing_it_wrong($function = 'wp_enqueue_script()', $message = '"wp-editor" script should not be enqueued together with the new widgets editor (wp-edit-widgets or wp-customize-widgets).', $version = '5.8.0') E:\wamp64\www\test02\wp-includes\widgets.php:2090
+[25-Jul-2022 03:18:46 UTC] PHP   9. trigger_error($message = 'Function wp_enqueue_script() was called <strong>incorrectly</strong>. "wp-editor" script should not be enqueued together with the new widgets editor (wp-edit-widgets or wp-customize-widgets). Please see <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 5.8.0.)', $error_type = 1024) E:\wamp64\www\test02\wp-includes\functions.php:5831
+[25-Jul-2022 04:19:06 UTC] WordPress database error Unknown character set: 'utf8bin' for query CREATE TABLE IF NOT EXISTS `wp_woof_query_cache` (
+                                                    `mkey` varchar(64) NOT NULL,
+                                                    `mvalue` text NOT NULL,
+                                                    KEY `mkey` (`mkey`)
+                                                  ) DEFAULT CHARACTER SET utf8bin made by do_action('woocommerce_page_wc-settings'), WP_Hook->do_action, WP_Hook->apply_filters, WC_Admin_Menus->settings_page, WC_Admin_Settings::output, include('/plugins/woocommerce/includes/admin/views/html-admin-settings.php'), do_action('woocommerce_settings_tabs_woof'), WP_Hook->do_action, WP_Hook->apply_filters, WOOF->print_plugin_options, WOOF->render_html, include('/plugins/woocommerce-products-filter/views/plugin_options.php')
+[25-Jul-2022 04:19:10 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[25-Jul-2022 04:19:10 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[25-Jul-2022 04:19:17 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[25-Jul-2022 04:19:17 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[25-Jul-2022 04:21:07 UTC] WordPress database error Unknown character set: 'utf8bin' for query CREATE TABLE IF NOT EXISTS `wp_woof_query_cache` (
+                                                    `mkey` varchar(64) NOT NULL,
+                                                    `mvalue` text NOT NULL,
+                                                    KEY `mkey` (`mkey`)
+                                                  ) DEFAULT CHARACTER SET utf8bin made by do_action('woocommerce_page_wc-settings'), WP_Hook->do_action, WP_Hook->apply_filters, WC_Admin_Menus->settings_page, WC_Admin_Settings::output, include('/plugins/woocommerce/includes/admin/views/html-admin-settings.php'), do_action('woocommerce_settings_tabs_woof'), WP_Hook->do_action, WP_Hook->apply_filters, WOOF->print_plugin_options, WOOF->render_html, include('/plugins/woocommerce-products-filter/views/plugin_options.php')
+[25-Jul-2022 04:21:11 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[25-Jul-2022 04:21:11 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[25-Jul-2022 05:18:59 UTC] WordPress database error Unknown character set: 'utf8bin' for query CREATE TABLE IF NOT EXISTS `wp_woof_query_cache` (
+                                                    `mkey` varchar(64) NOT NULL,
+                                                    `mvalue` text NOT NULL,
+                                                    KEY `mkey` (`mkey`)
+                                                  ) DEFAULT CHARACTER SET utf8bin made by do_action('woocommerce_page_wc-settings'), WP_Hook->do_action, WP_Hook->apply_filters, WC_Admin_Menus->settings_page, WC_Admin_Settings::output, include('/plugins/woocommerce/includes/admin/views/html-admin-settings.php'), do_action('woocommerce_settings_tabs_woof'), WP_Hook->do_action, WP_Hook->apply_filters, WOOF->print_plugin_options, WOOF->render_html, include('/plugins/woocommerce-products-filter/views/plugin_options.php')
+[25-Jul-2022 05:18:59 UTC] WordPress database error Unknown character set: 'utf8bin' for query CREATE TABLE IF NOT EXISTS `wp_woof_query_cache` (
+                                                    `mkey` varchar(64) NOT NULL,
+                                                    `mvalue` text NOT NULL,
+                                                    KEY `mkey` (`mkey`)
+                                                  ) DEFAULT CHARACTER SET utf8bin made by do_action('woocommerce_page_wc-settings'), WP_Hook->do_action, WP_Hook->apply_filters, WC_Admin_Menus->settings_page, WC_Admin_Settings::output, include('/plugins/woocommerce/includes/admin/views/html-admin-settings.php'), do_action('woocommerce_settings_tabs_woof'), WP_Hook->do_action, WP_Hook->apply_filters, WOOF->print_plugin_options, WOOF->render_html, include('/plugins/woocommerce-products-filter/views/plugin_options.php')
+[25-Jul-2022 05:19:06 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[25-Jul-2022 05:19:06 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[25-Jul-2022 08:28:22 UTC] WordPress database error Unknown character set: 'utf8bin' for query CREATE TABLE IF NOT EXISTS `wp_woof_query_cache` (
+                                                    `mkey` varchar(64) NOT NULL,
+                                                    `mvalue` text NOT NULL,
+                                                    KEY `mkey` (`mkey`)
+                                                  ) DEFAULT CHARACTER SET utf8bin made by do_action('woocommerce_page_wc-settings'), WP_Hook->do_action, WP_Hook->apply_filters, WC_Admin_Menus->settings_page, WC_Admin_Settings::output, include('/plugins/woocommerce/includes/admin/views/html-admin-settings.php'), do_action('woocommerce_settings_tabs_woof'), WP_Hook->do_action, WP_Hook->apply_filters, WOOF->print_plugin_options, WOOF->render_html, include('/plugins/woocommerce-products-filter/views/plugin_options.php')
+[25-Jul-2022 08:28:26 UTC] WordPress database error Unknown character set: 'utf8bin' for query CREATE TABLE IF NOT EXISTS `wp_woof_query_cache` (
+                                                    `mkey` varchar(64) NOT NULL,
+                                                    `mvalue` text NOT NULL,
+                                                    KEY `mkey` (`mkey`)
+                                                  ) DEFAULT CHARACTER SET utf8bin made by do_action('woocommerce_page_wc-settings'), WP_Hook->do_action, WP_Hook->apply_filters, WC_Admin_Menus->settings_page, WC_Admin_Settings::output, include('/plugins/woocommerce/includes/admin/views/html-admin-settings.php'), do_action('woocommerce_settings_tabs_woof'), WP_Hook->do_action, WP_Hook->apply_filters, WOOF->print_plugin_options, WOOF->render_html, include('/plugins/woocommerce-products-filter/views/plugin_options.php')
+[25-Jul-2022 08:28:32 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[25-Jul-2022 08:28:32 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[25-Jul-2022 13:12:36 UTC] WordPress database error Unknown character set: 'utf8bin' for query CREATE TABLE IF NOT EXISTS `wp_woof_query_cache` (
+                                                    `mkey` varchar(64) NOT NULL,
+                                                    `mvalue` text NOT NULL,
+                                                    KEY `mkey` (`mkey`)
+                                                  ) DEFAULT CHARACTER SET utf8bin made by do_action('woocommerce_page_wc-settings'), WP_Hook->do_action, WP_Hook->apply_filters, WC_Admin_Menus->settings_page, WC_Admin_Settings::output, include('/plugins/woocommerce/includes/admin/views/html-admin-settings.php'), do_action('woocommerce_settings_tabs_woof'), WP_Hook->do_action, WP_Hook->apply_filters, WOOF->print_plugin_options, WOOF->render_html, include('/plugins/woocommerce-products-filter/views/plugin_options.php')
+[25-Jul-2022 13:12:41 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[25-Jul-2022 13:12:41 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[25-Jul-2022 13:17:34 UTC] WordPress database error Unknown character set: 'utf8bin' for query CREATE TABLE IF NOT EXISTS `wp_woof_query_cache` (
+                                                    `mkey` varchar(64) NOT NULL,
+                                                    `mvalue` text NOT NULL,
+                                                    KEY `mkey` (`mkey`)
+                                                  ) DEFAULT CHARACTER SET utf8bin made by do_action('woocommerce_page_wc-settings'), WP_Hook->do_action, WP_Hook->apply_filters, WC_Admin_Menus->settings_page, WC_Admin_Settings::output, include('/plugins/woocommerce/includes/admin/views/html-admin-settings.php'), do_action('woocommerce_settings_tabs_woof'), WP_Hook->do_action, WP_Hook->apply_filters, WOOF->print_plugin_options, WOOF->render_html, include('/plugins/woocommerce-products-filter/views/plugin_options.php')
+[25-Jul-2022 13:17:38 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[25-Jul-2022 13:17:38 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[25-Jul-2022 15:55:00 UTC] PHP Notice:  Function wp_enqueue_script() was called <strong>incorrectly</strong>. "wp-editor" script should not be enqueued together with the new widgets editor (wp-edit-widgets or wp-customize-widgets). Please see <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 5.8.0.) in E:\wamp64\www\test02\wp-includes\functions.php on line 5831
+[25-Jul-2022 15:55:00 UTC] PHP Stack trace:
+[25-Jul-2022 15:55:00 UTC] PHP   1. {main}() E:\wamp64\www\test02\wp-admin\widgets.php:0
+[25-Jul-2022 15:55:00 UTC] PHP   2. require() E:\wamp64\www\test02\wp-admin\widgets.php:32
+[25-Jul-2022 15:55:00 UTC] PHP   3. require_once() E:\wamp64\www\test02\wp-admin\widgets-form-blocks.php:70
+[25-Jul-2022 15:55:00 UTC] PHP   4. do_action($hook_name = 'admin_head') E:\wamp64\www\test02\wp-admin\admin-header.php:163
+[25-Jul-2022 15:55:00 UTC] PHP   5. WP_Hook->do_action($args = [0 => '']) E:\wamp64\www\test02\wp-includes\plugin.php:476
+[25-Jul-2022 15:55:00 UTC] PHP   6. WP_Hook->apply_filters($value = '', $args = [0 => '']) E:\wamp64\www\test02\wp-includes\class-wp-hook.php:331
+[25-Jul-2022 15:55:00 UTC] PHP   7. wp_check_widget_editor_deps('') E:\wamp64\www\test02\wp-includes\class-wp-hook.php:307
+[25-Jul-2022 15:55:00 UTC] PHP   8. _doing_it_wrong($function = 'wp_enqueue_script()', $message = '"wp-editor" script should not be enqueued together with the new widgets editor (wp-edit-widgets or wp-customize-widgets).', $version = '5.8.0') E:\wamp64\www\test02\wp-includes\widgets.php:2090
+[25-Jul-2022 15:55:00 UTC] PHP   9. trigger_error($message = 'Function wp_enqueue_script() was called <strong>incorrectly</strong>. "wp-editor" script should not be enqueued together with the new widgets editor (wp-edit-widgets or wp-customize-widgets). Please see <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 5.8.0.)', $error_type = 1024) E:\wamp64\www\test02\wp-includes\functions.php:5831
+[25-Jul-2022 16:02:32 UTC] PHP Notice:  Function wp_enqueue_script() was called <strong>incorrectly</strong>. "wp-editor" script should not be enqueued together with the new widgets editor (wp-edit-widgets or wp-customize-widgets). Please see <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 5.8.0.) in E:\wamp64\www\test02\wp-includes\functions.php on line 5831
+[25-Jul-2022 16:02:32 UTC] PHP Stack trace:
+[25-Jul-2022 16:02:32 UTC] PHP   1. {main}() E:\wamp64\www\test02\wp-admin\widgets.php:0
+[25-Jul-2022 16:02:32 UTC] PHP   2. require() E:\wamp64\www\test02\wp-admin\widgets.php:32
+[25-Jul-2022 16:02:32 UTC] PHP   3. require_once() E:\wamp64\www\test02\wp-admin\widgets-form-blocks.php:70
+[25-Jul-2022 16:02:32 UTC] PHP   4. do_action($hook_name = 'admin_head') E:\wamp64\www\test02\wp-admin\admin-header.php:163
+[25-Jul-2022 16:02:32 UTC] PHP   5. WP_Hook->do_action($args = [0 => '']) E:\wamp64\www\test02\wp-includes\plugin.php:476
+[25-Jul-2022 16:02:32 UTC] PHP   6. WP_Hook->apply_filters($value = '', $args = [0 => '']) E:\wamp64\www\test02\wp-includes\class-wp-hook.php:331
+[25-Jul-2022 16:02:32 UTC] PHP   7. wp_check_widget_editor_deps('') E:\wamp64\www\test02\wp-includes\class-wp-hook.php:307
+[25-Jul-2022 16:02:32 UTC] PHP   8. _doing_it_wrong($function = 'wp_enqueue_script()', $message = '"wp-editor" script should not be enqueued together with the new widgets editor (wp-edit-widgets or wp-customize-widgets).', $version = '5.8.0') E:\wamp64\www\test02\wp-includes\widgets.php:2090
+[25-Jul-2022 16:02:32 UTC] PHP   9. trigger_error($message = 'Function wp_enqueue_script() was called <strong>incorrectly</strong>. "wp-editor" script should not be enqueued together with the new widgets editor (wp-edit-widgets or wp-customize-widgets). Please see <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 5.8.0.)', $error_type = 1024) E:\wamp64\www\test02\wp-includes\functions.php:5831
+[25-Jul-2022 16:04:39 UTC] PHP Notice:  Undefined variable: instance in E:\wamp64\www\test02\wp-content\themes\silky-new\footer.php on line 28
+[25-Jul-2022 16:04:39 UTC] PHP Stack trace:
+[25-Jul-2022 16:04:39 UTC] PHP   1. {main}() E:\wamp64\www\test02\index.php:0
+[25-Jul-2022 16:04:39 UTC] PHP   2. require() E:\wamp64\www\test02\index.php:17
+[25-Jul-2022 16:04:39 UTC] PHP   3. require_once() E:\wamp64\www\test02\wp-blog-header.php:19
+[25-Jul-2022 16:04:39 UTC] PHP   4. include() E:\wamp64\www\test02\wp-includes\template-loader.php:106
+[25-Jul-2022 16:04:39 UTC] PHP   5. get_footer($name = *uninitialized*, $args = *uninitialized*) E:\wamp64\www\test02\wp-content\themes\silky-new\page.php:58
+[25-Jul-2022 16:04:39 UTC] PHP   6. locate_template($template_names = [0 => 'footer.php'], $load = TRUE, $require_once = TRUE, $args = []) E:\wamp64\www\test02\wp-includes\general-template.php:92
+[25-Jul-2022 16:04:39 UTC] PHP   7. load_template($_template_file = 'E:\\wamp64\\www\\test02/wp-content/themes/silky-new/footer.php', $require_once = TRUE, $args = []) E:\wamp64\www\test02\wp-includes\template.php:716
+[25-Jul-2022 16:04:39 UTC] PHP   8. require_once() E:\wamp64\www\test02\wp-includes\template.php:770
+[25-Jul-2022 16:09:00 UTC] PHP Notice:  Undefined variable: instance in E:\wamp64\www\test02\wp-content\themes\silky-new\footer.php on line 27
+[25-Jul-2022 16:09:00 UTC] PHP Stack trace:
+[25-Jul-2022 16:09:00 UTC] PHP   1. {main}() E:\wamp64\www\test02\index.php:0
+[25-Jul-2022 16:09:00 UTC] PHP   2. require() E:\wamp64\www\test02\index.php:17
+[25-Jul-2022 16:09:00 UTC] PHP   3. require_once() E:\wamp64\www\test02\wp-blog-header.php:19
+[25-Jul-2022 16:09:00 UTC] PHP   4. include() E:\wamp64\www\test02\wp-includes\template-loader.php:106
+[25-Jul-2022 16:09:00 UTC] PHP   5. get_footer($name = *uninitialized*, $args = *uninitialized*) E:\wamp64\www\test02\wp-content\themes\silky-new\page.php:58
+[25-Jul-2022 16:09:00 UTC] PHP   6. locate_template($template_names = [0 => 'footer.php'], $load = TRUE, $require_once = TRUE, $args = []) E:\wamp64\www\test02\wp-includes\general-template.php:92
+[25-Jul-2022 16:09:00 UTC] PHP   7. load_template($_template_file = 'E:\\wamp64\\www\\test02/wp-content/themes/silky-new/footer.php', $require_once = TRUE, $args = []) E:\wamp64\www\test02\wp-includes\template.php:716
+[25-Jul-2022 16:09:00 UTC] PHP   8. require_once() E:\wamp64\www\test02\wp-includes\template.php:770
+[25-Jul-2022 16:10:05 UTC] PHP Fatal error:  Cannot redeclare the_widget() (previously declared in E:\wamp64\www\test02\wp-includes\widgets.php:1206) in E:\wamp64\www\test02\wp-content\themes\silky-new\footer.php on line 28
+[25-Jul-2022 16:10:05 UTC] PHP Stack trace:
+[25-Jul-2022 16:10:05 UTC] PHP   1. {main}() E:\wamp64\www\test02\index.php:0
+[25-Jul-2022 16:10:05 UTC] PHP   2. require() E:\wamp64\www\test02\index.php:17
+[25-Jul-2022 16:10:05 UTC] PHP   3. require_once() E:\wamp64\www\test02\wp-blog-header.php:19
+[25-Jul-2022 16:10:05 UTC] PHP   4. include() E:\wamp64\www\test02\wp-includes\template-loader.php:106
+[25-Jul-2022 16:10:05 UTC] PHP   5. get_footer($name = *uninitialized*, $args = *uninitialized*) E:\wamp64\www\test02\wp-content\themes\silky-new\page.php:58
+[25-Jul-2022 16:10:05 UTC] PHP   6. locate_template($template_names = [0 => 'footer.php'], $load = TRUE, $require_once = TRUE, $args = []) E:\wamp64\www\test02\wp-includes\general-template.php:92
+[25-Jul-2022 16:10:05 UTC] PHP   7. load_template($_template_file = 'E:\\wamp64\\www\\test02/wp-content/themes/silky-new/footer.php', $require_once = TRUE, $args = []) E:\wamp64\www\test02\wp-includes\template.php:716

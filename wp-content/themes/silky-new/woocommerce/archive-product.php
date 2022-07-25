@@ -117,7 +117,7 @@ elseif (is_product_category()) {
             </div>
             <div class="header-colletion-line"></div>
             <div class="content-header-collection-desc"> <?php echo category_description($cateid); ?></div>
-        </div>
+        </div>	
     </div>
 	<?php
 		

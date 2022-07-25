@@ -20,10 +20,20 @@ defined( 'ABSPATH' ) || exit;
                 <div class="footer-content">
                     <div class="footer-contact">
                         <div class="footer-contact-infor">
-                            <div class="footer-contact-item fw-bold footer-title">Silky VietNam</div>
+                            <!-- <div class="footer-contact-item fw-bold footer-title">Silky VietNam</div>
                             <div class="footer-contact-item ">Email: silkyvietnaminfo@gmail.com</div>
                             <div class="footer-contact-item ">Địa chỉ: Số 5 Hàng Bông , Hoàn Kiếm , Hà Nội</div>
-                            <div class="footer-contact-item ">Điện thoại : (+84) 89808 3735</div>
+                            <div class="footer-contact-item ">Điện thoại : (+84) 89808 3735</div> -->
+                       <?php
+                         wp_nav_menu( 
+                            array( 
+                                'theme_location' => 'footer', 
+                                'container' => 'false', 
+                                'menu_id' => 'footer-menu', 
+                                'menu_class' => ' '
+                             ) 
+                          ); 
+                       ?>
                         </div>
                         <div class="footer-service ">
                             <div class="footer-service-item footer-hidden-element ">Silky VietNam</div>

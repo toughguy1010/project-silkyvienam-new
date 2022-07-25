@@ -10,6 +10,7 @@ do_action('blog-style');
                     do_action('head');
                 ?>
             </div>
+            <?php the_content() ?>
             <div class="menu-content">
                 <ul class="menu-blog-list">
                     <?php 

@@ -14,16 +14,17 @@
 defined( 'ABSPATH' ) || exit;
 
 get_header();
-do_action('product_style');
+
 $container = get_theme_mod( 'understrap_container_type' );
+do_action('homepage_style');
 
 ?>
 
 <div class="wrapper" id="page-wrapper">
 
-	<div class="<?php echo esc_attr( $container ); ?>" id="content" tabindex="-1">
+	<div class="<?php echo esc_attr( $container ); ?>" id="content" tabindex="-1" style="padding: 0% !important ;" >
 
-		<div class="row">
+		<div class="row " style="margin: 0% !important ;">
 			
 			<!-- Do the left sidebar check -->
 			<?php get_template_part( 'global-templates/left-sidebar-check' ); ?>

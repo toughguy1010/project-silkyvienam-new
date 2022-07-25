@@ -1,0 +1,6 @@
+2022-07-25T02:35:40+00:00 CRITICAL syntax error, unexpected '.' in E:\wamp64\www\test02\wp-content\themes\silky-new\index.php on line 50
+
+2022-07-25T02:36:35+00:00 CRITICAL syntax error, unexpected '}' in E:\wamp64\www\test02\wp-content\themes\silky-new\index.php on line 55
+
+2022-07-25T16:10:05+00:00 CRITICAL Cannot redeclare the_widget() (previously declared in E:\wamp64\www\test02\wp-includes\widgets.php:1206) in E:\wamp64\www\test02\wp-content\themes\silky-new\footer.php on line 28
+

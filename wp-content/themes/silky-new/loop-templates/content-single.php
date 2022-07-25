@@ -4,7 +4,7 @@
  *
  * @package Understrap
  */
-
+// 
 // Exit if accessed directly.
 defined( 'ABSPATH' ) || exit;
 do_action('blog-style');

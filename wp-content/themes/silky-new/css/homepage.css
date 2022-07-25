@@ -1,4 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins:wght@200&family=Roboto:wght@300&family=Tiro+Devanagari+Hindi:ital@1&family=Tiro+Devanagari+Sanskrit&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins:wght@200&family=Raleway:wght@400;500&family=Roboto:wght@300&family=Tiro+Devanagari+Hindi:ital@1&family=Tiro+Devanagari+Sanskrit&display=swap');
+@font-face {
+    font-family: headlineFont;
+    src: url(../fonts/Petrona-Light.ttf);
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -934,7 +940,19 @@
     height: 100vh;
     min-height: 500px;
     /* min-height: 100vh; */
-    margin-top: 50px;
+    margin-top: 15px;
+}
+
+
+/* slider css start */
+
+.elementor-section.elementor-section-boxed>.elementor-container {
+    /* width: 100% !important; */
+    max-width: unset !important;
+}
+
+.elementor-column-gap-default>.elementor-column>.elementor-element-populated {
+    padding: 0 !important;
 }
 
 .slider-homepage,
@@ -961,6 +979,209 @@
     width: 100vw;
 }
 
+.soliloquy-container .soliloquy-prev {
+    height: 50px !important;
+    width: 50px !important;
+    background-color: rgba(0, 0, 0, 0) !important;
+    background-image: url(../img/blog/prev-slider-btn.png) !important;
+}
+
+.soliloquy-container .soliloquy-next {
+    width: 50px !important;
+    height: 50px !important;
+    background-color: rgba(0, 0, 0, 0) !important;
+    background-image: url(../img/blog/next-slider-btn.png) !important;
+}
+
+.soliloquy-caption {
+    background: rgba(0, 0, 0, 0) !important;
+}
+
+.soliloquy-container .soliloquy-caption {
+    bottom: 50% !important;
+}
+
+.soliloquy-container .soliloquy-caption-inside {
+    font-size: 40px !important;
+    text-align: start !important;
+    margin-left: 20%;
+    font-family: 'headlineFont';
+    text-shadow: none !important;
+}
+
+.soliloquy-caption-inside a {
+    display: block;
+    font-size: 14px;
+    height: 50px;
+    width: 200px;
+    text-align: center;
+    line-height: 50px;
+    background-color: #FFFFFF;
+    color: #000 !important;
+    border: 1px solid #000;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+
+/* slider css end */
+
+
+/* introduction css start */
+
+.elementor-917 .elementor-element.elementor-element-fb80cdc .elementor-heading-title {
+    font-family: 'headlineFont';
+}
+
+
+/* introducttion css end */
+
+
+/* recent post css start */
+
+.recentpost-section .elementor-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0 !important;
+    margin: 40px 3%;
+    height: 80%;
+    list-style-type: none;
+}
+
+.recentpost-section .elementor-column {
+    width: 22% !important;
+    margin-right: 4%;
+}
+
+.recentpost-section .elementor-image-box-img {
+    width: 100% !important;
+}
+
+.recentpost-section .elementor-column:nth-child(4n+4) {
+    margin-right: 0 !important;
+}
+
+.recent-post-img {
+    width: 100%;
+}
+
+.recent-post-img img {
+    height: 500px !important;
+    width: 100%;
+    object-position: center;
+    object-fit: cover;
+}
+
+.recent-post-title {
+    display: block;
+    margin: 15px 0;
+    font-size: 15px !important;
+    text-transform: uppercase;
+    color: #000;
+}
+
+.recent-post-title:hover {
+    color: #000;
+}
+
+.recent-post-item a {
+    text-decoration: none !important;
+}
+
+.recent-post-item p {
+    display: block;
+    font-size: 13px;
+}
+
+
+/* recent post css end */
+
+
+/* gallery css start  */
+
+.gallery-section .elementor-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0 !important;
+    margin: 40px 3%;
+    height: 80%;
+    list-style-type: none;
+    position: relative;
+}
+
+.gallery-section .elementor-column {
+    width: 31% !important;
+    margin-right: 3.5%;
+}
+
+.gallery-section .elementor-column:nth-child(3n+3) {
+    margin-right: 0 !important;
+}
+
+.gallery-section .elementor-image-box-img {
+    width: 100% !important;
+    position: relative;
+    background-color: rgba(0, 0, 0, .3);
+}
+
+.gallery-section .elementor-image-box-img img {
+    width: 100% !important;
+}
+
+.gallery-section .elementor-image-box-content {
+    position: absolute;
+    bottom: 12%;
+}
+
+.gallery-section .elementor-image-box-title a {
+    font-size: 22px;
+    display: block;
+    text-transform: uppercase;
+    color: #fff;
+    font-family: 'headlineFont';
+    transform: translateY(100px);
+    transition: all .6s;
+}
+
+.gallery-section .elementor-image-box-description {
+    font-size: 13px;
+    text-align: center;
+    display: block;
+    color: #fff;
+    width: 84%;
+    margin: 0 8%;
+    transform: translateY(500%);
+    margin-top: 15px;
+    transition: all .5s;
+}
+
+.gallery-section .elementor-column:hover .elementor-image-box-description {
+    transform: translateY(0%);
+}
+
+.gallery-section .elementor-column:hover .elementor-image-box-title a {
+    transform: translateY(0px);
+}
+
+.gallery-section .elementor-image-box-img::after {
+    content: " ";
+    position: absolute;
+    background-color: rgba(0, 0, 0, .5);
+    width: 100%;
+    height: 100%;
+    transition: all .6s;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+
+.gallery-section .elementor-column:hover .elementor-image-box-img::after {
+    opacity: 1;
+}
+
+
+/* gallery css end  */
+
 
 /* content css end */
 
@@ -974,9 +1195,21 @@
     font-size: 13px;
 }
 
+#footer-menu {
+    list-style-type: none !important;
+    padding-left: 0 !important;
+}
+
 .footer-section {
     width: 100%;
     background-color: #F5F1EC;
+}
+
+.footer-contact-item a {
+    display: block;
+    text-decoration: none;
+    color: #000;
+    cursor: default;
 }
 
 .wrap-footer {
@@ -1428,6 +1661,55 @@
 
 
 /* menu - mobile */
+
+
+/* footer responsive */
+
+@media only screen and (max-width: 777px) {
+    .wrap-footer {
+        font-size: 11px;
+        padding: 30px 5px;
+    }
+    .footer-content {
+        display: unset;
+        text-align: center;
+        width: 100%;
+    }
+    .footer-contact {
+        display: unset;
+    }
+    .footer-service {
+        margin-left: 0%;
+    }
+    .footer-input-form {
+        width: 80%;
+        margin: 0 auto;
+        /* text-align: center; */
+        margin-top: 32px;
+    }
+    .footer-title {
+        font-size: 16px;
+    }
+    .footer-service a {
+        font-size: 11px;
+    }
+    .footer-desc {
+        font-size: 11px;
+        text-align: center;
+        display: unset;
+    }
+    .social-connection {
+        display: block;
+        margin: 10px auto;
+    }
+    .logo-footer {
+        display: block;
+        margin: 10px auto;
+    }
+}
+
+
+/* footer-responsive end */
 
 
 /* responsive */
