@@ -50,14 +50,25 @@ defined( 'ABSPATH' ) || exit;
                 <a href="http://silkyvietnam.vn/" class="header-logo">
                 <img src="<?php echo get_template_directory_uri() . '/img/header-logo-img.jpg'; ?>" class="logo-respon" />
                     <!-- <img src="/assets/img/header-logo-img.jpg" alt="" class="logo-respon"> -->
-
+                 
+                
+                    <?php
+                // wp_nav_menu( 
+                //     array( 
+                //         'theme_location' => 'language', 
+                //         'container' => 'false', 
+                //         'menu_id' => '', 
+                //         'menu_class' => ''
+                //      ) 
+                //   ); 
+                ?> 
                 </a>
                 <div class="header-feature">
                     <div class="header-feature-list wdlog-btn ">
                         <div class="header-feature-item ">
                         
-                            <div id="weglot_here"></div>
-                 
+                        <!-- <div id="weglot_here"></div> -->
+             
                         </div>
                        
                     </div>
@@ -118,13 +129,7 @@ defined( 'ABSPATH' ) || exit;
                     </div>
                 </div>
                 <div class="menu-mobile-list">
-                <div class="header-feature-list search-form-mobile">
-                     
-                     <?php 
-                     get_search_form();
-                     
-                     ?>
-                 </div>
+               
                 <?php
                 wp_nav_menu( 
                     array( 
@@ -135,6 +140,13 @@ defined( 'ABSPATH' ) || exit;
                      ) 
                   ); 
                 ?> 
+                 <div class="header-feature-list search-form-mobile">
+                     
+                     <?php 
+                     get_search_form();
+                     
+                     ?>
+                 </div>
                 </div>
             </div>
             </div>
@@ -148,7 +160,7 @@ defined( 'ABSPATH' ) || exit;
                 <div class="header-feature-list wdlog-btn ">
                         
                         <div id="weglot_here"></div>
-             
+              
                    
                 </div>
                     <div class="header-feature-list link-cart-item">
