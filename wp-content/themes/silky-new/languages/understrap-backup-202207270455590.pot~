@@ -1,6 +1,5 @@
 # Copyright (C) 2021 the Understrap Authors
 # This file is distributed under the Understrap WordPress Theme, Copyright 2013-2021 Howard Development &amp; Consulting.
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Understrap 0.9.6\n"
@@ -10,13 +9,10 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2022-07-27 04:55+0000\n"
+"POT-Creation-Date: 2021-08-20T00:31:53+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"X-Generator: Loco https://localise.biz/\n"
+"X-Generator: WP-CLI 2.4.0\n"
 "X-Domain: understrap\n"
-"\n"
-"Language: \n"
-"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;"
 
 #. Theme Name of the theme
 msgid "Understrap"
@@ -28,14 +24,7 @@ msgid "https://understrap.com"
 msgstr ""
 
 #. Description of the theme
-msgid ""
-"Combination of Automattic´s _s theme and Bootstrap 4. Made as a solid "
-"starting point for your next theme project and WordPress website. Use it as "
-"starter theme or as a parent theme. It is up to you. Including Font Awesome "
-"support, built-in widget slider and much more you need for basic websites. "
-"IMPORTANT: All developer dependencies are not bundled with this install file."
-" Just download the .zip, extract it and run \"npm install\" and \"gulp copy-"
-"assets\" inside the extracted /understrap folder."
+msgid "Combination of Automattic´s _s theme and Bootstrap 4. Made as a solid starting point for your next theme project and WordPress website. Use it as starter theme or as a parent theme. It is up to you. Including Font Awesome support, built-in widget slider and much more you need for basic websites. IMPORTANT: All developer dependencies are not bundled with this install file. Just download the .zip, extract it and run \"npm install\" and \"gulp copy-assets\" inside the extracted /understrap folder."
 msgstr ""
 
 #. Author of the theme
@@ -150,9 +139,7 @@ msgid "Sidebar Positioning"
 msgstr ""
 
 #: inc/customizer.php:114
-msgid ""
-"Set sidebar's default position. Can either be: right, left, both or none. "
-"Note: this can be overridden on individual pages."
+msgid "Set sidebar's default position. Can either be: right, left, both or none. Note: this can be overridden on individual pages."
 msgstr ""
 
 #: inc/customizer.php:123
@@ -172,9 +159,7 @@ msgid "No sidebar"
 msgstr ""
 
 #: inc/deprecated.php:80
-msgid ""
-"It looks like nothing was found at this location. Maybe try one of the links "
-"below or a search?"
+msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
 msgstr ""
 
 #: inc/deprecated.php:81
@@ -285,7 +270,8 @@ msgid "Posted by"
 msgstr ""
 
 #. translators: used between list items, there is a space after the comma
-#: inc/template-tags.php:59 inc/template-tags.php:65
+#: inc/template-tags.php:59
+#: inc/template-tags.php:65
 msgid ", "
 msgstr ""
 
@@ -400,20 +386,15 @@ msgstr ""
 
 #. translators: 1: Link to WP admin new post page.
 #: loop-templates/content-none.php:30
-msgid ""
-"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
 msgstr ""
 
 #: loop-templates/content-none.php:38
-msgid ""
-"Sorry, but nothing matched your search terms. Please try again with some "
-"different keywords."
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
 msgstr ""
 
 #: loop-templates/content-none.php:46
-msgid ""
-"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
-"searching can help."
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
 msgstr ""
 
 #. Template Name of the theme
@@ -442,9 +423,7 @@ msgstr ""
 
 #. translators: %s: query term
 #: search.php:36
-msgctxt "Collection"
-msgid ""
-"Bộ sưu tập\n"
+msgid "Search Results for: %s"
 msgstr ""
 
 #: searchform.php:20
@@ -470,9 +449,4 @@ msgstr ""
 #: sidebar-templates/sidebar-hero.php:36
 msgctxt "carousel control"
 msgid "Next"
-msgstr ""
-
-msgctxt ""
-"Collection\n"
-msgid "Bộ sưu tập"
 msgstr ""

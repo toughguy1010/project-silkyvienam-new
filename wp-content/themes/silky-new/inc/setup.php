@@ -54,6 +54,16 @@ if ( ! function_exists( 'understrap_setup' ) ) {
 				'footer' => __( 'Footer Info', 'understrap' ),
 			)
 		);
+		register_nav_menus(
+			array(
+				'social' => __( 'Social Menu', 'understrap' ),
+			)
+		);
+		register_nav_menus(
+			array(
+				'language' => __( 'Language Menu', 'understrap' ),
+			)
+		);
 
 		/*
 		 * Switch default core markup for search form, comment form, and comments
