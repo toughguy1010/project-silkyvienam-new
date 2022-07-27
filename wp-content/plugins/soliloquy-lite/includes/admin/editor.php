@@ -98,46 +98,46 @@ class Soliloquy_Editor_Lite {
 		// Add the action to the footer to output the modal window.
 		add_action( 'admin_footer', array( $this, 'slider_selection_modal' ) );
 
-		// Compat for Elementor.
-		// @codingStandardsIgnoreStart
-		// If Elementor UI is here, then we need to output this since there's no admin_footer
-		if ( $_GET['action'] === 'elementor' ) {
-			echo $this->get_slider_selection_modal();
-		}
-		// @codingStandardsIgnoreEnd
-		// Append the button.
-		return $buttons . $button;
+	// 	// Compat for Elementor.
+	// 	// @codingStandardsIgnoreStart
+	// 	// If Elementor UI is here, then we need to output this since there's no admin_footer
+	// 	if ( $_GET['action'] === 'elementor' ) {
+	// 		echo $this->get_slider_selection_modal();
+	// 	}
+	// 	// @codingStandardsIgnoreEnd
+	// 	// Append the button.
+	// 	return $buttons . $button;
 
-	}
+	// }
 
-	/**
-	 * Outputs the slider selection modal to insert a slider into an editor.
-	 *
-	 * @since 1.0.0
-	 */
-	public function slider_selection_modal() {
-		// @codingStandardsIgnoreStart
-		echo $this->get_slider_selection_modal();
-		// @codingStandardsIgnoreEnd
-	}
+	// /**
+	//  * Outputs the slider selection modal to insert a slider into an editor.
+	//  *
+	//  * @since 1.0.0
+	//  */
+	// public function slider_selection_modal() {
+	// 	// @codingStandardsIgnoreStart
+	// 	echo $this->get_slider_selection_modal();
+	// 	// @codingStandardsIgnoreEnd
+	// }
 
-	/**
-	 * Returns the slider selection modal to insert a slider into an editor.
-	 *
-	 * @since 1.0.0
-	 *
-	 * @global object $post The current post object.
-	 * @return string Empty string if no sliders are found, otherwise modal UI.
-	 */
-	public function get_slider_selection_modal() {
+	// /**
+	//  * Returns the slider selection modal to insert a slider into an editor.
+	//  *
+	//  * @since 1.0.0
+	//  *
+	//  * @global object $post The current post object.
+	//  * @return string Empty string if no sliders are found, otherwise modal UI.
+	//  */
+	// public function get_slider_selection_modal() {
 
-		// Return early if already loaded.
-		if ( $this->loaded ) {
-			return '';
-		}
+	// 	// Return early if already loaded.
+	// 	if ( $this->loaded ) {
+	// 		return '';
+	// 	}
 
-		// Set the loaded flag to true.
-		$this->loaded = true;
+	// 	// Set the loaded flag to true.
+	// 	$this->loaded = true;
 
 		global $post;
 		$sliders = $this->base->get_sliders();
