@@ -1,4 +1,5 @@
-[{
+[
+    {
         "code": "af",
         "english_name": "Afrikaans",
         "local_name": "Afrikaans"
@@ -516,7 +517,7 @@
     {
         "code": "vi",
         "english_name": "Vietnamese",
-        "local_name": "Vi"
+        "local_name": "Tiếng Việt"
     },
     {
         "code": "xh",

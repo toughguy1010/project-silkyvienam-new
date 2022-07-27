@@ -182,7 +182,7 @@ class Button_Service_Weglot {
 			$display_first = true;
 		}
 
-		$button_html .= '<ul class ="switch-lag" role="none">';
+		$button_html .= '<ul role="none">';
 
 		foreach ( $this->language_services->get_original_and_destination_languages( $this->request_url_services->is_allowed_private() ) as $language ) {
 			// check if for this button we ant to exclude the button from switcher.

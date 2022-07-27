@@ -142,7 +142,7 @@ class Languages
             'vi' => [
                 'internal_code'  => 'vi',
                 'english' => 'Vietnamese',
-                'local' => 'Vi',
+                'local' => 'Tiếng Việt',
                 'rtl' => false,
             ],
             'hu' => [
