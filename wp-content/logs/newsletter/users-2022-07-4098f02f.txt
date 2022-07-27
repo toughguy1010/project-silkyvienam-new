@@ -1,0 +1,4 @@
+26-07-2022 10:36:56 - FATAL - 7.5.0 - 24.5 MB/256 MB - tuanducpham > update wp_newsletter set geo=1 where country<>''
+26-07-2022 10:36:56 - FATAL - 7.5.0 - 24.5 MB/256 MB - tuanducpham > Table 'silkyvietnam.wp_newsletter' doesn't exist
+26-07-2022 10:36:56 - FATAL - 7.5.0 - 24.8 MB/256 MB - tuanducpham > update wp_newsletter set geo=1 where country<>''
+26-07-2022 10:36:56 - FATAL - 7.5.0 - 24.8 MB/256 MB - tuanducpham > Table 'silkyvietnam.wp_newsletter' doesn't exist
