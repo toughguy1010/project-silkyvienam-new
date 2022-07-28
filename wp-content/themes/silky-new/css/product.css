@@ -92,6 +92,71 @@
     }
     /* search-btn */
     /* langue btn */
+    /* translate press */
+    
+    .trp_language_switcher_shortcode {
+        position: absolute;
+        right: 20px;
+        top: 44% !important;
+    }
+    
+    .trp-language-switcher>div {
+        background-image: none !important;
+        padding: 0 !important;
+        border: 0 !important;
+        background-color: unset !important;
+    }
+    
+    .trp-language-switcher {
+        text-align: end;
+        margin: 0 !important;
+    }
+    
+    .trp-language-switcher>div>a {
+        text-decoration: none;
+        padding-right: 17px !important;
+        color: #000;
+    }
+    
+    .trp-ls-disabled-language {
+        position: relative;
+    }
+    
+    .trp-language-switcher:hover .trp-ls-disabled-language::after {
+        transform: rotate(-135deg);
+        transition: all .5s;
+        -webkit-transform: rotate(-135deg);
+    }
+    
+    .trp-ls-shortcode-language {
+        display: block !important;
+    }
+    
+    .trp-ls-disabled-language::after {
+        position: absolute;
+        right: 2px;
+        top: 8px;
+        content: " ";
+        border: solid black;
+        border-width: 0 1px 1px 0;
+        display: inline-block;
+        padding: 2px;
+        width: 2px;
+        height: 2px;
+        transform: rotate(45deg);
+        -webkit-transform: rotate(45deg);
+        transition: all .5s;
+    }
+    
+    .trp-language-switcher>div>a:hover {
+        background-color: unset;
+        font-weight: bold;
+    }
+    
+    .trp-language-switcher>div>a.trp-ls-shortcode-disabled-language {
+        cursor: pointer !important;
+    }
+    /* translate press */
     
     .menu_item_wpglobus_menu_switch .sub-menu {
         display: block !important;
@@ -2708,27 +2773,28 @@
     /* contact-us */
     
     .wpforms-container {
-        margin-top: 10% !important;
+        /* margin-top: 10% !important;
         margin-left: 18% !important;
-        /* margin-right: 20% !important; */
-        margin-bottom: 15% !important;
-        width: 70% !important;
+        margin-right: 20% !important;
+        margin-bottom: 15% !important; */
+        /* width: 100% !important; */
+        margin-left: 50px !important;
     }
     
     .wpforms-field-name {
-        float: left !important;
+        /* float: left !important; */
         clear: none !important;
     }
     
     .wpforms-field-email,
     .wpforms-field-textarea {
-        float: right !important;
+        /* float: right !important; */
         clear: none !important;
     }
     
     .wpforms-field-number {
         clear: left !important;
-        float: left !important;
+        /* float: left !important; */
         margin-top: 5% !important;
     }
     
@@ -2736,23 +2802,53 @@
     .wpforms-field-email,
     .wpforms-field-number,
     .wpforms-field-textarea {
-        width: 50% !important;
+        /* width: 50% !important; */
     }
     
     .wpforms-field-name input {
-        margin-left: 27% !important;
+        /* margin-left: 27% !important; */
+        width: 100%;
+    }
+    
+    div.wpforms-container-full .wpforms-form input.wpforms-field-medium,
+    div.wpforms-container-full .wpforms-form select.wpforms-field-medium,
+    div.wpforms-container-full .wpforms-form .wpforms-field-row.wpforms-field-medium {
+        max-width: unset !important;
+    }
+    
+    div.wpforms-container-full .wpforms-form input[type=date],
+    div.wpforms-container-full .wpforms-form input[type=datetime],
+    div.wpforms-container-full .wpforms-form input[type=datetime-local],
+    div.wpforms-container-full .wpforms-form input[type=email],
+    div.wpforms-container-full .wpforms-form input[type=month],
+    div.wpforms-container-full .wpforms-form input[type=number],
+    div.wpforms-container-full .wpforms-form input[type=password],
+    div.wpforms-container-full .wpforms-form input[type=range],
+    div.wpforms-container-full .wpforms-form input[type=search],
+    div.wpforms-container-full .wpforms-form input[type=tel],
+    div.wpforms-container-full .wpforms-form input[type=text],
+    div.wpforms-container-full .wpforms-form input[type=time],
+    div.wpforms-container-full .wpforms-form input[type=url],
+    div.wpforms-container-full .wpforms-form input[type=week],
+    div.wpforms-container-full .wpforms-form select,
+    div.wpforms-container-full .wpforms-form textarea {
+        height: 30px !important;
+    }
+    
+    div.wpforms-container-full .wpforms-form textarea.wpforms-field-medium {
+        height: 120px !important;
     }
     
     .wpforms-field-name label {
-        margin-left: 27% !important;
+        /* margin-left: 27% !important; */
     }
     
     .wpforms-field-number input {
-        margin-left: 27% !important;
+        /* margin-left: 27% !important; */
     }
     
     .wpforms-field-number label {
-        margin-left: 27% !important;
+        /* margin-left: 27% !important; */
     }
     
     .wpforms-field-container label {
@@ -2760,6 +2856,10 @@
         font-size: 13px !important;
         font-weight: 400 !important;
         font-family: 'Open Sans', sans-serif !important;
+    }
+    
+    .wpforms-field-container {
+        margin-top: 40px !important;
     }
     
     .wpforms-field-textarea {
@@ -2776,21 +2876,21 @@
         border-top: 0 !important;
         border-left: 0 !important;
         border-right: 0 !important;
-        width: 62% !important;
+        /* width: 62% !important; */
     }
     
     .wpforms-submit-container {
-        width: 80% !important;
+        width: 100% !important;
     }
     
     .wpforms-submit {
-        float: right !important;
+        /* float: right !important; */
         display: block;
         text-transform: uppercase !important;
         background-color: #fff !important;
         border: 1px solid #000000 !important;
         outline: 1px solid #ffffff !important;
-        width: 38% !important;
+        width: 100% !important;
         margin-top: 7% !important;
         border-radius: 25px !important;
     }
@@ -2803,11 +2903,20 @@
     }
     
     .contactus-title {
-        font-size: 1.7vw !important;
-        margin-left: 13% !important;
-        margin-bottom: 4% !important;
-        font-weight: 600;
-        font-family: 'Raleway', sans-serif !important;
+        font-size: 22px !important;
+        /* margin-left: 13% !important; */
+        /* margin-bottom: 4% !important; */
+        font-family: 'headlineFont' !important;
+        line-height: 25px;
+        text-transform: uppercase !important;
+    }
+    
+    .contactus-title h2 {
+        font-size: 22px !important;
+        line-height: 25px;
+        /* margin-left: 13% !important; */
+        /* margin-bottom: 4% !important; */
+        font-family: 'headlineFont' !important;
     }
     
     .wpforms-confirmation-container-full,
@@ -3426,7 +3535,7 @@
             padding-left: 0% !important;
             /* overflow-y: auto; */
             margin-top: 20px;
-            height: 58vh;
+            height: 100%;
         }
         .parent-menu {
             line-height: 50px!important;
@@ -3611,6 +3720,10 @@
             position: fixed;
             left: 0;
         }
+        .menu-mobile-list {
+            height: 80vh;
+            overflow-y: auto;
+        }
         /* menu-moible */
         .link-cart-item {
             margin-right: 30%;
@@ -3652,6 +3765,43 @@
             max-width: 100%!important;
         }
     }
+    /* translatepress reponsive */
+    
+    @media only screen and (max-width:786px) {
+        .trp_language_switcher_shortcode {
+            position: absolute;
+            right: 70px;
+            top: 41% !important;
+        }
+    }
+    
+    @media only screen and (max-width:500px) {
+        .trp_language_switcher_shortcode {
+            position: absolute;
+            right: 41px;
+            top: 41% !important;
+        }
+    }
+    /* translatepress reponsive */
+    /* social mobile */
+    
+    @media only screen and (max-width:768px) {
+        .social-mobile-title {
+            text-align: center;
+            font-size: 12px;
+        }
+        #social-menu {
+            display: flex;
+            padding-left: 0 !important;
+            list-style-type: none;
+            justify-content: center;
+        }
+        .copy-right {
+            font-size: 12px;
+            text-align: center;
+        }
+    }
+    /* social mobile */
     
     @media only screen and (max-width: 600px) {
         .header-logo {

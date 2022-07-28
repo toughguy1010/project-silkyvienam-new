@@ -68,7 +68,9 @@ defined( 'ABSPATH' ) || exit;
                         <div class="header-feature-item ">
                         
                         <!-- <div id="weglot_here"></div> -->
-             
+                        <?php echo  do_shortcode('[language-switcher]');?>
+                        
+                        
                         </div>
                        
                     </div>
@@ -140,12 +142,31 @@ defined( 'ABSPATH' ) || exit;
                      ) 
                   ); 
                 ?> 
-                 <div class="header-feature-list search-form-mobile">
+                 <div class=" search-form-mobile">
                      
                      <?php 
                      get_search_form();
                      
                      ?>
+                 </div>
+                 <div class="header-mobile-footer">
+                    <div class="social-mobile-section">
+                        <div class="social-mobile-title">Kết nối với Silky Việt Nam:</div>
+                        <div class="social-mobile-list">
+                        <?php
+                          wp_nav_menu( 
+                            array( 
+                                'theme_location' => 'social', 
+                                'container' => 'false', 
+                                'menu_id' => 'social-menu', 
+                                'menu_class' => ' '
+                             ) 
+                          ); 
+                       ?>
+                        </div>
+                    </div>
+                    <div class="copy-right">Copyright 2022 © SILKYVIETNAM - All rights reserved</div>
+
                  </div>
                 </div>
             </div>
@@ -157,12 +178,13 @@ defined( 'ABSPATH' ) || exit;
 
                 </a>
                 <div class="header-feature">
-                <div class="header-feature-list wdlog-btn ">
+                <div class="header-feature-item ">
                         
-                        <div id="weglot_here"></div>
-              
-                   
-                </div>
+                        <!-- <div id="weglot_here"></div> -->
+                        <?php echo  do_shortcode('[language-switcher]');?>
+                        
+                        
+                        </div>
                     <div class="header-feature-list link-cart-item">
                         <div id="cart-btn" class="header-feature-item cart-btn">
                             <svg class="cart-icon" xmlns="http://www.w3.org/2000/svg" width="11.984" height="13.973" viewBox="0 0 11.984 13.973">
