@@ -337,7 +337,7 @@ class SCFW_Size_Chart_For_Woocommerce_Public
      */
     public function scfw_size_chart_popup_button_position_callback()
     {
-        $filter_hook = apply_filters( 'add_hook_custom_size_chart_position', 'woocommerce_single_product_summary' );
+        $filter_hook = apply_filters( 'add_hook_custom_size_chart_position', 'woocommerce_after_variations_table' );
        
         add_action( $filter_hook, array( $this, 'scfw_size_chart_popup_button_callback' ), 50 );
        
@@ -547,7 +547,7 @@ class SCFW_Size_Chart_For_Woocommerce_Public
             ?>
 				</a>
 			</div>
-           </div>
+           
 			<div id="md-size-chart-modal" class="md-size-chart-modal scfw-size-chart-modal" chart-data-id="chart-<?php 
             echo  esc_attr( $chart_id ) ;
             ?>">

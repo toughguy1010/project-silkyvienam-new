@@ -31,7 +31,7 @@ do_action('blog-style');
                      
                         if ( $result-> have_posts() ) : ?>
                         <?php while ( $result->have_posts() ) : $result->the_post(); ?>
-                            <li class="menu-item">
+                            <li class="menu-blog-item">
                                 <a href="<?php the_permalink(); ?>" class="blog-item">
                                     <?php the_post_thumbnail('grid_post_thumbnail', array(
                                         'alt' => get_post_meta(get_post_thumbnail_id( get_the_ID()),
