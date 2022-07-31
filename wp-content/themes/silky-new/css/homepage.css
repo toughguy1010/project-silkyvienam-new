@@ -375,7 +375,7 @@
 .parent-menu {
     width: fit-content;
     text-align: center;
-    padding: 0 1.5vw;
+    padding: 0 1vw;
     height: 100%;
     line-height: 100px;
     position: relative;
@@ -385,12 +385,14 @@
     text-decoration: none;
     color: #000;
     font-size: 13px;
+    white-space: nowrap;
     font-family: 'headlineFont';
     text-transform: uppercase;
 }
 
 .sub-menu a {
     text-transform: none;
+    font-family: 'Open Sans', sans-serif !important;
 }
 
 .parent-menu a:hover {
@@ -1739,7 +1741,7 @@
         left: 0;
     }
     .menu-mobile-list {
-        height: 800px;
+        height: 80vh;
         overflow-y: auto;
     }
     /* menu-moible */

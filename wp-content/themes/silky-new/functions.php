@@ -237,63 +237,63 @@ function pagination_nav() {
 
 
 
-if( ! function_exists( 'zwc_parse_page_id' ) ){
-	function zwc_parse_page_id(){
-		if( is_page() ){
-			global $post;
-			return $post->ID;
-		}
+// if( ! function_exists( 'zwc_parse_page_id' ) ){
+// 	function zwc_parse_page_id(){
+// 		if( is_page() ){
+// 			global $post;
+// 			return $post->ID;
+// 		}
 
-		if( is_tax() ){
-			$cat = get_queried_object();
+// 		if( is_tax() ){
+// 			$cat = get_queried_object();
 
-			$cateFields = get_field_objects( $cat->taxonomy.'_'.$cat->term_id );
-			$cat_type = $cateFields['zwc_product_cat_type']['value'];
+// 			$cateFields = get_field_objects( $cat->taxonomy.'_'.$cat->term_id );
+// 			$cat_type = $cateFields['zwc_product_cat_type']['value'];
 
-			$type = $cat_type['value'];
+// 			$type = $cat_type['value'];
 
-			if( $type == 'collection' || $type == 'shop' ){
-	      return $type;
-	    }
+// 			if( $type == 'collection' || $type == 'shop' ){
+// 	      return $type;
+// 	    }
 
-			return $cat->term_id;
-		}
+// 			return $cat->term_id;
+// 		}
 
-		if( 'product' == get_post_type() ){
-			global $post;
-			$cat = get_the_terms($post->ID,'product_cat');
-			$cat = $cat[0];
+// 		if( 'product' == get_post_type() ){
+// 			global $post;
+// 			$cat = get_the_terms($post->ID,'product_cat');
+// 			$cat = $cat[0];
 
-			$cateFields = get_field_objects( $cat->taxonomy.'_'.$cat->term_id );
-			$cat_type = $cateFields['zwc_product_cat_type']['value'];
+// 			$cateFields = get_field_objects( $cat->taxonomy.'_'.$cat->term_id );
+// 			$cat_type = $cateFields['zwc_product_cat_type']['value'];
 
-			$type = $cat_type['value'];
+// 			$type = $cat_type['value'];
 
-			if( $type == 'collection' || $type == 'shop' ){
-				return $type;
-			}
-		}
+// 			if( $type == 'collection' || $type == 'shop' ){
+// 				return $type;
+// 			}
+// 		}
 
-		return false;
-	}
-}
+// 		return false;
+// 	}
+// }
 
 
 
-if( !function_exists('zwc_parse_text_to_color') ){{
-    function zwc_parse_text_to_color($ternid){
-      $homeID = get_option('page_on_front');
-        $homeFields = get_field_objects( $homeID );
+// if( !function_exists('zwc_parse_text_to_color') ){{
+//     function zwc_parse_text_to_color($ternid){
+//       $homeID = get_option('page_on_front');
+//         $homeFields = get_field_objects( $homeID );
   
-      $colors = $homeFields['zwc_product_parse_color']['value'];
+//       $colors = $homeFields['zwc_product_parse_color']['value'];
   
-      foreach ($colors as $key => $color) {
-        if( $color['color'] == $ternid ){
-          return $color['color_code'];
-        }
-      }
-    }
-  }}
+//       foreach ($colors as $key => $color) {
+//         if( $color['color'] == $ternid ){
+//           return $color['color_code'];
+//         }
+//       }
+//     }
+//   }}
   
 
   /** 

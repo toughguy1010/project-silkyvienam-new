@@ -1207,6 +1207,7 @@ if ( ! function_exists( 'woocommerce_template_loop_product_link_close' ) ) {
 	 */
 	function woocommerce_template_loop_product_link_close() {
 		echo '</a>';
+		
 	}
 }
 

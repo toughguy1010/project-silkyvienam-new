@@ -88,7 +88,8 @@ jQuery(document).ready(function() {
 
 
     var sortingFields = document.querySelector(".sorting-btn ");
-    var sortingBtn = document.querySelector(".dropdown-toggle");
+    var sortingBtn = document.querySelector(".sorting-btn");
+    var sortingInput = document.querySelector(".dropdown-toggle");
     var sortingMenu = document.querySelector("#admin_cal_list");
     // console.log(sortingMenu)
     var sortingArrow = document.querySelector(".sorting-arrow-btn")
@@ -103,11 +104,15 @@ jQuery(document).ready(function() {
 
     var sortingArrow = document.querySelector(".sorting-arrow-btn")
         // console.log(sortingArrow);
+
     sortingBtn.addEventListener('click', openSortMenu)
+    sortingInput.addEventListener('click', openSortMenu)
+    sortingArrow.addEventListener('click', openSortMenu)
 
     function openSortMenu() {
 
         sortingFields.classList.toggle("show");
+        // console.log(sortingArrow);
         sortingMenu.classList.toggle("show");
         sortingArrow.classList.toggle("sorting-arrow-btn-active")
 

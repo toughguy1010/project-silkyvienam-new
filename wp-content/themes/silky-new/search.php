@@ -60,6 +60,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 						do_action( 'woocommerce_shop_loop' );
 						get_template_part( 'loop-templates/content', 'search' );
 						echo '</a>';
+						
 					endwhile;
 					?>
 

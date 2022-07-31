@@ -1,8 +1,0 @@
-2022-07-01T04:06:22+00:00 CRITICAL Uncaught PDOException: SQLSTATE[HY000] [2019] Unknown character set in E:\wamp64\www\test02\wp-content\plugins\mailpoet\vendor-prefixed\doctrine\dbal\lib\Doctrine\DBAL\Driver\PDOConnection.php:20
-Stack trace:
-#0 E:\wamp64\www\test02\wp-content\plugins\mailpoet\vendor-prefixed\doctrine\dbal\lib\Doctrine\DBAL\Driver\PDOConnection.php(20): PDO->__construct('mysql:host=loca...', 'root', '', Array)
-#1 E:\wamp64\www\test02\wp-content\plugins\mailpoet\vendor-prefixed\doctrine\dbal\lib\Doctrine\DBAL\Driver\PDOMySql\Driver.php(14): MailPoetVendor\Doctrine\DBAL\Driver\PDOConnection->__construct('mysql:host=loca...', 'root', '', Array)
-#2 E:\wamp64\www\test02\wp-content\plugins\mailpoet\vendor-prefixed\doctrine\dbal\lib\Doctrine\DBAL\Connection.php(149): MailPoetVendor\Doctrine\DBAL\Driver\PDOMySql\Driver->connect(Array, 'root', '', Array)
-#3 E:\wamp64\www\test02\wp-content\plugins\mailpoet\vendor-prefixed\doctrine\dbal\lib\Doctrine\DBAL\Connection.php(806): MailPoetVendor\Doctrine\DBAL\Connection->connect()
-#4 E:\wamp6 in E:\wamp64\www\test02\wp-content\plugins\mailpoet\vendor-prefixed\doctrine\dbal\lib\Doctrine\DBAL\Driver\AbstractMySQLDriver.php on line 102
-

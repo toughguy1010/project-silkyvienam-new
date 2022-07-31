@@ -58,6 +58,7 @@ if (is_shop()) {
 				do_action( 'woocommerce_shop_loop' );
 	
 				wc_get_template_part( 'content', 'product' );
+				
 			}
 		}
 	
@@ -139,14 +140,7 @@ elseif (is_product_category()) {
 		// var_dump($GLOBALS['wp_query']->max_num_pages);
 
 		?>
-	<?php 
-	while ( $collection_products->have_posts() ) :
-		$collection_products->the_post();
-		echo the_post_thumbnail();
-	endwhile; 
-	wp_reset_query() ;
 	
-	?>
 	<div class="collection-content ">
 	
 		<?php 
