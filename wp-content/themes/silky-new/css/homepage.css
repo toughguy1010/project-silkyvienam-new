@@ -1191,6 +1191,7 @@
 }
 
 .recentpost-section {
+    margin: 0 3%;
     margin-top: 10%;
 }
 
@@ -1274,7 +1275,7 @@
     font-size: 22px;
     display: block;
     text-transform: uppercase;
-    color: #fff;
+    color: #fff !important;
     font-family: 'headlineFont';
     transform: translateY(100px);
     transition: all .6s;
@@ -1284,11 +1285,11 @@
     font-size: 13px;
     text-align: center;
     display: block;
-    color: #fff;
+    color: #fff !important;
     width: 84%;
-    margin: 0 8%;
+    margin: 0 8% !important;
     transform: translateY(500%);
-    margin-top: 15px;
+    margin-top: 15px !important;
     transition: all .5s;
 }
 

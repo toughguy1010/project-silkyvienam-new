@@ -554,11 +554,7 @@ class SCFW_Size_Chart_For_Woocommerce_Public
 				<div class="md-size-chart-modal-content">
 					<div class="md-size-chart-overlay"></div>
 					<div class="md-size-chart-modal-body">
-						<div class="md-size-chart-close" id="md-poup">
-							<button data-remodal-action="close" class="remodal-close" aria-label="<?php 
-            esc_attr_e( 'Close', 'size-chart-for-woocommerce' );
-            ?>"></button>
-						</div>
+						
 						<div class="chart-container">
 							<?php 
             $file_dir_path = 'includes/common-files/size-chart-contents.php';
@@ -566,6 +562,7 @@ class SCFW_Size_Chart_For_Woocommerce_Public
                 include plugin_dir_path( dirname( __FILE__ ) ) . $file_dir_path;
             }
             ?>
+        
 						</div>
 					</div>
 				</div>

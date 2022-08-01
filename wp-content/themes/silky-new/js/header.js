@@ -1,5 +1,12 @@
 // A $( document ).ready() block.
+
+
 jQuery(document).ready(function() {
+
+
+
+
+
     console.log("ready!");
     // cartToggleMenu
     var openCartMenu = document.querySelector('.cart-btn')

@@ -61,6 +61,10 @@ foreach ( $understrap_includes as $file ) {
 }
 
 
+
+
+
+
 // DEFINE
 define('THEME_URI',get_theme_file_uri() );
 // HOOK
@@ -108,7 +112,7 @@ function get_detail_product_style(){
     wp_enqueue_style('detail_product_style');
 }
 // hook style
-add_action('homepage_style','get_homepage_sytle');
+add_action('homepage_style','get_homepage_sytle',0);
 add_action('about_style','get_about_style');
 add_action('blog-style','get_blog_style');
 add_action('product_style','get_product_style');

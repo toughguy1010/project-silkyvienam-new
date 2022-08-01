@@ -15,7 +15,11 @@ if ( ! defined( 'WPINC' ) ) {
 $chart_label = scfw_size_chart_get_label_by_chart_id( $chart_id );
 $chart_table = scfw_size_chart_get_chart_table_by_chart_id( $chart_id );
 if ( isset( $chart_label ) && ! empty( $chart_label ) ) {
-	printf( '<p class="md-size-chart-label">%s</p>', esc_html( $chart_label ) );
+	printf( '<div class = "size-chart-headding"><p class="md-size-chart-label">%s      </p>     <div class="md-size-chart-close" id="md-poup">
+	<button data-remodal-action="close" class="remodal-close" aria-label="' . 
+esc_attr_e( '', 'size-chart-for-woocommerce' ).
+'"></button>
+</div> </div>' , esc_html( $chart_label ) );
 }
 
 $post_data = get_post( $chart_id );

@@ -1592,6 +1592,29 @@
         background-color: #000;
     }
     /* Detail-product css start */
+    /* size chart */
+    
+    .chart-table table {
+        border: 1px solid #ffffff !important;
+    }
+    
+    #size-chart tr:nth-child(2n+1) {
+        border-bottom: 1px solid #474747 !important;
+    }
+    
+    .chart-table th {
+        border: 1px solid #ffffff !important;
+        border-bottom: 1px solid #474747 !important;
+    }
+    
+    .chart-table td {
+        border: 1px solid #ffffff !important;
+    }
+    
+    table#size-chart tr td {
+        font-size: 13px !important;
+        line-height: 45px !important;
+    }
     
     .sizechart-btn {
         width: 14% !important;
@@ -1618,6 +1641,102 @@
         color: #9E8760 !important;
     }
     
+    div#md-size-chart-modal .chart-table {
+        float: none;
+        display: inline-block;
+        /* width: 90% !important; */
+        /* margin: 50px 5% !important; */
+    }
+    
+    .md-size-chart-label {
+        font-size: 22px;
+        font-weight: 500;
+        text-align: start;
+        /* width: 90%; */
+        /* margin: 0 5% !important; */
+        font-family: "headlineFont";
+        position: relative;
+        padding-bottom: 10px;
+    }
+    
+    .md-size-chart-label::after {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 35px;
+        content: " ";
+        height: 1px;
+        background-color: #000;
+    }
+    
+    .md-size-chart-subtitle {
+        display: none;
+    }
+    
+    .md-size-chart-modal-content {
+        z-index: 999999;
+    }
+    
+    .md-size-chart-modal-body {
+        max-width: 800px;
+        position: relative;
+        display: flex;
+        padding: 0 50px;
+    }
+    
+    .remodal-close::before {
+        font-family: 'Open Sans', sans-serif !important;
+        position: unset !important;
+        height: unset !important;
+        width: unset !important;
+        line-height: 25px !important;
+    }
+    
+    .remodal-close {
+        position: unset !important;
+        height: unset !important;
+        width: unset !important;
+    }
+    
+    .md-size-chart-close {
+        display: block;
+        width: 20%;
+        display: flex;
+        justify-content: end;
+        border-bottom: 1px solid rgb(255, 255, 255);
+        /* height: 50px; */
+        position: unset !important;
+    }
+    
+    div#md-size-chart-modal .remodal-close {
+        font-weight: 100 !important;
+        color: #000 !important;
+    }
+    
+    .remodal-close:hover,
+    .remodal-close:focus {
+        color: #fff;
+        background-color: #ffffff !important;
+        border-color: #ffffff !important;
+    }
+    
+    .size-chart-headding {
+        display: flex;
+        justify-content: space-between;
+    }
+    /* size chart */
+    /* no result search */
+    
+    .no-results {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    /* no result search */
+    
     .variation-size-guide {
         display: flex;
         justify-content: space-between
@@ -1632,6 +1751,8 @@
         /* margin: 3% 3%; */
     }
     /* 
+
+ 
 .detail-product {
     margin-top: 2%;
     display: flex;

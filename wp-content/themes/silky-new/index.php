@@ -13,9 +13,9 @@
 
 // Exit if accessed directly.
 defined( 'ABSPATH' ) || exit;
+// do_action('homepage_style');
 
 get_header();	
-do_action('homepage_style');
 
 // $container = get_theme_mod( 'understrap_container_type' );
 ?>
