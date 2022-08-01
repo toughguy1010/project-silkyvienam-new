@@ -1271,7 +1271,7 @@
     bottom: 12%;
 }
 
-.gallery-section .elementor-image-box-title a {
+.gallery-section .elementor-image-box-title {
     font-size: 22px;
     display: block;
     text-transform: uppercase;
@@ -1297,7 +1297,7 @@
     transform: translateY(0%);
 }
 
-.gallery-section .elementor-column:hover .elementor-image-box-title a {
+.gallery-section .elementor-column:hover .elementor-image-box-title {
     transform: translateY(0px);
 }
 
