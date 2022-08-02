@@ -1343,15 +1343,15 @@
 
 .gallery-section .elementor-image-box-content {
     position: absolute;
-    bottom: 12%;
+    bottom: 90px;
 }
 
-.gallery-section .elementor-image-box-title a {
+.gallery-section .elementor-image-box-title {
     font-size: 22px;
     display: block;
     text-transform: uppercase;
     color: #fff !important;
-    font-family: 'headlineFont';
+    font-family: 'headlineFont' !important;
     transform: translateY(100px);
     transition: all .6s;
 }
@@ -1571,10 +1571,92 @@
 
 @media only screen and (max-width: 1024px) {
     .about-section {
-        margin-left: 0;
+        /* margin-left: 0; */
     }
     .elementor-heading-title {
-        margin-left: 3%;
+        /* margin-left: 3%; */
+    }
+    .about-inner-content-section .elementor-container {
+        width: 100%;
+    }
+    .about-content-background {
+        position: absolute;
+        top: 20vh;
+        left: 0;
+        right: 0;
+        width: 100%;
+        overflow: hidden;
+        z-index: 0;
+    }
+    .about-section .about-inner-content-section .elementor-column {
+        width: 75%;
+    }
+    .about-content-background img {
+        width: 65% !important;
+        /* transform: translateX(17%); */
+        transform: rotate(-52deg);
+    }
+}
+
+@media only screen and (max-width:800px) {
+    .about-content-background img {
+        width: 100% !important;
+        /* transform: translateX(17%); */
+        /* transform: rotate(-52deg); */
+        transform: none;
+    }
+    .about-content-background {
+        position: absolute;
+        top: 26vh;
+        left: 0;
+        right: 0;
+        width: 100%;
+        overflow: hidden;
+        z-index: 0;
+    }
+    .gallery-section .elementor-container {
+        flex-direction: column;
+    }
+    .gallery-section .elementor-column {
+        width: 100% !important;
+        margin-right: 0;
+    }
+    .gallery-section .elementor-image-box-img {
+        margin-bottom: 0 !important;
+    }
+    .gallery-section .elementor-image-box-title {
+        font-size: 22px;
+        display: block;
+        text-transform: uppercase;
+        color: #fff !important;
+        font-family: 'headlineFont' !important;
+        transform: translateY(0px);
+        transition: all .6s;
+    }
+    .gallery-section .elementor-image-box-description {
+        font-size: 13px;
+        text-align: center;
+        display: block;
+        color: #fff !important;
+        width: 84%;
+        margin: 0 8% !important;
+        transform: translateY(0px);
+        margin-top: 15px !important;
+        transition: all .5s;
+    }
+    .gallery-section .elementor-image-box-img::after {
+        content: " ";
+        position: absolute;
+        background-color: rgba(0, 0, 0, .5);
+        width: 100%;
+        height: 100%;
+        transition: all .6s;
+        top: 0;
+        left: 0;
+        opacity: 1;
+    }
+    .gallery-section .elementor-container {
+        margin: 0 !important;
     }
 }
 
@@ -1586,6 +1668,13 @@
 }
 
 @media only screen and (max-width: 777px) {
+    .about-section {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .elementor-heading-title {
+        margin-left: 3%;
+    }
     .footer-mobile {
         display: block;
     }
@@ -1804,11 +1893,11 @@
     .menu-mobile-list .parent-1 .sub-menu {
         padding-left: 3% !important;
         display: block !important;
-        min-height: 100%;
+        min-height: 58vh;
         background-color: #fff;
         list-style-type: none;
         position: absolute;
-        top: 0;
+        top: -69px;
         transition: all .5s;
         transform: translateX(100%);
         width: 100%;
@@ -1873,17 +1962,20 @@
         z-index: 9;
         position: fixed;
         left: 0;
+        top: 0;
     }
     .menu-mobile-list .parent-sub-menu-2 .sub-menu {
         transform: translateX(100%);
         z-index: 9;
         position: fixed;
         left: 0;
+        top: 0;
     }
     .menu-mobile-list .parent-sub-menu-3 .sub-menu {
         transform: translateX(100%);
         z-index: 9;
         position: fixed;
+        top: 0;
         left: 0;
     }
     .menu-mobile-list .parent-sub-menu-3 .sub-menu .sub-menu-lv3 .sub-menu {
@@ -1894,6 +1986,7 @@
         transform: translateX(100%);
         z-index: 9;
         position: fixed;
+        top: 0;
         left: 0;
     }
     .menu-mobile-list {

@@ -1649,11 +1649,11 @@
     .menu-mobile-list .parent-1 .sub-menu {
         padding-left: 3% !important;
         display: block !important;
-        min-height: 100%;
+        min-height: 58vh;
         background-color: #fff;
         list-style-type: none;
         position: absolute;
-        top: 0;
+        top: -69px;
         transition: all .5s;
         transform: translateX(100%);
         width: 100%;
@@ -1716,17 +1716,20 @@
     .menu-mobile-list .parent-sub-menu-1 .sub-menu {
         transform: translateX(100%);
         z-index: 9;
+        top: 0;
         position: fixed;
         left: 0;
     }
     .menu-mobile-list .parent-sub-menu-2 .sub-menu {
         transform: translateX(100%);
+        top: 0;
         z-index: 9;
         position: fixed;
         left: 0;
     }
     .menu-mobile-list .parent-sub-menu-3 .sub-menu {
         transform: translateX(100%);
+        top: 0;
         z-index: 9;
         position: fixed;
         left: 0;
@@ -1738,6 +1741,7 @@
     .menu-mobile-list .parent-sub-menu-4 .sub-menu {
         transform: translateX(100%);
         z-index: 9;
+        top: 0;
         position: fixed;
         left: 0;
     }
@@ -1834,6 +1838,15 @@
 
 
 /* social mobile */
+
+@media only screen and (max-width:768px) {
+    .header-logo {
+        text-align: center;
+        width: 200px;
+        position: absolute;
+        left: 35.9%;
+    }
+}
 
 @media only screen and (max-width: 600px) {
     .header-logo {
@@ -2021,20 +2034,20 @@
     .gallery-responsive-section .elementor-image-box-title {
         font-size: 22px;
         display: block;
-        text-transform: uppercase;
-        color: #fff;
-        font-family: 'headlineFont';
-        transform: translateY(100px);
+        text-transform: uppercase !important;
+        color: #fff !important;
+        font-family: 'headlineFont' !important;
+        transform: translateY(0);
         transition: all .6s;
     }
     .gallery-responsive-section .elementor-image-box-description {
         font-size: 13px;
-        text-align: center;
+        text-align: center !important;
         display: block;
-        color: #fff;
+        color: #fff !important;
         width: 84%;
-        margin: 0 8%;
-        transform: translateY(500%);
+        margin: 0 8% !important;
+        transform: translateY(0%);
         margin-top: 15px;
         transition: all .5s;
     }
@@ -2053,7 +2066,7 @@
         transition: all .6s;
         top: 0;
         left: 0;
-        opacity: 0;
+        opacity: 1;
     }
     .gallery-responsive-section .elementor-column:hover .elementor-image-box-img::after {
         opacity: 1;

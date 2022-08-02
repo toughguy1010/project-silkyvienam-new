@@ -109,14 +109,16 @@ elseif (is_product_category()) {
 	?>
 	<div class="collection-wrapp-header">
         <!-- <img class="collection-header-img" src="" alt=""> -->
+		<div class="collection-header-img-wrap">
         <img src="<?php echo $image?>" class="collection-header-img" />
-
+		</div>
         <!-- <img src="<?php //echo get_template_directory_uri() . '/img/header-collection.png'; ?>" class="collection-header-img" /> -->
         <div class="header-collection-desc">
             <div class="header-colletion-name">
                 <?php echo $cate ->name ?>
+				<div class="header-colletion-line"></div>
             </div>
-            <div class="header-colletion-line"></div>
+        
             <div class="content-header-collection-desc"> <?php echo category_description($cateid); ?></div>
         </div>	
     </div>
