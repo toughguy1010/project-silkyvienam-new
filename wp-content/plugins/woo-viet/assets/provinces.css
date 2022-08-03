@@ -1,9 +1,11 @@
-.woocommerce-billing-fields__field-wrapper,
+/* .woocommerce-billing-fields__field-wrapper,
 .woocommerce-shipping-fields__field-wrapper {
     display: flex;
     flex-wrap: wrap;
-}
+} */
 
+
+/* 
 #billing_first_name_field,
 #shipping_first_name_field {
     order: 1;
@@ -57,4 +59,4 @@
 #billing_email_field,
 #shipping_email_field {
     order: 11;
-}
+} */

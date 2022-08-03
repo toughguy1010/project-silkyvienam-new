@@ -56,17 +56,17 @@ $productClasses = apply_filters( 'xoo_wsc_product_class', $productClasses );
 					<?php if( $showPprice && $qtyPriceDisplay === 'one_liner' ): ?>
 						<span>Quantity: <?php echo $cart_item['quantity']; ?></span>
 						<?php if( $showPtotal ): ?>
-							<span class="detail-cart-product-price">  <?php //echo $product_subtotal ;
-							$current_language = get_locale();
+							<span class="detail-cart-product-price">  <?php echo $product_subtotal ;
+							// $current_language = get_locale();
 
-							if( $current_language == 'vi' ){
-							  echo   ($_product ->get_price()) *$cart_item['quantity']  ; echo 'VNĐ' ; ;
-							}
+							// if( $current_language == 'vi' ){
+							//   echo   ($_product ->get_price()) *$cart_item['quantity']  ; echo 'VNĐ' ; ;
+							// }
 							
-							if( $current_language == 'en_US' ){
-								$convertPrice = 0.0000427862 ;
-							  echo  ($_product ->get_price() * $convertPrice) *$cart_item['quantity'] ;echo '$';
-							}
+							// if( $current_language == 'en_US' ){
+							// 	$convertPrice = 0.0000427862 ;
+							//   echo  ($_product ->get_price() * $convertPrice) *$cart_item['quantity'] ;echo '$';
+							// }
 						
 							
 							

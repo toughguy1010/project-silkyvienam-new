@@ -501,3 +501,5 @@ Stack trace:
 #4 E:\wamp64\www\test02\wp-content\plugins\side-cart-woocommerce\includes\xoo-framework\class-xoo-helper.php(57): include('E:\\wamp64\\www\\t...')
 #5 E:\wamp64\www\test02\wp-content\plugins\side-cart-woocommerce\templates\xoo-wsc-markup.php(24): Xoo_Helper->get_template('xoo-wsc-contain. in E:\wamp64\www\test02\wp-content\plugins\side-cart-woocommerce\templates\global\footer\totals.php on line 52
 
+2022-08-03T10:54:30+00:00 CRITICAL syntax error, unexpected '3' (T_LNUMBER) in E:\wamp64\www\test02\wp-content\themes\silky-new\functions.php on line 373
+

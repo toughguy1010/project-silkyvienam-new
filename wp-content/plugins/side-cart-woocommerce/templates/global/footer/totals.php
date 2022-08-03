@@ -29,7 +29,7 @@ extract( Xoo_Wsc_Template_Args::footer_totals() );
 		<div class="total-price-title">To be calculated in checkout</div>
 		<div class="total-price-content xoo-wsc-ft-amt xoo-wsc-ft-amt-<?php echo $key; ?> <?php echo isset( $data['action'] ) ? $data['action'] : '' ?>">
 			<span class="label-total-price">Total</span>
-			<span class="xoo-wsc-ft-amt-value value-total-price"><?php // echo $data['value'] ;
+			<span class="xoo-wsc-ft-amt-value value-total-price"><?php echo $data['value'] ;
 
     // $items = $woocommerce->cart->get_cart();
 
@@ -45,18 +45,18 @@ extract( Xoo_Wsc_Template_Args::footer_totals() );
 	// $totalamount = number_format($woocommerce->cart->get_cart_total(), 2, '.', '');
 	
     
-	$amounttotal = WC()->cart->cart_contents_total + WC()->cart->tax_total;
+	// $amounttotal = WC()->cart->cart_contents_total + WC()->cart->tax_total;
 	
-		$current_language = get_locale();
+	// 	$current_language = get_locale();
 
-							if( $current_language == 'vi' ){
-							  echo  $amounttotal   ; echo 'VNĐ' ; ;
-							}
+	// 						if( $current_language == 'vi' ){
+	// 						  echo  $amounttotal   ; echo 'VNĐ' ; ;
+	// 						}
 							
-							if( $current_language == 'en_US' ){
-								$convertPrice = 0.0000427862 ;
-							  echo $amounttotal  * $convertPrice ;echo '$';
-							}
+	// 						if( $current_language == 'en_US' ){
+	// 							$convertPrice = 0.0000427862 ;
+	// 						  echo $amounttotal  * $convertPrice ;echo '$';
+	// 						}
 						
 			?></span>
 		</div>

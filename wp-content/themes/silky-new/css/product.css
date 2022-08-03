@@ -4262,3 +4262,16 @@
         }
     }
     /* searching result */
+    /* privacy-policy-section */
+    
+    .privacy-policy-section .elementor-heading-title {
+        font-size: 22px !important;
+        font-family: 'headLineFont' !important;
+        font-weight: 400 !important;
+    }
+    
+    @media only screen and (max-width: 768px) {
+        .privacy-policy-section {
+            padding: 0% 10% 0% 10% !important;
+        }
+    }

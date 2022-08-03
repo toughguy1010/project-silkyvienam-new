@@ -107,3 +107,180 @@ stdClass Object
     [L_SEVERITYCODE0] => Error
 )
 
+2022-08-03T10:48:33+00:00 DEBUG <------------------- WebToffee PayPal Express Payment ( Setting Express Checkout ) ------------------->
+stdClass Object
+(
+    [METHOD] => SetExpressCheckout
+    [RETURNURL] => http://localhost/test02/wc-api/Eh_PayPal_Express_Payment/?c=express_details&express=false&p=http://localhost/test02/checkout/
+    [CANCELURL] => http://localhost/test02/checkout/?cancel_express_checkout=cancel
+    [ADDROVERRIDE] => 
+    [BRANDNAME] => banhangonline
+    [HDRIMG] => 
+    [LOGOIMG] => 
+    [SOLUTIONTYPE] => Sole
+    [LOCALECODE] => en_US
+    [LANDINGPAGE] => Billing
+    [L_PAYMENTREQUEST_0_NAME0] => BALTHUS PAINTER'S JACKET
+    [L_PAYMENTREQUEST_0_DESC0] => Color : be, Size : l
+    [L_PAYMENTREQUEST_0_AMT0] => 5000000
+    [L_PAYMENTREQUEST_0_QTY0] => 1
+    [L_PAYMENTREQUEST_0_ITEMURL0] => http://localhost/test02/product/balthus-painters-jacket-3/?attribute_pa_color=be&attribute_pa_size=l
+    [PAYMENTREQUEST_0_AMT] => 5467620
+    [PAYMENTREQUEST_0_CURRENCYCODE] => VND
+    [PAYMENTREQUEST_0_ITEMAMT] => 5000000
+    [PAYMENTREQUEST_0_SHIPPINGAMT] => 467620
+    [PAYMENTREQUEST_0_TAXAMT] => 0
+    [PAYMENTREQUEST_0_SHIPDISCAMT] => 0
+    [PAYMENTREQUEST_0_PAYMENTACTION] => Sale
+    [MAXAMT] => 9568335
+    [PAYMENTREQUEST_0_SHIPTOSTREET2] => 
+    [PAYMENTREQUEST_0_NOTETEXT] => 
+    [PAYMENTREQUEST_0_EMAIL] => tuanduc10102001@gmail.com
+    [PAYMENTREQUEST_0_PAYMENTREQUESTID] => 
+)
+
+2022-08-03T10:48:34+00:00 DEBUG <------------------- WebToffee PayPal Express Payment ( Response on Express Start/Credit Start ) ------------------->
+stdClass Object
+(
+    [TIMESTAMP] => 2022-08-03T10:48:34Z
+    [CORRELATIONID] => 5c4a63f72f3b8
+    [ACK] => Failure
+    [BUILD] => 57278533
+    [L_ERRORCODE0] => 10605
+    [L_SHORTMESSAGE0] => Transaction refused because of an invalid argument. See additional error messages for details.
+    [L_LONGMESSAGE0] => Receiving country does not support the transaction currency.
+    [L_SEVERITYCODE0] => Error
+)
+
+2022-08-03T10:52:28+00:00 DEBUG <------------------- WebToffee PayPal Express Payment ( Setting Express Checkout ) ------------------->
+stdClass Object
+(
+    [METHOD] => SetExpressCheckout
+    [RETURNURL] => http://localhost/test02/wc-api/Eh_PayPal_Express_Payment/?c=express_details&express=false&p=http://localhost/test02/checkout/
+    [CANCELURL] => http://localhost/test02/checkout/?cancel_express_checkout=cancel
+    [ADDROVERRIDE] => 
+    [BRANDNAME] => banhangonline
+    [HDRIMG] => 
+    [LOGOIMG] => 
+    [SOLUTIONTYPE] => Sole
+    [LOCALECODE] => en_US
+    [LANDINGPAGE] => Billing
+    [L_PAYMENTREQUEST_0_NAME0] => BALTHUS PAINTER'S JACKET
+    [L_PAYMENTREQUEST_0_DESC0] => Color : be, Size : l
+    [L_PAYMENTREQUEST_0_AMT0] => 5000000
+    [L_PAYMENTREQUEST_0_QTY0] => 1
+    [L_PAYMENTREQUEST_0_ITEMURL0] => http://localhost/test02/product/balthus-painters-jacket-3/?attribute_pa_color=be&attribute_pa_size=l
+    [PAYMENTREQUEST_0_AMT] => 5467620
+    [PAYMENTREQUEST_0_CURRENCYCODE] => USD
+    [PAYMENTREQUEST_0_ITEMAMT] => 5000000
+    [PAYMENTREQUEST_0_SHIPPINGAMT] => 467620
+    [PAYMENTREQUEST_0_TAXAMT] => 0
+    [PAYMENTREQUEST_0_SHIPDISCAMT] => 0
+    [PAYMENTREQUEST_0_PAYMENTACTION] => Sale
+    [MAXAMT] => 9568335
+    [PAYMENTREQUEST_0_SHIPTOSTREET2] => 
+    [PAYMENTREQUEST_0_NOTETEXT] => 
+    [PAYMENTREQUEST_0_EMAIL] => tuanduc10102001@gmail.com
+    [PAYMENTREQUEST_0_PAYMENTREQUESTID] => 
+)
+
+2022-08-03T10:52:29+00:00 DEBUG <------------------- WebToffee PayPal Express Payment ( Response on Express Start/Credit Start ) ------------------->
+stdClass Object
+(
+    [TOKEN] => EC-6UC10235NX649553K
+    [TIMESTAMP] => 2022-08-03T10:52:29Z
+    [CORRELATIONID] => 343af9470ae47
+    [ACK] => Success
+    [BUILD] => 57278533
+)
+
+2022-08-03T10:54:52+00:00 DEBUG <------------------- WebToffee PayPal Express Payment ( Setting Express Checkout ) ------------------->
+stdClass Object
+(
+    [METHOD] => SetExpressCheckout
+    [RETURNURL] => http://localhost/test02/wc-api/Eh_PayPal_Express_Payment/?c=express_details&express=false&p=http://localhost/test02/checkout/
+    [CANCELURL] => http://localhost/test02/checkout/?cancel_express_checkout=cancel
+    [ADDROVERRIDE] => 
+    [BRANDNAME] => banhangonline
+    [HDRIMG] => 
+    [LOGOIMG] => 
+    [SOLUTIONTYPE] => Sole
+    [LOCALECODE] => en_US
+    [LANDINGPAGE] => Billing
+    [L_PAYMENTREQUEST_0_NAME0] => BALTHUS PAINTER'S JACKET
+    [L_PAYMENTREQUEST_0_DESC0] => Color : be, Size : l
+    [L_PAYMENTREQUEST_0_AMT0] => 5000000
+    [L_PAYMENTREQUEST_0_QTY0] => 1
+    [L_PAYMENTREQUEST_0_ITEMURL0] => http://localhost/test02/product/balthus-painters-jacket-3/?attribute_pa_color=be&attribute_pa_size=l
+    [PAYMENTREQUEST_0_AMT] => 5467620
+    [PAYMENTREQUEST_0_CURRENCYCODE] => VND
+    [PAYMENTREQUEST_0_ITEMAMT] => 5000000
+    [PAYMENTREQUEST_0_SHIPPINGAMT] => 467620
+    [PAYMENTREQUEST_0_TAXAMT] => 0
+    [PAYMENTREQUEST_0_SHIPDISCAMT] => 0
+    [PAYMENTREQUEST_0_PAYMENTACTION] => Sale
+    [MAXAMT] => 9568335
+    [PAYMENTREQUEST_0_SHIPTOSTREET2] => 
+    [PAYMENTREQUEST_0_NOTETEXT] => 
+    [PAYMENTREQUEST_0_EMAIL] => tuanduc10102001@gmail.com
+    [PAYMENTREQUEST_0_PAYMENTREQUESTID] => 
+)
+
+2022-08-03T10:54:53+00:00 DEBUG <------------------- WebToffee PayPal Express Payment ( Response on Express Start/Credit Start ) ------------------->
+stdClass Object
+(
+    [TIMESTAMP] => 2022-08-03T10:54:53Z
+    [CORRELATIONID] => 74f10afd55572
+    [ACK] => Failure
+    [BUILD] => 57278533
+    [L_ERRORCODE0] => 10605
+    [L_SHORTMESSAGE0] => Transaction refused because of an invalid argument. See additional error messages for details.
+    [L_LONGMESSAGE0] => Receiving country does not support the transaction currency.
+    [L_SEVERITYCODE0] => Error
+)
+
+2022-08-03T10:55:11+00:00 DEBUG <------------------- WebToffee PayPal Express Payment ( Setting Express Checkout ) ------------------->
+stdClass Object
+(
+    [METHOD] => SetExpressCheckout
+    [RETURNURL] => http://localhost/test02/wc-api/Eh_PayPal_Express_Payment/?c=express_details&express=false&p=http://localhost/test02/checkout/
+    [CANCELURL] => http://localhost/test02/checkout/?cancel_express_checkout=cancel
+    [ADDROVERRIDE] => 
+    [BRANDNAME] => banhangonline
+    [HDRIMG] => 
+    [LOGOIMG] => 
+    [SOLUTIONTYPE] => Sole
+    [LOCALECODE] => en_US
+    [LANDINGPAGE] => Billing
+    [L_PAYMENTREQUEST_0_NAME0] => BALTHUS PAINTER'S JACKET
+    [L_PAYMENTREQUEST_0_DESC0] => Color : be, Size : l
+    [L_PAYMENTREQUEST_0_AMT0] => 5000000
+    [L_PAYMENTREQUEST_0_QTY0] => 1
+    [L_PAYMENTREQUEST_0_ITEMURL0] => http://localhost/test02/product/balthus-painters-jacket-3/?attribute_pa_color=be&attribute_pa_size=l
+    [PAYMENTREQUEST_0_AMT] => 5467620
+    [PAYMENTREQUEST_0_CURRENCYCODE] => VND
+    [PAYMENTREQUEST_0_ITEMAMT] => 5000000
+    [PAYMENTREQUEST_0_SHIPPINGAMT] => 467620
+    [PAYMENTREQUEST_0_TAXAMT] => 0
+    [PAYMENTREQUEST_0_SHIPDISCAMT] => 0
+    [PAYMENTREQUEST_0_PAYMENTACTION] => Sale
+    [MAXAMT] => 9568335
+    [PAYMENTREQUEST_0_SHIPTOSTREET2] => 
+    [PAYMENTREQUEST_0_NOTETEXT] => 
+    [PAYMENTREQUEST_0_EMAIL] => tuanduc10102001@gmail.com
+    [PAYMENTREQUEST_0_PAYMENTREQUESTID] => 
+)
+
+2022-08-03T10:55:12+00:00 DEBUG <------------------- WebToffee PayPal Express Payment ( Response on Express Start/Credit Start ) ------------------->
+stdClass Object
+(
+    [TIMESTAMP] => 2022-08-03T10:55:12Z
+    [CORRELATIONID] => b399d0f68c082
+    [ACK] => Failure
+    [BUILD] => 57278533
+    [L_ERRORCODE0] => 10605
+    [L_SHORTMESSAGE0] => Transaction refused because of an invalid argument. See additional error messages for details.
+    [L_LONGMESSAGE0] => Receiving country does not support the transaction currency.
+    [L_SEVERITYCODE0] => Error
+)
+

@@ -43,17 +43,17 @@ function zenzweb_ajax_zwc_order_product_sumary(){
           <div class="coll-right">
             <span class="cart-discount">
               <?php 
-              // echo wc_price(-$discount_total);
-              $current_language = get_locale();
+              echo wc_price(-$discount_total);
+          //     $current_language = get_locale();
 
-          if( $current_language == 'vi' ){
-            echo - $discount_total   ; echo ' VNĐ' ; ;
-          }
+          // if( $current_language == 'vi' ){
+          //   echo - $discount_total   ; echo ' VNĐ' ; ;
+          // }
           
-          if( $current_language == 'en_US' ){
-            $convertPrice = 0.0000427862 ;
-            echo ceil( - $discount_total  * $convertPrice );echo '$';
-          }
+          // if( $current_language == 'en_US' ){
+          //   $convertPrice = 0.0000427862 ;
+          //   echo ceil( - $discount_total  * $convertPrice );echo '$';
+          // }
               ?>
             </span>
             <?php get_template_part('template-parts/part','listing-coupon-remove'); ?>
@@ -71,19 +71,19 @@ function zenzweb_ajax_zwc_order_product_sumary(){
         <div class="coll-right">
           <?php
 
-$amount = WC()->cart->cart_contents_total + WC()->cart->tax_total;
-$current_language = get_locale();
+// $amount = WC()->cart->cart_contents_total + WC()->cart->tax_total;
+// $current_language = get_locale();
 
-          if( $current_language == 'vi' ){
-            echo  $amount   ; echo ' VNĐ' ; ;
-          }
+//           if( $current_language == 'vi' ){
+//             echo  $amount   ; echo ' VNĐ' ; ;
+//           }
           
-          if( $current_language == 'en_US' ){
-            $convertPrice = 0.0000427862 ;
-            echo ceil( $amount  * $convertPrice );echo '$';
-          }
+//           if( $current_language == 'en_US' ){
+//             $convertPrice = 0.0000427862 ;
+//             echo ceil( $amount  * $convertPrice );echo '$';
+//           }
 
-          // echo $cart->get_cart_total();
+          echo $cart->get_cart_total();
           ?>
         </div>
       </div>
@@ -118,17 +118,17 @@ $current_language = get_locale();
                   <input type="radio" class="zwc_chosen_method" name="zwc_chosen_method" value="<?php echo $rate_id; ?>" <?php echo $current_shipping_method[0] == $rate_id ? 'checked' : ''; ?>>
                   <label for=""><?php echo $label_name; ?></label>: <span class="sh-cost"><?php 
                 
-                  $current_language = get_locale();
+                  // $current_language = get_locale();
                   
-                            if( $current_language == 'vi' ){
-                              echo  $cost   ; echo 'VNĐ' ; ;
-                            }
+                  //           if( $current_language == 'vi' ){
+                  //             echo  $cost   ; echo 'VNĐ' ; ;
+                  //           }
                             
-                            if( $current_language == 'en_US' ){
-                              $convertPrice = 0.0000427862 ;
-                              echo ceil( $cost  * $convertPrice) ;echo '$';
-                            }
-                  // echo wc_price($cost);
+                  //           if( $current_language == 'en_US' ){
+                  //             $convertPrice = 0.0000427862 ;
+                  //             echo ceil( $cost  * $convertPrice) ;echo '$';
+                  //           }
+                  echo wc_price($cost);
                   
                   
                   ?></span>
@@ -152,18 +152,18 @@ $current_language = get_locale();
           WC()->session->set( 'refresh_totals', true );
           $cart->calculate_totals();
 
-          $amount = WC()->cart->cart_contents_total + WC()->cart->tax_total;
-          $current_language = get_locale();
+          // $amount = WC()->cart->cart_contents_total + WC()->cart->tax_total;
+          // $current_language = get_locale();
 
-          if( $current_language == 'vi' ){
-            echo  $amount - $cost   ; echo 'VNĐ' ; ;
-          }
+          // if( $current_language == 'vi' ){
+          //   echo  $amount - $cost   ; echo 'VNĐ' ; ;
+          // }
           
-          if( $current_language == 'en_US' ){
-            $convertPrice = 0.0000427862 ;
-            echo  ceil(($amount  * $convertPrice) - ceil( $cost  * $convertPrice)) ;echo '$';
-          }
-          // echo $cart->get_total();
+          // if( $current_language == 'en_US' ){
+          //   $convertPrice = 0.0000427862 ;
+          //   echo  ceil(($amount  * $convertPrice) - ceil( $cost  * $convertPrice)) ;echo '$';
+          // }
+          echo $cart->get_total();
           ?>
         </div>
       </div>
@@ -210,18 +210,18 @@ $current_language = get_locale();
               <div class="p-price">
                 <?php
                   
-                  $current_language = get_locale();
+                  // $current_language = get_locale();
 
-                  if( $current_language == 'vi' ){
-                    echo   ($_product ->get_price()) *$values['quantity']  ; echo 'VNĐ' ; ;
-                  }
+                  // if( $current_language == 'vi' ){
+                  //   echo   ($_product ->get_price()) *$values['quantity']  ; echo 'VNĐ' ; ;
+                  // }
                   
-                  if( $current_language == 'en_US' ){
-                    $convertPrice = 0.0000427862 ;
-                    echo  ($_product ->get_price() * $convertPrice) *$values['quantity'] ;echo '$';
-                  }
+                  // if( $current_language == 'en_US' ){
+                  //   $convertPrice = 0.0000427862 ;
+                  //   echo  ($_product ->get_price() * $convertPrice) *$values['quantity'] ;echo '$';
+                  // }
                 
-                  // echo wc_price($_product->get_price() * $values['quantity']);
+                  echo wc_price($_product->get_price() * $values['quantity']);
                 ?>
               </div>
               <span class="delete delete-checkout-icon" data-itemkey="<?php echo $item; ?>"><img src="<?php echo get_template_directory_uri().'/assets/del-b2.svg' ?>" /></span>
