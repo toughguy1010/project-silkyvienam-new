@@ -1824,8 +1824,8 @@
         min-height: 58vh;
         background-color: #fff;
         list-style-type: none;
-        position: fixed;
-        top: 100px;
+        position: absolute;
+        top: -105px;
         transition: all .5s;
         transform: translateX(100%);
         width: 100%;
@@ -1837,8 +1837,8 @@
         min-height: 58vh;
         background-color: #fff;
         list-style-type: none;
-        position: fixed;
-        top: 100px;
+        position: absolute;
+        top: -165px;
         transition: all .5s;
         transform: translateX(100%);
         width: 100%;

@@ -61,7 +61,17 @@ defined( 'ABSPATH' ) || exit;
                     <!-- <img src="/assets/img/header-logo-img.jpg" alt="" class="logo-respon"> -->
                  
                 
-                    <?php
+                 
+                </a>
+              
+                <div class="header-feature">
+                    <div class="header-feature-list wdlog-btn ">
+                        <div class="header-feature-item ">
+                        
+                        <!-- <div id="weglot_here"></div> -->
+                        <?php echo  do_shortcode('[language-switcher]');?>
+                        
+                        <?php
                 // wp_nav_menu( 
                 //     array( 
                 //         'theme_location' => 'language', 
@@ -70,16 +80,8 @@ defined( 'ABSPATH' ) || exit;
                 //         'menu_class' => ''
                 //      ) 
                 //   ); 
+            //  echo  do_shortcode('[woocommerce_currency_switcher_drop_down_box]');
                 ?> 
-                </a>
-                <div class="header-feature">
-                    <div class="header-feature-list wdlog-btn ">
-                        <div class="header-feature-item ">
-                        
-                        <!-- <div id="weglot_here"></div> -->
-                        <?php echo  do_shortcode('[language-switcher]');?>
-                        
-                        
                         </div>
                        
                     </div>

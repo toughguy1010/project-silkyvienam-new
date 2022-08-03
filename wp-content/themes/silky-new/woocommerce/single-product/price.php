@@ -22,4 +22,17 @@ if ( ! defined( 'ABSPATH' ) ) {
 global $product;
 
 ?>
-<p class="price_detail_product <?php echo esc_attr( apply_filters( 'woocommerce_product_price_class', 'price' ) ); ?>"><?php echo $product->get_price_html(); ?></p>
+<p class="price_detail_product <?php echo esc_attr( apply_filters( 'woocommerce_product_price_class', 'price' ) ); ?>"><?php 
+// echo $product->get_price_html(); 
+$current_language = get_locale();
+
+		if( $current_language == 'vi' ){
+		  echo   apply_filters('silky_filter-product-price',$product->get_price()  ); echo 'VNĐ' ; ;
+		}
+		
+		if( $current_language == 'en_US' ){
+			$convertPrice = 0.00004 ;
+		  echo apply_filters('silky_filter-product-price', ceil($product->get_price() * $convertPrice)  );echo '$';
+		}
+
+?></p>

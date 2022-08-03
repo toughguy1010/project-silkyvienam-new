@@ -337,3 +337,34 @@ add_action( 'pre_get_posts', 'prefix_change_cat_product_per_page' );
 
 //     return $sorting_options;
 // }
+
+
+// add_filter('wp_head', function() {
+//     $lang = get_locale();
+//     global $WOOCS;
+//     switch ($lang)
+//     {
+//         case 'vi':
+//             $WOOCS->set_currency('VND');
+//             break;
+//         case 'en_US':
+//             $WOOCS->set_currency('USD');
+//             break;
+//         default:
+//             $WOOCS->set_currency('VND');
+//             break;
+//     }
+// },
+// var_dump (  $WOOCS)
+
+// );
+
+// $current_language = get_locale();
+
+// if( $current_language == 'vi' ){
+//   echo 'text in language VND';
+// }
+
+// if( $current_language == 'en_US' ){
+//   echo 'text in language USD';
+// }

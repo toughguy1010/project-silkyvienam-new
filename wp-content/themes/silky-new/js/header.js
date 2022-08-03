@@ -12,9 +12,9 @@ jQuery(document).ready(function() {
     var openCartMenu = document.querySelector('.cart-btn')
     var cartMenu = document.querySelector('.xoo-wsc-modal')
     var closeCartMenu = document.querySelector('.xoo-wsch-top .cart-toggle-btn')
-
-
-    // console.log(openCartMenu)
+        // var btnSubmitCart = document.querySelector('.single_add_to_cart_button ')
+        // btnSubmitCart.addEventListener('click', openMenu)
+        // console.log(openCartMenu)
     openCartMenu.addEventListener('click', openMenu)
 
     function openMenu() {
