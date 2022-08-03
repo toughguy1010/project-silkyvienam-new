@@ -78,7 +78,20 @@ function excerpt_in_cart($cart_item_html, $product_data) {
 								</div>
 								<div class="view-cart-product-price">
 								<?php
-									echo apply_filters( 'woocommerce_cart_item_price', WC()->cart->get_product_price( $_product ), $cart_item, $cart_item_key ); // PHPCS: XSS ok.
+
+									$current_language = get_locale();
+
+									if( $current_language == 'vi' ){
+									echo   ($_product ->get_price()) *$cart_item['quantity']  ; echo 'VNĐ' ; ;
+									}
+									
+									if( $current_language == 'en_US' ){
+										$convertPrice = 0.0000427862 ;
+									echo  ($_product ->get_price() * $convertPrice) *$cart_item['quantity'] ;echo '$';
+									}
+								
+
+									// echo apply_filters( 'woocommerce_cart_item_price', WC()->cart->get_product_price( $_product ), $cart_item, $cart_item_key ); // PHPCS: XSS ok.
 								?>
 								</div>
 							</div>
@@ -201,14 +214,38 @@ function excerpt_in_cart($cart_item_html, $product_data) {
 							</div>
 							<div class="coll-right">
 								<?php
-									echo $cart->get_cart_total();
+								$amount = WC()->cart->cart_contents_total + WC()->cart->tax_total;
+								$current_language = get_locale();
+						
+													if( $current_language == 'vi' ){
+													  echo  $amount   ; echo 'VNĐ' ; ;
+													}
+													
+													if( $current_language == 'en_US' ){
+														$convertPrice = 0.0000427862 ;
+													  echo $amount  * $convertPrice ;echo '$';
+													}
+									// echo $cart->get_cart_total();
 								?>
 							</div>
 						</div>
 						<!-- cart total -->
 						<div class="cart-items">
 							<div class="view-cart-title-total"><?php esc_html_e( 'Total', 'woocommerce' ); ?></div>
-							<div class="view-cart-price-total" data-title="<?php esc_attr_e( 'Total', 'woocommerce' ); ?>"><?php wc_cart_totals_order_total_html(); ?></div>
+							<div class="view-cart-price-total" data-title="<?php esc_attr_e( 'Total', 'woocommerce' ); ?>"><?php 
+							$amount = WC()->cart->cart_contents_total + WC()->cart->tax_total;
+							$current_language = get_locale();
+					
+												if( $current_language == 'vi' ){
+												  echo  $amount   ; echo 'VNĐ' ; ;
+												}
+												
+												if( $current_language == 'en_US' ){
+													$convertPrice = 0.0000427862 ;
+												  echo $amount  * $convertPrice ;echo '$';
+												}
+							// wc_cart_totals_order_total_html(); 
+							?></div>
 						</div>
 						<!-- cart total  -->
 					</div>

@@ -31,7 +31,7 @@ $current_language = get_locale();
 		}
 		
 		if( $current_language == 'en_US' ){
-			$convertPrice = 0.00004 ;
+			$convertPrice = 0.0000427862 ;
 		  echo apply_filters('silky_filter-product-price', ceil($product->get_price() * $convertPrice)  );echo '$';
 		}
 

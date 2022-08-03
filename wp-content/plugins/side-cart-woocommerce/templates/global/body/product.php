@@ -64,7 +64,7 @@ $productClasses = apply_filters( 'xoo_wsc_product_class', $productClasses );
 							}
 							
 							if( $current_language == 'en_US' ){
-								$convertPrice = 0.00004 ;
+								$convertPrice = 0.0000427862 ;
 							  echo  ($_product ->get_price() * $convertPrice) *$cart_item['quantity'] ;echo '$';
 							}
 						
@@ -111,7 +111,7 @@ $productClasses = apply_filters( 'xoo_wsc_product_class', $productClasses );
 <?php endif; ?>
 
 	<?php do_action( 'xoo_wsc_product_end', $_product, $cart_item_key );	
-
+// var_dump($cart_item_key);
 ?>
 
 </div>	

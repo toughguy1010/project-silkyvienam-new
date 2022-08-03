@@ -431,3 +431,73 @@ Stack trace:
 #5 E:\wamp64\www\test02\wp-content\plugins\side-cart-woocommerce\templates\xoo-wsc-markup.php(24): Xoo_Helper->get_template('xoo-wsc-contain...')
 #6 E:\wamp in E:\wamp64\www\test02\wp-content\plugins\side-cart-woocommerce\templates\global\footer\totals.php on line 37
 
+2022-08-03T06:03:14+00:00 CRITICAL #!trpst#trp-gettext data-trpgettextoriginal=3689#!trpen#Uncaught Error: Call to undefined method Xoo_Wsc_Cart::get_totals() in E:\wamp64\www\test02\wp-content\plugins\side-cart-woocommerce\includes\class-xoo-wsc-template-args.php:269
+Stack trace:
+#0 E:\wamp64\www\test02\wp-content\plugins\side-cart-woocommerce\templates\global\footer\totals.php(20): Xoo_Wsc_Template_Args::footer_totals()
+#1 E:\wamp64\www\test02\wp-content\plugins\side-cart-woocommerce\includes\xoo-framework\class-xoo-helper.php(57): include('E:\\wamp64\\www\\t...')
+#2 E:\wamp64\www\test02\wp-content\plugins\side-cart-woocommerce\templates\xoo-wsc-footer.php(25): Xoo_Helper->get_template('global/footer/t...')
+#3 E:\wamp64\www\test02\wp-content\plugins\side-cart-woocommerce\includes\xoo-framework\class-xoo-helper.php(57): include('E:\\wamp64\\www\\t...')
+#4 E:\wamp64\www\test02\wp-content\themes\silky-new\xoo-wsc-container.php(54): Xoo_Helper->get_template('xoo-wsc-footer....')
+#5 E:\wamp64\www\test02\wp-content\plugins\side-cart-woocommerce\includes\xoo-framework\class-xoo-helper.php(57): include(' in E:\wamp64\www\test02\wp-content\plugins\side-cart-woocommerce\includes\class-xoo-wsc-template-args.php on line 269#!trpst#/trp-gettext#!trpen#
+
+2022-08-03T06:03:15+00:00 CRITICAL #!trpst#trp-gettext data-trpgettextoriginal=3689#!trpen#Uncaught Error: Call to undefined method Xoo_Wsc_Cart::get_totals() in E:\wamp64\www\test02\wp-content\plugins\side-cart-woocommerce\includes\class-xoo-wsc-template-args.php:269
+Stack trace:
+#0 E:\wamp64\www\test02\wp-content\plugins\side-cart-woocommerce\templates\global\footer\totals.php(20): Xoo_Wsc_Template_Args::footer_totals()
+#1 E:\wamp64\www\test02\wp-content\plugins\side-cart-woocommerce\includes\xoo-framework\class-xoo-helper.php(57): include('E:\\wamp64\\www\\t...')
+#2 E:\wamp64\www\test02\wp-content\plugins\side-cart-woocommerce\templates\xoo-wsc-footer.php(25): Xoo_Helper->get_template('global/footer/t...')
+#3 E:\wamp64\www\test02\wp-content\plugins\side-cart-woocommerce\includes\xoo-framework\class-xoo-helper.php(57): include('E:\\wamp64\\www\\t...')
+#4 E:\wamp64\www\test02\wp-content\themes\silky-new\xoo-wsc-container.php(54): Xoo_Helper->get_template('xoo-wsc-footer....')
+#5 E:\wamp64\www\test02\wp-content\plugins\side-cart-woocommerce\includes\xoo-framework\class-xoo-helper.php(57): include(' in E:\wamp64\www\test02\wp-content\plugins\side-cart-woocommerce\includes\class-xoo-wsc-template-args.php on line 269#!trpst#/trp-gettext#!trpen#
+
+2022-08-03T06:24:48+00:00 CRITICAL #!trpst#trp-gettext data-trpgettextoriginal=3689#!trpen#Uncaught Error: Call to a member function get_cart() on null in E:\wamp64\www\test02\wp-content\plugins\side-cart-woocommerce\templates\global\footer\totals.php:33
+Stack trace:
+#0 E:\wamp64\www\test02\wp-content\plugins\side-cart-woocommerce\includes\xoo-framework\class-xoo-helper.php(57): include()
+#1 E:\wamp64\www\test02\wp-content\plugins\side-cart-woocommerce\templates\xoo-wsc-footer.php(25): Xoo_Helper->get_template('global/footer/t...')
+#2 E:\wamp64\www\test02\wp-content\plugins\side-cart-woocommerce\includes\xoo-framework\class-xoo-helper.php(57): include('E:\\wamp64\\www\\t...')
+#3 E:\wamp64\www\test02\wp-content\themes\silky-new\xoo-wsc-container.php(54): Xoo_Helper->get_template('xoo-wsc-footer....')
+#4 E:\wamp64\www\test02\wp-content\plugins\side-cart-woocommerce\includes\xoo-framework\class-xoo-helper.php(57): include('E:\\wamp64\\www\\t...')
+#5 E:\wamp64\www\test02\wp-content\plugins\side-cart-woocommerce\templates\xoo-wsc-markup.php(24): Xoo_Helper->get_template('xoo-wsc-contain...')
+#6 E:\wamp6 in E:\wamp64\www\test02\wp-content\plugins\side-cart-woocommerce\templates\global\footer\totals.php on line 33#!trpst#/trp-gettext#!trpen#
+
+2022-08-03T06:24:49+00:00 CRITICAL #!trpst#trp-gettext data-trpgettextoriginal=3689#!trpen#Uncaught Error: Call to a member function get_cart() on null in E:\wamp64\www\test02\wp-content\plugins\side-cart-woocommerce\templates\global\footer\totals.php:33
+Stack trace:
+#0 E:\wamp64\www\test02\wp-content\plugins\side-cart-woocommerce\includes\xoo-framework\class-xoo-helper.php(57): include()
+#1 E:\wamp64\www\test02\wp-content\plugins\side-cart-woocommerce\templates\xoo-wsc-footer.php(25): Xoo_Helper->get_template('global/footer/t...')
+#2 E:\wamp64\www\test02\wp-content\plugins\side-cart-woocommerce\includes\xoo-framework\class-xoo-helper.php(57): include('E:\\wamp64\\www\\t...')
+#3 E:\wamp64\www\test02\wp-content\themes\silky-new\xoo-wsc-container.php(54): Xoo_Helper->get_template('xoo-wsc-footer....')
+#4 E:\wamp64\www\test02\wp-content\plugins\side-cart-woocommerce\includes\xoo-framework\class-xoo-helper.php(57): include('E:\\wamp64\\www\\t...')
+#5 E:\wamp64\www\test02\wp-content\plugins\side-cart-woocommerce\templates\xoo-wsc-markup.php(24): Xoo_Helper->get_template('xoo-wsc-contain...')
+#6 E:\wamp6 in E:\wamp64\www\test02\wp-content\plugins\side-cart-woocommerce\templates\global\footer\totals.php on line 33#!trpst#/trp-gettext#!trpen#
+
+2022-08-03T06:32:35+00:00 CRITICAL #!trpst#trp-gettext data-trpgettextoriginal=3689#!trpen#syntax error, unexpected '?>', expecting identifier (T_STRING) in E:\wamp64\www\test02\wp-content\plugins\side-cart-woocommerce\templates\global\footer\totals.php on line 58#!trpst#/trp-gettext#!trpen#
+
+2022-08-03T06:32:36+00:00 CRITICAL #!trpst#trp-gettext data-trpgettextoriginal=3689#!trpen#syntax error, unexpected '?>', expecting identifier (T_STRING) in E:\wamp64\www\test02\wp-content\plugins\side-cart-woocommerce\templates\global\footer\totals.php on line 58#!trpst#/trp-gettext#!trpen#
+
+2022-08-03T08:49:37+00:00 CRITICAL Uncaught Error: Call to a member function get_cart_total() on null in E:\wamp64\www\test02\wp-content\plugins\side-cart-woocommerce\templates\global\footer\totals.php:46
+Stack trace:
+#0 E:\wamp64\www\test02\wp-content\plugins\side-cart-woocommerce\includes\xoo-framework\class-xoo-helper.php(57): include()
+#1 E:\wamp64\www\test02\wp-content\plugins\side-cart-woocommerce\templates\xoo-wsc-footer.php(25): Xoo_Helper->get_template('global/footer/t...')
+#2 E:\wamp64\www\test02\wp-content\plugins\side-cart-woocommerce\includes\xoo-framework\class-xoo-helper.php(57): include('E:\\wamp64\\www\\t...')
+#3 E:\wamp64\www\test02\wp-content\themes\silky-new\xoo-wsc-container.php(54): Xoo_Helper->get_template('xoo-wsc-footer....')
+#4 E:\wamp64\www\test02\wp-content\plugins\side-cart-woocommerce\includes\xoo-framework\class-xoo-helper.php(57): include('E:\\wamp64\\www\\t...')
+#5 E:\wamp64\www\test02\wp-content\plugins\side-cart-woocommerce\templates\xoo-wsc-markup.php(24): Xoo_Helper->get_template('xoo-wsc-contain...')
+#6 E: in E:\wamp64\www\test02\wp-content\plugins\side-cart-woocommerce\templates\global\footer\totals.php on line 46
+
+2022-08-03T08:53:18+00:00 CRITICAL Uncaught Error: Object of class WooCommerce could not be converted to string in E:\wamp64\www\test02\wp-content\plugins\side-cart-woocommerce\templates\global\footer\totals.php:52
+Stack trace:
+#0 E:\wamp64\www\test02\wp-content\plugins\side-cart-woocommerce\includes\xoo-framework\class-xoo-helper.php(57): include()
+#1 E:\wamp64\www\test02\wp-content\plugins\side-cart-woocommerce\templates\xoo-wsc-footer.php(25): Xoo_Helper->get_template('global/footer/t...')
+#2 E:\wamp64\www\test02\wp-content\plugins\side-cart-woocommerce\includes\xoo-framework\class-xoo-helper.php(57): include('E:\\wamp64\\www\\t...')
+#3 E:\wamp64\www\test02\wp-content\themes\silky-new\xoo-wsc-container.php(54): Xoo_Helper->get_template('xoo-wsc-footer....')
+#4 E:\wamp64\www\test02\wp-content\plugins\side-cart-woocommerce\includes\xoo-framework\class-xoo-helper.php(57): include('E:\\wamp64\\www\\t...')
+#5 E:\wamp64\www\test02\wp-content\plugins\side-cart-woocommerce\templates\xoo-wsc-markup.php(24): Xoo_Helper->get_template('xoo-wsc-contain. in E:\wamp64\www\test02\wp-content\plugins\side-cart-woocommerce\templates\global\footer\totals.php on line 52
+
+2022-08-03T08:55:34+00:00 CRITICAL Uncaught Error: Object of class WooCommerce could not be converted to string in E:\wamp64\www\test02\wp-content\plugins\side-cart-woocommerce\templates\global\footer\totals.php:52
+Stack trace:
+#0 E:\wamp64\www\test02\wp-content\plugins\side-cart-woocommerce\includes\xoo-framework\class-xoo-helper.php(57): include()
+#1 E:\wamp64\www\test02\wp-content\plugins\side-cart-woocommerce\templates\xoo-wsc-footer.php(25): Xoo_Helper->get_template('global/footer/t...')
+#2 E:\wamp64\www\test02\wp-content\plugins\side-cart-woocommerce\includes\xoo-framework\class-xoo-helper.php(57): include('E:\\wamp64\\www\\t...')
+#3 E:\wamp64\www\test02\wp-content\themes\silky-new\xoo-wsc-container.php(54): Xoo_Helper->get_template('xoo-wsc-footer....')
+#4 E:\wamp64\www\test02\wp-content\plugins\side-cart-woocommerce\includes\xoo-framework\class-xoo-helper.php(57): include('E:\\wamp64\\www\\t...')
+#5 E:\wamp64\www\test02\wp-content\plugins\side-cart-woocommerce\templates\xoo-wsc-markup.php(24): Xoo_Helper->get_template('xoo-wsc-contain. in E:\wamp64\www\test02\wp-content\plugins\side-cart-woocommerce\templates\global\footer\totals.php on line 52
+

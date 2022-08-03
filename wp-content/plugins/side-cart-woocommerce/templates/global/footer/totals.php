@@ -29,23 +29,41 @@ extract( Xoo_Wsc_Template_Args::footer_totals() );
 		<div class="total-price-title">To be calculated in checkout</div>
 		<div class="total-price-content xoo-wsc-ft-amt xoo-wsc-ft-amt-<?php echo $key; ?> <?php echo isset( $data['action'] ) ? $data['action'] : '' ?>">
 			<span class="label-total-price">Total</span>
-			<span class="xoo-wsc-ft-amt-value value-total-price"><?php echo $data['value'] ;
-		
-			// $current_language = get_locale();
+			<span class="xoo-wsc-ft-amt-value value-total-price"><?php // echo $data['value'] ;
 
-			// 				if( $current_language == 'vi' ){
-			// 				  echo   ($_product ->get_price()) *$cart_item['quantity']  ; echo 'VNĐ' ; ;
-			// 				}
+    // $items = $woocommerce->cart->get_cart();
+
+    //     foreach($items as $item => $values) { 
+    //         $_product =  wc_get_product( $values['data']->get_id()); 
+    //         echo ' <br> Quantity: '.$values['quantity'].'<br>'; 
+    //         $price = get_post_meta($values['product_id'] , '_price', true);
+	// 		$sub_total = $price  * $values['quantity'];
+    //         echo $sub_total ;
+    //     }
+	
+	// $totalscart = WC()->cart->get_cart_total();
+	// $totalamount = number_format($woocommerce->cart->get_cart_total(), 2, '.', '');
+	
+    
+	$amounttotal = WC()->cart->cart_contents_total + WC()->cart->tax_total;
+	
+		$current_language = get_locale();
+
+							if( $current_language == 'vi' ){
+							  echo  $amounttotal   ; echo 'VNĐ' ; ;
+							}
 							
-			// 				if( $current_language == 'en_US' ){
-			// 					$convertPrice = 0.00004 ;
-			// 				  echo  ($_product ->get_price() * $convertPrice) *$cart_item['quantity'] ;echo '$';
-			// 				}
+							if( $current_language == 'en_US' ){
+								$convertPrice = 0.0000427862 ;
+							  echo $amounttotal  * $convertPrice ;echo '$';
+							}
 						
 			?></span>
 		</div>
 	<?php endforeach; ?>
 
-	<?php do_action( 'xoo_wsc_totals_end' ); ?>
-
+	<?php do_action( 'xoo_wsc_totals_end' ); 
+	// echo $amounttotal  ;
+// var_dump($values);
+	?>
 </div>

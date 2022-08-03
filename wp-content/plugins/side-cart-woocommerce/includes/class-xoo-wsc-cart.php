@@ -193,11 +193,15 @@ class Xoo_Wsc_Cart{
 		if( WC()->cart->is_empty() ) return $totals;
 
 		$showSubtotal 	= in_array( 'subtotal', xoo_wsc_helper()->get_general_option('scf-show') );
-
+		
+		// function subtoal_custom(){
+		// 	echo ($_product ->get_price()) *$cart_item['quantity'];
+		// }
 		if( $showSubtotal ){
 			$totals['subtotal'] = array(
 				'label' 	=> xoo_wsc_helper()->get_general_option('sct-subtotal'),
 				'value' 	=> WC()->cart->get_cart_subtotal(),
+				
 			);
 		}
 
