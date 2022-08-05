@@ -1317,6 +1317,7 @@
 
 .detail-blog-header {
     margin-left: 3%;
+    margin-top: 50px;
 }
 
 .detail-blog-header .woocommerce-breadcrumb a {
@@ -1344,10 +1345,9 @@
 
 .detail-blog-title {
     float: left;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'headLineFont';
     display: block;
-    font-weight: 600;
-    font-size: 1.5vw;
+    font-size: 22px;
     width: 22%;
     padding-bottom: 20px;
     margin-left: 3%;
@@ -1551,6 +1551,7 @@
     }
     .detail-blog-header {
         margin-left: 0%;
+        margin-top: 120px;
     }
     .menu-content .menu-blog-item {
         width: 100%;
@@ -1579,6 +1580,14 @@
         width: 73%;
         margin: 10%;
         margin: 10% 0;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .detail-blog-header .woocommerce-breadcrumb {
+        float: left;
+        line-height: 17px;
+        text-align: start;
     }
 }
 

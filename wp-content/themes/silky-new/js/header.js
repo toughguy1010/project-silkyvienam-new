@@ -223,25 +223,25 @@ function closeSubMenuActionChild1() {
 
 // sub menu child 2
 
-const subMenuChild2 = document.querySelector(".menu-mobile-list .parent-sub-menu-2 .sub-menu")
-const openSubMenuChild2 = document.querySelector(".menu-mobile-list .parent-sub-menu-2")
-openSubMenuChild2.addEventListener("click", openSubMenuActionChild2)
-const closeSubMenuChild2 = document.querySelector(".back-menu-btn-2")
-closeSubMenuChild2.addEventListener('click', closeSubMenuActionChild2)
+// const subMenuChild2 = document.querySelector(".menu-mobile-list .parent-sub-menu-2 .sub-menu")
+// const openSubMenuChild2 = document.querySelector(".menu-mobile-list .parent-sub-menu-2")
+// openSubMenuChild2.addEventListener("click", openSubMenuActionChild2)
+// const closeSubMenuChild2 = document.querySelector(".back-menu-btn-2")
+// closeSubMenuChild2.addEventListener('click', closeSubMenuActionChild2)
 
-function openSubMenuActionChild2() {
-    closeSubMenu.classList.add("remove-back-menu-btn") //display none back btn 1
-    subMenuChild2.classList.add("sub-child-menu-active") // show sub menu child 2
-    closeSubMenuChild2.classList.add("back-menu-btn-active") // show back btn 2
+// function openSubMenuActionChild2() {
+//     closeSubMenu.classList.add("remove-back-menu-btn") //display none back btn 1
+//     subMenuChild2.classList.add("sub-child-menu-active") // show sub menu child 2
+//     closeSubMenuChild2.classList.add("back-menu-btn-active") // show back btn 2
 
-}
+// }
 
 
-function closeSubMenuActionChild2() {
-    closeSubMenuChild2.classList.remove("back-menu-btn-active")
-    closeSubMenu.classList.remove("remove-back-menu-btn") //display block back btn 1
-    subMenuChild2.classList.remove("sub-child-menu-active")
-}
+// function closeSubMenuActionChild2() {
+//     closeSubMenuChild2.classList.remove("back-menu-btn-active")
+//     closeSubMenu.classList.remove("remove-back-menu-btn") //display block back btn 1
+//     subMenuChild2.classList.remove("sub-child-menu-active")
+// }
 
 // sub menu child 3
 

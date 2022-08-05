@@ -23,6 +23,8 @@ global $product;
 if ( empty( $product ) || ! $product->is_visible() ) {
 	return;
 }
+
+
 ?>
 <li class="product-item" <?php wc_product_class( '', $product ); ?>>
 	<?php

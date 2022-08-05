@@ -19,7 +19,7 @@ defined( 'ABSPATH' ) || exit;
 
 $item_totals = $order->get_order_item_totals(); // phpcs:ignore WordPress.WP.GlobalVariablesOverride.Prohibited
 ?>
-<form id="order_review" method="post">
+<form id="order_review" method="post" style=" margin-top :100px">
 
 	<table class="shop_table">
 		<thead>

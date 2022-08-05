@@ -218,3 +218,8 @@ defined( 'ABSPATH' ) || exit;
             </nav>
         </div>
 
+<style>
+    .sub-menu-lv3-item{
+        opacity: 0.7;
+    }
+</style>

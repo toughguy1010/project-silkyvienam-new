@@ -35,8 +35,28 @@ do_action('product_style');
 // get_template_part('global-templates/part','loading-image-category');
 
 if (is_shop()) {
+
+	// $all_products = new WP_Query(array(
+	// 	'post_type'=>'product',
+	// 	'post_status'=>'publish',
+	// 	'tax_query' => array(
+	// 	array(
+	// 		'taxonomy' => 'product_cat',
+	// 		'field' => 'id',
+	// 		'terms' => 24
+	// 	)
+	// 	),
+	// 	'orderby' => 'ID',
+	// 	'order' => 'DESC',
+	// 	'posts_per_page'=> 1,
+	// 	'paged' => $paged,
+	// ));
+   
 	do_action( 'woocommerce_before_main_content' );
+
 	if ( woocommerce_product_loop() ) {
+	
+		
 		/**
 		 * Hook: woocommerce_before_shop_loop.
 		 *
@@ -48,6 +68,7 @@ if (is_shop()) {
 	
 		woocommerce_product_loop_start();
 	
+			
 		if ( wc_get_loop_prop( 'total' ) ) {
 			while ( have_posts() ) {
 				the_post();
@@ -56,6 +77,7 @@ if (is_shop()) {
 				 * Hook: woocommerce_shop_loop.
 				 */
 				do_action( 'woocommerce_shop_loop' );
+			
 	
 				wc_get_template_part( 'content', 'product' );
 				
@@ -89,8 +111,6 @@ if (is_shop()) {
  * @hooked woocommerce_output_content_wrapper_end - 10 (outputs closing divs for the content)
  */
 do_action( 'woocommerce_after_main_content' );
-
-
 	
 } 
 elseif (is_product_category()) {
@@ -136,8 +156,7 @@ elseif (is_product_category()) {
 			),
 			'orderby' => 'ID',
 			'order' => 'DESC',
-			'posts_per_page'=> 9,
-			'paged' => $paged,
+			
 		));
 		// var_dump($GLOBALS['wp_query']->max_num_pages);
 

@@ -1071,12 +1071,13 @@
     }
     
     #content {
-        margin-top: 50px !important;
+        margin-top: 100px !important;
     }
     
     #content .row {
-        margin: 2% 2%;
-        margin-top: 100px;
+        margin: 0% 2%;
+        margin-top: 50px;
+        margin-bottom: 0%;
     }
     
     .product-content:hover {
@@ -1787,10 +1788,10 @@
     }
     
     .detail_product_title {
-        font-weight: bold;
-        font-size: 1.4vw;
+        font-size: 22px;
         display: block;
-        font-family: 'Raleway', sans-serif;
+        font-family: 'headLinFont' !important;
+        text-transform: uppercase;
     }
     
     .detail_sub_title p {
@@ -1814,7 +1815,8 @@
     }
     
     .price_detail_product bdi {
-        font-family: 'Raleway', sans-serif !important;
+        /* font-family: 'Raleway', sans-serif !important; */
+        font-weight: bold;
     }
     
     .desc_tabs {
@@ -1883,8 +1885,8 @@
     
     .entry-summary {
         width: 50%;
-        height: 49vw;
-        /* height: 700px; */
+        /* height: 49vw; */
+        height: 700px;
     }
     
     .type-product {
@@ -2060,10 +2062,22 @@
     
     .up-sells h3 {
         display: block;
-        font-family: 'Raleway', sans-serif !important;
-        font-weight: bold;
+        font-family: 'headLineFont' !important;
+        position: relative;
         font-size: 20px;
+        text-transform: uppercase;
         margin-bottom: 2%;
+        padding-bottom: 20px;
+    }
+    
+    .up-sells h3::after {
+        position: absolute;
+        content: " ";
+        bottom: 0;
+        left: 0;
+        width: 20px;
+        height: 1px;
+        background-color: #000;
     }
     /* Detail-product css end */
     /* check out css start */
@@ -2834,8 +2848,8 @@
         text-decoration: none;
         color: #000;
         font-size: 15px;
-        font-weight: 600;
-        font-family: 'Raleway', sans-serif !important;
+        /* font-weight: 600; */
+        font-family: 'headLineFont' !important;
     }
     
     .colleciton_product_short_desc p {
@@ -2846,8 +2860,6 @@
     
     .colleciton_product_price bdi {
         font-size: 13px;
-        font-weight: 600;
-        font-family: 'Raleway', sans-serif !important;
         display: block;
     }
     
@@ -2881,6 +2893,8 @@
     
     .product-type-grouped .entry-summary {
         margin-right: 45% !important;
+        height: unset !important;
+        margin-bottom: 100px;
     }
     
     .container-fluid {
