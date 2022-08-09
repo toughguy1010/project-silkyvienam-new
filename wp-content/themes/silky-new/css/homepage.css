@@ -1271,12 +1271,12 @@
     bottom: 12%;
 }
 
-.gallery-section .elementor-image-box-title {
+.gallery-section .elementor-image-box-title a {
     font-size: 22px;
     display: block;
     text-transform: uppercase;
     color: #fff !important;
-    font-family: 'headlineFont';
+    font-family: 'headlineFont' !important;
     transform: translateY(100px);
     transition: all .6s;
 }
@@ -1297,7 +1297,7 @@
     transform: translateY(0%);
 }
 
-.gallery-section .elementor-column:hover .elementor-image-box-title {
+.gallery-section .elementor-column:hover .elementor-image-box-title a {
     transform: translateY(0px);
 }
 

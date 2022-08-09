@@ -64,6 +64,11 @@ if ( ! function_exists( 'understrap_setup' ) ) {
 				'language' => __( 'Language Menu', 'understrap' ),
 			)
 		);
+		register_nav_menus(
+			array(
+				'privacy' => __( 'Privacy Menu', 'understrap' ),
+			)
+		);
 
 		/*
 		 * Switch default core markup for search form, comment form, and comments

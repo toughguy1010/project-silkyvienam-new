@@ -67,9 +67,18 @@ outline:  0px !important;
                         </div>
                         <div class="footer-service ">
                             <div class="footer-service-item footer-hidden-element ">Silky VietNam</div>
-                            <a href="http://silkyvietnam.vn/chinh-sach-dieu-khoan/" class="footer-service-item ">Chính sách & Điều khoản</a>
+                            <!-- <a href="http://silkyvietnam.vn/chinh-sach-dieu-khoan/" class="footer-service-item ">Chính sách & Điều khoản</a>
                             <a href="http://silkyvietnam.vn/chinh-sach-quyen-rieng-tu/" class="footer-service-item ">Chính sách về Quyền riêng tư & Cookies</a>
-                            <a href="http://silkyvietnam.vn/van-chuyen-hoan-tra/" class="footer-service-item ">Vận chuyển & Hoàn trả</a>
+                            <a href="http://silkyvietnam.vn/van-chuyen-hoan-tra/" class="footer-service-item ">Vận chuyển & Hoàn trả</a> -->
+                           <?php
+                            wp_nav_menu( 
+                            array( 
+                                'theme_location' => 'privacy', 
+                                'container' => 'false', 
+                                'menu_id' => 'footer-menu', 
+                                'menu_class' => ' '
+                             ) 
+                          ); ?>
                         </div>
                     </div>
                     <div class="footer-input-form">

@@ -71,19 +71,24 @@ jQuery(document).ready(function() {
 
 
     // woof sorting 
+
     $("#admin_cal_list option").click(function() {
+
         var selText = $(this).text();
         console.log(selText);
         $(this).parents('.dropdown').find('.dropdown-toggle').val(selText);
         $(this).closest('form').trigger('submit');
+        console.log($(this).closest('form').trigger('submit'))
 
     });
+
 
     $("#admin_cal_list option").click(function() {
         /* woo3.3 */
 
         if (!jQuery("#is_woo_shortcode").length) {
-            woof_current_values.orderby = jQuery(this).val();
+
+            woof_current_values.swoof = jQuery(this).val();
             woof_ajax_page_num = 1;
             woof_submit_link(woof_get_submit_link(), 0);
             return false;
@@ -91,7 +96,6 @@ jQuery(document).ready(function() {
         /* +++ */
     });
     // woof sorting 
-
 
 
     var sortingFields = document.querySelector(".sorting-btn ");
@@ -124,7 +128,6 @@ jQuery(document).ready(function() {
         sortingArrow.classList.toggle("sorting-arrow-btn-active")
 
     }
-
 
 
     // $(window).bind('scroll', function() {

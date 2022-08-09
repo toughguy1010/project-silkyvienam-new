@@ -1139,8 +1139,8 @@
         width: 100% !important;
     }
     
-    .menu-product-list li:hover .img-product-respon {
-        border: #9F8861 2px solid;
+    .menu-product-list li:hover .tp-image {
+        border: #9F8861 1px solid;
     }
     
     .menu-product-list li:hover .product-desc {
@@ -1864,11 +1864,13 @@
         text-transform: uppercase;
         transition: all .2s;
         font-size: 1vw;
+        border: 1.5px solid black !important;
+        color: black !important;
     }
     
     .detail_product_btn:hover {
-        border: 1.5px solid #ffffff;
-        color: #ffffff;
+        border: 1.5px solid #ffffff !important;
+        color: #ffffff !important;
         background-color: #A48D67;
         outline: 2px solid #A48D67;
     }
@@ -2134,6 +2136,11 @@
         background-color: #fff;
         height: 33px;
         width: 27%;
+        color: #0000 !important;
+        -o-color: #0000 !important;
+        -moz-color: #0000 !important;
+        -webkit-color: #0000 !important;
+        -ms-color: #0000 !important;
         border: 1px solid #000;
         outline: 1px solid #fff;
         margin-left: 10px;
@@ -3727,6 +3734,34 @@
             width: 46%;
         }
     }
+    
+    @media only screen and (max-width: 450px) {
+        .collection-btn a {
+            font-size: 12px;
+            display: block;
+            text-decoration: none;
+            color: #000;
+            height: 10%;
+            width: 70%;
+            display: flex;
+            border: 1px solid black;
+            border-radius: 25px;
+            justify-content: center;
+            align-items: center;
+            position: absolute;
+            bottom: 10%;
+            z-index: 1;
+            left: 15%;
+            background-color: rgba(255, 255, 255, 0.7);
+        }
+        .collection-header-img {
+            width: 101%;
+            height: 100%;
+            object-fit: cover;
+            object-position: bottom;
+            transform: scale(1.5);
+        }
+    }
     /* detail collection */
     /* collection mobile */
     /* menu mobile */
@@ -4290,3 +4325,17 @@
             padding: 0% 10% 0% 10% !important;
         }
     }
+    /* size chart responsive */
+    
+    @media only screen and (max-width: 550px) {
+        .md-size-chart-modal-content {
+            padding: 0;
+        }
+        .md-size-chart-modal-body {
+            padding: 0;
+        }
+        .chart-container {
+            width: 100%;
+        }
+    }
+    /* size chart responsive */

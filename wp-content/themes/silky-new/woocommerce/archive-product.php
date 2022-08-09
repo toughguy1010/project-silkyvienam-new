@@ -48,7 +48,7 @@ if (is_shop()) {
 	// 	),
 	// 	'orderby' => 'ID',
 	// 	'order' => 'DESC',
-	// 	'posts_per_page'=> 1,
+	// 	'posts_per_page'=> 12,
 	// 	'paged' => $paged,
 	// ));
    
@@ -83,6 +83,12 @@ if (is_shop()) {
 				
 			}
 		}
+		// while ( $all_products->have_posts() ) :
+		// 	$all_products->the_post();
+		// 	wc_get_template_part( 'content', 'product' );
+
+		// endwhile; 
+		// wp_reset_query() ;
 	
 		woocommerce_product_loop_end();
 	
