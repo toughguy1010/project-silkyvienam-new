@@ -1315,6 +1315,7 @@
     .view-cart-product-content-action .cart-qty-wrap .qty_button {
         background-color: #fff !important;
         border: none !important;
+        color: black !important;
     }
     
     .view-cart-qty-number {
@@ -1459,6 +1460,14 @@
         font-size: 13px;
     }
     
+    .order_by_item {
+        width: 100%;
+        text-align: start;
+        color: black !important;
+        background-color: rgba(255, 255, 255, 0) !important;
+        border: 1px solid rgba(255, 255, 255, 0) !important;
+    }
+    
     .sorting-arrow-btn {
         border: solid black;
         border-width: 0 1px 1px 0;
@@ -1508,6 +1517,7 @@
     
     .sorting-btn input[value^="Sắp xếp"] {
         text-align: start;
+        color: black !important;
     }
     
     .sorting-btn input[value^="Sắp xếp"]:hover {
@@ -1966,15 +1976,25 @@
     }
     
     .variations_label {
-        min-width: 40px;
-        display: flex;
+        width: 70px;
+        display: inline;
         margin-top: 15px;
-        flex-direction: column;
+        /* flex-direction: column; */
+        align-items: center;
+        position: relative;
+    }
+    
+    .variations_label label {
+        margin-top: 20px;
     }
     
     .variations_label span {
         font-size: 13px !important;
         font-weight: 400 !important;
+        margin-left: 5px;
+        position: absolute;
+        top: 2px;
+        right: -28px;
     }
     
     .reset_variations {
@@ -1993,11 +2013,20 @@
         display: flex;
         flex-wrap: wrap;
         width: 100%;
-        padding-left: 0;
+        padding-left: 25px;
     }
     
     .variable-item-contents {
         width: 100%;
+    }
+    
+    .variable-item-image {
+        border: 2px solid white;
+        border-radius: 50%;
+    }
+    
+    .variable-item-contents-img-active {
+        border: 2px solid #866733;
     }
     
     .value_button ul li {
@@ -2136,11 +2165,7 @@
         background-color: #fff;
         height: 33px;
         width: 27%;
-        color: #0000 !important;
-        -o-color: #0000 !important;
-        -moz-color: #0000 !important;
-        -webkit-color: #0000 !important;
-        -ms-color: #0000 !important;
+        color: black !important;
         border: 1px solid #000;
         outline: 1px solid #fff;
         margin-left: 10px;
@@ -2149,7 +2174,7 @@
     
     .redeem-coupon:hover {
         background-color: #9E8760;
-        color: #FFFFFF;
+        color: #FFFFFF !important;
         border: 2px solid #fff;
         outline: 1px solid #9E8760;
     }
@@ -3384,17 +3409,30 @@
             color: #000;
             border-radius: 50%;
             cursor: pointer;
-            outline: #ffffff 1.5px solid;
-            border: #000 1px solid;
+            /* outline: #ffffff 1.5px solid; */
+            border: 1px solid black;
         }
         .product-pagination .page-numbers li {
             margin: 0px 5px;
         }
         .current {
-            outline: #9E8760 1.5px solid !important;
+            outline: none !important;
             background-color: #9E8760;
-            border: solid 1px rgb(255, 255, 255) !important;
+            border: none !important;
             color: #ffffff !important;
+            position: relative;
+        }
+        .current::after {
+            position: absolute;
+            content: '';
+            /* top: -10px; */
+            width: 31px;
+            height: 30px;
+            border: 1px solid #9E8760;
+            border-radius: 50%;
+            background-color: transparent;
+            display: inherit;
+            left: -3px;
         }
         .menu-product-list li {
             width: 44.7%;
@@ -3579,6 +3617,7 @@
         }
         .variations_label {
             margin-top: 20px;
+            min-width: 60px;
         }
         .value_button ul li {
             margin-right: 3%;
@@ -4339,3 +4378,164 @@
         }
     }
     /* size chart responsive */
+    /* pagination collection responsive */
+    
+    @media only screen and (max-width: 500px) {
+        .page_number_list_collection .page-numbers {
+            width: 25px;
+            height: 25px;
+        }
+    }
+    /* button responsive */
+    
+    @media only screen and (max-width: 500px) {
+        .variable-item-span-button-active {
+            display: block;
+            background-color: #9E8760;
+            color: #ffffff;
+            text-align: center;
+            border-radius: 50%;
+            border: 0;
+            outline: 0;
+            position: relative;
+        }
+        .variable-item-span-button-active::after {
+            position: absolute;
+            content: '';
+            top: -2px;
+            width: 31px;
+            height: 29px;
+            border: 1px solid #9E8760;
+            border-radius: 50%;
+            background-color: transparent;
+            display: inherit;
+            left: -3px;
+        }
+        a.xoo-wsc-ft-btn:hover {
+            background-color: rgb(0, 0, 0) !important;
+            border: 0 !important;
+            outline: 0 !important;
+            /* position: relative; */
+            color: white !important;
+        }
+        a.xoo-wsc-ft-btn {
+            position: relative;
+        }
+        a.xoo-wsc-ft-btn:hover::after {
+            position: absolute;
+            content: '';
+            top: -3px;
+            width: 102%;
+            height: 56px;
+            border: 1px solid #000000;
+            border-radius: 27px;
+            background-color: transparent;
+            display: inherit;
+            left: -3px;
+        }
+        .redeem-coupon:hover {
+            background-color: #9E8760;
+            color: #FFFFFF !important;
+            border: 0 !important;
+            outline: 0 !important;
+        }
+        .redeem-coupon {
+            position: relative;
+        }
+        .redeem-coupon:hover::after {
+            position: absolute;
+            content: '';
+            top: -3px;
+            width: 102%;
+            height: 39px;
+            border: 1px solid #9E8760;
+            border-radius: 27px;
+            background-color: transparent;
+            display: inherit;
+            left: -3px;
+        }
+        .payment-btn:hover {
+            background-color: #9E8760 !important;
+            color: rgb(255, 255, 255) !important;
+            border: 0 !important;
+            outline: 0 !important;
+        }
+        .payment-btn {
+            position: relative;
+        }
+        .payment-btn:hover::after {
+            position: absolute;
+            content: '';
+            top: -3px;
+            width: 102%;
+            height: 51px;
+            border: 1px solid #9E8760;
+            border-radius: 27px;
+            background-color: transparent;
+            display: inherit;
+            left: -3px;
+        }
+        .wpforms-submit:hover {
+            background-color: #9E8760 !important;
+            color: #fff !important;
+            border: 0 !important;
+            outline: 0 !important;
+        }
+        .wpforms-submit {
+            position: relative;
+        }
+        .wpforms-submit:hover::after {
+            position: absolute;
+            content: '';
+            top: 27px;
+            width: 102%;
+            height: 57px;
+            border: 1px solid #9E8760;
+            border-radius: 27px;
+            background-color: transparent;
+            display: inherit;
+            left: -3px;
+        }
+        .detail_product_btn:hover {
+            border: 0px !important;
+            color: #ffffff !important;
+            background-color: #A48D67;
+            outline: 0px;
+        }
+        .detail_product_btn {
+            position: relative;
+        }
+        .detail_product_btn:hover::after {
+            position: absolute;
+            content: '';
+            top: -3px;
+            width: 102%;
+            height: 57px;
+            border: 1px solid #9E8760;
+            border-radius: 27px;
+            background-color: transparent;
+            display: inherit;
+            left: -3px;
+        }
+        .view-cart-btn-action .button:hover {
+            border: 0px !important;
+            color: #ffffff !important;
+            background-color: #A48D67;
+            outline: 0px;
+        }
+        .view-cart-btn-action .button {
+            position: relative;
+        }
+        .view-cart-btn-action .button:hover::after {
+            position: absolute;
+            content: '';
+            top: -3px;
+            width: 103%;
+            height: 47px;
+            border: 1px solid #9E8760;
+            border-radius: 27px;
+            background-color: transparent;
+            display: inherit;
+            left: -3px;
+        }
+    }

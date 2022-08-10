@@ -2036,3 +2036,28 @@
 
 
 /* menu - mobile */
+
+
+/* pagination blog respon */
+
+@media only screen and (max-width: 500px) {
+    .pagination-blog .current::after {
+        position: absolute;
+        content: '';
+        /* top: -10px; */
+        width: 30px;
+        height: 29px;
+        border: 1px solid #9E8760;
+        border-radius: 50%;
+        background-color: transparent;
+        display: inherit;
+        left: -3px;
+    }
+    .pagination-blog .page-numbers {
+        width: 25px;
+        height: 25px;
+    }
+    .pagination-blog .current {
+        border: 0 !important;
+    }
+}

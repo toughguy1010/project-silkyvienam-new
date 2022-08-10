@@ -226,29 +226,34 @@ function excerpt_in_cart($cart_item_html, $product_data) {
 								// 					  echo $amount  * $convertPrice ;echo '$';
 								// 					}
 									echo $cart->get_cart_total();
-									// foreach( WC()->session->get('shipping_for_package_0')['rates'] as $method_id => $rate ){
-									// 	if( WC()->session->get('chosen_shipping_methods')[0] == $method_id ){
-									// 		$rate_label = $rate->label; // The shipping method label name
-									// 		$rate_cost_excl_tax = floatval($rate->cost); // The cost excluding tax
-									// 		// The taxes cost
-									// 		$rate_taxes = 0;
-									// 		foreach ($rate->taxes as $rate_tax)
-									// 			$rate_taxes += floatval($rate_tax);
-									// 		// The cost including tax
-									// 		$rate_cost_incl_tax = $rate_cost_excl_tax + $rate_taxes;
-									
-									// 		echo '<p class="shipping-total">
-									// 			<strong class="label">'.$rate_label.': </strong>
-									// 			<span class="totals">'. WC()->cart->get_cart_shipping_total() .'</span>
-									// 		</p>';
-									// 		break;
-									// 	}
-									// }
+						
 								?>
 								
 							</div>
 						</div>
 						<!-- cart total -->
+						<div class="view-cartshipping">
+							<?php 
+										foreach( WC()->session->get('shipping_for_package_0')['rates'] as $method_id => $rate ){
+											if( WC()->session->get('chosen_shipping_methods')[0] == $method_id ){
+												$rate_label = $rate->label; // The shipping method label name
+												$rate_cost_excl_tax = floatval($rate->cost); // The cost excluding tax
+												// The taxes cost
+												$rate_taxes = 0;
+												foreach ($rate->taxes as $rate_tax)
+													$rate_taxes += floatval($rate_tax);
+												// The cost including tax
+												$rate_cost_incl_tax = $rate_cost_excl_tax + $rate_taxes;
+										
+												echo '<p class="shipping-total" style = "display: flex; text-align: start;">
+													<span class="label" style = "width: 65%; fontweight :400 !important;">'.$rate_label.': </span>
+													<span class="totals" style = " fontweight : 600 !important;">'. WC()->cart->get_cart_shipping_total() .'</span>
+												</p>';
+												break;
+											}
+										}
+							?>
+						</div>
 						<div class="cart-items">
 							<div class="view-cart-title-total"><?php esc_html_e( 'Total', 'woocommerce' ); ?></div>
 							<div class="view-cart-price-total" data-title="<?php esc_attr_e( 'Total', 'woocommerce' ); ?>"><?php 

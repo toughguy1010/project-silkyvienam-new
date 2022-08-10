@@ -72,7 +72,7 @@ jQuery(document).ready(function() {
 
     // woof sorting 
 
-    $("#admin_cal_list option").click(function() {
+    $("#admin_cal_list button").click(function() {
 
         var selText = $(this).text();
         console.log(selText);
@@ -83,12 +83,12 @@ jQuery(document).ready(function() {
     });
 
 
-    $("#admin_cal_list option").click(function() {
+    $("#admin_cal_list button").click(function() {
         /* woo3.3 */
 
         if (!jQuery("#is_woo_shortcode").length) {
 
-            woof_current_values.swoof = jQuery(this).val();
+            woof_current_values.orderby = jQuery(this).val();
             woof_ajax_page_num = 1;
             woof_submit_link(woof_get_submit_link(), 0);
             return false;
@@ -400,4 +400,16 @@ openCartMenuMobile.addEventListener('click', openMenuMobile)
 function openMenuMobile() {
     cartMenu.classList.toggle("xoo-wsc-cart-active")
         // console.log(cartMenu)
+}
+
+
+var activeImgColor = document.querySelectorAll('.variable-item-image')
+console.log(activeImgColor)
+for (let imgColorItem = 0; imgColorItem < activeImgColor.length; imgColorItem++) {
+    activeImgColor[imgColorItem].addEventListener('click', function() {
+        for (let i = 0; i < activeImgColor.length; i++) {
+            activeImgColor[i].classList.remove("variable-item-contents-img-active")
+        }
+        this.classList.add("variable-item-contents-img-active")
+    })
 }

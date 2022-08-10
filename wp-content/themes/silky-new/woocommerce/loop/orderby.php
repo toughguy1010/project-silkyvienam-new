@@ -34,8 +34,9 @@ if ( ! defined( 'ABSPATH' ) ) {
 		<ul id="admin_cal_list" class=" orderby " aria-label="<?php esc_attr_e( 'Shop order', 'woocommerce' ); ?>">
 			<input type="hidden" id="admin_id" class="form-control" name="orderby" class="orderby form-select" aria-label="<?php esc_attr_e( 'Shop order', 'woocommerce' ); ?>" value="popularity">
 					<?php foreach ( $catalog_orderby_options as $option_id => $name ) : ?>
-						<option class = "order_by_item" value="<?php echo esc_attr( $option_id ); ?>" <?php selected( $orderby, $option_id ); ?>><?php echo esc_html( $name ); ?></option>
+						<button class = "order_by_item" value="<?php echo esc_attr( $option_id ); ?>" <?php selected( $orderby, $option_id ); ?>><?php echo esc_html( $name ); ?></button>
 					<?php endforeach; ?>
+					
 		</ul>
 		<div class="sorting-arrow-btn"></div>
 	</div>
@@ -50,4 +51,3 @@ if ( ! defined( 'ABSPATH' ) ) {
 </div>
 
 
-<?php var_dump( $name);?>

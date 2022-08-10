@@ -21,6 +21,9 @@ for (let buttonSize = 0; buttonSize < activeButtonSizes.length; buttonSize++) {
     })
 }
 
+
+
+
 var activeShippingButtton = document.querySelector('#ship-to-different-address-checkbox')
 var shippingContainer = document.querySelector('.shipping_address')
 console.log(shippingContainer)
