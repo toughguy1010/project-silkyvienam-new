@@ -31,30 +31,27 @@ jQuery(document).ready(function() {
     // activeFilterBtn.removeEventListener("click", activeFilterContent)
     // activeFilterBtn.addEventListener("click", removeshowautoform)
 
-    var activeFilterBtn = document.querySelector('#activefilterbtn')
-        // console.log(activeFilterBtn);
+    // var activeLabelFillterBtn = document.querySelector('.fillter-btn-label')
+    // console.log(activeFilterBtn)
+    // activeLabelFillterBtn.addEventListener('click', activeFilterContent)
 
-    // console.log(filterContainer);
-    activeFilterBtn.addEventListener('click', activeFilterContent)
-
-    function activeFilterContent() {
-        filterContainer.classList.toggle("filter-section-active")
-        woofAutoShowContainer.classList.toggle("woof-active");
-        woofAutoShowContainer.classList.toggle("woof_overflow_hidden");
-        woofAutoShowIndentContainer.classList.toggle("woof_overflow_hidden");
-    }
-    activeFilterBtn.addEventListener('click', activeArrowdirection)
+    // var activeFilterBtn = document.querySelector('.woof_btn_default')
     var activeFilterArrowBtn = document.querySelector('.filter_arrow_btn')
-
-    function activeArrowdirection() {
-        activeFilterArrowBtn.classList.toggle("active_filter_arrow_btn")
-
-    }
     var filterContainer = document.querySelector("#filter-section")
-    filterContainer.addEventListener('click', showWoofOverflow)
     var woofAutoShowContainer = document.querySelector('.woof_auto_show')
     var woofAutoShowIndentContainer = document.querySelector('.woof_auto_show_indent')
-    console.log(woofAutoShowIndentContainer)
+
+
+    // activeFilterBtn.addEventListener('click', function() {
+    //     woofAutoShowContainer.classList.add("woof-active");
+    //     filterContainer.classList.add("filter-section-active");
+    //     activeFilterArrowBtn.classList.add("active_filter_arrow_btn")
+    //     woofAutoShowContainer.classList.add("woof_overflow_hidden");
+    //     woofAutoShowIndentContainer.classList.add("woof_overflow_hidden");
+    // })
+    filterContainer.addEventListener('click', showWoofOverflow)
+
+
 
     function showWoofOverflow() {
         woofAutoShowContainer.classList.toggle("woof-active");
@@ -65,6 +62,16 @@ jQuery(document).ready(function() {
 
 
     }
+
+
+
+    // function activeFilterContent() {
+    //     woofAutoShowContainer.classList.toggle("woof-active");
+    //     filterContainer.classList.toggle("filter-section-active")
+    //     activeFilterArrowBtn.classList.toggle("active_filter_arrow_btn")
+    //     woofAutoShowContainer.classList.toggle("woof_overflow_hidden");
+    //     woofAutoShowIndentContainer.classList.toggle("woof_overflow_hidden");
+    // }
     // function removeshowautoform() {
     //     activeFilterBtn.classList.remove("woof_hide_auto_form")
     // }

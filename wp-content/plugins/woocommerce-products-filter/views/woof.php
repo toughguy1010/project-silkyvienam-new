@@ -508,8 +508,9 @@ if (!function_exists('woof_print_item_by_key')) {
             $woof_auto_hide_button_txt = WOOF_HELPER::wpml_translate(null, $this->settings['woof_auto_hide_button_txt']);
         }
         ?>
-        <div class="fillter-btn">
-            <a href="#" id = "activefilterbtn" class="woof_show_auto_form woof_btn_default <?php if (isset($this->settings['woof_auto_hide_button_img']) AND $this->settings['woof_auto_hide_button_img'] == 'none') echo 'woof_show_auto_form_txt'; ?>"><?php echo esc_html__($woof_auto_hide_button_txt) ?> Bộ lọc</a><br />
+        <div class="fillter-btn"> 
+            <!-- woof_show_auto_form -->
+            <a href="#" id = "activefilterbtn" class="fillter-btn-label woof_btn_default <?php if (isset($this->settings['woof_auto_hide_button_img']) AND $this->settings['woof_auto_hide_button_img'] == 'none') echo 'woof_show_auto_form_txt'; ?>"><?php echo esc_html__($woof_auto_hide_button_txt) ?> Bộ lọc</a><br />
             <div class="filter_arrow_btn"></div>
         </div>
         <!-------------------- inline css for js anim ----------------------->

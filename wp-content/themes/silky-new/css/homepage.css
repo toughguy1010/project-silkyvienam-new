@@ -1004,6 +1004,11 @@
     min-width: 100px;
 }
 
+::-webkit-input-placeholder {
+    /* Edge */
+    font-size: 13px !important;
+}
+
 
 /* header css end */
 
