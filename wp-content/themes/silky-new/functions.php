@@ -131,7 +131,7 @@ add_action('woocommerce_checkout_before_order_review', function() {
     add_shortcode( 'coupon_field', function() {
 
         $output  = '<div id="redeem-coupon">
-        <div><img src="'.get_template_directory_uri().'/assets/coupon-icon.svg'.'"/> If you have a coupon code, please apply it below.</div>
+        <div><img src="'.get_template_directory_uri().'/assets/coupon-icon.svg'.'"/> Nếu bạn có mã giảm giá, hãy nhập vào đây</div>
         <input type="text" name="coupon" id="coupon" class = "input-coupon"/>
         <button class="redeem-coupon" name="redeem-coupon">'.__('Nhập Voucher').'</button>';
     
@@ -326,20 +326,20 @@ add_action( 'pre_get_posts', 'prefix_change_cat_product_per_page' );
 
 
 
-// add_filter('woocommerce_catalog_orderby', 'wc_customize_product_sorting');
+add_filter('woocommerce_catalog_orderby', 'wc_customize_product_sorting');
 
-// function wc_customize_product_sorting($sorting_options){
-//     $sorting_options = array(
-//         'menu_order' => __( 'Mặc định', 'woocommerce' ),
-//         'popularity' => __( 'Phổ biến', 'woocommerce' ),
-//         'rating'     => __( 'Đánh giá', 'woocommerce' ),
-//         'date'       => __( 'Mới nhất', 'woocommerce' ),
-//         'price'      => __( 'Giá từ thấp đến cao', 'woocommerce' ),
-//         'price-desc' => __( 'Giá từ cao đến thấp', 'woocommerce' ),
-//     );
+function wc_customize_product_sorting($sorting_options){
+    $sorting_options = array(
+        'menu_order' => __( 'Mặc định', 'woocommerce' ),
+        // 'popularity' => __( 'Phổ biến', 'woocommerce' ),
+        // 'rating'     => __( 'Đánh giá', 'woocommerce' ),
+        // 'date'       => __( 'Mới nhất', 'woocommerce' ),
+        'price'      => __( 'Giá từ thấp đến cao', 'woocommerce' ),
+        'price-desc' => __( 'Giá từ cao đến thấp', 'woocommerce' ),
+    );
 
-//     return $sorting_options;
-// }
+    return $sorting_options;
+}
 
 
 
