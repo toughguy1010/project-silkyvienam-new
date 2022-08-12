@@ -346,15 +346,7 @@ function wc_customize_product_sorting($sorting_options){
 
 // );
 
-// $current_language = get_locale();
 
-// if( $current_language == 'vi' ){
-//   echo 'text in language VND';
-// }
-
-// if( $current_language == 'en_US' ){
-//   echo 'text in language USD';
-// }
 
 
 
@@ -368,3 +360,32 @@ add_filter( 'woocommerce_should_load_paypal_standard', '__return_true' );
 //      return $currencies;
 // }
 
+
+add_filter('wp_head', function() {
+    $lang = get_locale();
+    global $WOOCS;
+    switch ($lang)
+    {
+        case 'vi':
+            $WOOCS->set_currency('VND');
+            break;
+        case 'en_US':
+            $WOOCS->set_currency('USD');
+            break;
+        default:
+            $WOOCS->set_currency('VND');
+            break;
+    }
+});
+add_filter('woocommerce_checkout_cart_item_quantity', 'checkout_review_order_remove_link', 1000, 3);
+function checkout_review_order_remove_link($quantity_html, $cart_item, $cart_item_key) {
+    return $quantity_html . apply_filters('woocommerce_cart_item_remove_link', sprintf(
+        '<a href="%s" rel="nofollow" class="remove">X</a>',
+        esc_url(wc_get_cart_remove_url($cart_item_key)),
+        __('Remove this item', 'woocommerce'),
+        esc_attr($cart_item['product_id']),
+        esc_attr($cart_item['data']->get_sku())
+    ), $cart_item_key);
+}
+
+// add_action( 'woocommerce_checkout_order_review', 'woocommerce_checkout_payment', 20 );

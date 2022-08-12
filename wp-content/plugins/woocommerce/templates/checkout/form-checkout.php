@@ -57,6 +57,8 @@ if ( ! $checkout->is_registration_enabled() && $checkout->is_registration_requir
 
 	<div id="order_review" class="woocommerce-checkout-review-order">
 		<?php do_action( 'woocommerce_checkout_order_review' ); ?>
+		<?php do_action( 'test' ); ?>
+
 	</div>
 
 	<?php do_action( 'woocommerce_checkout_after_order_review' ); ?>

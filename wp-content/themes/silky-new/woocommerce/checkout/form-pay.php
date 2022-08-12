@@ -96,3 +96,9 @@ $item_totals = $order->get_order_item_totals(); // phpcs:ignore WordPress.WP.Glo
 		</div>
 	</div>
 </form>
+
+
+<?php
+
+
+?>

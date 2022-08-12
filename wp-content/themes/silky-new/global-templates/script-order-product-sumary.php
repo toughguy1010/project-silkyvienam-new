@@ -1,3 +1,7 @@
+<?php $formatted_destination    = isset( $formatted_destination ) ? $formatted_destination : WC()->countries->get_formatted_address( $package['destination'], ', ' );
+$has_calculated_shipping  = ! empty( $has_calculated_shipping );
+$show_shipping_calculator = ! empty( $show_shipping_calculator );
+$calculator_text          = '';?>
 <script type="text/javascript">
 jQuery.noConflict();
 jQuery(function($){
@@ -185,8 +189,8 @@ jQuery(function($){
 						data: {
 							'action': 'zwc_change_shipping_method',
 							'shipping': shipping,
-							// 'nonce_checkout_key' : $('#nonce_get_data').val(),
-							// '_wp_http_referer' : $('#nonce_get_data').next().val(),
+								// 'nonce_checkout_key' : $('#nonce_get_data').val(),
+								// '_wp_http_referer' : $('#nonce_get_data').next().val(),
 						},
 						beforeSend: function(){
 							item.addClass('loadingpage');
@@ -245,6 +249,7 @@ jQuery(function($){
 
 		}
 
+	
 
 		$(document).on('change','select[name=billing_country],select[name=billing_state],select[name=billing_city]',function(){
 			console.log($(this));
@@ -265,3 +270,4 @@ jQuery(function($){
 	});
 });
 </script>
+

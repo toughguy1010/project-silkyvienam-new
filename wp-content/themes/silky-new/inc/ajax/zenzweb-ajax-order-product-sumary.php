@@ -136,6 +136,7 @@ function zenzweb_ajax_zwc_order_product_sumary(){
                 <?php
         			}
         		}
+            
         	}
         	?>
           </ul>
@@ -169,6 +170,9 @@ function zenzweb_ajax_zwc_order_product_sumary(){
       </div>
     </div>
   </div>
+
+
+
   <div class="checkout-line"></div>
   <div class="top">
     <div class="listing-cart ">

@@ -82,7 +82,7 @@ outline:  0px !important;
                         </div>
                     </div>
                     <div class="footer-input-form">
-                        <div class="footer-input-item fw-bold mb-2">Nhận thông tin từ Silky Việt Nam</div>
+                        <div class="footer-input-item fw-bold mb-2">Nhận thông tin từ SilkyVietnam</div>
                         <div class="footer-input-item footer-search-form ">
 
                         <?php
@@ -100,7 +100,7 @@ outline:  0px !important;
                 <div class="footer-line"></div>
                 <div class="footer-desc">
                     <div class="social-connection">
-                        <div class="social-connection-item"> Kết nối với Silky Việt Nam:</div>
+                        <div class="social-connection-item"> Kết nối với SilkyVietnam:</div>
                         <!-- <a href="" class="social-connection-item"><i class="fa-brands fa-facebook-f"></i></a>
                         <a href="" class="social-connection-item"><i class="fa-brands fa-instagram"></i></a> -->
                         <?php
@@ -158,7 +158,7 @@ outline:  0px !important;
                         </div>
                     </div>
                     <div class="footer-input-form">
-                        <div class="footer-input-item fw-bold mb-2">Nhận thông tin từ Silky Việt Nam</div>
+                        <div class="footer-input-item fw-bold mb-2">Nhận thông tin từ SilkyVietnam</div>
                         <div class="footer-input-item footer-search-form ">
                             <input type="text" class="footer-search-input" placeholder=" Email*">
                             <a href="" class="footer-search-btn">
@@ -170,7 +170,7 @@ outline:  0px !important;
                     </div>
                     <div class="footer-desc">
                     <div class="social-connection">
-                        <div class="social-connection-item"> Kết nối với Silky Việt Nam:</div>
+                        <div class="social-connection-item"> Kết nối với SilkyVietnam:</div>
                         <!-- <a href="" class="social-connection-item"><i class="fa-brands fa-facebook-f"></i></a>
                         <a href="" class="social-connection-item"><i class="fa-brands fa-instagram"></i></a> -->
                         <?php
@@ -209,8 +209,30 @@ outline:  0px !important;
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 <?php
     wp_footer();
-   
-?>
+    $current_language = get_locale();
+
+    if( $current_language == 'vi' ){
+      ?>  
+      <style>
+       .woocommerce-checkout #payment ul.payment_methods li:nth-child(3) {
+   display: none;
+}
+
+      </style>
+      <?php
+    }
+    
+    if( $current_language == 'en_US' ){
+        ?>  <style>
+        .woocommerce-checkout #payment ul.payment_methods li:nth-child(3) {
+    display: block;
+ }
+ 
+       </style> <?php
+    }
+
+    ?>
+
 </body>
 
 </html>
