@@ -189,6 +189,7 @@ jQuery(document).ready(function() {
 
 });
 
+
 // sub menu parent 1 
 const subMenuConent1 = document.querySelector(".menu-mobile-list .sub-menu")
 const openSubMenu1 = document.querySelector(".menu-mobile-list .parent-1")
@@ -346,7 +347,7 @@ function closeSubMenuAction3() {
 
 
 
-// header-desktop scroll up and down
+
 
 var lastScrollTop = 0;
 
@@ -375,7 +376,14 @@ window.addEventListener("scroll", function() {
 }, false);
 
 
-
+// var headerDesktop = document.querySelector(".header-desktop")
+// console.log(headerDesktop)
+// headerDesktop.addEventListener('scrollup', function() {
+//     headerDesktop.style.top = "0px";
+// })
+// headerDesktop.addEventListener('scrolldown', function() {
+//     headerDesktop.style.top = "-100px";
+// })
 
 var menuContent = document.querySelector(".menu-mobile-content")
 

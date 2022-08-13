@@ -3707,6 +3707,25 @@
     /* shop responsive end */
     /* detail product start */
     
+    @media only screen and (max-width: 1300px) {
+        .variations_label span {
+            font-size: 13px !important;
+            font-weight: 400 !important;
+            margin-left: 5px;
+            position: absolute;
+            top: 2px;
+            right: -31px;
+        }
+        .reset_variations {
+            bottom: 0px;
+            left: 25px;
+            position: absolute;
+            display: block;
+            text-decoration: none;
+            color: #000;
+        }
+    }
+    
     @media only screen and (max-width: 1024px) {
         .type-product {
             display: block;

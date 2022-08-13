@@ -1296,6 +1296,30 @@
     margin: 10%;
 }
 
+.blog-introduction-content a {
+    display: none;
+    text-decoration: none;
+    font-weight: bolder;
+    color: #000;
+}
+
+.blog-introduction-content a:hover {
+    color: #9E8760;
+    font-weight: bolder;
+}
+
+@media screen and (min-width:1025px) and (max-width: 1350px) {
+    .blog-introduction-content p:nth-child(3) {
+        display: none
+    }
+    .blog-introduction-content a {
+        display: block;
+    }
+    .blog-introduction-content p:nth-child(2) {
+        margin-bottom: 0 !important;
+    }
+}
+
 .blocg-introduction-title h2 {
     display: block;
     font-size: 22px;
