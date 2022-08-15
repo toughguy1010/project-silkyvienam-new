@@ -3693,14 +3693,14 @@
             width: 100%;
         }
         .custom-select {
-            position: absolute;
-            width: 100%;
-            border: #000 1px solid;
-            border-radius: 25px;
+            /* position: absolute; */
+            width: 145px;
+            /* border: #000 1px solid; */
+            /* border-radius: 25px; */
             left: 0%;
-            display: flex;
-            align-items: center;
-            background-color: rgba(255, 255, 255, .9);
+            /* display: flex; */
+            /* align-items: center; */
+            /* background-color: rgba(255, 255, 255, .9); */
         }
     }
     /* shop filter product responsive */
@@ -4466,30 +4466,6 @@
             width: unset !important;
         }
     }
-    
-    @media only screen and (max-width: 500px) {
-        .order_review_heading {
-            padding: 5px 35px 5vh;
-        }
-        .wrap-attr .right {
-            display: unset;
-        }
-        .checkout_product_thumbnail {
-            width: 100px;
-            height: 140px;
-        }
-        .checkout_attr {
-            display: unset;
-        }
-        .woocommerce form .form-row-first {
-            float: none !important;
-            width: unset !important;
-        }
-        .woocommerce form .form-row-last {
-            width: unset !important;
-            float: none !important;
-        }
-    }
     /* checkout responsive */
     /* thankyou responsive */
     
@@ -4869,11 +4845,10 @@
     .woocommerce form .form-row-last,
     .woocommerce-page form .form-row-first,
     .woocommerce-page form .form-row-last {
-        width: 100% !important;
+        width: 47% !important;
         overflow: visible;
     }
-    
-    .woocommerce form .form-row-first {
+    /* .woocommerce form .form-row-first {
         float: left;
         width: 47% !important;
     }
@@ -4887,15 +4862,30 @@
         float: left !important;
         clear: none !important;
         width: 47% !important;
-    }
-    
-    #billing_state_field,
-    #billing_address_1_field,
-    #billing_email_field,
+    } */
+    /* #billing_state_field,
+    #billing_address_2_field,
     #shipping_state_field,
     #shipping_address_1_field,
-    #shipping_phone_number_field {
+    #shipping_phone_number_field,
+    #billing_city_field,
+    #billing_phone_field {
         float: right !important;
+    } */
+    
+    .woocommerce-billing-fields__field-wrapper,
+    .woocommerce-shipping-fields__field-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    
+    .woocommerce form .form-row {
+        width: 47%;
+    }
+    
+    #order_comments_field {
+        width: 100%;
     }
     
     #shipping_email_field input,
@@ -4945,4 +4935,51 @@
         text-decoration: none;
         color: #866733;
         /* font-weight: 600; */
+    }
+    
+    @media only screen and (max-width: 500px) {
+        .order_review_heading {
+            padding: 5px 35px 5vh;
+        }
+        .wrap-attr .right {
+            display: unset;
+        }
+        .checkout_product_thumbnail {
+            width: 100px;
+            height: 140px;
+        }
+        .checkout_attr {
+            display: unset;
+        }
+        .woocommerce form .form-row-first {
+            float: none !important;
+            width: unset !important;
+        }
+        .woocommerce form .form-row-last {
+            width: unset !important;
+            float: none !important;
+        }
+        /* #billing_state_field,
+        #billing_address_2_field,
+        #shipping_state_field,
+        #shipping_address_1_field,
+        #shipping_phone_number_field,
+        #billing_city_field,
+        #billing_phone_field {
+            float: none !important;
+            width: 100% !important;
+        } */
+        /* .woocommerce form .form-row-wide {
+            float: none !important;
+            clear: none !important;
+            width: 100% !important;
+        } */
+    }
+    
+    #billing_state_field {
+        display: block !important;
+    }
+    
+    .xoo-wsc-qty-price .remove {
+        display: none;
     }

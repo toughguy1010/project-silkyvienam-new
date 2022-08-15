@@ -1,0 +1,11 @@
+2022-08-15T15:12:11+00:00 CRITICAL #!trpst#trp-gettext data-trpgettextoriginal=3689#!trpen#Uncaught Error: Call to a member function get_cart_contents_count() on null in E:\wamp64\www\test02\wp-content\themes\silky-new\woocommerce\checkout\review-order.php:67
+Stack trace:
+#0 E:\wamp64\www\test02\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 E:\wamp64\www\test02\wp-content\plugins\woocommerce\includes\wc-template-functions.php(2322): wc_get_template('checkout/review...', Array)
+#2 E:\wamp64\www\test02\wp-includes\class-wp-hook.php(307): woocommerce_order_review('')
+#3 E:\wamp64\www\test02\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#4 E:\wamp64\www\test02\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#5 E:\wamp64\www\test02\wp-content\themes\silky-new\woocommerce\checkout\form-checkout.php(101): do_action('woocommerce_che...')
+#6 E:\wamp64\www\test02\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('E:\\wamp64\\www\\t...')
+#7 E:\wamp64\www\test02\wp-content\plugins\woocommerce\includes\shortcodes\class-w in E:\wamp64\www\test02\wp-content\themes\silky-new\woocommerce\checkout\review-order.php on line 67#!trpst#/trp-gettext#!trpen#
+

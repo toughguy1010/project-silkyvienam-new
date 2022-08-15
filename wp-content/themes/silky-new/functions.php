@@ -377,7 +377,7 @@ add_filter('wp_head', function() {
             break;
     }
 });
-add_filter('woocommerce_checkout_cart_item_quantity', 'checkout_review_order_remove_link', 1000, 3);
+add_filter('woocommerce_cart_item_subtotal', 'checkout_review_order_remove_link', 1000, 3);
 function checkout_review_order_remove_link($quantity_html, $cart_item, $cart_item_key) {
     return $quantity_html . apply_filters('woocommerce_cart_item_remove_link', sprintf(
         '<a href="%s" rel="nofollow" class="remove">X</a>',
