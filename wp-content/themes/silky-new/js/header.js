@@ -187,9 +187,18 @@ jQuery(document).ready(function() {
 
     // var openSubMenu = document.querySelector(".parent-1")
 
+
+
 });
 
-
+// jQuery(function($) {
+//     var pgurl = window.location.href.substr(window.location.href.lastIndexOf("/") + 1);
+//     $(".parent-menu").each(function() {
+//         if ($(this).attr("href") == pgurl || $(this).attr("href") == '')
+//             $(this).addClass("active-nav-link");
+//         // $ (this) .parent ("li"). addClass ("active");
+//     })
+// });
 // sub menu parent 1 
 const subMenuConent1 = document.querySelector(".menu-mobile-list .sub-menu")
 const openSubMenu1 = document.querySelector(".menu-mobile-list .parent-1")
@@ -358,7 +367,7 @@ window.addEventListener("scroll", function() {
     } else {
         document.querySelector(".header-desktop").style.top = "0%";
     }
-    lastScrollTop = st;
+    lastScrollTop = st <= 0 ? 0 : st;
 }, false);
 
 var lastScrollTopMobile = 0;
@@ -372,7 +381,7 @@ window.addEventListener("scroll", function() {
     } else {
         document.querySelector(".header-mobile").style.top = "0%";
     }
-    lastScrollTopMobile = st;
+    lastScrollTopMobile = st <= 0 ? 0 : st;
 }, false);
 
 

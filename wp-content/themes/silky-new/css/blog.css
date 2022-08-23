@@ -1097,7 +1097,8 @@
 
 .blog-title {
     text-transform: uppercase;
-    font-size: 1.3vw;
+    font-size: 22px;
+    margin-top: 15px;
     font-weight: 600;
 }
 

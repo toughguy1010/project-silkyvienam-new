@@ -24,6 +24,12 @@
 
 /* Header wp css */
 
+
+/* 
+.current-menu-item .your-custom-class {
+    color: #9E8760 !important;
+} */
+
 .collapse {
     width: fit-content;
     height: 100%;

@@ -53,27 +53,7 @@ if ( empty( $product ) || ! $product->is_visible() ) {
 	<div class="product-desc">
 		<div class="product-title"><?php echo apply_filters( 'silky_filter-product-title_name', get_the_title() ); ?>
 
-		<div class="collection-product-short-desc">
-			<?php
-			global $product;
 		
-			/**
-			 * Hook: woocommerce_after_shop_loop_item_title.
-			 *
-			 * @hooked woocommerce_template_loop_rating - 5
-			 * @hooked woocommerce_template_loop_price - 10
-			 */
-			// do_action( 'woocommerce_after_shop_loop_item_title' );
-			
-			$short_description = apply_filters( 'woocommerce_short_description', $post->post_excerpt );
-			
-			if ( ! $short_description ) {
-				return;
-			}
-			$short_description = apply_filters( 'woocommerce_short_description', $post->post_excerpt );
-			// echo $short_description;
-			?>
-		</div>
 
 		</div>
 		

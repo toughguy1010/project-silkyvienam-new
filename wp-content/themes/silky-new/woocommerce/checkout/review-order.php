@@ -82,7 +82,7 @@ $items = $cart->get_cart();
 	<?php do_action( 'woocommerce_review_order_after_order_total' ); ?>
 
 	</div>
-	<div>
+	<div class="cart-list">
 		<?php
 		do_action( 'woocommerce_review_order_before_cart_contents' );
 
@@ -94,8 +94,10 @@ $items = $cart->get_cart();
 				<div class="<?php echo esc_attr( apply_filters( 'woocommerce_cart_item_class', 'cart_item', $cart_item, $cart_item_key ) ); ?>">
 					<div class="product-name checkout-item-content">
 						<div class="checkout-item-title">
-							<?php echo wp_kses_post( apply_filters( 'woocommerce_cart_item_name', $_product->get_name(), $cart_item, $cart_item_key ) ) . '&nbsp;'; ?>
+						<a href="<?php echo esc_url( get_permalink( $_product->get_parent_id() ) ); ?>"><?php echo "<b>".$_product->get_title() .'</b>'; ?></a>
+							<?php //echo wp_kses_post( apply_filters( 'woocommerce_cart_item_name', $_product->get_name(), $cart_item, $cart_item_key ) ) . '&nbsp;'; ?>
 						</div>
+
 						<div class="checkout-item-quantity">
 							<?php echo apply_filters( 'woocommerce_checkout_cart_item_quantity', ' <strong class="product-quantity"> ' . sprintf( 'Quantity: &nbsp;%s', $cart_item['quantity'] ) . '</strong>', $cart_item, $cart_item_key ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?>
 						</div>
@@ -116,6 +118,7 @@ $items = $cart->get_cart();
 						</div>
 						<div class="product-total checkout-item-totals">
 						<?php echo apply_filters( 'woocommerce_cart_item_subtotal', WC()->cart->get_product_subtotal( $_product, $cart_item['quantity'] ), $cart_item, $cart_item_key ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?>
+						
 					</div>
 					</div>
 					
