@@ -2233,23 +2233,23 @@
     }
     
     .input-coupon {
-        width: 47%;
+        width: 100%;
         margin-top: 10px;
         height: 33px;
-        float: left;
+        /* float: left; */
         border: 1px solid #ced4da !important;
         border-radius: .375rem !important;
     }
     
     .redeem-coupon {
-        float: right;
+        /* float: right; */
         background-color: #fff;
         height: 33px;
-        width: 47%;
+        width: 100%;
         margin-top: 10px;
         color: black !important;
         border: 1px solid #000;
-        margin-left: 10px;
+        /* margin-left: 10px; */
         border-radius: 25px;
         position: relative;
     }
@@ -2962,8 +2962,8 @@
     
     .group_collection_products {
         margin-top: 12%;
-        height: 530px;
-        overflow: auto;
+        /* height: 513px;
+        overflow: auto; */
     }
     
     .product-type-grouped {
@@ -2989,11 +2989,11 @@
     }
     
     .product-type-grouped .wpgs-for {
-        margin-top: 51px;
+        /* margin-top: 51px; */
     }
     
     .product-type-grouped .woocommerce-product-gallery__image {
-        height: 900px;
+        height: 100%;
         overflow-y: auto;
     }
     
@@ -3058,6 +3058,18 @@
         margin-right: 45% !important;
         height: unset !important;
         margin-bottom: 100px;
+    }
+    
+    .product-type-grouped .wpgs {
+        height: 100% !important;
+    }
+    
+    .product-type-grouped .slick-list {
+        height: 100% !important;
+    }
+    
+    .product-type-grouped .wpgs-for .slick-track {
+        height: 100% !important;
     }
     
     .container-fluid {
@@ -4916,6 +4928,7 @@
     .woocommerce-shipping-fields__field-wrapper {
         display: flex;
         flex-wrap: wrap;
+        /* position: relative; */
         justify-content: space-between;
     }
     
@@ -4937,6 +4950,10 @@
     
     #redeem-coupon {
         clear: both;
+        /* position: absolute; */
+        order: 1;
+        -webkit-order: 1;
+        width: 47%;
     }
     
     .select2-container .select2-selection--single {
@@ -5163,7 +5180,11 @@
         }
         .woocommerce-billing-fields__field-wrapper,
         .woocommerce-shipping-fields__field-wrapper {
-            display: unset;
+            display: flex;
+            flex-direction: column;
+        }
+        #redeem-coupon {
+            width: 100%;
         }
         .woocommerce form .form-row {
             width: unset;

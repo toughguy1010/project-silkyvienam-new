@@ -128,7 +128,7 @@ add_action('woocommerce_checkout_before_order_review', function() {
     }, 99);
 
 
-    add_shortcode( 'coupon_field', function() {
+add_shortcode( 'coupon_field', function() {
 
         $output  = '<div id="redeem-coupon">
         <div><img src="'.get_template_directory_uri().'/assets/coupon-icon.svg'.'"/> Nếu bạn có mã giảm giá, hãy nhập vào đây</div>
@@ -136,12 +136,14 @@ add_action('woocommerce_checkout_before_order_review', function() {
         <button class="redeem-coupon" name="redeem-coupon">'.__('Nhập Voucher').'</button>';
     
         return $output . '</div>';
-    } );
+    },999);
+
+
 
     remove_action( 'woocommerce_before_checkout_form', 'woocommerce_checkout_coupon_form', 10 ); 
-    add_action( 'woocommerce_after_checkout_billing_form', function() {
+    add_action( 'coupon', function() {
         echo do_shortcode('[coupon_field]');
-      } );
+      } ,999);
     // add_action( 'woocommerce_before_checkout_form', 'woocommerce_checkout_coupon_form',99 );
    
     // add_action( 'woocommerce_checkout_before_customer_details', 'woocommerce_checkout_coupon_form', 50 ); 

@@ -28,20 +28,25 @@ defined( 'ABSPATH' ) || exit;
 		<h3><?php esc_html_e( 'Billing details', 'woocommerce' ); ?></h3>
 
 	<?php endif; ?>
-
+	<?php do_action( 'woocommerce_before_checkout_billing_form', $checkout ); ?>
 
 	<div class="woocommerce-billing-fields__field-wrapper">
-		<?php
+
+	<?php
 		$fields = $checkout->get_checkout_fields( 'billing' );
 
 		foreach ( $fields as $key => $field ) {
 			woocommerce_form_field( $key, $field, $checkout->get_value( $key ) );
+		
 		}
+		do_action('coupon')
+		// echo do_shortcode('[coupon_field]');
 		?>
 	</div>
-	<?php do_action( 'woocommerce_before_checkout_billing_form', $checkout ); ?>
-
+	
 	<?php do_action( 'woocommerce_after_checkout_billing_form', $checkout ); ?>
+
+	
 </div>
 
 <?php if ( ! is_user_logged_in() && $checkout->is_registration_enabled() ) : ?>
