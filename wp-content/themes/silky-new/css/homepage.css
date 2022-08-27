@@ -1,14 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins:wght@200&family=Roboto:wght@300&family=Tiro+Devanagari+Hindi:ital@1&family=Tiro+Devanagari+Sanskrit&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins:wght@200&family=Raleway:wght@400;500&family=Roboto:wght@300&family=Tiro+Devanagari+Hindi:ital@1&family=Tiro+Devanagari+Sanskrit&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins&family=Raleway:wght@400;500&family=Roboto:wght@300&family=Tiro+Devanagari+Hindi:ital@1&family=Tiro+Devanagari+Sanskrit&display=swap');
 @font-face {
     font-family: headlineFont;
     src: url(../fonts/Petrona-Light.ttf);
 }
 
+@font-face {
+    font-family: HkGrotesk;
+    src: url(../fonts/HKGrotesk-Regular.otf);
+}
+
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'HkGrotesk';
 }
 
 .wrapper {
@@ -75,7 +79,7 @@
 .header-search-group-wrapper {
     position: absolute;
     right: 14%;
-    top: 38%;
+    top: 30%;
     padding: 4px;
     background: white;
     /* margin: 10px 0; */
@@ -122,7 +126,7 @@
 .trp_language_switcher_shortcode {
     position: absolute;
     right: 20px;
-    top: 44% !important;
+    top: 36% !important;
 }
 
 .trp-language-switcher>div {
@@ -303,7 +307,7 @@
 .menu-desktop {
     height: 100%;
     z-index: 10;
-    font-size: 13px;
+    font-size: 14px;
 }
 
 .menu-desktop ul {
@@ -317,17 +321,24 @@
 }
 
 .parent-3 .sub-menu {
-    padding-left: 22% !important;
+    padding-left: 12% !important;
 }
 
 .parent-2 .sub-menu {
-    padding-left: 28% !important;
+    padding-left: 18% !important;
 }
 
 .parent-1 .sub-menu {
     padding-left: 28% !important;
     /* display: block !important; */
     min-height: 19vw;
+    background-color: #D6B16B;
+}
+
+.parent-2 .sub-menu,
+.parent-3 .sub-menu {
+    background-color: #D6B16B;
+    /* display: block !important; */
 }
 
 .sub-menu {
@@ -390,15 +401,15 @@
 .parent-menu a {
     text-decoration: none;
     color: #000;
-    font-size: 13px;
+    font-size: 15px !important;
     white-space: nowrap;
-    font-family: 'headlineFont';
+    /* font-family: 'headlineFont'; */
     text-transform: uppercase;
 }
 
 .sub-menu a {
     text-transform: none;
-    font-family: 'Open Sans', sans-serif !important;
+    font-family: 'HkGrotesk' !important;
 }
 
 .parent-menu a:hover {
@@ -494,7 +505,7 @@
 }
 
 .nav-link {
-    font-size: 12px;
+    font-size: 14px;
     min-width: 111px;
     padding: 0px !important;
     text-align: center;
@@ -553,7 +564,7 @@
     padding-left: 114px;
     width: 100%;
     display: block;
-    font-size: 13px;
+    font-size: 14px;
     text-decoration: none;
     color: black;
 }
@@ -590,7 +601,7 @@
     width: 100%;
     padding-left: 2.5%;
     display: block;
-    font-size: 13px;
+    font-size: 14px;
     text-decoration: none;
     color: black;
 }
@@ -626,7 +637,7 @@
     width: 100%;
     padding-left: 2.5%;
     display: block;
-    font-size: 13px;
+    font-size: 14px;
     text-decoration: none;
     color: black;
 }
@@ -668,7 +679,7 @@
     /* padding-left: 114px; */
     width: 100%;
     display: block;
-    font-size: 13px;
+    font-size: 14px;
     text-decoration: none;
     color: black;
 }
@@ -718,7 +729,7 @@
     /* padding-left: 114px; */
     width: 100%;
     display: block;
-    font-size: 13px;
+    font-size: 14px;
     text-decoration: none;
     color: black;
 }
@@ -749,8 +760,8 @@
 .header-feature {
     display: flex;
     height: 100%;
-    align-items: center;
-    font-size: 12px;
+    /* align-items: center; */
+    font-size: 14px;
     /* margin-right: 2%; */
     justify-content: space-around;
     width: 128px;
@@ -831,7 +842,7 @@
 }
 
 .cart-product-material {
-    font-size: 13px;
+    font-size: 14px;
 }
 
 .cart-product-price {
@@ -843,7 +854,7 @@
 
 .cart-calculate-checkout {
     margin-top: 25%;
-    font-size: 13px;
+    font-size: 14px;
     color: #FFFFFF;
 }
 
@@ -853,7 +864,7 @@
 }
 
 .cart-btn {
-    margin-top: 10%;
+    margin-bottom: 20%;
     cursor: pointer;
 }
 
@@ -1012,7 +1023,7 @@
 
 ::-webkit-input-placeholder {
     /* Edge */
-    font-size: 13px !important;
+    font-size: 14px !important;
 }
 
 
@@ -1123,6 +1134,7 @@
 .introduction-section .elementor-heading-title {
     color: #ffff !important;
     font-family: 'headlineFont' !important;
+    font-size: 24px !important;
 }
 
 .introduction-section {
@@ -1138,7 +1150,7 @@
 
 .introduction-section .elementor-widget-container p {
     display: block;
-    font-size: 13px !important;
+    font-size: 14px !important;
 }
 
 
@@ -1198,7 +1210,7 @@
 
 .recent-post-item p {
     display: block;
-    font-size: 13px;
+    font-size: 14px;
 }
 
 .recentpost-section {
@@ -1207,7 +1219,7 @@
 }
 
 .recentpost-section .elementor-image-box-title a {
-    font-size: 15px;
+    font-size: 17px;
     display: block;
     font-family: 'headlineFont' !important;
     text-align: start;
@@ -1221,7 +1233,7 @@
 
 .recentpost-section .elementor-image-box-description {
     text-align: start;
-    font-size: 13px !important;
+    font-size: 14px !important;
     display: block;
 }
 
@@ -1238,7 +1250,7 @@
 .mid-logo-section .elementor-widget-container p {
     text-align: center;
     font-family: 'headlineFont' !important;
-    font-size: 22px;
+    font-size: 24px;
     text-transform: uppercase;
 }
 
@@ -1283,7 +1295,7 @@
 }
 
 .gallery-section .elementor-image-box-title a {
-    font-size: 22px;
+    font-size: 24px;
     display: block;
     text-transform: uppercase;
     color: #fff !important;
@@ -1293,7 +1305,7 @@
 }
 
 .gallery-section .elementor-image-box-description {
-    font-size: 13px;
+    font-size: 14px;
     text-align: center;
     display: block;
     color: #fff !important;
@@ -1328,6 +1340,10 @@
     opacity: 1;
 }
 
+.gallery-section {
+    margin: 0 3% !important;
+}
+
 
 /* gallery css end  */
 
@@ -1341,7 +1357,7 @@
     display: block;
     text-decoration: none;
     color: #000;
-    font-size: 13px;
+    font-size: 14px;
 }
 
 #footer-menu {
@@ -1365,7 +1381,7 @@
     width: 95%;
     margin: 0 auto;
     padding: 3% 0;
-    font-size: 13px;
+    font-size: 14px;
 }
 
 .footer-contact {
@@ -1427,14 +1443,14 @@
 }
 
 .footer-search-input::placeholder {
-    font-size: 13px;
+    font-size: 14px;
 }
 
 .footer-search-btn {
     display: block;
     text-decoration: none;
     color: #000;
-    font-size: 13px;
+    font-size: 14px;
     line-height: 23px;
     margin-right: 4%;
 }
@@ -1444,7 +1460,7 @@
 }
 
 .footer-desc {
-    font-size: 13px;
+    font-size: 14px;
     display: flex;
     justify-content: space-between;
 }
@@ -1469,7 +1485,11 @@
     display: flex;
     justify-content: center;
     position: absolute;
-    left: 43%;
+    left: 40%;
+}
+
+.sib-email-area {
+    border-radius: 25px !important;
 }
 
 .logo-img-respon {
@@ -1504,7 +1524,7 @@
 
 /* menu mobile */
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1024px) {
     /* menu-moible */
     .header-feature {
         margin-right: 10px;
@@ -1573,7 +1593,7 @@
         line-height: 50px!important;
         width: 100%;
         padding: 0% 5%;
-        font-size: 13px;
+        font-size: 14px;
         text-align: start;
         /* border-bottom: rgb(202, 198, 198) 1px solid; */
         height: auto;
@@ -1833,7 +1853,7 @@
 @media only screen and (max-width:768px) {
     .social-mobile-title {
         text-align: center;
-        font-size: 12px;
+        font-size: 14px;
     }
     #social-menu {
         display: flex;
@@ -1842,7 +1862,7 @@
         justify-content: center;
     }
     .copy-right {
-        font-size: 12px;
+        font-size: 14px;
         text-align: center;
     }
 }
@@ -1911,7 +1931,7 @@
         display: none;
     }
     .wrap-footer {
-        font-size: 11px;
+        font-size: 14px;
         padding: 30px 0px;
         width: 100%;
         margin: 0;
@@ -1937,10 +1957,10 @@
         font-size: 16px;
     }
     .footer-service a {
-        font-size: 11px;
+        font-size: 14px;
     }
     .footer-desc {
-        font-size: 11px;
+        font-size: 14px;
         text-align: center;
         display: unset;
     }
@@ -2043,7 +2063,7 @@
         position: relative;
     }
     .gallery-responsive-section .elementor-image-box-title {
-        font-size: 22px;
+        font-size: 24px;
         display: block;
         text-transform: uppercase !important;
         color: #fff !important;
@@ -2052,7 +2072,7 @@
         transition: all .6s;
     }
     .gallery-responsive-section .elementor-image-box-description {
-        font-size: 13px;
+        font-size: 14px;
         text-align: center !important;
         display: block;
         color: #fff !important;

@@ -44,7 +44,6 @@ extract( Xoo_Wsc_Template_Args::cart_header() );
 var cartMenu = document.querySelector('.xoo-wsc-modal')
 function closeSideCartMenu1() {
         cartMenu.classList.remove("xoo-wsc-cart-active")
-
     }
 
 

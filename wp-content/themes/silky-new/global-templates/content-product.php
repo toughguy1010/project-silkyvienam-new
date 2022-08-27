@@ -8,9 +8,9 @@ $img_src = wp_get_attachment_url( $product->get_image_id() );
 ?>
 
 <div class="collection-item">
-    <div class="collection-img">
+    <a href="<?php the_permalink() ;?>"  class="collection-img">
         <?php the_post_thumbnail();?>
-    </div> 
+    </a> 
     <div class="collection-btn">
         <a href="<?php the_permalink() ;?>" class="product_colletion_btn">Shop the look</a>
     </div>
